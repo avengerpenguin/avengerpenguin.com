@@ -35,3 +35,15 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = './theme'
+
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}/index.html'
+
+MENUITEMS = (
+    ('Blog', '/'),
+)
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
+
+PLUGINS = ['plugins.assets']
