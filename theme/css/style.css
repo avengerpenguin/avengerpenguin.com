@@ -1,0 +1,71 @@
+html, html:root, body {
+    //background-color: #F0F7DA;
+    color: red;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body > header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #2D6073;
+    height: 200px;
+    font-family: 'Modak', cursive;
+}
+body > header h1 {
+    text-shadow: 3px 3px 2px #B5E8C3;
+    font-size: 400%;
+}
+
+body > header a {
+    color: #2D6073;
+}
+
+header h1 {
+    /*border-bottom: none;*/
+    font-family: 'Modak', cursive;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    right: 2em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1em;
+}
+
+h1 {
+    border: none;
+}
+
+a {
+    color: #65B8A6;
+}
+
+ol#post-list {
+    list-style: none;
+}
+
+article, section#content {
+    max-width: 960px;
+}
+
+article header, section#content header {
+    text-align: center;
+}
+
+article ol, section#content ol {
+    padding: 0;
+}
+
+section#content ol article {
+    margin-bottom: 7em;
+}
+
+footer {
+    font-size: 80%;
+}
