@@ -4,6 +4,7 @@ Category: Security
 Slug: trust-vs-identity
 Tags: authentication, authorisation, trust, identity, security
 Author: Ross Fenning
+Status: published
 
 As stated in the [previous article about the difference between
 authentication and authorisation](|filename|/authorisation-vs-authentication.md),

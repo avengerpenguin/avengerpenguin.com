@@ -4,6 +4,7 @@ Slug: authorisation-vs-authentication
 Category: Security
 Tags: authentication, authorisation, security, identity
 Author: Ross Fenning
+Status: published
 
 At some point whilst interacting with many websites or web-based
 applications and services, users are asked to state and prove who they

@@ -47,3 +47,10 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 
 PLUGINS = ['plugins.assets']
+
+
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
+
+TYPOGRIFY = True

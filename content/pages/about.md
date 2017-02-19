@@ -1,3 +1,4 @@
 Title: About
+Status: published
 
-About me
+Coming soon...

@@ -1,34 +1,15 @@
-Title: It's either HATEOAS or it's RPC
-Date: 2017-01-29
-Slug: hateoas-or-rpc
-Status: draft
+Title: Why can't I call my API RESTful?
+Slug: why-cant-i-call-my-api-restful
+Date: 2017-02-19
+Status: published
 
-Life is simple when you are working with only one
-computer. Distributed systems are hard.
+Semantic debates are fun, aren't they? I can build an API and call it
+a REST API, then someone can say it isn't truly REST and now we're
+back to arguing about what is and isn't REST.
+The most common point of contention is whether or not to follow the
+HATEOAS constraint.
 
-In fact, if you build software for a living or a hobby, can you think
-of a time you last wrote something that didn't involve some kind of
-inter-machine communication? Even with the shift back to bigger client
-apps on smartphones, many require communication back to a central
-service via an API.
-
-It's arguably safe to assert even without real evidence that the most
-common -- if not one of the most common -- approaches taken in
-client-server architectures is for the server-side to present a
-so-called *RESTful* API for the client application to consume.
-
-## The REST Architecture
-
-Many software developers, particularly those building web
-applications, will have a passing familiarity with the REST
-architectural style in simple terms:
-
-* Different URLs are used for different "resources".
-* You use all the HTTP verbs correctly: `GET` is read-only and
-  cacheable, `DELETE` is used to remove a resource, etc.
-* All requests are kept stateless.
-
-And we're done. Oh, what's that? I forgot to talk about HATEOAS?
+## HATEOAS
 
 For those not familiar,
 [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) is one part of the
@@ -71,26 +52,13 @@ this constraint to be followed.
 A whole camp of API designers will furthermore claim the
 REST-minus-HATEOAS architectural style to be valid in its own
 right. Some even use terms such as
-[Pragmatic REST}(http://www.ben-morris.com/pragmatic-rest-apis-without-hypermedia-and-hateoas/) to describe/justify/differentiate their "non-purist" API design.
+[Pragmatic REST](http://www.ben-morris.com/pragmatic-rest-apis-without-hypermedia-and-hateoas/) to describe/justify/differentiate their "non-purist" API design.
 
-I'd like to take a totally-non-zealot, rational position on this:
-
-1. Of course you can build a working API following all REST constraints minus HATEOAS (many people clearly do it every day!)
-2. If you do build a so-called "pragmatic REST" API, then calling it REST might invoke ire from purists, but more importantly it's not helpful to call it REST.
-3. Whether you should follow REST 100% or not is ultimately up to you, but you're missing out on some of the core benefits of the REST architectural style (and why it exists)
-4. Also, if you're not going to benefit from the advantages of the REST architecture, it's not clear why you need to follow some of the other constraints. You might be making a trade-off you don't need.
-
-I will attempt to justify these statements one-by-one, with the exception that I hope that 1) is obvious.
-
-## Why can't I call my API RESTful?
-
-Semantic debates are fun, aren't they? I can build an API and call it
-a REST API, then someone can say it isn't truly REST and now we're
-back to arguing about what is and isn't REST.
-
-What's missing in that hypothetical argument? Something that's missing
+What's missing in these arguments? Something that's missing
 in a lot of discussion on the web about this: any concrete discussion
 of the properties of the thing originally built.
+
+## Semantics
 
 There's two distinct fallacies that appear when a debate around a
 definition or semantics emerges:
@@ -130,6 +98,8 @@ help or hinder us; we can revisit the advantages brought by lesser-used
 constraints such as HATEOAS. In this context, the definition is
 certainly useful and we are not longer arguing "just semantics".
 
+## Does it matter?
+
 So, surely it's still my business whether I call my API RESTful or not?
 Well, sort of.
 
@@ -151,27 +121,15 @@ see it. It is less than ideal for any word to get to a point where
 it doesn't actually convey information any more. This is especially
 true in a technical industry like software engineering.
 
+So, technically you *can* call your API what you want and really the debates
+should centre around what is and isn't useful for the problem you
+are trying to solve. However, it is worth being mindful of what you
+are intending to communicate when you use a technical term. Expect
+people to be confused if you follow a mutated definition of a term.
 
-## Advantages of HATEOAS
-
-### Why was REST even created?
-
-### What is HATEOAS?
-
-### Why is HATEOAS a good thing?
-
-## Other RPC Approaches
-
-### Java RMI
-
-### CORBA
-
-### Thrift and Protocol Buffers
-
-### SOAP
-
-### JSON-RPC
-
-### Where these are better than REST
-
-### Are any of these appropriate for me?
+I personallly like to follow they hypermedia/HATEOAS constraints for
+RESTful APIs and in later posts I'll discuss why that is and the
+decoupling people are missing out on. It is also my contention at times
+that if you do not want the full decoupling of REST in our distributed
+systems, then it's questionable why you needed to use any of REST in
+the first place. That certainly warrants a whole other post.

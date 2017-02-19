@@ -4,6 +4,7 @@ Category: Social Media
 Slug: is-everything-on-facebook-public
 Tags: social media, facebook, privacy
 Author: Ross Fenning
+Status: published
 
 Facebook has been home to no shortage of awkward or destructive moments
 for some users with [one woman getting fired for speaking ill of her
