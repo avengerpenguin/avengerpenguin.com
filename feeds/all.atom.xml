@@ -19,10 +19,11 @@ around editors. All programming languages can do the same things, but
 vary in their approach, so some feel it is a waste of time trying to
 argue as if there are objective measures of&amp;nbsp;quality.&lt;/p&gt;
 &lt;p&gt;I recently saw a strong example of this stance in the opening session
-of QCon London 2018. Someone running a track on using various
-languages in the back end asked the room if anyone felt that choice of
-language mattered in back end applications and only minority of people
-raised their hand who were then told they were &amp;#8220;wrong&amp;#8221; if they felt it&amp;nbsp;mattered.&lt;/p&gt;
+of &lt;a href="https://qconlondon.com/"&gt;QCon London 2018&lt;/a&gt;. Someone running a
+track on using various languages in the back end asked the room if
+anyone felt that choice of language mattered in back end applications
+and only minority of people raised their hand who were then told they
+were &amp;#8220;wrong&amp;#8221; if they felt it&amp;nbsp;mattered.&lt;/p&gt;
 &lt;p&gt;I am someone who raised their hand and I would like to explain why it
 is not &amp;#8220;wrong&amp;#8221; to care about choice of programming language in our&amp;nbsp;applications.&lt;/p&gt;
 &lt;p&gt;This is not meant to be a counter-argument or strong disagreement
@@ -78,11 +79,13 @@ back end of a web application, you might be delaying delivery (which
 is what you get paid for) for the sake of performance&amp;nbsp;tuning.&lt;/p&gt;
 &lt;p&gt;With the modern landscape of cloud computing, autoscaling and
 serverless architectures we can paper over any need to micro-manage
-performance with caching, horizontal scaling or breaking up monolithic
-services. Of course, I am not advocating for throwing performance out
-the window, but we can obsess too much about milliseconds here and
-there when really we&amp;#8217;re paid to deliver value not necessarily on &lt;span class="caps"&gt;CPU&lt;/span&gt;
-cycle&amp;nbsp;efficiency.&lt;/p&gt;
+performance with
+caching,
+&lt;a href="https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling"&gt;horizontal scaling&lt;/a&gt; or
+&lt;a href="https://martinfowler.com/bliki/MonolithFirst.html"&gt;breaking up monolithic services&lt;/a&gt;. Of
+course, I am not advocating for throwing performance out the window,
+but we can obsess too much about milliseconds here and there when
+really we&amp;#8217;re paid to deliver value not necessarily on &lt;span class="caps"&gt;CPU&lt;/span&gt; cycle&amp;nbsp;efficiency.&lt;/p&gt;
 &lt;p&gt;I hope it goes without saying that there are clearly embedded use
 cases where high efficiency is key, but my focus here is on enterprise
 and web&amp;nbsp;applications.&lt;/p&gt;
@@ -140,24 +143,31 @@ on top of&amp;nbsp;frameworks.&lt;/p&gt;
 in terms of the language, but the ecosystem and community built up
 around&amp;nbsp;it.&lt;/p&gt;
 &lt;h3&gt;Use cases where one language&amp;nbsp;dominates&lt;/h3&gt;
-&lt;p&gt;Consider how many people got into Python because they wanted to use
-Jupyter, Numpy or Django. Was it not just as good to use &lt;span class="caps"&gt;PHP&lt;/span&gt; to get
-into data science? I mean, you &lt;em&gt;could&lt;/em&gt; implement many machine learning
-algorithms yourself in &lt;span class="caps"&gt;PHP&lt;/span&gt; or JavaScript, but why would you if you
-wanted to see results right&amp;nbsp;away?&lt;/p&gt;
-&lt;p&gt;I personally only learnt Ruby because of Cucumber and Capybara. I
-learnt some Scala because of Apache Camel and Groovy due to Jenkins
-pipelines. Some of these can be done in other languages, but there is
-a clear &amp;#8220;right choice&amp;#8221; for many of these&amp;nbsp;applications.&lt;/p&gt;
+&lt;p&gt;Consider how many people got into Python because they wanted to
+use &lt;a href="http://jupyter.org/"&gt;Jupyter&lt;/a&gt;, &lt;a href="http://www.numpy.org/"&gt;Numpy&lt;/a&gt;
+or &lt;a href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt;. Was it not just as good
+to use &lt;span class="caps"&gt;PHP&lt;/span&gt; to get into data science? I mean, you &lt;em&gt;could&lt;/em&gt; implement
+many machine learning algorithms yourself in &lt;span class="caps"&gt;PHP&lt;/span&gt; or JavaScript, but
+why would you if you wanted to see results right&amp;nbsp;away?&lt;/p&gt;
+&lt;p&gt;I personally only learnt Ruby because
+of &lt;a href="https://cucumber.io/"&gt;Cucumber&lt;/a&gt;
+and &lt;a href="http://teamcapybara.github.io/capybara/"&gt;Capybara&lt;/a&gt;. I learnt some
+Scala because of &lt;a href="http://camel.apache.org/"&gt;Apache Camel&lt;/a&gt;
+and &lt;a href="http://groovy-lang.org/"&gt;Groovy&lt;/a&gt; due
+to &lt;a href="https://jenkins.io/doc/book/pipeline/"&gt;Jenkins pipelines&lt;/a&gt;. Some of
+these can be done in other languages, but there is a clear &amp;#8220;right
+choice&amp;#8221; for many of these&amp;nbsp;applications.&lt;/p&gt;
 &lt;p&gt;It is this capability in the &lt;em&gt;available libraries and frameworks&lt;/em&gt; that
 I think is one of the strongest objective considerations around
 language choice. It doesn&amp;#8217;t have to be the only consideration as you
 can still use less mature libraries in a language your team is
 familiar with if you understand what you&amp;#8217;re trading&amp;nbsp;off.&lt;/p&gt;
-&lt;p&gt;A lot of experimental projects I do deal with Linked Data and the
-Semantic Web for which I find RDFLib — written in Python — to be
-extremely powerful. It is useful for building applications that deal
-with &lt;span class="caps"&gt;RDF&lt;/span&gt; which much of the details around the various &lt;span class="caps"&gt;RDF&lt;/span&gt; formats
+&lt;p&gt;A lot of experimental projects I do deal
+with &lt;a href="https://en.wikipedia.org/wiki/Linked_data"&gt;Linked Data&lt;/a&gt; and the
+Semantic Web for which I
+find &lt;a href="https://github.com/RDFLib/rdflib"&gt;RDFLib&lt;/a&gt; — written in Python —
+to be extremely powerful. It is useful for building applications that
+deal with &lt;span class="caps"&gt;RDF&lt;/span&gt; which much of the details around the various &lt;span class="caps"&gt;RDF&lt;/span&gt; formats
 abstracted away. In fact, I am yet to find an equivalent in &lt;em&gt;any&lt;/em&gt;
 other language where a common Graph model can be parsed out of various
 formats. Most implementations elsewhere only deal with one format at a
@@ -165,9 +175,13 @@ time, so I always come back to Python when I want to move quickly and
 not write objectively more boilerplate&amp;nbsp;code.&lt;/p&gt;
 &lt;h3&gt;Alternatives can be less&amp;nbsp;mature&lt;/h3&gt;
 &lt;p&gt;I should expand a bit more on the Cucumber and Apache Camel examples
-as someone is bound to point out that CucumberJVM and Cucumber.js
-exist. Also, there are other behaviour testing frameworks such as
-Lettuce, Nightwatch and&amp;nbsp;Behat.&lt;/p&gt;
+as someone is bound to point out
+that &lt;a href="https://cucumber.io/docs/reference/jvm"&gt;CucumberJVM&lt;/a&gt;
+and &lt;a href="https://github.com/cucumber/cucumber-js"&gt;Cucumber.js&lt;/a&gt;
+exist. Also, there are other behaviour testing frameworks such
+as
+&lt;a href="http://lettuce.it/"&gt;Lettuce&lt;/a&gt;, &lt;a href="http://nightwatchjs.org/"&gt;Nightwatch&lt;/a&gt;
+and &lt;a href="http://behat.org/"&gt;Behat&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Apache Camel is just one implementation of message routing and there
 are other ways to solve some of the problems it offers to&amp;nbsp;solve.&lt;/p&gt;
 &lt;p&gt;However, it is this exact trap I want to highlight: a lot of the time
@@ -198,10 +212,10 @@ or Python&amp;nbsp;project.&lt;/p&gt;
 &lt;p&gt;All of these are solvable, but it felt like developers who like
 JavaScript used this subjective opinion to choose a back end
 implementation that objectively soaked up more time when it came to
-the DevOps side of actually deploying the application. Like I say,
-there is nothing wrong with using what your team knows well, but I
-have rarely seen acknowledgement that there were objective advantages
-of other&amp;nbsp;technologies.&lt;/p&gt;
+the &lt;a href="https://en.wikipedia.org/wiki/DevOps"&gt;DevOps&lt;/a&gt; side of actually
+deploying the application. Like I say, there is nothing wrong with
+using what your team knows well, but I have rarely seen
+acknowledgement that there were objective advantages of other&amp;nbsp;technologies.&lt;/p&gt;
 &lt;h3&gt;Communities&amp;nbsp;matter&lt;/h3&gt;
 &lt;p&gt;One thing that I think has really helped Node.js mature is having more
 of a community form in that area. Having conferences dedicated to the
