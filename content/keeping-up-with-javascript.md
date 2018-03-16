@@ -1,5 +1,6 @@
 Title: The Simplest Way to "Keep Up" With the JavaScript Ecosystem
 Date: 2018-03-16
+Status: published
 
 I often hear the frustration or jokes around how fast the JavaScript ecosystem
 moves. Observations usually include things like "there's a new framework
