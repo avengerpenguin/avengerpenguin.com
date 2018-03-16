@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Avenger Penguin</title><link href="http://avengerpenguin.com/" rel="alternate"></link><link href="http://avengerpenguin.com/feeds/all.atom.xml" rel="self"></link><id>http://avengerpenguin.com/</id><updated>2018-03-14T00:00:00+00:00</updated><entry><title>Why Programming Language Matters</title><link href="http://avengerpenguin.com/why-programming-language-matters.html" rel="alternate"></link><published>2018-03-14T00:00:00+00:00</published><updated>2018-03-14T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-14:/why-programming-language-matters.html</id><summary type="html">&lt;p&gt;Choice of programming language can be a source of religious wars
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Avenger Penguin</title><link href="http://avengerpenguin.com/" rel="alternate"></link><link href="http://avengerpenguin.com/feeds/all.atom.xml" rel="self"></link><id>http://avengerpenguin.com/</id><updated>2018-03-16T00:00:00+00:00</updated><entry><title>The Simplest Way to “Keep Up” With the JavaScript Ecosystem</title><link href="http://avengerpenguin.com/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html" rel="alternate"></link><published>2018-03-16T00:00:00+00:00</published><updated>2018-03-16T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-16:/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html</id><summary type="html">&lt;p&gt;I often hear the frustration or jokes around how fast the JavaScript ecosystem
+moves. Observations usually include things like &amp;#8220;there&amp;#8217;s a new framework
+every week&amp;#8221; or that
+&lt;a href="https://medium.com/front-end-hacking/how-it-feels-to-learn-javascript-in-2017-a934b801fbe"&gt;you need a huge number of tools just to get started&lt;/a&gt;
+on a basic modern&amp;nbsp;application.&lt;/p&gt;
+&lt;p&gt;The frustration can come from developers …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I often hear the frustration or jokes around how fast the JavaScript ecosystem
+moves. Observations usually include things like &amp;#8220;there&amp;#8217;s a new framework
+every week&amp;#8221; or that
+&lt;a href="https://medium.com/front-end-hacking/how-it-feels-to-learn-javascript-in-2017-a934b801fbe"&gt;you need a huge number of tools just to get started&lt;/a&gt;
+on a basic modern&amp;nbsp;application.&lt;/p&gt;
+&lt;p&gt;The frustration can come from developers who either feel they need to learn
+several tools just to get going, whereas in the past you just needed a text
+editor and knowledge of &lt;span class="caps"&gt;HTML&lt;/span&gt;, &lt;span class="caps"&gt;CSS&lt;/span&gt; and JavaScript&amp;nbsp;itself.&lt;/p&gt;
+&lt;p&gt;It can be even more frustrating when you have large application UIs built,
+for example, in Angular but now everyone is using
+&lt;a href="https://reactjs.org/"&gt;React&lt;/a&gt;. Your build process is 
+fully dependent on &lt;a href="https://bower.io/"&gt;Bower&lt;/a&gt;
+and &lt;a href="http://browserify.org/"&gt;browserify&lt;/a&gt; but now everyone is using
+&lt;a href="https://yarnpkg.com/"&gt;Yarn&lt;/a&gt; and &lt;a href="https://webpack.js.org/"&gt;Webpack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is particularly difficult for enterprise application developers as you
+tend to end up with large code bases where you have little justification going
+in to &amp;#8220;modernise&amp;#8221; or refactor things if the application works just fine. This
+is where Java was traditionally favoured in the enterprise as the language (and
+platform) changes slowly, is (almost) always backwards compatible (so you can
+upgrade tools without changing code) and the toolchain hasn&amp;#8217;t moved that
+quickly either. Yes, we have &lt;a href="http://ant.apache.org/"&gt;Ant&lt;/a&gt;,
+&lt;a href="https://maven.apache.org/"&gt;Maven&lt;/a&gt; and &lt;a href="https://gradle.org/"&gt;Gradle&lt;/a&gt; now, but
+that&amp;#8217;s been a slow and steady&amp;nbsp;progression.&lt;/p&gt;
+&lt;p&gt;So, clearly we don&amp;#8217;t want to move at a break-neck speed and keep refactoring
+working code bases, but we also want to be able to held back by slow-moving
+platforms. People might like the fast innovation and choice in the JavaScript
+and Node.js ecosystems, but how do we keep up with all the frameworks and&amp;nbsp;tools?&lt;/p&gt;
+&lt;p&gt;Well, I have one suggestion to cope with &amp;#8220;keeping up&amp;#8221; with all the new tools
+and libraries and frameworks coming out each&amp;nbsp;week:&lt;/p&gt;
+&lt;p&gt;Don&amp;#8217;t.&lt;/p&gt;
+&lt;p&gt;Seriously, don&amp;#8217;t keep adopting new technologies as they emerge. While a new
+build tool or framework might seem nicer than what you have, &lt;em&gt;wait until you
+have an actual problem the new tool solves&lt;/em&gt; and be sceptical about migrating
+your applications to new&amp;nbsp;frameworks.&lt;/p&gt;
+&lt;p&gt;Even for newer projects, carefully consider the cost of adopting a new tool in
+terms of having to learn it. Maybe stick with what you know and play with new
+tools only on side projects or in &amp;#8220;10% time&amp;#8221; outside of your main&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;For frameworks whose popularity is short-lived, you will be able to skip right
+over them and only move to things that stand the test of time. For frameworks
+that stick around, you will be able to adopt them when best practices are
+established and early bugs are&amp;nbsp;fixed.&lt;/p&gt;
+&lt;p&gt;Learn to live with applications in older frameworks and on older versions of
+Node.js and you will be able to focus more time on adding features and perhaps
+even working on new, exciting&amp;nbsp;things.&lt;/p&gt;</content></entry><entry><title>Why Programming Language Matters</title><link href="http://avengerpenguin.com/why-programming-language-matters.html" rel="alternate"></link><published>2018-03-14T00:00:00+00:00</published><updated>2018-03-14T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-14:/why-programming-language-matters.html</id><summary type="html">&lt;p&gt;Choice of programming language can be a source of religious wars
 between software engineers and developers. It is one of the many areas
 where people build a subjective opinion based on how &amp;#8220;nice&amp;#8221; or
 &amp;#8220;elegant&amp;#8221; something is and whether they get joy working with it or
