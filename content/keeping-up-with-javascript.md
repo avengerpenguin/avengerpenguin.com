@@ -5,7 +5,7 @@ Status: published
 I often hear the frustration or jokes around how fast the JavaScript ecosystem
 moves. Observations usually include things like "there's a new framework
 every week" or that
-[you need a huge number of tools just to get started](https://medium.com/front-end-hacking/how-it-feels-to-learn-javascript-in-2017-a934b801fbe)
+[you need a huge number of tools just to get started](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
 on a basic modern application.
 
 The frustration can come from developers who either feel they need to learn
