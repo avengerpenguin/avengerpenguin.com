@@ -46,12 +46,25 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
 
-PLUGINS = ['plugins.assets']
-
-
-DEFAULT_METADATA = {
-    'status': 'draft',
+PLUGINS = [
+    'plugins.assets',
+    'plugins.sitemap',
+    'plugins.pelican-open_graph',
+]
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
 }
+
 
 TYPOGRIFY = True
 

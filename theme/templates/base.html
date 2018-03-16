@@ -4,6 +4,7 @@
         {% block head %}
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <meta charset="utf-8" />
+        <meta name="google-site-verification" content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
         {% endif %}
@@ -35,6 +36,17 @@
         {% assets filters="scss,cssmin", output="css/style.min.css", "css/style.scss" %}
                 <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
         {% endassets %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-786452-8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-786452-8');
+</script>
+
 </head>
 
 <body id="index" class="home">
