@@ -89,6 +89,17 @@ div#main {
         margin-left: 2em;
       }
     }
+    div.prompt {
+        display: none;
+    }
+    .highlight {
+        .k, .nb, .kn {
+            color: $link-colour;
+        }
+        .c1 {
+            color: $header-colour;
+        }
+    }
   }
   aside {
     background-color: $not_there;

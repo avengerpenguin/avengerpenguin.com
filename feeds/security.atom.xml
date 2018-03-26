@@ -196,6 +196,8 @@ authorisation underpin almost any secure communication. Here, I will
 break down the basic, distinct components of user identification and
 show why the distinction between them is important for designing or even
 using a secure&amp;nbsp;system.&lt;/p&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
 &lt;h2&gt;Defining the&amp;nbsp;Difference&lt;/h2&gt;
 &lt;p&gt;The first division — and the one discussed in this post — is the
 difference between the process of authentication and that of
