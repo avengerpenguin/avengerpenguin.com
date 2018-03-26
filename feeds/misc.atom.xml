@@ -998,6 +998,24 @@ sructures known as &lt;em&gt;comprehensions&lt;/em&gt;. They provide a quick, co
 &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
@@ -1023,6 +1041,24 @@ sructures known as &lt;em&gt;comprehensions&lt;/em&gt;. They provide a quick, co
 &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
@@ -1045,6 +1081,24 @@ sructures known as &lt;em&gt;comprehensions&lt;/em&gt;. They provide a quick, co
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;[4, 16, 36, 64, 100]
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1074,6 +1128,24 @@ sructures known as &lt;em&gt;comprehensions&lt;/em&gt;. They provide a quick, co
 &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;[4, 16, 36, 64, 100]
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
@@ -1093,6 +1165,26 @@ sructures known as &lt;em&gt;comprehensions&lt;/em&gt;. They provide a quick, co
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt output_prompt"&gt;Out[5]:&lt;/div&gt;
+
+
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;[4, 16, 36, 64, 100]&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1117,6 +1209,26 @@ sructures known as &lt;em&gt;comprehensions&lt;/em&gt;. They provide a quick, co
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt output_prompt"&gt;Out[6]:&lt;/div&gt;
+
+
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;{&amp;#39;A&amp;#39;: 0, &amp;#39;B&amp;#39;: 1, &amp;#39;C&amp;#39;: 2, &amp;#39;D&amp;#39;: 3, &amp;#39;E&amp;#39;: 4, &amp;#39;F&amp;#39;: 5}&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1398,7 +1510,7 @@ B = \{n \in A \: | \: even(n) \}&amp;nbsp;\end{equation*}&lt;/p&gt;
 
 
 &lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;{User(name=&amp;#39;Alice&amp;#39;, department=&amp;#39;R&amp;amp;D&amp;#39;), User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;HR&amp;#39;), User(name=&amp;#39;David&amp;#39;, department=&amp;#39;IT&amp;#39;), User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;Sales&amp;#39;)}
+&lt;pre&gt;{User(name=&amp;#39;Alice&amp;#39;, department=&amp;#39;R&amp;amp;D&amp;#39;), User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;Sales&amp;#39;), User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;HR&amp;#39;), User(name=&amp;#39;David&amp;#39;, department=&amp;#39;IT&amp;#39;)}
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1420,14 +1532,14 @@ B = \{n \in A \: | \: even(n) \}&amp;nbsp;\end{equation*}&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[14]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[15]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;remove_user_from_loop_service&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Removing user:&lt;/span&gt;&lt;span class="se"&gt;\t&lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Removing: &lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add_user_to_loop_service&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Adding user:&lt;/span&gt;&lt;span class="se"&gt;\t&lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Adding:   &lt;/span&gt;&lt;span class="si"&gt;{}&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;user&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;discrepancies&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;user&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;synced_users&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
@@ -1450,10 +1562,10 @@ B = \{n \in A \: | \: even(n) \}&amp;nbsp;\end{equation*}&lt;/p&gt;
 
 
 &lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;Adding user:	User(name=&amp;#39;Alice&amp;#39;, department=&amp;#39;R&amp;amp;D&amp;#39;)
-Removing user:	User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;HR&amp;#39;)
-Removing user:	User(name=&amp;#39;David&amp;#39;, department=&amp;#39;IT&amp;#39;)
-Adding user:	User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;Sales&amp;#39;)
+&lt;pre&gt;Adding:   User(name=&amp;#39;Alice&amp;#39;, department=&amp;#39;R&amp;amp;D&amp;#39;)
+Adding:   User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;Sales&amp;#39;)
+Removing: User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;HR&amp;#39;)
+Removing: User(name=&amp;#39;David&amp;#39;, department=&amp;#39;IT&amp;#39;)
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
