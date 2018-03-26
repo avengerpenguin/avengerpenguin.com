@@ -8,6 +8,8 @@ every week" or that
 [you need a huge number of tools just to get started](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
 on a basic modern application.
 
+<!-- PELICAN_END_SUMMARY -->
+
 The frustration can come from developers who either feel they need to learn
 several tools just to get going, whereas in the past you just needed a text
 editor and knowledge of HTML, CSS and JavaScript itself.

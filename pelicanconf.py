@@ -7,6 +7,9 @@ SITENAME = 'Avenger Penguin'
 SITEURL = ''
 
 PATH = 'content'
+MARKUP = ('md', 'ipynb')
+IGNORE_FILES = ['.ipynb_checkpoints']
+IPYNB_EXTEND_STOP_SUMMARY_TAGS = [('h2', None)]
 
 TIMEZONE = 'Europe/London'
 
@@ -48,8 +51,10 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 PLUGINS = [
     'plugins.assets',
+    'plugins.summary',
     'plugins.sitemap',
     'plugins.pelican-open_graph',
+    'plugins.ipynb.markup',
 ]
 SITEMAP = {
     'format': 'xml',

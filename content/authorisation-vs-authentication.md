@@ -15,6 +15,8 @@ break down the basic, distinct components of user identification and
 show why the distinction between them is important for designing or even
 using a secure system.
 
+<!-- PELICAN_END_SUMMARY -->
+
 Defining the Difference
 -----------------------
 
