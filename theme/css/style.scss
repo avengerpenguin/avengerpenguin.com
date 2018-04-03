@@ -110,14 +110,44 @@ div#main {
     min-height: 400px;
     text-align: left;
     img {
-      float: left;
-      max-width: 40%;
-      margin-right: 0.5em;
-      margin-bottom: 0.1em;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 1em;
     }
     h2 {
       text-align: center;
+      margin-bottom: 0.5em;
+      margin-top: 1em;
     }
+    p {
+      text-align: center;
+    }
+
+ul.tagcloud {
+  list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.tagcloud li {
+    display: inline-block;
+    margin: 0.5em;
+}
+
+li.tag-1 {
+    font-size: 150%;
+}
+
+li.tag-2 {
+    font-size: 120%;
+}
+
+/* ... add li.tag-3 etc, as much as needed */
+
+ul.tagcloud .list-group-item span.badge {
+    background-color: grey;
+    color: white;
+}
   }
 }
 

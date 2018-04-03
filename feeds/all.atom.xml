@@ -1510,7 +1510,7 @@ B = \{n \in A \: | \: even(n) \}&amp;nbsp;\end{equation*}&lt;/p&gt;
 
 
 &lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;{User(name=&amp;#39;Alice&amp;#39;, department=&amp;#39;R&amp;amp;D&amp;#39;), User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;Sales&amp;#39;), User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;HR&amp;#39;), User(name=&amp;#39;David&amp;#39;, department=&amp;#39;IT&amp;#39;)}
+&lt;pre&gt;{User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;HR&amp;#39;), User(name=&amp;#39;Alice&amp;#39;, department=&amp;#39;R&amp;amp;D&amp;#39;), User(name=&amp;#39;David&amp;#39;, department=&amp;#39;IT&amp;#39;), User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;Sales&amp;#39;)}
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1532,7 +1532,7 @@ B = \{n \in A \: | \: even(n) \}&amp;nbsp;\end{equation*}&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[15]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[14]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;remove_user_from_loop_service&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -1562,10 +1562,10 @@ B = \{n \in A \: | \: even(n) \}&amp;nbsp;\end{equation*}&lt;/p&gt;
 
 
 &lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;Adding:   User(name=&amp;#39;Alice&amp;#39;, department=&amp;#39;R&amp;amp;D&amp;#39;)
-Adding:   User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;Sales&amp;#39;)
-Removing: User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;HR&amp;#39;)
+&lt;pre&gt;Removing: User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;HR&amp;#39;)
+Adding:   User(name=&amp;#39;Alice&amp;#39;, department=&amp;#39;R&amp;amp;D&amp;#39;)
 Removing: User(name=&amp;#39;David&amp;#39;, department=&amp;#39;IT&amp;#39;)
+Adding:   User(name=&amp;#39;Clare&amp;#39;, department=&amp;#39;Sales&amp;#39;)
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1615,7 +1615,7 @@ Removing: User(name=&amp;#39;David&amp;#39;, department=&amp;#39;IT&amp;#39;)
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content></entry><entry><title>Semantic Arguments</title><link href="http://avengerpenguin.com/semantic-arguments.html" rel="alternate"></link><published>2018-03-20T00:00:00+00:00</published><updated>2018-03-20T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-20:/semantic-arguments.html</id><summary type="html">&lt;p&gt;As a species, we like to debate a lot. There are debates over politics,
+</content><category term="Python"></category><category term="Set Theory"></category><category term="Mathematics"></category></entry><entry><title>Semantic Arguments</title><link href="http://avengerpenguin.com/semantic-arguments.html" rel="alternate"></link><published>2018-03-20T00:00:00+00:00</published><updated>2018-03-20T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-20:/semantic-arguments.html</id><summary type="html">&lt;p&gt;As a species, we like to debate a lot. There are debates over politics,
 religion, music, art, films, programming languages, ethics, favourite
 &amp;#8220;My Little Pony&amp;#8221; character and many more important&amp;nbsp;topics.&lt;/p&gt;
 &lt;p&gt;One of my favourites in the web engineering world is debates about what
@@ -1685,7 +1685,7 @@ to happen. So, next time someone tells you some music &amp;#8220;isn&amp;#8217;t
 art &amp;#8220;isn&amp;#8217;t real art&amp;#8221;, instead of justifying why they do fit those labels, ask
 instead what they like and do not like about it. Maybe even discuss why people
 like different kinds of art and&amp;nbsp;music.&lt;/p&gt;
-&lt;p&gt;Not only might we learn a lot more, but we might even get along a lot&amp;nbsp;more.&lt;/p&gt;</content></entry><entry><title>The Simplest Way to “Keep Up” With the JavaScript Ecosystem</title><link href="http://avengerpenguin.com/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html" rel="alternate"></link><published>2018-03-16T00:00:00+00:00</published><updated>2018-03-16T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-16:/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html</id><summary type="html">&lt;p&gt;I often hear the frustration or jokes around how fast the JavaScript ecosystem
+&lt;p&gt;Not only might we learn a lot more, but we might even get along a lot&amp;nbsp;more.&lt;/p&gt;</content><category term="Linguistics"></category><category term="Semantics"></category></entry><entry><title>The Simplest Way to “Keep Up” With the JavaScript Ecosystem</title><link href="http://avengerpenguin.com/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html" rel="alternate"></link><published>2018-03-16T00:00:00+00:00</published><updated>2018-03-16T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-16:/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html</id><summary type="html">&lt;p&gt;I often hear the frustration or jokes around how fast the JavaScript ecosystem
 moves. Observations usually include things like &amp;#8220;there&amp;#8217;s a new framework
 every week&amp;#8221; or that
 &lt;a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f"&gt;you need a huge number of tools just to get started&lt;/a&gt;
@@ -1737,7 +1737,7 @@ that stick around, you will be able to adopt them when best practices are
 established and early bugs are&amp;nbsp;fixed.&lt;/p&gt;
 &lt;p&gt;Learn to live with applications in older frameworks and on older versions of
 Node.js and you will be able to focus more time on adding features and perhaps
-even working on new, exciting&amp;nbsp;things.&lt;/p&gt;</content></entry><entry><title>Why Programming Language Matters</title><link href="http://avengerpenguin.com/why-programming-language-matters.html" rel="alternate"></link><published>2018-03-14T00:00:00+00:00</published><updated>2018-03-14T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-14:/why-programming-language-matters.html</id><summary type="html">&lt;p&gt;Choice of programming language can be a source of religious wars
+even working on new, exciting&amp;nbsp;things.&lt;/p&gt;</content><category term="JavaScript"></category><category term="Web Development"></category><category term="Node.js"></category></entry><entry><title>Why Programming Language Matters</title><link href="http://avengerpenguin.com/why-programming-language-matters.html" rel="alternate"></link><published>2018-03-14T00:00:00+00:00</published><updated>2018-03-14T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-14:/why-programming-language-matters.html</id><summary type="html">&lt;p&gt;Choice of programming language can be a source of religious wars
 between software engineers and developers. It is one of the many areas
 where people build a subjective opinion based on how &amp;#8220;nice&amp;#8221; or
 &amp;#8220;elegant&amp;#8221; something is and whether they get joy working with it or
@@ -2109,7 +2109,7 @@ RESTful APIs and in later posts I&amp;#8217;ll discuss why that is and the
 decoupling people are missing out on. It is also my contention at times
 that if you do not want the full decoupling of &lt;span class="caps"&gt;REST&lt;/span&gt; in our distributed
 systems, then it&amp;#8217;s questionable why you needed to use any of &lt;span class="caps"&gt;REST&lt;/span&gt; in
-the first place. That certainly warrants a whole other&amp;nbsp;post.&lt;/p&gt;</content></entry><entry><title>Is Everything on Facebook Public?</title><link href="http://avengerpenguin.com/is-everything-on-facebook-public.html" rel="alternate"></link><published>2010-09-15T14:15:00+01:00</published><updated>2010-09-15T14:15:00+01:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2010-09-15:/is-everything-on-facebook-public.html</id><summary type="html">&lt;p&gt;Facebook has been home to no shortage of awkward or destructive moments
+the first place. That certainly warrants a whole other&amp;nbsp;post.&lt;/p&gt;</content><category term="REST"></category><category term="Semantics"></category><category term="HATEOAS"></category></entry><entry><title>Is Everything on Facebook Public?</title><link href="http://avengerpenguin.com/is-everything-on-facebook-public.html" rel="alternate"></link><published>2010-09-15T00:00:00+01:00</published><updated>2010-09-15T00:00:00+01:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2010-09-15:/is-everything-on-facebook-public.html</id><summary type="html">&lt;p&gt;Facebook has been home to no shortage of awkward or destructive moments
 for some users with &lt;a href="http://www.telegraph.co.uk/technology/facebook/6027302/Woman-sacked-after-abusing-boss-on-Facebook.html"&gt;one woman getting fired for speaking ill of her
 boss,&lt;/a&gt;
 &lt;a href="http://www.cbc.ca/canada/montreal/story/2009/11/19/quebec-facebook-sick-leave-benefits.html"&gt;another woman losing insurance benefits after the company dug up photos
@@ -2287,7 +2287,7 @@ could all end up public, be it through carelessness or&amp;nbsp;malice.&lt;/p&gt
 cases a year and while they maintain a walled garden whereby users
 cannot easily leave for another service, it seems these cases will have
 little effect on their numbers. Perhaps a stronger and simpler incentive
-would be the economic pressures from true consumer&amp;nbsp;freedom.&lt;/p&gt;</content><category term="social media"></category><category term="facebook"></category><category term="privacy"></category></entry><entry><title>Trust vs. Identity</title><link href="http://avengerpenguin.com/trust-vs-identity.html" rel="alternate"></link><published>2010-07-15T18:42:00+01:00</published><updated>2010-07-15T18:42:00+01:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2010-07-15:/trust-vs-identity.html</id><summary type="html">&lt;p&gt;As stated in the &lt;a href="http://avengerpenguin.com/authorisation-vs-authentication.html"&gt;previous article about the difference between
+would be the economic pressures from true consumer&amp;nbsp;freedom.&lt;/p&gt;</content><category term="Social Media"></category><category term="Facebook"></category><category term="Privacy"></category></entry><entry><title>Trust vs. Identity</title><link href="http://avengerpenguin.com/trust-vs-identity.html" rel="alternate"></link><published>2010-07-15T18:42:00+01:00</published><updated>2010-07-15T18:42:00+01:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2010-07-15:/trust-vs-identity.html</id><summary type="html">&lt;p&gt;As stated in the &lt;a href="http://avengerpenguin.com/authorisation-vs-authentication.html"&gt;previous article about the difference between
 authentication and authorisation&lt;/a&gt;,
 it is important to understand the different aspects of security in order
 to control access to resources in as secure and as user-friendly a way
@@ -2472,7 +2472,7 @@ trust their resistance to&amp;nbsp;forgery.&lt;/p&gt;
 &lt;p&gt;For any secure setup — whether web-based or in the physical world — it
 is essential not only to verify the effectiveness of your identification
 process, but also to ascertain the trustworthiness of the information
-you are storing and using for identification in the first&amp;nbsp;place.&lt;/p&gt;</content><category term="authentication"></category><category term="authorisation"></category><category term="trust"></category><category term="identity"></category><category term="security"></category></entry><entry><title>Authorisation vs. Authentication and why we should care</title><link href="http://avengerpenguin.com/authorisation-vs-authentication.html" rel="alternate"></link><published>2010-06-15T19:37:00+01:00</published><updated>2010-06-15T19:37:00+01:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2010-06-15:/authorisation-vs-authentication.html</id><summary type="html">&lt;p&gt;At some point whilst interacting with many websites or web-based
+you are storing and using for identification in the first&amp;nbsp;place.&lt;/p&gt;</content><category term="Authentication"></category><category term="Authorisation"></category><category term="Trust"></category><category term="Identity"></category><category term="Security"></category></entry><entry><title>Authorisation vs. Authentication and why we should care</title><link href="http://avengerpenguin.com/authorisation-vs-authentication.html" rel="alternate"></link><published>2010-06-15T19:37:00+01:00</published><updated>2010-06-15T19:37:00+01:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2010-06-15:/authorisation-vs-authentication.html</id><summary type="html">&lt;p&gt;At some point whilst interacting with many websites or web-based
 applications and services, users are asked to state and prove who they
 are. Whether this is to make sure only that user edits their own profile
 or it is for secure financial transactions, identity, trust and
@@ -2679,4 +2679,4 @@ discussed&amp;nbsp;is:&lt;/p&gt;
 article to show how the same theory behind authentication is important
 for the reverse process of a user verifying a website is who it claims
 to be, e.g. that you are looking at your bank&amp;#8217;s legitimate website and
-not an imitation set up to steal your account&amp;nbsp;details.&lt;/p&gt;</content><category term="authentication"></category><category term="authorisation"></category><category term="security"></category><category term="identity"></category></entry></feed>
+not an imitation set up to steal your account&amp;nbsp;details.&lt;/p&gt;</content><category term="Authentication"></category><category term="Authorisation"></category><category term="Security"></category><category term="Identity"></category></entry></feed>

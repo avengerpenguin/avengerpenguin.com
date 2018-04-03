@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Avenger Penguin - Software Engineering, Programming Languages</title><link href="http://avengerpenguin.com/" rel="alternate"></link><link href="http://avengerpenguin.com/feeds/software-engineering-programming-languages.atom.xml" rel="self"></link><id>http://avengerpenguin.com/</id><updated>2018-03-14T00:00:00+00:00</updated><entry><title>Why Programming Language Matters</title><link href="http://avengerpenguin.com/why-programming-language-matters.html" rel="alternate"></link><published>2018-03-14T00:00:00+00:00</published><updated>2018-03-14T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-14:/why-programming-language-matters.html</id><summary type="html">&lt;p&gt;Choice of programming language can be a source of religious wars
+between software engineers and developers. It is one of the many areas
+where people build a subjective opinion based on how &amp;#8220;nice&amp;#8221; or
+&amp;#8220;elegant&amp;#8221; something is and whether they get joy working with it or
+whether they find themselves …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Choice of programming language can be a source of religious wars
+between software engineers and developers. It is one of the many areas
+where people build a subjective opinion based on how &amp;#8220;nice&amp;#8221; or
+&amp;#8220;elegant&amp;#8221; something is and whether they get joy working with it or
+whether they find themselves fighting the language or tool every step
+of the&amp;nbsp;way.&lt;/p&gt;
+&lt;p&gt;Clearly, this is going to vary person-to-person as people&amp;#8217;s mental
+models vary, as their idea of elegance varies and whether a technology
+differs greatly from other tools with which the developer has a lot of&amp;nbsp;experience.&lt;/p&gt;
+&lt;p&gt;Due to the strong influence of subjectively, it is common for people
+to put the programming language debate into the same camp as arguing
+over tabs versus spaces for indentation or reoccurring arguments
+around editors. All programming languages can do the same things, but
+vary in their approach, so some feel it is a waste of time trying to
+argue as if there are objective measures of&amp;nbsp;quality.&lt;/p&gt;
+&lt;p&gt;I recently saw a strong example of this stance in the opening session
+of &lt;a href="https://qconlondon.com/"&gt;QCon London 2018&lt;/a&gt;. Someone running a
+track on using various languages in the back end asked the room if
+anyone felt that choice of language mattered in back end applications
+and only minority of people raised their hand who were then told they
+were &amp;#8220;wrong&amp;#8221; if they felt it&amp;nbsp;mattered.&lt;/p&gt;
+&lt;p&gt;I am someone who raised their hand and I would like to explain why it
+is not &amp;#8220;wrong&amp;#8221; to care about choice of programming language in our&amp;nbsp;applications.&lt;/p&gt;
+&lt;p&gt;This is not meant to be a counter-argument or strong disagreement
+though. My intention here is to expand on a deliberately blanket
+statement like &amp;#8220;it doesn&amp;#8217;t matter&amp;#8221; as I think there is much value in
+exploring the nuances on where that statement is true and where it is&amp;nbsp;false.&lt;/p&gt;
+&lt;p&gt;Firstly, I want to acknowledge the things that absolutely do not
+matter (most of the time) so I do not give the impression I am
+defending religious or flame wars. Then I want to remind the reasons
+why subjectivity is important at times before finally unpacking what I
+think are truly objective things that matter about a programming&amp;nbsp;language.&lt;/p&gt;
+&lt;h2&gt;Things that do not&amp;nbsp;matter&lt;/h2&gt;
+&lt;p&gt;I fully understand people who take the &amp;#8220;it doesn&amp;#8217;t matter&amp;#8221; stance
+since most debates or discussion on language choice focus on trivial
+aspects, things that people just do not &amp;#8220;like&amp;#8221; and other subjective&amp;nbsp;things.&lt;/p&gt;
+&lt;h3&gt;Whitespace&lt;/h3&gt;
+&lt;p&gt;Yes, Python uses whitespace semantically and other languages do
+not. No, it does not really matter. I personally like it as it removes
+the redundancy of using braces, for example, to determine scope and
+then also indenting for readability — i.e. when I indent I achieve
+both scope and readability at once. If you do not like it, then that&amp;#8217;s
+fine too and it doesn&amp;#8217;t affect your application at the end of the day
+if you just get used to it or have appropriate&amp;nbsp;tooling.&lt;/p&gt;
+&lt;h3&gt;Boilerplate&lt;/h3&gt;
+&lt;p&gt;Yes, Java is verbose and Scala is not. Does it &lt;em&gt;really&lt;/em&gt; matter for
+your project? Only if that boilerplate soaks up real time, which is
+rare with appropriate tooling. Personally, I prefer to get going more
+quickly with Python but that&amp;#8217;s because I like to do rapid prototyping
+where I think there are some objective arguments that you can move
+faster in more expressive languages. However, in that case you are
+probably always better prototyping in languages you &lt;em&gt;know&lt;/em&gt; well, which
+makes this a subjective point&amp;nbsp;again.&lt;/p&gt;
+&lt;h3&gt;Typing (sort&amp;nbsp;of)&lt;/h3&gt;
+&lt;p&gt;With appropriate testing, you do get away with achieving the same
+results with or without static or dynamic typing. There are debates
+around bug rates and I have even personally seen bugs in Node.js
+applications that any type checking would have trivially caught. I&amp;#8217;ll
+leave it as an exercise for the reader to determine if there is
+objective evidence around type checking and&amp;nbsp;bugs.&lt;/p&gt;
+&lt;p&gt;For now, I&amp;#8217;ll assume this to be a subjective matter for the purposes
+of my&amp;nbsp;argument.&lt;/p&gt;
+&lt;h3&gt;Performance&amp;nbsp;(sometimes…)&lt;/h3&gt;
+&lt;p&gt;It was common maybe 10 years ago to hear lots of arguments that Python
+was demonstrably slower than Java (or other languages) in a few
+cases. I&amp;#8217;ve not been following performance benchmarks recently, so
+maybe the argument went away because Python is faster now. However, I
+heard a very convincing argument from a speaker at PyCon &lt;span class="caps"&gt;UK&lt;/span&gt; around
+that time in that Python (in her view) saves &lt;em&gt;developer&lt;/em&gt; time — which is
+expensive — while trading off &lt;span class="caps"&gt;CPU&lt;/span&gt; time, which is arguably a lot
+cheaper than developer salaries&amp;nbsp;now.&lt;/p&gt;
+&lt;p&gt;So, while you could choose a language for optimal performance on the
+back end of a web application, you might be delaying delivery (which
+is what you get paid for) for the sake of performance&amp;nbsp;tuning.&lt;/p&gt;
+&lt;p&gt;With the modern landscape of cloud computing, autoscaling and
+serverless architectures we can paper over any need to micro-manage
+performance with
+caching,
+&lt;a href="https://en.wikipedia.org/wiki/Scalability#Horizontal_and_vertical_scaling"&gt;horizontal scaling&lt;/a&gt; or
+&lt;a href="https://martinfowler.com/bliki/MonolithFirst.html"&gt;breaking up monolithic services&lt;/a&gt;. Of
+course, I am not advocating for throwing performance out the window,
+but we can obsess too much about milliseconds here and there when
+really we&amp;#8217;re paid to deliver value not necessarily on &lt;span class="caps"&gt;CPU&lt;/span&gt; cycle&amp;nbsp;efficiency.&lt;/p&gt;
+&lt;p&gt;I hope it goes without saying that there are clearly embedded use
+cases where high efficiency is key, but my focus here is on enterprise
+and web&amp;nbsp;applications.&lt;/p&gt;
+&lt;h2&gt;Sometimes subjective things do&amp;nbsp;matter&lt;/h2&gt;
+&lt;p&gt;I know this is not necessarily the intent when someone states that
+programming language choice &amp;#8220;doesn&amp;#8217;t matter&amp;#8221;, but it does avoid the
+human side of the issue in that developers&amp;#8217; happiness is important&amp;nbsp;too.&lt;/p&gt;
+&lt;p&gt;I think the assertion that all programming languages are equally
+capable for a web back end comes from a very technical viewpoint
+where, yes, a Ruby service could be rewritten in Rust and would work
+equally&amp;nbsp;well.&lt;/p&gt;
+&lt;p&gt;So, technically, yes, language does not matter if all that matters to
+you is the technical&amp;nbsp;capability.&lt;/p&gt;
+&lt;p&gt;Software engineering teams are made up of people who will have
+personal feelings about languages, who will have various levels of
+experience with languages and might even have various levels of
+general software development experience. There&amp;#8217;s a reason Python gets
+suggested to new&amp;nbsp;programmers.&lt;/p&gt;
+&lt;p&gt;If a team is about to work on a new project, then factoring in
+people&amp;#8217;s knowledge, opinions and, yes, even feelings is not wholly
+irrational. In this context, it is objectively the case that a team
+whose subjective needs are met will deliver the project sooner than a
+team who is forced to work with tools they are unfamiliar&amp;nbsp;with.&lt;/p&gt;
+&lt;p&gt;I realise that means I could be interpreted as supporting the argument
+that &amp;#8220;&lt;span class="caps"&gt;PHP&lt;/span&gt; is good because so many things are written in it and it&amp;#8217;s
+easy to deploy.&amp;#8221;  I do not
+feel good about this and can only&amp;nbsp;apologise.&lt;/p&gt;
+&lt;h2&gt;Objective differences that do&amp;nbsp;matter&lt;/h2&gt;
+&lt;p&gt;Does all this mean that there is no right choice of programming
+language for a given application? Is it just about choosing something
+you like or are some tools a better fit for certain&amp;nbsp;jobs?&lt;/p&gt;
+&lt;p&gt;The argument gets thrown around that all languages are equally
+capable. They are, after all, all Turing Complete (or we would not
+likely call them programming languages at all) and for every
+functional solution to a problem, you can rewrite it in an
+object-oriented or imperative way. We know this is the case as there
+are whole collections of solutions to things like the Towers of Hanoi
+in multiple&amp;nbsp;languages.&lt;/p&gt;
+&lt;p&gt;So, in this sense, all languages are capable of solving (nearly) all
+problems, but are some objectively &lt;em&gt;better&lt;/em&gt; at certain problems? What
+things make a language&amp;nbsp;better?&lt;/p&gt;
+&lt;h3&gt;A language is more than just a&amp;nbsp;language&lt;/h3&gt;
+&lt;p&gt;As with the subjective differences, I do actually agree the choice
+&amp;#8220;doesn&amp;#8217;t matter&amp;#8221; in the very technical sense that you could build
+anything in any language (assuming you had people that knew it well or
+time for them to learn). And again I disagree with that viewpoint on
+the basis that it&amp;#8217;s missing a wider context that is important for
+actual engineering of business systems and web&amp;nbsp;applications.&lt;/p&gt;
+&lt;p&gt;The key piece missing here is considering a language in terms of its
+syntax and semantics only, but in the real, applied discipline of
+software engineering we do more than just write code. We also build
+and deploy that code. We pull in dependencies, write tests and build
+on top of&amp;nbsp;frameworks.&lt;/p&gt;
+&lt;p&gt;It is important to consider the effectiveness of a language not just
+in terms of the language, but the ecosystem and community built up
+around&amp;nbsp;it.&lt;/p&gt;
+&lt;h3&gt;Use cases where one language&amp;nbsp;dominates&lt;/h3&gt;
+&lt;p&gt;Consider how many people got into Python because they wanted to
+use &lt;a href="http://jupyter.org/"&gt;Jupyter&lt;/a&gt;, &lt;a href="http://www.numpy.org/"&gt;Numpy&lt;/a&gt;
+or &lt;a href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt;. Was it not just as good
+to use &lt;span class="caps"&gt;PHP&lt;/span&gt; to get into data science? I mean, you &lt;em&gt;could&lt;/em&gt; implement
+many machine learning algorithms yourself in &lt;span class="caps"&gt;PHP&lt;/span&gt; or JavaScript, but
+why would you if you wanted to see results right&amp;nbsp;away?&lt;/p&gt;
+&lt;p&gt;I personally only learnt Ruby because
+of &lt;a href="https://cucumber.io/"&gt;Cucumber&lt;/a&gt;
+and &lt;a href="http://teamcapybara.github.io/capybara/"&gt;Capybara&lt;/a&gt;. I learnt some
+Scala because of &lt;a href="http://camel.apache.org/"&gt;Apache Camel&lt;/a&gt;
+and &lt;a href="http://groovy-lang.org/"&gt;Groovy&lt;/a&gt; due
+to &lt;a href="https://jenkins.io/doc/book/pipeline/"&gt;Jenkins pipelines&lt;/a&gt;. Some of
+these can be done in other languages, but there is a clear &amp;#8220;right
+choice&amp;#8221; for many of these&amp;nbsp;applications.&lt;/p&gt;
+&lt;p&gt;It is this capability in the &lt;em&gt;available libraries and frameworks&lt;/em&gt; that
+I think is one of the strongest objective considerations around
+language choice. It doesn&amp;#8217;t have to be the only consideration as you
+can still use less mature libraries in a language your team is
+familiar with if you understand what you&amp;#8217;re trading&amp;nbsp;off.&lt;/p&gt;
+&lt;p&gt;A lot of experimental projects I do deal
+with &lt;a href="https://en.wikipedia.org/wiki/Linked_data"&gt;Linked Data&lt;/a&gt; and the
+Semantic Web for which I
+find &lt;a href="https://github.com/RDFLib/rdflib"&gt;RDFLib&lt;/a&gt; — written in Python —
+to be extremely powerful. It is useful for building applications that
+deal with &lt;span class="caps"&gt;RDF&lt;/span&gt; which much of the details around the various &lt;span class="caps"&gt;RDF&lt;/span&gt; formats
+abstracted away. In fact, I am yet to find an equivalent in &lt;em&gt;any&lt;/em&gt;
+other language where a common Graph model can be parsed out of various
+formats. Most implementations elsewhere only deal with one format at a
+time, so I always come back to Python when I want to move quickly and
+not write objectively more boilerplate&amp;nbsp;code.&lt;/p&gt;
+&lt;h3&gt;Alternatives can be less&amp;nbsp;mature&lt;/h3&gt;
+&lt;p&gt;I should expand a bit more on the Cucumber and Apache Camel examples
+as someone is bound to point out
+that &lt;a href="https://cucumber.io/docs/reference/jvm"&gt;CucumberJVM&lt;/a&gt;
+and &lt;a href="https://github.com/cucumber/cucumber-js"&gt;Cucumber.js&lt;/a&gt;
+exist. Also, there are other behaviour testing frameworks such
+as
+&lt;a href="http://lettuce.it/"&gt;Lettuce&lt;/a&gt;, &lt;a href="http://nightwatchjs.org/"&gt;Nightwatch&lt;/a&gt;
+and &lt;a href="http://behat.org/"&gt;Behat&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Apache Camel is just one implementation of message routing and there
+are other ways to solve some of the problems it offers to&amp;nbsp;solve.&lt;/p&gt;
+&lt;p&gt;However, it is this exact trap I want to highlight: a lot of the time
+the tool in your preferred language could be less mature or playing
+catch-up to the more established player. This might be ok for your use
+case as the core features are enough for you or the familiarity of the
+language is a strong enough consideration that you are willing to take
+on the extra cost of implementing missing functionality, but so long
+as you understand the choice you have&amp;nbsp;made.&lt;/p&gt;
+&lt;p&gt;I have anecdotally seen too many people reach for alternatives to
+Cucumber simply because they &amp;#8220;don&amp;#8217;t like&amp;#8221; Ruby, but without even a
+moment&amp;#8217;s consideration of the sheer maturity of the ecosystem around
+Cucumber, Capybara and RSpec. In this case, they are allowing a
+subjective choice trump objective considerations and sometimes twist
+the &amp;#8220;language doesn&amp;#8217;t matter&amp;#8221; argument to support going with their
+preferred&amp;nbsp;choice.&lt;/p&gt;
+&lt;p&gt;Node.js has matured recently and big, well-known frameworks like
+Express.js have a lot of traction, but I have see these technologies
+adopted in large, high-traffic enterprise systems back when they were
+far less&amp;nbsp;mature.&lt;/p&gt;
+&lt;p&gt;I struggled with memory management in Node.js as if I were dealing
+with the &lt;span class="caps"&gt;JVM&lt;/span&gt; in the 90s and encountered really basic bugs like lack of
+connecting pooling or socket reuse in various &lt;span class="caps"&gt;NPM&lt;/span&gt; libraries. I still
+struggle to find good library support for Cache-Control and Vary
+headers in &lt;span class="caps"&gt;HTTP&lt;/span&gt; client libraries and spend objectively more time on
+things I simply do not think about when I do the same tasks in a Java
+or Python&amp;nbsp;project.&lt;/p&gt;
+&lt;p&gt;All of these are solvable, but it felt like developers who like
+JavaScript used this subjective opinion to choose a back end
+implementation that objectively soaked up more time when it came to
+the &lt;a href="https://en.wikipedia.org/wiki/DevOps"&gt;DevOps&lt;/a&gt; side of actually
+deploying the application. Like I say, there is nothing wrong with
+using what your team knows well, but I have rarely seen
+acknowledgement that there were objective advantages of other&amp;nbsp;technologies.&lt;/p&gt;
+&lt;h3&gt;Communities&amp;nbsp;matter&lt;/h3&gt;
+&lt;p&gt;One thing that I think has really helped Node.js mature is having more
+of a community form in that area. Having conferences dedicated to the
+technology and online discussion areas really makes a language better
+to work with in the&amp;nbsp;enterprise.&lt;/p&gt;
+&lt;p&gt;Most enterprise engineers will rely heavily on Github issues, Stack
+Overflow and other online forums to do their jobs. If we encounter
+errors, we need to be able to put the error message into Google. If we
+are trying to make two technologies work together, we can find
+complete solutions in blogs on how to configure them (e.g. if you
+search for &amp;#8220;nginx node.js&amp;#8221; you get countless examples of configuration
+you can lift to set nginx up as a reverse proxy in front of a Node.js&amp;nbsp;app).&lt;/p&gt;
+&lt;p&gt;The help is only there if a community reaches a critical mass such
+that 1) they have probably encountered most of your problems before
+you and 2) a culture of sharing, blogging and helping out learners can&amp;nbsp;emerge.&lt;/p&gt;
+&lt;p&gt;I think only certain kinds of enterprises (perhaps brave ones!) are
+really in a position to adopt newer things like Go or Rust before the
+community is really established. There&amp;#8217;s a reason the &lt;span class="caps"&gt;JVM&lt;/span&gt; is still a
+safe choice for the more cautious enterprise. I&amp;#8217;m not saying bravery
+is bad and I think many enterprises could do with being more
+experimental and forward-thinking at times, but everything in
+moderation or you won&amp;#8217;t actually deliver&amp;nbsp;anything.&lt;/p&gt;
+&lt;p&gt;One of the things that keeps bring me back to Python is the
+community. I can see newer users coming to the language for data
+science or as children and there is a culture of nurturing and helping
+inexperienced&amp;nbsp;users.&lt;/p&gt;
+&lt;h2&gt;Programming language matters if you to do more than just&amp;nbsp;&amp;#8220;program&amp;#8221;&lt;/h2&gt;
+&lt;p&gt;I have played with semantics a bit here, but I think it&amp;#8217;s an important
+message. Programming language doesn&amp;#8217;t matter if all you are doing is
+programming &amp;#8212; i.e. just writing code &amp;#8212; but software engineering is
+more than&amp;nbsp;that.&lt;/p&gt;
+&lt;p&gt;As engineers, we are solving problems through code. We might want to
+reuse solved problems in the form of libraries or we might want to
+draw upon frameworks that abstract away lower-level concerns so we can
+focus on the higher-level&amp;nbsp;problems.&lt;/p&gt;
+&lt;p&gt;We want to create good teams that solve problems more quickly and more
+effectively that one engineer can do&amp;nbsp;alone.&lt;/p&gt;
+&lt;p&gt;Choosing a programming language will affect your ability to solve
+these problems. Choosing different languages will have different
+effects on your&amp;nbsp;teams.&lt;/p&gt;
+&lt;p&gt;If you are truly a software engineer, I think it does matter to
+consider your language&amp;nbsp;carefully.&lt;/p&gt;</content></entry></feed>
