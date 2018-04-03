@@ -75,14 +75,27 @@
         <aside>
                 <h2>About me</h2>
                 <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/logo.png">
-                <p>Opinions and thoughts about Software Engineering, Computer Science, Free Software, Linux</p>
+                <p>Opinions and thoughts
+                from <a href="http://rossfenning.co.uk/">Ross Fenning</a>, who is a Principal&nbsp;Software&nbsp;Enginner in
+                        BBC&nbsp;Design&nbsp;and&nbsp;Engineering. Opinions are all his.</p>
+
+                <h2>Tags</h2>
+                <ul class="tagcloud">
+    {% for tag in tag_cloud %}
+        <li class="tag-{{ tag.1 }}">
+            <a href="{{ SITEURL }}/{{ tag.0.url }}">
+            {{ tag.0 }}
+                {% if TAG_CLOUD_BADGE %}
+                    <span class="badge">{{ tag.2 }}</span>
+                {% endif %}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
         </aside>
         </div>
         <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+                Copyright <a href="http://rossfenning.co.uk/">Ross Fenning</a>
         </footer><!-- /#contentinfo -->
 </body>
 </html>

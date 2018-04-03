@@ -1,8 +1,8 @@
 Title: Is Everything on Facebook Public?
-Date: 2010-09-15 14:15
+Date: 2010-09-15
 Category: Social Media
 Slug: is-everything-on-facebook-public
-Tags: social media, facebook, privacy
+Tags: Social Media, Facebook, Privacy
 Author: Ross Fenning
 Status: published
 

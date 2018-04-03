@@ -2,6 +2,7 @@ Title: Why can't I call my API RESTful?
 Slug: why-cant-i-call-my-api-restful
 Date: 2017-02-19
 Status: published
+Tags: REST, Semantics, HATEOAS
 
 Semantic debates are fun, aren't they? I can build an API and call it
 a REST API, then someone can say it isn't truly REST and now we're

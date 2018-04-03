@@ -2,6 +2,7 @@ Title: Semantic Arguments
 Date: 2018-03-20
 Slug: semantic-arguments
 Status: published
+Tags: Linguistics, Semantics
 
 As a species, we like to debate a lot. There are debates over politics,
 religion, music, art, films, programming languages, ethics, favourite

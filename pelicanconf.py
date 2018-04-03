@@ -43,15 +43,16 @@ PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 MENUITEMS = (
-    ('Blog', '/'),
+    ('Home', '/'),
 )
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
 
 PLUGINS = [
     'plugins.assets',
     'plugins.summary',
+    'plugins.tag_cloud',
     'plugins.sitemap',
     'plugins.pelican-open_graph',
     'plugins.ipynb.markup',

@@ -1,4 +1,4 @@
 Title: About
-Status: published
+Status: draft
 
-Coming soon...
+This is a blog brought to you by [Ross Fenning](http://rossfenning.co.uk/).

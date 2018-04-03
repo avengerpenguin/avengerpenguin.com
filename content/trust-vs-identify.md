@@ -2,7 +2,7 @@ Title: Trust vs. Identity
 Date: 2010-07-15 18:42
 Category: Security
 Slug: trust-vs-identity
-Tags: authentication, authorisation, trust, identity, security
+Tags: Authentication, Authorisation, Trust, Identity, Security
 Author: Ross Fenning
 Status: published
 
