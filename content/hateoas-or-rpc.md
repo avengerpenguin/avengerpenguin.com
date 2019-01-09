@@ -1,5 +1,5 @@
 Title: It's either HATEOAS or it's RPC
-Date: 2017-01-29
+Date: 2018-01-29
 Slug: hateoas-or-rpc
 Status: draft
 
