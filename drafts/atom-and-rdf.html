@@ -1,28 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-          <title>Python and Set&nbsp;Theory | Avenger Penguin</title>
+          <title>Atom and <span class="caps">RDF</span> | Avenger Penguin</title>
         <meta charset="utf-8" />
         <meta name="google-site-verification" content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA" />
         <link href="http://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Avenger Penguin Full Atom Feed" />
         <link href="http://avengerpenguin.com/feeds/misc.atom.xml" type="application/atom+xml" rel="alternate" title="Avenger Penguin Categories Atom Feed" />
 
 
-    <meta name="tags" content="Python" />
-    <meta name="tags" content="Set Theory" />
-    <meta name="tags" content="Mathematics" />
 
-        <meta property="og:title" content="Python and Set Theory" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="http://avengerpenguin.com/python-and-set-theory.html" />
-        <meta property="og:description" content="The Python programming language has a nice declarative syntax for data sructures known as comprehensions. They provide a quick, concise way to set up lists, sets, generators and dictionaries." />
-        <meta property="og:locale" content="" />
-        <meta property="og:site_name" content="Avenger Penguin" />
-        <meta property="article:published_time" content="2018-03-26" />
-        <meta property="article:section" content="misc" />
-        <meta property="article:tag" content="Python" />
-        <meta property="article:tag" content="Set Theory" />
-        <meta property="article:tag" content="Mathematics" />
 
         <link href="https://fonts.googleapis.com/css?family=Modak|Roboto" rel="stylesheet">
         <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/marx.min.css" />
@@ -52,13 +38,13 @@
 <section id="content" class="body">
   <header>
     <h2 class="entry-title">
-      <a href="http://avengerpenguin.com/python-and-set-theory" rel="bookmark"
-         title="Permalink to Python and Set Theory">Python and Set&nbsp;Theory</a></h2>
+      <a href="http://avengerpenguin.com/atom-and-rdf" rel="bookmark"
+         title="Permalink to Atom and RDF">Atom and <span class="caps">RDF</span></a></h2>
  
   </header>
   <footer class="post-info">
-    <time class="published" datetime="2018-03-26T00:00:00+01:00">
-      Mon 26 March 2018
+    <time class="published" datetime="2018-12-03T00:00:00+00:00">
+      Mon 03 December 2018
     </time>
     <address class="vcard author">
       By           <a class="url fn" href="http://avengerpenguin.com/author/ross-fenning.html">Ross Fenning</a>
@@ -1037,110 +1023,98 @@ h6:hover .anchor-link {
 
 .ansi-bold { font-weight: bold; }
 </style>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The Python programming language has a nice declarative syntax for data
-sructures known as <em>comprehensions</em>. They provide a quick, concise way to set up lists, sets, generators and&nbsp;dictionaries.</p>
-<h2 id="List-comprehensions">List comprehensions<a class="anchor-link" href="#List-comprehensions">&#182;</a></h2><p>So, for example, we can quickly create a list of square&nbsp;numbers:</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">squares</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">squares</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">atom_string</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+
+<span class="s2">&lt;feed xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;</span>
+
+<span class="s2">	&lt;title&gt;Example Feed&lt;/title&gt;</span>
+<span class="s2">	&lt;subtitle&gt;A subtitle.&lt;/subtitle&gt;</span>
+<span class="s2">	&lt;id&gt;urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6&lt;/id&gt;</span>
+<span class="s2">	&lt;updated&gt;2003-12-13T18:30:02Z&lt;/updated&gt;</span>
+<span class="s2">	</span>
+<span class="s2">	&lt;entry&gt;</span>
+<span class="s2">		&lt;title&gt;Atom-Powered Robots Run Amok&lt;/title&gt;</span>
+<span class="s2">		&lt;link rel=&quot;about&quot; href=&quot;http://dbpedia.org/resource/Kumquat&quot;/&gt;</span>
+<span class="s2">		&lt;id&gt;urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a&lt;/id&gt;</span>
+<span class="s2">		&lt;updated&gt;2003-12-13T18:30:02Z&lt;/updated&gt;</span>
+<span class="s2">		&lt;summary&gt;Some text.&lt;/summary&gt;</span>
+<span class="s2">		&lt;content type=&quot;xhtml&quot;&gt;</span>
+<span class="s2">			&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;</span>
+<span class="s2">				&lt;p&gt;This is the entry content.&lt;/p&gt;</span>
+<span class="s2">			&lt;/div&gt;</span>
+<span class="s2">		&lt;/content&gt;</span>
+<span class="s2">		&lt;author&gt;</span>
+<span class="s2">			&lt;name&gt;Ross Fenning&lt;/name&gt;</span>
+<span class="s2">			&lt;uri&gt;http://rossfenning.co.uk/&lt;/uri&gt;</span>
+<span class="s2">		&lt;/author&gt;</span>
+<span class="s2">	&lt;/entry&gt;</span>
+
+<span class="s2">&lt;/feed&gt;&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">feedparser</span>
+<span class="n">feed</span> <span class="o">=</span> <span class="n">feedparser</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">atom_string</span><span class="p">)</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Compare this with an imperative approach as is required in many other&nbsp;languages:</p>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">squares</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
-    <span class="n">squares</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">squares</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">rdflib</span> <span class="k">import</span> <span class="n">Graph</span><span class="p">,</span> <span class="n">URIRef</span><span class="p">,</span> <span class="n">Namespace</span><span class="p">,</span> <span class="n">Literal</span><span class="p">,</span> <span class="n">BNode</span>
+<span class="n">ATOM</span> <span class="o">=</span> <span class="n">Namespace</span><span class="p">(</span><span class="s1">&#39;http://www.w3.org/2005/Atom/&#39;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">atom2rdf</span><span class="p">(</span><span class="n">atom_feed</span><span class="p">):</span>
+    <span class="n">g</span> <span class="o">=</span> <span class="n">Graph</span><span class="p">()</span>
+    <span class="n">g</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="s1">&#39;atom&#39;</span><span class="p">,</span> <span class="n">ATOM</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">atom_feed</span><span class="o">.</span><span class="n">entries</span><span class="p">:</span>
+        <span class="n">subject</span> <span class="o">=</span> <span class="n">URIRef</span><span class="p">(</span><span class="n">entry</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+        <span class="n">g</span><span class="o">.</span><span class="n">add</span><span class="p">((</span><span class="n">subject</span><span class="p">,</span> <span class="n">ATOM</span><span class="o">.</span><span class="n">title</span><span class="p">,</span> <span class="n">Literal</span><span class="p">(</span><span class="n">entry</span><span class="o">.</span><span class="n">title</span><span class="p">)))</span>
+        <span class="n">g</span><span class="o">.</span><span class="n">add</span><span class="p">((</span><span class="n">subject</span><span class="p">,</span> <span class="n">ATOM</span><span class="o">.</span><span class="n">summary</span><span class="p">,</span> <span class="n">Literal</span><span class="p">(</span><span class="n">entry</span><span class="o">.</span><span class="n">summary</span><span class="p">)))</span>
+
+        <span class="k">for</span> <span class="n">author</span> <span class="ow">in</span> <span class="n">entry</span><span class="o">.</span><span class="n">authors</span><span class="p">:</span>
+            <span class="n">a</span> <span class="o">=</span> <span class="n">BNode</span><span class="p">()</span>
+            <span class="n">g</span><span class="o">.</span><span class="n">add</span><span class="p">((</span><span class="n">subject</span><span class="p">,</span> <span class="n">ATOM</span><span class="o">.</span><span class="n">author</span><span class="p">,</span> <span class="n">a</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">author</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">prop</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;email&#39;</span><span class="p">]:</span>
+                <span class="k">if</span> <span class="n">prop</span> <span class="ow">in</span> <span class="n">author</span><span class="p">:</span>
+                    <span class="n">g</span><span class="o">.</span><span class="n">add</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">ATOM</span><span class="p">,</span> <span class="n">prop</span><span class="p">),</span> <span class="n">Literal</span><span class="p">(</span><span class="n">author</span><span class="p">[</span><span class="n">prop</span><span class="p">])))</span>
+            <span class="k">if</span> <span class="s1">&#39;href&#39;</span> <span class="ow">in</span> <span class="n">author</span><span class="p">:</span>
+                <span class="n">g</span><span class="o">.</span><span class="n">add</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">ATOM</span><span class="o">.</span><span class="n">url</span><span class="p">,</span> <span class="n">URIRef</span><span class="p">(</span><span class="n">author</span><span class="o">.</span><span class="n">href</span><span class="p">)))</span>
+
+<span class="c1">#         for link in entry.links:</span>
+<span class="c1">#             print(link)</span>
+<span class="c1">#             g.add((subject, link.rel, link.href))</span>
+            
+    <span class="k">return</span> <span class="n">g</span>
+    
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>This is perhaps only a little more verbose, but the difference is even greater once we introduce&nbsp;conditions:</p>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">even_squares</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span> <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span>
-<span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">even_squares</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span>    
+<span class="n">rdf_graph</span> <span class="o">=</span> <span class="n">atom2rdf</span><span class="p">(</span><span class="n">feed</span><span class="p">)</span>
+    
+<span class="nb">print</span><span class="p">(</span><span class="n">rdf_graph</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;turtle&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -1157,7 +1131,19 @@ sructures known as <em>comprehensions</em>. They provide a quick, concise way to
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[4, 16, 36, 64, 100]
+<pre>{&#39;name&#39;: &#39;Ross Fenning&#39;, &#39;href&#39;: &#39;http://rossfenning.co.uk/&#39;}
+@prefix atom: &lt;http://www.w3.org/2005/Atom/&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xml: &lt;http://www.w3.org/XML/1998/namespace&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+&lt;urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a&gt; atom:author [ atom:name &#34;Ross Fenning&#34; ;
+            atom:url &lt;http://rossfenning.co.uk/&gt; ] ;
+    atom:summary &#34;Some text.&#34; ;
+    atom:title &#34;Atom-Powered Robots Run Amok&#34; .
+
+
 </pre>
 </div>
 </div>
@@ -1165,26 +1151,28 @@ sructures known as <em>comprehensions</em>. They provide a quick, concise way to
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Compared&nbsp;to:</p>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">even_squares</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="n">even_squares</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">even_squares</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">foaf_string</span> <span class="o">=</span> <span class="s1">&#39;&#39;&#39;</span>
+<span class="s1">@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .</span>
+<span class="s1">@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .</span>
+<span class="s1">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .</span>
+
+<span class="s1">&lt;http://rossfenning.co.uk/&gt;</span>
+<span class="s1">    a foaf:Person ;</span>
+<span class="s1">    foaf:name &quot;Ross Fenning&quot; ;</span>
+<span class="s1">    foaf:interest &lt;http://dbpedia.org/resource/Linked_Data&gt; ;</span>
+<span class="s1">    foaf:interest &lt;http://dbpedia.org/resource/Wine&gt; ;</span>
+<span class="s1">    foaf:interest &lt;http://dbpedia.org/resource/Python&gt; .</span>
+<span class="s1">&#39;&#39;&#39;</span>
+
+<span class="n">another_rdf_graph</span> <span class="o">=</span> <span class="n">Graph</span><span class="p">()</span>
+<span class="n">another_rdf_graph</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">foaf_string</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;turtle&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">another_rdf_graph</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;turtle&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -1201,7 +1189,19 @@ sructures known as <em>comprehensions</em>. They provide a quick, concise way to
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[4, 16, 36, 64, 100]
+<pre>@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xml: &lt;http://www.w3.org/XML/1998/namespace&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+&lt;http://rossfenning.co.uk/&gt; a foaf:Person ;
+    foaf:interest &lt;http://dbpedia.org/resource/Linked_Data&gt;,
+        &lt;http://dbpedia.org/resource/Python&gt;,
+        &lt;http://dbpedia.org/resource/Wine&gt; ;
+    foaf:name &#34;Ross Fenning&#34; .
+
+
 </pre>
 </div>
 </div>
@@ -1210,21 +1210,14 @@ sructures known as <em>comprehensions</em>. They provide a quick, concise way to
 </div>
 
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>But the real expressivity comes from the fact that a single-expression syntax can be used anonymously without the need to declare a variable at&nbsp;all:</p>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span> <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">combined_graph</span> <span class="o">=</span> <span class="n">rdf_graph</span> <span class="o">+</span> <span class="n">another_rdf_graph</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">combined_graph</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;turtle&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -1237,59 +1230,31 @@ sructures known as <em>comprehensions</em>. They provide a quick, concise way to
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[5]:</div>
+<div class="prompt"></div>
 
 
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>@prefix atom: &lt;http://www.w3.org/2005/Atom/&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xml: &lt;http://www.w3.org/XML/1998/namespace&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+&lt;urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a&gt; atom:author [ atom:name &#34;Ross Fenning&#34; ;
+            atom:url &lt;http://rossfenning.co.uk/&gt; ] ;
+    atom:summary &#34;Some text.&#34; ;
+    atom:title &#34;Atom-Powered Robots Run Amok&#34; .
+
+&lt;http://rossfenning.co.uk/&gt; a foaf:Person ;
+    foaf:interest &lt;http://dbpedia.org/resource/Linked_Data&gt;,
+        &lt;http://dbpedia.org/resource/Python&gt;,
+        &lt;http://dbpedia.org/resource/Wine&gt; ;
+    foaf:name &#34;Ross Fenning&#34; .
 
 
-<div class="output_text output_subarea output_execute_result">
-<pre>[4, 16, 36, 64, 100]</pre>
+</pre>
 </div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Other-comprehensions">Other comprehensions<a class="anchor-link" href="#Other-comprehensions">&#182;</a></h2><p>Additionally, comprehensions go beyond lists as we can do similar for generators, dictionaries and sets. See if you can understand what these data structures&nbsp;are:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">string</span>
-
-<span class="p">{</span><span class="n">string</span><span class="o">.</span><span class="n">ascii_uppercase</span><span class="p">[</span><span class="n">n</span><span class="p">]:</span> <span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">6</span><span class="p">)}</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[6]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>{&#39;A&#39;: 0, &#39;B&#39;: 1, &#39;C&#39;: 2, &#39;D&#39;: 3, &#39;E&#39;: 4, &#39;F&#39;: 5}</pre>
-</div>
-
 </div>
 
 </div>
@@ -1301,97 +1266,38 @@ sructures known as <em>comprehensions</em>. They provide a quick, concise way to
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># set of unique letters in sentence</span>
-<span class="p">{</span><span class="n">letter</span> <span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="s1">&#39;python&#39;</span> <span class="o">+</span> <span class="s1">&#39;set&#39;</span> <span class="o">+</span> <span class="s1">&#39;theory&#39;</span><span class="p">}</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">FuXi.Rete.RuleStore</span> <span class="k">import</span> <span class="n">RuleStore</span><span class="p">,</span> <span class="n">SetupRuleStore</span>
 
 
-<div class="output_area">
+<span class="k">def</span> <span class="nf">enrich</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="n">rules</span><span class="p">):</span>
+    <span class="n">rule_store</span><span class="p">,</span> <span class="n">rule_graph</span><span class="p">,</span> <span class="n">network</span> <span class="o">=</span> <span class="n">SetupRuleStore</span><span class="p">(</span><span class="n">makeNetwork</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">closure_delta</span> <span class="o">=</span> <span class="n">Graph</span><span class="p">()</span>
 
-<div class="prompt output_prompt">Out[7]:</div>
+    <span class="n">network</span><span class="o">.</span><span class="n">inferredFacts</span> <span class="o">=</span> <span class="n">closure_delta</span>
 
+    <span class="k">for</span> <span class="n">rule</span> <span class="ow">in</span> <span class="n">rules</span><span class="p">:</span>
+        <span class="n">network</span><span class="o">.</span><span class="n">buildNetworkFromClause</span><span class="p">(</span><span class="n">rule</span><span class="p">)</span>
 
+    <span class="n">network</span><span class="o">.</span><span class="n">feedFactsToAdd</span><span class="p">(</span><span class="n">generateTokenSet</span><span class="p">(</span><span class="n">graph</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">graph</span> <span class="o">+</span> <span class="n">closure_delta</span>
 
+<span class="n">rule_store</span> <span class="o">=</span> <span class="n">N3RuleStore</span><span class="p">()</span>
+<span class="n">namespace_manager</span> <span class="o">=</span> <span class="n">NamespaceManager</span><span class="p">(</span><span class="n">Graph</span><span class="p">(</span><span class="n">rule_store</span><span class="p">))</span>
+<span class="n">rule_graph</span> <span class="o">=</span> <span class="n">Graph</span><span class="p">(</span><span class="n">rule_store</span><span class="p">,</span> <span class="n">namespace_manager</span><span class="o">=</span><span class="n">namespace_manager</span><span class="p">)</span>
+<span class="n">rule_graph</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;n3&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="s1">&#39;&#39;&#39;</span>
+<span class="s1">@prefix atom: &lt;http://www.w3.org/2005/Atom/&gt; .</span>
+<span class="s1">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .</span>
 
-<div class="output_text output_subarea output_execute_result">
-<pre>{&#39;e&#39;, &#39;h&#39;, &#39;n&#39;, &#39;o&#39;, &#39;p&#39;, &#39;r&#39;, &#39;s&#39;, &#39;t&#39;, &#39;y&#39;}</pre>
-</div>
+<span class="s1">{</span>
+<span class="s1">?entry atom:author ?author .</span>
+<span class="s1">?author atom:url ?url .</span>
+<span class="s1">?author atom:name ?name .</span>
+<span class="s1">?url a foaf:Person .</span>
+<span class="s1">} =&gt; {</span>
+<span class="s1">?entry atom</span>
+<span class="s1">}</span>
 
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">count</span><span class="p">,</span> <span class="n">takewhile</span>
-
-<span class="c1"># Creates infinite list of squares</span>
-<span class="n">square_generator</span> <span class="o">=</span> <span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">count</span><span class="p">())</span>
-<span class="c1"># Print out the first four</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">square_generator</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">square_generator</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">square_generator</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">square_generator</span><span class="p">))</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>0
-1
-4
-9
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>There are many blog posts out there on how to use comprehensions in different contexts, but here I want to focus on one of my favourite applications: working with applications of <a href="https://en.wikipedia.org/wiki/Set_theory">set theory</a>.</p>
-<h2 id="Set-theory-and-Python-comprehensions">Set theory and Python comprehensions<a class="anchor-link" href="#Set-theory-and-Python-comprehensions">&#182;</a></h2><p>In mathematics, one might describe a basic set of six numbers&nbsp;as:</p>
-<p>\begin{equation*}
-A = \{1, 2, 3, 4, 5, 6\}&nbsp;\end{equation*}</p>
-<p>And Python&#8217;s set comprehension nicely happens to be identical&nbsp;here:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">}</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="s1">&#39;&#39;&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1407,245 +1313,24 @@ A = \{1, 2, 3, 4, 5, 6\}&nbsp;\end{equation*}</p>
 <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>{1, 2, 3, 4, 5, 6}
-</pre>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">ModuleNotFoundError</span>                       Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-7-c030625e3eb3&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> FuXi<span class="ansi-blue-fg">.</span>Rete<span class="ansi-blue-fg">.</span>RuleStore <span class="ansi-green-fg">import</span> RuleStore<span class="ansi-blue-fg">,</span> SetupRuleStore
+<span class="ansi-green-intense-fg ansi-bold">      2</span> 
+<span class="ansi-green-intense-fg ansi-bold">      3</span> 
+<span class="ansi-green-intense-fg ansi-bold">      4</span> <span class="ansi-green-fg">def</span> enrich<span class="ansi-blue-fg">(</span>graph<span class="ansi-blue-fg">,</span> rules<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">      5</span>     rule_store<span class="ansi-blue-fg">,</span> rule_graph<span class="ansi-blue-fg">,</span> network <span class="ansi-blue-fg">=</span> SetupRuleStore<span class="ansi-blue-fg">(</span>makeNetwork<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">True</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-red-fg">ModuleNotFoundError</span>: No module named &#39;FuXi&#39;</pre>
 </div>
 </div>
 
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In mathematics, we might describe subset of all the even numbers in $A$&nbsp;as:</p>
-<p>\begin{equation*}
-B = \{n \in A \: | \: even(n) \}&nbsp;\end{equation*}</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>And in Python this&nbsp;becomes:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">even</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span>
-
-<span class="n">B</span> <span class="o">=</span> <span class="p">{</span><span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">A</span> <span class="k">if</span> <span class="n">even</span><span class="p">(</span><span class="n">n</span><span class="p">)}</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>{2, 4, 6}
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>It should be clear that there is a nice one-to-one correspondence between <code>n for n in</code> and $\in$ here. Additionally, the vertical bar <code>|</code> corresponds to the <code>if</code> within the comprehension. This makes it pretty easy to transliterate mathematical expressions directly into Python code with simple syntax&nbsp;mappings.</p>
-<p>More imperitive languages such as C, Java or JavaScript would need a bit more step-by-step code just to <em>create</em> such mathematical objects, adding some overhead on top of code that actually then works with those&nbsp;objects.</p>
-<p>I personally like the simple correspondence as implementing mathematical concepts become easier. I have found this useful for rapidly prototying ideas from academic&nbsp;papers.</p>
-<p>This is especially powerful when working with practical data structures that follow set-theoretic principles, such as <span class="caps">RDF</span> graphs. I will cover this in more depth in future articles, but for now I can give one simpler example where I have applied&nbsp;this.</p>
-<h2 id="How-might-we-actually-apply-this?">How might we actually apply this?<a class="anchor-link" href="#How-might-we-actually-apply-this?">&#182;</a></h2><p>An example of where this can be applied is in synchronising users (or other data) between two systems. Imagine we have a directory of users (e.g. <span class="caps">LDAP</span> or Active Directory) that we want to keep in sync with a user database behind another system in your organisation such as a directory lookup application. In our organisation a user record is only made up of a first name and the department they work&nbsp;in:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">namedtuple</span>
-
-<span class="n">User</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s1">&#39;User&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;department&#39;</span><span class="p">])</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>We might also have some code that can query the lists of users in each system which we can stub out here for for illustrative&nbsp;purposes:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_users_from_directory</span><span class="p">():</span>
-    <span class="k">return</span> <span class="p">[</span>
-        <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Alice&#39;</span><span class="p">,</span> <span class="n">department</span><span class="o">=</span><span class="s1">&#39;R&amp;D&#39;</span><span class="p">),</span>
-        <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Bob&#39;</span><span class="p">,</span> <span class="n">department</span><span class="o">=</span><span class="s1">&#39;HR&#39;</span><span class="p">),</span>
-        <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Clare&#39;</span><span class="p">,</span> <span class="n">department</span><span class="o">=</span><span class="s1">&#39;Sales&#39;</span><span class="p">),</span>
-    <span class="p">]</span>
-
-<span class="k">def</span> <span class="nf">get_users_from_lookup_service</span><span class="p">():</span>
-    <span class="k">return</span> <span class="p">[</span>
-        <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Bob&#39;</span><span class="p">,</span> <span class="n">department</span><span class="o">=</span><span class="s1">&#39;HR&#39;</span><span class="p">),</span>
-        <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;Clare&#39;</span><span class="p">,</span> <span class="n">department</span><span class="o">=</span><span class="s1">&#39;HR&#39;</span><span class="p">),</span>
-        <span class="n">User</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;David&#39;</span><span class="p">,</span> <span class="n">department</span><span class="o">=</span><span class="s1">&#39;IT&#39;</span><span class="p">),</span>
-    <span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Note how in this example we are simulating three situations: firstly, Alice is new to the organisation and is yet to be synced to the lookup service. Secondly, Clare has recently moved from Sales to <span class="caps">HR</span>. Thirdly, David used to work in the <span class="caps">IT</span> department but has left the organisation since these systems were last&nbsp;synchronised.</p>
-<p>If we are using Python and comprehensions, we can use sets and set-theoretic operations as part of our&nbsp;synchronisation:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">synced_users</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="n">user</span> <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">get_users_from_lookup_service</span><span class="p">()</span>
-<span class="p">}</span>
-<span class="n">actual_users</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="n">user</span> <span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">get_users_from_directory</span><span class="p">()</span>
-<span class="p">}</span>
-
-<span class="n">discrepancies</span> <span class="o">=</span> <span class="n">synced_users</span> <span class="o">^</span> <span class="n">actual_users</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">discrepancies</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>{User(name=&#39;Clare&#39;, department=&#39;HR&#39;), User(name=&#39;Alice&#39;, department=&#39;R&amp;D&#39;), User(name=&#39;David&#39;, department=&#39;IT&#39;), User(name=&#39;Clare&#39;, department=&#39;Sales&#39;)}
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>So, what&#8217;s happened here? We&#8217;ve declared two sets: <code>synced_users</code> is the set of user profiles that are currently in our target lookup service and <code>actual_users</code> is the authoritative set of users that are actually employed in our&nbsp;organisation.</p>
-<p>We can then do a symmetric difference (aka an <code>XOR</code> operation) to get a list of user profiles that are missing, need to be moved or are otherwise out of&nbsp;sync.</p>
-<p>Finally, we just need to loop through the discrepancies and process each as&nbsp;appropriate:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">remove_user_from_loop_service</span><span class="p">(</span><span class="n">user</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Removing: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">user</span><span class="p">))</span>
-
-<span class="k">def</span> <span class="nf">add_user_to_loop_service</span><span class="p">(</span><span class="n">user</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Adding:   </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">user</span><span class="p">))</span>
-
-<span class="k">for</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">discrepancies</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">synced_users</span><span class="p">:</span>
-        <span class="n">remove_user_from_loop_service</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">user</span> <span class="ow">in</span> <span class="n">actual_users</span><span class="p">:</span>
-        <span class="n">add_user_to_loop_service</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Removing: User(name=&#39;Clare&#39;, department=&#39;HR&#39;)
-Adding:   User(name=&#39;Alice&#39;, department=&#39;R&amp;D&#39;)
-Removing: User(name=&#39;David&#39;, department=&#39;IT&#39;)
-Adding:   User(name=&#39;Clare&#39;, department=&#39;Sales&#39;)
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>So, in a small amount of (hopefully) readable code, we can do a basic bidirectional sync between two systems. This simple approach makes the assumption that it is ok to remove and re-add Clare as she has moved departments. This might not be appropriate for all cases and in some implementations of this I have explicitly looked for the same user appearing twice in the <code>discrepancies</code> set to process them differently to new or removed&nbsp;users.</p>
-<p>Python has a reputation as an expressive and concise language and I think that comprehensions go a long way to drive that. The fact that I can transcribe mathematical expressions directly into the language is both useful for me but also shows how small bits of declarative syntax &#8212; in a language that is relatively imperative in other ways &#8212; can really create clear, readable code without lots of distracting noise around&nbsp;it.</p>
-
-</div>
-</div>
 </div>
  
 
@@ -1687,8 +1372,8 @@ Adding:   User(name=&#39;Clare&#39;, department=&#39;Sales&#39;)
 <script>
 
 var disqus_config = function () {
-   this.page.url = 'http://avengerpenguin.com/python-and-set-theory.html';
-   this.page.identifier = 'python-and-set-theory';
+   this.page.url = 'http://avengerpenguin.com/drafts/atom-and-rdf.html';
+   this.page.identifier = 'atom-and-rdf';
 };
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
