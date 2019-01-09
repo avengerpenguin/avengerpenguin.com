@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://avengerpenguin.com/</loc>
-<lastmod>2019-01-09T13:39:22-00:00</lastmod>
+<lastmod>2019-01-09T13:39:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://avengerpenguin.com/archives.html</loc>
-<lastmod>2019-01-09T13:39:22-00:00</lastmod>
+<lastmod>2019-01-09T13:39:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://avengerpenguin.com/tags.html</loc>
-<lastmod>2019-01-09T13:39:22-00:00</lastmod>
+<lastmod>2019-01-09T13:39:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://avengerpenguin.com/categories.html</loc>
-<lastmod>2019-01-09T13:39:22-00:00</lastmod>
+<lastmod>2019-01-09T13:39:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,13 +34,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://avengerpenguin.com/what-we-control.html</loc>
 <lastmod>2019-01-09T00:00:00+00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://avengerpenguin.com/the-pedantry-paradox.html</loc>
-<lastmod>2018-05-23T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -110,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://avengerpenguin.com/category/misc.html</loc>
-<lastmod>2018-05-23T00:00:00-00:01</lastmod>
+<lastmod>2018-04-19T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -153,13 +146,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://avengerpenguin.com/tag/philosophy.html</loc>
 <lastmod>2019-01-09T00:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://avengerpenguin.com/tag/language.html</loc>
-<lastmod>2018-05-23T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
