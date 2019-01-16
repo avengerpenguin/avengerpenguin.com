@@ -1,6 +1,6 @@
 Title: The Pedantry Paradox
 Date: 2018-05-23
-Status: published
+Status: draft
 Tags: Language, Philosophy
 
 Despite being over 50% grey these days, I remember as a child having very

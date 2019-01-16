@@ -2,6 +2,7 @@ Title: What we control and what we don't
 Date: 2019-01-09
 Slug: what-we-control
 Tags: Stoicism, Philosophy
+Status: published
 
 Today's (9 January) Daily Stoic insight is based on a core tenet of Stoic
 philosophy: accepting there are many things you cannot control, but you are not
@@ -10,18 +11,7 @@ control.
 
 <!-- PELICAN_END_SUMMARY -->
 
-<aside>
-This is part of a series inspired by
-<a href="https://www.amazon.co.uk/dp/0735211736/?tag=multisites-21">The Daily Stoic</a>
-and the corresponding
-<a href="https://www.amazon.co.uk/dp/0735211736/?tag=multisites-21">Daily Stoic Journal</a>.
-I followed the journal over the course of 2018 and in 2019 I am doing the
-journal again for myself but also blogging my interpretation, critique or
-additional thoughts on each days' insights. I will sometimes relate it to
-other books or works that have also influenced my thoughts.
-</aside>
-
-In This is clearly stated by the supporting quotation from Epictetus in
+This is clearly stated by the supporting quotation from Epictetus in
 Enchiridion Chapter 1:
 
 > Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Things not in our control are body, property, reputation, command, and, in one word, whatever are not our own actions.
@@ -72,3 +62,14 @@ discourse? No. Will eating better help chronic or terminal illnesses? No.
 
 But in the darkness, it is our Stoic duty to light that candle if only to
 focus our discipline away from cursing it. 
+
+<aside>
+This is part of a series inspired by
+<a href="https://www.amazon.co.uk/dp/0735211736/?tag=multisites-21">The Daily Stoic</a>
+and the corresponding
+<a href="https://www.amazon.co.uk/dp/0735211736/?tag=multisites-21">Daily Stoic Journal</a>.
+I followed the journal over the course of 2018 and in 2019 I am doing the
+journal again for myself but also blogging my interpretation, critique or
+additional thoughts on each days' insights. I will sometimes relate it to
+other books or works that have also influenced my thoughts.
+</aside>
