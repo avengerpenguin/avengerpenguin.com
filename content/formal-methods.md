@@ -1,3 +1,0 @@
-# Formal Methods
-
-## Security, compliance
