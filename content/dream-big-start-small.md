@@ -1,6 +1,5 @@
-Title: A Model for RESTful Services
+Title: Dream Big, Start Small
 Date: 2017-01-23
-Slug: rest-model
-Category: REST
+Slug: dream-big-start-small
 Status: draft
 
