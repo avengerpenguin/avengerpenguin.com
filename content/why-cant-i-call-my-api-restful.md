@@ -128,7 +128,7 @@ are trying to solve. However, it is worth being mindful of what you
 are intending to communicate when you use a technical term. Expect
 people to be confused if you follow a mutated definition of a term.
 
-I personallly like to follow they hypermedia/HATEOAS constraints for
+I personally like to follow they hypermedia/HATEOAS constraints for
 RESTful APIs and in later posts I'll discuss why that is and the
 decoupling people are missing out on. It is also my contention at times
 that if you do not want the full decoupling of REST in our distributed
