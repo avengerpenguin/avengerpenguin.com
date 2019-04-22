@@ -1,7 +1,7 @@
 Title: Why Programming Language Matters
 Date: 2018-03-14
 Status: published
-Category: Software Engineering, Programming Languages
+Category: Software
 
 Choice of programming language can be a source of religious wars
 between software engineers and developers. It is one of the many areas

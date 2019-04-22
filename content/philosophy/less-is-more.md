@@ -2,6 +2,7 @@ Title: Less is more
 Date: 2018-04-19
 Status: published
 Tags: Stoicism, Philosophy
+Category: Stoicism
 
 Recently, I was prompted by an entry in my Daily Stoic Journal to consider
 "What would less look like?".

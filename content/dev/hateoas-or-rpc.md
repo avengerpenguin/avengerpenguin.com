@@ -2,6 +2,7 @@ Title: It's either HATEOAS or it's RPC
 Date: 2018-01-29
 Slug: hateoas-or-rpc
 Status: draft
+Category: Software Engineering
 
 Life is simple when you are working with only one
 computer. Distributed systems are hard.

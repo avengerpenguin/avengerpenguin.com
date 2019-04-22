@@ -46,8 +46,9 @@ MENUITEMS = (
     ('Home', '/'),
 )
 DISPLAY_PAGES_ON_MENU = False
-DISPLAY_CATEGORIES_ON_MENU = False
-
+DISPLAY_CATEGORIES_ON_MENU = True
+USE_FOLDER_AS_CATEGORY = False
+DEFAULT_CATEGORY = 'Other'
 
 PLUGINS = [
     'plugins.assets',
