@@ -1,3 +1,6 @@
+title: devex
+date: 2018-03-01
+
 Speed vs. safety trade-off -- becomes feedbook loop as deployments get more
 frequent and smaller
 
