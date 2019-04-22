@@ -55,7 +55,7 @@ PLUGINS = [
     'plugins.tag_cloud',
     'plugins.sitemap',
     'plugins.pelican-open_graph',
-    'plugins.ipynb.markup',
+    'plugins.pelican-ipynb.markup',
 ]
 SITEMAP = {
     'format': 'xml',
