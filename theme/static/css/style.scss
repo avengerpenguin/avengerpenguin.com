@@ -5,10 +5,9 @@ $highlight-colour: #bfcfe7;
 $not_there: #E9EBF5;
 
 html, html:root, body {
-  //background-color: #F0F7DA;
   color: $text-colour;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  //font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -17,52 +16,63 @@ html {
 }
 
 body > header {
-  margin: 0;
-  padding: 0;
-  text-align: center;
   color: $header-colour;
-  height: 150px;
-  font-family: 'Modak', cursive;
+  //font-family: 'Modak', cursive;
+
   h1 {
-    text-shadow: 3px 3px 2px $highlight-colour;
-    font-size: 400%;
-  }
-  a {
-    color: $header-colour;
-    &:hover {
-      text-decoration: none;
-      color: inherit;
-    }
-  }
-}
-
-header h1 {
-  /*border-bottom: none;*/
-  font-family: 'Modak', cursive;
-}
-
-nav {
-  position: absolute;
-  top: 0px;
-  right: 2em;
-  ul li {
-    display: inline-block;
-    padding: 1em;
+    text-align: center;
+    margin-bottom: 1em;
     a {
-      &:hover {
+      text-decoration: none;
+      color: $header-colour;
+      &:visited {
         color: $header-colour;
+      }
+      &:hover {
+        color: $text-colour;
       }
     }
   }
+  
+  nav  {
+    text-align: center;
+    
+    border: 1px solid $header-colour;
+    border-left: none;
+    border-right: none;
+
+    //font-size: calc(1.5rem + .00625*(100vw - 20rem));
+    
+    a {
+      color: $link-colour;
+      text-decoration: none;
+
+      &:visited {
+        color: $link-colour;
+      }
+      &:hover {
+        color: $text-colour;
+      }
+    }
+  }
+
+
+  aside {
+    img {
+      margin-bottom: 1em;
+      @media (min-width: 800px) {
+        float: left;
+        //      margin: 1em;
+        margin-right: 2em;
+      }
+    }
+    border-bottom: 1px solid $header-colour;
+    padding: 1em;
+    padding-top: 0;
+    }
+  
 }
 
-h1 {
-  /*border: none;*/
-}
-
-a {
-  color: $link-colour;
-}
 
 ol#post-list {
   list-style: none;
@@ -72,9 +82,6 @@ div#main {
   margin: 0 auto;
   max-width: 960px;
   section#content {
-    padding: 0 3em;
-    width: 75%;
-    float: left;
     header {
       text-align: center;
     }
@@ -90,70 +97,22 @@ div#main {
       }
     }
     div.prompt {
-        display: none;
+      display: none;
     }
     .highlight {
-        .k, .nb, .kn {
-            color: $link-colour;
-        }
-        .c1 {
-            color: $header-colour;
-        }
+      .k, .nb, .kn {
+        color: $link-colour;
+      }
+      .c1 {
+        color: $header-colour;
+      }
     }
     aside {
-        float: none;
-        width: 100%;
-        min-height: 0px;
-        padding: 0.5em 0.5em;
+      float: none;
+      width: 100%;
+      min-height: 0px;
+      padding: 0.5em 0.5em;
     }
-  }
-  aside {
-    background-color: $not_there;
-    /*border: 1px solid black;*/
-    width: 25%;
-    float: right;
-    padding: 0 0.8em;
-    min-height: 400px;
-    text-align: left;
-    img {
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 1em;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 0.5em;
-      margin-top: 1em;
-    }
-    p {
-      text-align: center;
-    }
-
-ul.tagcloud {
-  list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-ul.tagcloud li {
-    display: inline-block;
-    margin: 0.5em;
-}
-
-li.tag-1 {
-    font-size: 150%;
-}
-
-li.tag-2 {
-    font-size: 120%;
-}
-
-/* ... add li.tag-3 etc, as much as needed */
-
-ul.tagcloud .list-group-item span.badge {
-    background-color: grey;
-    color: white;
-}
   }
 }
 

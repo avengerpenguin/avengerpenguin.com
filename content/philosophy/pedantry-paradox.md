@@ -2,6 +2,7 @@ Title: The Pedantry Paradox
 Date: 2018-05-23
 Status: draft
 Tags: Language, Philosophy
+Category: Language
 
 Despite being over 50% grey these days, I remember as a child having very
 black hair. Not just dark brown, but actually black and clearly enough so
