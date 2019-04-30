@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Avenger Penguin - Software Engineering, Programming Languages</title><link href="http://avengerpenguin.com/" rel="alternate"></link><link href="http://avengerpenguin.com/feeds/software-engineering-programming-languages.atom.xml" rel="self"></link><id>http://avengerpenguin.com/</id><updated>2018-03-14T00:00:00+00:00</updated><entry><title>Why Programming Language Matters</title><link href="http://avengerpenguin.com/why-programming-language-matters.html" rel="alternate"></link><published>2018-03-14T00:00:00+00:00</published><updated>2018-03-14T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-14:/why-programming-language-matters.html</id><summary type="html">&lt;p&gt;Choice of programming language can be a source of religious wars
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Avenger Penguin - Software</title><link href="http://avengerpenguin.com/" rel="alternate"></link><link href="http://avengerpenguin.com/feeds/software.atom.xml" rel="self"></link><id>http://avengerpenguin.com/</id><updated>2018-03-16T00:00:00+00:00</updated><entry><title>The Simplest Way to “Keep Up” With the JavaScript Ecosystem</title><link href="http://avengerpenguin.com/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html" rel="alternate"></link><published>2018-03-16T00:00:00+00:00</published><updated>2018-03-16T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-16:/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html</id><summary type="html">&lt;p&gt;I often hear the frustration or jokes around how fast the JavaScript ecosystem
+moves. Observations usually include things like &amp;#8220;there&amp;#8217;s a new framework
+every week&amp;#8221; or that
+&lt;a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f"&gt;you need a huge number of tools just to get started&lt;/a&gt;
+on a basic modern&amp;nbsp;application.&lt;/p&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;The frustration can come from developers …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I often hear the frustration or jokes around how fast the JavaScript ecosystem
+moves. Observations usually include things like &amp;#8220;there&amp;#8217;s a new framework
+every week&amp;#8221; or that
+&lt;a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f"&gt;you need a huge number of tools just to get started&lt;/a&gt;
+on a basic modern&amp;nbsp;application.&lt;/p&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;The frustration can come from developers who either feel they need to learn
+several tools just to get going, whereas in the past you just needed a text
+editor and knowledge of &lt;span class="caps"&gt;HTML&lt;/span&gt;, &lt;span class="caps"&gt;CSS&lt;/span&gt; and JavaScript&amp;nbsp;itself.&lt;/p&gt;
+&lt;p&gt;It can be even more frustrating when you have large application UIs built,
+for example, in Angular but now everyone is using
+&lt;a href="https://reactjs.org/"&gt;React&lt;/a&gt;. Your build process is 
+fully dependent on &lt;a href="https://bower.io/"&gt;Bower&lt;/a&gt;
+and &lt;a href="http://browserify.org/"&gt;browserify&lt;/a&gt; but now everyone is using
+&lt;a href="https://yarnpkg.com/"&gt;Yarn&lt;/a&gt; and &lt;a href="https://webpack.js.org/"&gt;Webpack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is particularly difficult for enterprise application developers as you
+tend to end up with large code bases where you have little justification going
+in to &amp;#8220;modernise&amp;#8221; or refactor things if the application works just fine. This
+is where Java was traditionally favoured in the enterprise as the language (and
+platform) changes slowly, is (almost) always backwards compatible (so you can
+upgrade tools without changing code) and the toolchain hasn&amp;#8217;t moved that
+quickly either. Yes, we have &lt;a href="http://ant.apache.org/"&gt;Ant&lt;/a&gt;,
+&lt;a href="https://maven.apache.org/"&gt;Maven&lt;/a&gt; and &lt;a href="https://gradle.org/"&gt;Gradle&lt;/a&gt; now, but
+that&amp;#8217;s been a slow and steady&amp;nbsp;progression.&lt;/p&gt;
+&lt;p&gt;So, clearly we don&amp;#8217;t want to move at a break-neck speed and keep refactoring
+working code bases, but we also want to be able to held back by slow-moving
+platforms. People might like the fast innovation and choice in the JavaScript
+and Node.js ecosystems, but how do we keep up with all the frameworks and&amp;nbsp;tools?&lt;/p&gt;
+&lt;p&gt;Well, I have one suggestion to cope with &amp;#8220;keeping up&amp;#8221; with all the new tools
+and libraries and frameworks coming out each&amp;nbsp;week:&lt;/p&gt;
+&lt;p&gt;Don&amp;#8217;t.&lt;/p&gt;
+&lt;p&gt;Seriously, don&amp;#8217;t keep adopting new technologies as they emerge. While a new
+build tool or framework might seem nicer than what you have, &lt;em&gt;wait until you
+have an actual problem the new tool solves&lt;/em&gt; and be sceptical about migrating
+your applications to new&amp;nbsp;frameworks.&lt;/p&gt;
+&lt;p&gt;Even for newer projects, carefully consider the cost of adopting a new tool in
+terms of having to learn it. Maybe stick with what you know and play with new
+tools only on side projects or in &amp;#8220;10% time&amp;#8221; outside of your main&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;For frameworks whose popularity is short-lived, you will be able to skip right
+over them and only move to things that stand the test of time. For frameworks
+that stick around, you will be able to adopt them when best practices are
+established and early bugs are&amp;nbsp;fixed.&lt;/p&gt;
+&lt;p&gt;Learn to live with applications in older frameworks and on older versions of
+Node.js and you will be able to focus more time on adding features and perhaps
+even working on new, exciting&amp;nbsp;things.&lt;/p&gt;</content><category term="JavaScript"></category><category term="Web Development"></category><category term="Node.js"></category></entry><entry><title>Why Programming Language Matters</title><link href="http://avengerpenguin.com/why-programming-language-matters.html" rel="alternate"></link><published>2018-03-14T00:00:00+00:00</published><updated>2018-03-14T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2018-03-14:/why-programming-language-matters.html</id><summary type="html">&lt;p&gt;Choice of programming language can be a source of religious wars
 between software engineers and developers. It is one of the many areas
 where people build a subjective opinion based on how &amp;#8220;nice&amp;#8221; or
 &amp;#8220;elegant&amp;#8221; something is and whether they get joy working with it or
@@ -257,4 +309,118 @@ effectively that one engineer can do&amp;nbsp;alone.&lt;/p&gt;
 these problems. Choosing different languages will have different
 effects on your&amp;nbsp;teams.&lt;/p&gt;
 &lt;p&gt;If you are truly a software engineer, I think it does matter to
-consider your language&amp;nbsp;carefully.&lt;/p&gt;</content></entry></feed>
+consider your language&amp;nbsp;carefully.&lt;/p&gt;</content></entry><entry><title>Why can’t I call my API RESTful?</title><link href="http://avengerpenguin.com/why-cant-i-call-my-api-restful.html" rel="alternate"></link><published>2017-02-19T00:00:00+00:00</published><updated>2017-02-19T00:00:00+00:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2017-02-19:/why-cant-i-call-my-api-restful.html</id><summary type="html">&lt;p&gt;Semantic debates are fun, aren&amp;#8217;t they? I can build an &lt;span class="caps"&gt;API&lt;/span&gt; and call it
+a &lt;span class="caps"&gt;REST&lt;/span&gt; &lt;span class="caps"&gt;API&lt;/span&gt;, then someone can say it isn&amp;#8217;t truly &lt;span class="caps"&gt;REST&lt;/span&gt; and now we&amp;#8217;re
+back to arguing about what is and isn&amp;#8217;t &lt;span class="caps"&gt;REST&lt;/span&gt;.
+The most common point of contention is whether or …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Semantic debates are fun, aren&amp;#8217;t they? I can build an &lt;span class="caps"&gt;API&lt;/span&gt; and call it
+a &lt;span class="caps"&gt;REST&lt;/span&gt; &lt;span class="caps"&gt;API&lt;/span&gt;, then someone can say it isn&amp;#8217;t truly &lt;span class="caps"&gt;REST&lt;/span&gt; and now we&amp;#8217;re
+back to arguing about what is and isn&amp;#8217;t &lt;span class="caps"&gt;REST&lt;/span&gt;.
+The most common point of contention is whether or not to follow the
+&lt;span class="caps"&gt;HATEOAS&lt;/span&gt;&amp;nbsp;constraint.&lt;/p&gt;
+&lt;h3&gt;&lt;span class="caps"&gt;HATEOAS&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;For those not familiar,
+&lt;a href="https://en.wikipedia.org/wiki/HATEOAS"&gt;&lt;span class="caps"&gt;HATEOAS&lt;/span&gt;&lt;/a&gt; is one part of the
+&amp;#8220;Uniform Interface&amp;#8221; constraint. Let&amp;#8217;s look at those constraints
+in full for&amp;nbsp;context:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identification of resources&lt;/strong&gt; &amp;#8212; This basically amounts to using URLs
+  for each resource as described above (assuming we&amp;#8217;re using &lt;span class="caps"&gt;HTTP&lt;/span&gt; as the
+  protocol, of&amp;nbsp;course&amp;#8230;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manipulation of resources through representations&lt;/strong&gt; &amp;#8212; Send a
+  resource represented in e.g. an &lt;span class="caps"&gt;XML&lt;/span&gt; or &lt;span class="caps"&gt;JSON&lt;/span&gt; format of some kind and
+  that should be enough for a client to read or update the&amp;nbsp;resource.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-descriptive messages&lt;/strong&gt; &amp;#8212; Use headers like &lt;code&gt;Content-Type&lt;/code&gt; to make
+  it clear how to parse&amp;nbsp;responses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hypermedia as the engine of application state (&lt;span class="caps"&gt;HATEOAS&lt;/span&gt;)&lt;/strong&gt; &amp;#8212; A
+  client should only be able to move between resources by following
+  hypermedia links and controls on a particular&amp;nbsp;representation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The definition of &lt;span class="caps"&gt;HATEOAS&lt;/span&gt; above is an attempt to summarise it in a
+single sentence, but if you&amp;#8217;re not familiar with it at all, it&amp;#8217;s not
+likely to be any clearer that that actually &lt;em&gt;means&lt;/em&gt; but also &lt;em&gt;why&lt;/em&gt; you
+might use&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;In fact, Roy Fielding &amp;#8212; who
+&lt;a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm"&gt;coined &lt;span class="caps"&gt;REST&lt;/span&gt; in his famous PhD thesis&lt;/a&gt;
+&amp;#8212; has himself in the past
+&lt;a href="http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven"&gt;attacked &lt;span class="caps"&gt;HTTP&lt;/span&gt; APIs&lt;/a&gt;
+that claim to be &amp;#8220;&lt;span class="caps"&gt;REST&lt;/span&gt;&amp;#8221; APIs when they do not. There have also been
+examples of
+&lt;a href="http://www.ben-morris.com/the-restafarian-flame-wars-common-points-of-disagreement-over-rest-api-design/"&gt;disagreements on whether &lt;span class="caps"&gt;HATEOAS&lt;/span&gt; is needed&lt;/a&gt;
+for a &lt;span class="caps"&gt;REST&lt;/span&gt; &lt;span class="caps"&gt;API&lt;/span&gt;. That there is a significant level of confusion or even
+disagreements and arguments suggests a lack of clarity around what
+&lt;span class="caps"&gt;HATEOAS&lt;/span&gt; truly is and why you might use&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;The argument usually boils down to people pointing
+that out failure to follow the &lt;span class="caps"&gt;REST&lt;/span&gt; constraint does not a &lt;span class="caps"&gt;REST&lt;/span&gt; &lt;span class="caps"&gt;API&lt;/span&gt;
+make. The common retort is that it is &lt;em&gt;zealous&lt;/em&gt; or purist to ask for
+this constraint to be&amp;nbsp;followed.&lt;/p&gt;
+&lt;p&gt;A whole camp of &lt;span class="caps"&gt;API&lt;/span&gt; designers will furthermore claim the
+&lt;span class="caps"&gt;REST&lt;/span&gt;-minus-&lt;span class="caps"&gt;HATEOAS&lt;/span&gt; architectural style to be valid in its own
+right. Some even use terms such as
+&lt;a href="http://www.ben-morris.com/pragmatic-rest-apis-without-hypermedia-and-hateoas/"&gt;Pragmatic &lt;span class="caps"&gt;REST&lt;/span&gt;&lt;/a&gt; to describe/justify/differentiate their &amp;#8220;non-purist&amp;#8221; &lt;span class="caps"&gt;API&lt;/span&gt;&amp;nbsp;design.&lt;/p&gt;
+&lt;p&gt;What&amp;#8217;s missing in these arguments? Something that&amp;#8217;s missing
+in a lot of discussion on the web about this: any concrete discussion
+of the properties of the thing originally&amp;nbsp;built.&lt;/p&gt;
+&lt;h3&gt;Semantics&lt;/h3&gt;
+&lt;p&gt;There&amp;#8217;s two distinct fallacies that appear when a debate around a
+definition or semantics&amp;nbsp;emerges:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;we talk too much about whether something truly fits a definition
+&lt;em&gt;without actually discussing the merits of that thing&lt;/em&gt;;&amp;nbsp;or&lt;/li&gt;
+&lt;li&gt;we dismiss opinions of those who disagree with us by incorrectly
+regarding a debate as being &amp;#8220;just&amp;nbsp;semantics&amp;#8221;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you already have an opinion on the &lt;span class="caps"&gt;REST&lt;/span&gt; vs. &amp;#8220;pragmatic&amp;#8221; debate, you
+might well recognise one of those fallacies in those with whom you
+disagree, but be careful of falling into the other fallacy in your
+own&amp;nbsp;views.&lt;/p&gt;
+&lt;p&gt;Both of these fallacies can be seen as extreme ends of a spectrum where
+at one end we get sucked into pointless debates over definitions and at
+the other end we see no value in discussing definitions &lt;em&gt;at all&lt;/em&gt;,
+which is also&amp;nbsp;irrational.&lt;/p&gt;
+&lt;p&gt;It is indeed the case that an argument about whether my &lt;span class="caps"&gt;API&lt;/span&gt; is RESTful
+or not is not going to make much progress if we only discuss back and
+forth as to what &lt;span class="caps"&gt;REST&lt;/span&gt; is or whether it&amp;#8217;s useful to use the word only
+in a purist sense or whether we can allow for &amp;#8220;pragmatic&amp;#8221; takes on the
+term. What&amp;#8217;s lacking here is discussing it
+&lt;em&gt;in the context of the &lt;span class="caps"&gt;API&lt;/span&gt; I am building&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Conversely, we should not be so quick to shoot down those that point
+out where my &lt;span class="caps"&gt;API&lt;/span&gt; does not conform to &lt;span class="caps"&gt;REST&lt;/span&gt;. It is tempting to call such
+a person zealous or a purist and frame any of their arguments as
+irrational and therefore not worth hearing by&amp;nbsp;definition.&lt;/p&gt;
+&lt;p&gt;The more rational, balanced position is to discuss the definition in
+terms of &lt;em&gt;why&lt;/em&gt; all the &lt;span class="caps"&gt;REST&lt;/span&gt; constraints exist and also in the &lt;em&gt;context&lt;/em&gt;
+of a particular problem domain being solved by a &amp;#8220;RESTful&amp;#8221; &lt;span class="caps"&gt;API&lt;/span&gt;. Here
+we can rationally see if the constraints not being followed would
+help or hinder us; we can revisit the advantages brought by lesser-used
+constraints such as &lt;span class="caps"&gt;HATEOAS&lt;/span&gt;. In this context, the definition is
+certainly useful and we are not longer arguing &amp;#8220;just&amp;nbsp;semantics&amp;#8221;.&lt;/p&gt;
+&lt;h3&gt;Does it&amp;nbsp;matter?&lt;/h3&gt;
+&lt;p&gt;So, surely it&amp;#8217;s still my business whether I call my &lt;span class="caps"&gt;API&lt;/span&gt; RESTful or not?
+Well, sort&amp;nbsp;of.&lt;/p&gt;
+&lt;p&gt;Semantics &amp;#8212; as in the meaning of words &amp;#8212; relies at least to some
+extent to people loosely agreeing what words mean. If you present
+a software system or a technology and use certain words to describe it,
+then expect confusion when you use a word differently to how others
+use it. I&amp;#8217;m not saying we need to be overly pedantic about words, but
+if you build an &lt;span class="caps"&gt;API&lt;/span&gt; and call it RESTful, expect some confusion by
+some who will expect to call it in line with &lt;em&gt;all&lt;/em&gt; of the &lt;span class="caps"&gt;REST&lt;/span&gt;&amp;nbsp;constraints.&lt;/p&gt;
+&lt;p&gt;In some ways, I would plead with people to avoid using the term &lt;span class="caps"&gt;REST&lt;/span&gt;
+if they are consciously choose not to follow the architectural style
+fully, but I fear we may have lost control of the term by now to the
+point where it&amp;#8217;s hard to trust any meaning has been followed. In
+practical terms, it means that if someone presents an &lt;span class="caps"&gt;API&lt;/span&gt; to me and tells
+me it&amp;#8217;s a &lt;span class="caps"&gt;REST&lt;/span&gt; &lt;span class="caps"&gt;API&lt;/span&gt;, I still don&amp;#8217;t quite know what to expect until I
+see it. It is less than ideal for any word to get to a point where
+it doesn&amp;#8217;t actually convey information any more. This is especially
+true in a technical industry like software&amp;nbsp;engineering.&lt;/p&gt;
+&lt;p&gt;So, technically you &lt;em&gt;can&lt;/em&gt; call your &lt;span class="caps"&gt;API&lt;/span&gt; what you want and really the debates
+should centre around what is and isn&amp;#8217;t useful for the problem you
+are trying to solve. However, it is worth being mindful of what you
+are intending to communicate when you use a technical term. Expect
+people to be confused if you follow a mutated definition of a&amp;nbsp;term.&lt;/p&gt;
+&lt;p&gt;I personally like to follow they hypermedia/&lt;span class="caps"&gt;HATEOAS&lt;/span&gt; constraints for
+RESTful APIs and in later posts I&amp;#8217;ll discuss why that is and the
+decoupling people are missing out on. It is also my contention at times
+that if you do not want the full decoupling of &lt;span class="caps"&gt;REST&lt;/span&gt; in our distributed
+systems, then it&amp;#8217;s questionable why you needed to use any of &lt;span class="caps"&gt;REST&lt;/span&gt; in
+the first place. That certainly warrants a whole other&amp;nbsp;post.&lt;/p&gt;</content><category term="REST"></category><category term="Semantics"></category><category term="HATEOAS"></category></entry></feed>

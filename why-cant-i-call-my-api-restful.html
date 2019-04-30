@@ -1,76 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-          <title>Why can&#8217;t I call my <span class="caps">API</span>&nbsp;RESTful? | Avenger Penguin</title>
-        <meta charset="utf-8" />
-        <meta name="google-site-verification" content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA" />
-        <link href="http://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Avenger Penguin Full Atom Feed" />
-        <link href="http://avengerpenguin.com/feeds/misc.atom.xml" type="application/atom+xml" rel="alternate" title="Avenger Penguin Categories Atom Feed" />
+    <title>Why can&#8217;t I call my <span class="caps">API</span>&nbsp;RESTful? | Avenger Penguin</title>
+    <meta charset="utf-8"/>
+    <meta name="google-site-verification"
+          content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://avengerpenguin.com/feeds/all.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Full Atom Feed"/>
+    <link href="http://avengerpenguin.com/feeds/{slug}.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Categories Atom Feed"/>
 
 
-    <meta name="tags" content="REST" />
-    <meta name="tags" content="Semantics" />
-    <meta name="tags" content="HATEOAS" />
+<meta name="tags" content="REST"/>
+<meta name="tags" content="Semantics"/>
+<meta name="tags" content="HATEOAS"/>
 
-        <meta property="og:title" content="Why can’t I call my API RESTful?" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="http://avengerpenguin.com/why-cant-i-call-my-api-restful.html" />
-        <meta property="og:description" content="" />
-        <meta property="og:locale" content="" />
-        <meta property="og:site_name" content="Avenger Penguin" />
-        <meta property="article:published_time" content="2017-02-19" />
-        <meta property="article:section" content="misc" />
-        <meta property="article:tag" content="REST" />
-        <meta property="article:tag" content="Semantics" />
-        <meta property="article:tag" content="HATEOAS" />
+<meta property="og:title" content="Why can’t I call my API RESTful?"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://avengerpenguin.com/why-cant-i-call-my-api-restful.html"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content=""/>
+<meta property="og:site_name" content="Avenger Penguin"/>
+<meta property="article:published_time" content="2017-02-19"/>
+<meta property="article:section" content="Software"/>
+<meta property="article:tag" content="REST"/>
+<meta property="article:tag" content="Semantics"/>
+<meta property="article:tag" content="HATEOAS"/>
 
-        <link href="https://fonts.googleapis.com/css?family=Modak|Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/marx.min.css" />
-        <!--<link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.css" />-->
-                <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.min.css?981c1b24">
+    <link rel="stylesheet"
+          href="http://avengerpenguin.com/theme/css/awsm.css"/>
+    <!--<link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.css" />-->
+    <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.min.css?e93124a7">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-786452-8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-786452-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-786452-8');
 
-  gtag('config', 'UA-786452-8');
-</script>
+    </script>
 
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://avengerpenguin.com/">Avenger Penguin <strong></strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
+<body>
+
+<header>
+    <h1><a href="http://avengerpenguin.com/">Avenger Penguin <strong></strong></a></h1>
+
+    <nav>
+        <ul>
             <li><a href="/">Home</a></li>
-        </ul></nav><!-- /#menu -->
-        <div id="main">
-<section id="content" class="body">
-  <header>
-    <h2 class="entry-title">
-      <a href="http://avengerpenguin.com/why-cant-i-call-my-api-restful" rel="bookmark"
-         title="Permalink to Why can’t I call my API RESTful?">Why can&#8217;t I call my <span class="caps">API</span>&nbsp;RESTful?</a></h2>
- 
-  </header>
-  <footer class="post-info">
-    <time class="published" datetime="2017-02-19T00:00:00+00:00">
-      Sun 19 February 2017
-    </time>
-    <address class="vcard author">
-      By           <a class="url fn" href="http://avengerpenguin.com/author/ross-fenning.html">Ross Fenning</a>
-    </address>
-  </footer><!-- /.post-info -->
-  <div class="entry-content">
+            <li
+><a
+                href="http://avengerpenguin.com/language/">Language</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/security/">Security</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/social-media/">Social Media</a></li>
+            <li
+ class="active"><a
+                href="http://avengerpenguin.com/software/">Software</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/stoicism/">Stoicism</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <img src="http://avengerpenguin.com/theme/img/logo.png">
+        Ross Fenning is a principal software engineer at the BBC,
+        amateur computer scientist, Pythonista,
+        a student of Stoicism, a practitioner of Shotokan Karate,
+        an infrequent player of the bodhrán and the tin whistle and
+        a rebel against the Oxford comma.
+    </aside>
+
+    
+</header>
+
+<main>
+
+<article id="content" class="body">
+    <header>
+        <h2 class="entry-title">
+            <a href="http://avengerpenguin.com/why-cant-i-call-my-api-restful" rel="bookmark"
+               title="Permalink to Why can’t I call my API RESTful?">Why can&#8217;t I call my <span class="caps">API</span>&nbsp;RESTful?</a></h2>
+        
+        <p><time class="published" datetime="2017-02-19T00:00:00+00:00">
+            Sun 19 February 2017
+    </time></p>
+        <p>Read more posts on <a href="software/">Software</a></p>
+    </header>
+
     <p>Semantic debates are fun, aren&#8217;t they? I can build an <span class="caps">API</span> and call it
 a <span class="caps">REST</span> <span class="caps">API</span>, then someone can say it isn&#8217;t truly <span class="caps">REST</span> and now we&#8217;re
 back to arguing about what is and isn&#8217;t <span class="caps">REST</span>.
 The most common point of contention is whether or not to follow the
 <span class="caps">HATEOAS</span>&nbsp;constraint.</p>
-<h2><span class="caps">HATEOAS</span></h2>
+<h3><span class="caps">HATEOAS</span></h3>
 <p>For those not familiar,
 <a href="https://en.wikipedia.org/wiki/HATEOAS"><span class="caps">HATEOAS</span></a> is one part of the
 &#8220;Uniform Interface&#8221; constraint. Let&#8217;s look at those constraints
@@ -113,7 +150,7 @@ right. Some even use terms such as
 <p>What&#8217;s missing in these arguments? Something that&#8217;s missing
 in a lot of discussion on the web about this: any concrete discussion
 of the properties of the thing originally&nbsp;built.</p>
-<h2>Semantics</h2>
+<h3>Semantics</h3>
 <p>There&#8217;s two distinct fallacies that appear when a debate around a
 definition or semantics&nbsp;emerges:</p>
 <ul>
@@ -147,7 +184,7 @@ we can rationally see if the constraints not being followed would
 help or hinder us; we can revisit the advantages brought by lesser-used
 constraints such as <span class="caps">HATEOAS</span>. In this context, the definition is
 certainly useful and we are not longer arguing &#8220;just&nbsp;semantics&#8221;.</p>
-<h2>Does it&nbsp;matter?</h2>
+<h3>Does it&nbsp;matter?</h3>
 <p>So, surely it&#8217;s still my business whether I call my <span class="caps">API</span> RESTful or not?
 Well, sort&nbsp;of.</p>
 <p>Semantics &#8212; as in the meaning of words &#8212; relies at least to some
@@ -171,18 +208,19 @@ should centre around what is and isn&#8217;t useful for the problem you
 are trying to solve. However, it is worth being mindful of what you
 are intending to communicate when you use a technical term. Expect
 people to be confused if you follow a mutated definition of a&nbsp;term.</p>
-<p>I personallly like to follow they hypermedia/<span class="caps">HATEOAS</span> constraints for
+<p>I personally like to follow they hypermedia/<span class="caps">HATEOAS</span> constraints for
 RESTful APIs and in later posts I&#8217;ll discuss why that is and the
 decoupling people are missing out on. It is also my contention at times
 that if you do not want the full decoupling of <span class="caps">REST</span> in our distributed
 systems, then it&#8217;s questionable why you needed to use any of <span class="caps">REST</span> in
 the first place. That certainly warrants a whole other&nbsp;post.</p>
-  </div><!-- /.entry-content -->
-  <hr>
-  <h2>Comments</h2>
 
-<div id="disqus_thread"></div>
-<script>
+    <hr>
+
+    <h3>Comments</h3>
+
+    <div id="disqus_thread"></div>
+    <script>
 
 var disqus_config = function () {
    this.page.url = 'http://avengerpenguin.com/why-cant-i-call-my-api-restful.html';
@@ -194,127 +232,21 @@ s.src = 'https://avengerpenguin.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</section>
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a
+            href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+
+</article>
 
 
 
+</main>
 
-        <aside>
-                <h2>About me</h2>
-                <img src="http://avengerpenguin.com/theme/img/logo.png">
-                <p>Opinions and thoughts
-                from <a href="http://rossfenning.co.uk/">Ross Fenning</a>, who is a Principal&nbsp;Software&nbsp;Enginner in
-                        BBC&nbsp;Design&nbsp;and&nbsp;Engineering. Opinions are all his.</p>
+<footer>
+    Copyright <a href="http://rossfenning.co.uk/">Ross Fenning</a>
+</footer><!-- /#contentinfo -->
 
-                <h2>Tags</h2>
-                <ul class="tagcloud">
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/identity.html">
-            Identity
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/web-development.html">
-            Web Development
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/trust.html">
-            Trust
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/semantics.html">
-            Semantics
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/mathematics.html">
-            Mathematics
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/python.html">
-            Python
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/javascript.html">
-            JavaScript
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/linguistics.html">
-            Linguistics
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/facebook.html">
-            Facebook
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/authentication.html">
-            Authentication
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/authorisation.html">
-            Authorisation
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/stoicism.html">
-            Stoicism
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/security.html">
-            Security
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/nodejs.html">
-            Node.js
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/hateoas.html">
-            HATEOAS
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/philosophy.html">
-            Philosophy
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/privacy.html">
-            Privacy
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/rest.html">
-            REST
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/set-theory.html">
-            Set Theory
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/social-media.html">
-            Social Media
-            </a>
-        </li>
-    </ul>
-        </aside>
-        </div>
-        <footer id="contentinfo" class="body">
-                Copyright <a href="http://rossfenning.co.uk/">Ross Fenning</a>
-        </footer><!-- /#contentinfo -->
 </body>
 </html>

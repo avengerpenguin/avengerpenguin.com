@@ -1,64 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-          <title>Atom and <span class="caps">RDF</span> | Avenger Penguin</title>
-        <meta charset="utf-8" />
-        <meta name="google-site-verification" content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA" />
-        <link href="http://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Avenger Penguin Full Atom Feed" />
-        <link href="http://avengerpenguin.com/feeds/misc.atom.xml" type="application/atom+xml" rel="alternate" title="Avenger Penguin Categories Atom Feed" />
+    <title>Atom and <span class="caps">RDF</span> | Avenger Penguin</title>
+    <meta charset="utf-8"/>
+    <meta name="google-site-verification"
+          content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://avengerpenguin.com/feeds/all.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Full Atom Feed"/>
+    <link href="http://avengerpenguin.com/feeds/{slug}.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Categories Atom Feed"/>
 
 
 
+<meta property="og:title" content="Atom and RDF"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://avengerpenguin.com/drafts/atom-and-rdf.html"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content=""/>
+<meta property="og:site_name" content="Avenger Penguin"/>
+<meta property="article:published_time" content="2018-12-03"/>
+<meta property="article:section" content="Software"/>
 
-        <link href="https://fonts.googleapis.com/css?family=Modak|Roboto" rel="stylesheet">
-        <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/marx.min.css" />
-        <!--<link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.css" />-->
-                <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.min.css?981c1b24">
+    <link rel="stylesheet"
+          href="http://avengerpenguin.com/theme/css/awsm.css"/>
+    <!--<link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.css" />-->
+    <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.min.css?e93124a7">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-786452-8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-786452-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-786452-8');
 
-  gtag('config', 'UA-786452-8');
-</script>
+    </script>
 
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://avengerpenguin.com/">Avenger Penguin <strong></strong></a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
+<body>
+
+<header>
+    <h1><a href="http://avengerpenguin.com/">Avenger Penguin <strong></strong></a></h1>
+
+    <nav>
+        <ul>
             <li><a href="/">Home</a></li>
-        </ul></nav><!-- /#menu -->
-        <div id="main">
-<section id="content" class="body">
-  <header>
-    <h2 class="entry-title">
-      <a href="http://avengerpenguin.com/atom-and-rdf" rel="bookmark"
-         title="Permalink to Atom and RDF">Atom and <span class="caps">RDF</span></a></h2>
- 
-  </header>
-  <footer class="post-info">
-    <time class="published" datetime="2018-12-03T00:00:00+00:00">
-      Mon 03 December 2018
-    </time>
-    <address class="vcard author">
-      By           <a class="url fn" href="http://avengerpenguin.com/author/ross-fenning.html">Ross Fenning</a>
-    </address>
-  </footer><!-- /.post-info -->
-  <div class="entry-content">
+            <li
+><a
+                href="http://avengerpenguin.com/language/">Language</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/security/">Security</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/social-media/">Social Media</a></li>
+            <li
+ class="active"><a
+                href="http://avengerpenguin.com/software/">Software</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/stoicism/">Stoicism</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <img src="http://avengerpenguin.com/theme/img/logo.png">
+        Ross Fenning is a principal software engineer at the BBC,
+        amateur computer scientist, Pythonista,
+        a student of Stoicism, a practitioner of Shotokan Karate,
+        an infrequent player of the bodhrán and the tin whistle and
+        a rebel against the Oxford comma.
+    </aside>
+
+    
+</header>
+
+<main>
+
+<article id="content" class="body">
+    <header>
+        <h2 class="entry-title">
+            <a href="http://avengerpenguin.com/atom-and-rdf" rel="bookmark"
+               title="Permalink to Atom and RDF">Atom and <span class="caps">RDF</span></a></h2>
+        
+        <p><time class="published" datetime="2018-12-03T00:00:00+00:00">
+            Mon 03 December 2018
+    </time></p>
+        <p>Read more posts on <a href="software/">Software</a></p>
+    </header>
+
     <style type="text/css">/*!
 *
 * IPython notebook
 *
 */
-/* <span class="caps">CSS</span> font colors for translated <span class="caps">ANSI</span> colors. */
+/* <span class="caps">CSS</span> font colors for translated <span class="caps">ANSI</span> escape sequences */
+/* The color values are a mix of
+   http://www.xcolors.net/dl/baskerville-ivorylight and
+   http://www.xcolors.net/dl/euphrasia */
+.ansi-black-fg {
+  color: #<span class="caps">3E424D</span>;
+}
+.ansi-black-bg {
+  background-color: #<span class="caps">3E424D</span>;
+}
+.ansi-black-intense-fg {
+  color: #282C36;
+}
+.ansi-black-intense-bg {
+  background-color: #282C36;
+}
+.ansi-red-fg {
+  color: #<span class="caps">E75C58</span>;
+}
+.ansi-red-bg {
+  background-color: #<span class="caps">E75C58</span>;
+}
+.ansi-red-intense-fg {
+  color: #<span class="caps">B22B31</span>;
+}
+.ansi-red-intense-bg {
+  background-color: #<span class="caps">B22B31</span>;
+}
+.ansi-green-fg {
+  color: #00A250;
+}
+.ansi-green-bg {
+  background-color: #00A250;
+}
+.ansi-green-intense-fg {
+  color: #007427;
+}
+.ansi-green-intense-bg {
+  background-color: #007427;
+}
+.ansi-yellow-fg {
+  color: #<span class="caps">DDB62B</span>;
+}
+.ansi-yellow-bg {
+  background-color: #<span class="caps">DDB62B</span>;
+}
+.ansi-yellow-intense-fg {
+  color: #<span class="caps">B27D12</span>;
+}
+.ansi-yellow-intense-bg {
+  background-color: #<span class="caps">B27D12</span>;
+}
+.ansi-blue-fg {
+  color: #<span class="caps">208FFB</span>;
+}
+.ansi-blue-bg {
+  background-color: #<span class="caps">208FFB</span>;
+}
+.ansi-blue-intense-fg {
+  color: #<span class="caps">0065CA</span>;
+}
+.ansi-blue-intense-bg {
+  background-color: #<span class="caps">0065CA</span>;
+}
+.ansi-magenta-fg {
+  color: #<span class="caps">D160C4</span>;
+}
+.ansi-magenta-bg {
+  background-color: #<span class="caps">D160C4</span>;
+}
+.ansi-magenta-intense-fg {
+  color: #A03196;
+}
+.ansi-magenta-intense-bg {
+  background-color: #A03196;
+}
+.ansi-cyan-fg {
+  color: #<span class="caps">60C6C8</span>;
+}
+.ansi-cyan-bg {
+  background-color: #<span class="caps">60C6C8</span>;
+}
+.ansi-cyan-intense-fg {
+  color: #<span class="caps">258F8F</span>;
+}
+.ansi-cyan-intense-bg {
+  background-color: #<span class="caps">258F8F</span>;
+}
+.ansi-white-fg {
+  color: #<span class="caps">C5C1B4</span>;
+}
+.ansi-white-bg {
+  background-color: #<span class="caps">C5C1B4</span>;
+}
+.ansi-white-intense-fg {
+  color: #<span class="caps">A1A6B2</span>;
+}
+.ansi-white-intense-bg {
+  background-color: #<span class="caps">A1A6B2</span>;
+}
+.ansi-default-inverse-fg {
+  color: #<span class="caps">FFFFFF</span>;
+}
+.ansi-default-inverse-bg {
+  background-color: #000000;
+}
+.ansi-bold {
+  font-weight: bold;
+}
+.ansi-underline {
+  text-decoration: underline;
+}
+/* The following styles are deprecated an will be removed in a future version */
 .ansibold {
   font-weight: bold;
+}
+.ansi-inverse {
+  outline: 0.5px dotted;
 }
 /* use dark versions for foreground, to improve visibility */
 .ansiblack {
@@ -137,12 +297,20 @@ div.cell {
   /* This acts as a spacer between cells, that is outside the border */
   margin: 0px;
   outline: none;
-  border-left-width: 1px;
-  padding-left: 5px;
-  background: linear-gradient(to right, transparent -40px, transparent 1px, transparent 1px, transparent 100%);
+  position: relative;
+  overflow: visible;
+}
+div.cell:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: transparent;
 }
 div.cell.jupyter-soft-selected {
-  border-left-color: #<span class="caps">90CAF9</span>;
   border-left-color: #<span class="caps">E3F2FD</span>;
   border-left-width: 1px;
   padding-left: 5px;
@@ -155,27 +323,39 @@ div.cell.jupyter-soft-selected {
     border-color: transparent;
   }
 }
-div.cell.selected {
+div.cell.selected,
+div.cell.selected.jupyter-soft-selected {
   border-color: #ababab;
-  border-left-width: 0px;
-  padding-left: 6px;
-  background: linear-gradient(to right, #<span class="caps">42A5F5</span> -40px, #<span class="caps">42A5F5</span> 5px, transparent 5px, transparent 100%);
+}
+div.cell.selected:before,
+div.cell.selected.jupyter-soft-selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #<span class="caps">42A5F5</span>;
 }
 @media print {
-  div.cell.selected {
+  div.cell.selected,
+  div.cell.selected.jupyter-soft-selected {
     border-color: transparent;
   }
 }
-div.cell.selected.jupyter-soft-selected {
-  border-left-width: 0;
-  padding-left: 6px;
-  background: linear-gradient(to right, #<span class="caps">42A5F5</span> -40px, #<span class="caps">42A5F5</span> 7px, #<span class="caps">E3F2FD</span> 7px, #<span class="caps">E3F2FD</span> 100%);
-}
 .edit_mode div.cell.selected {
   border-color: #<span class="caps">66BB6A</span>;
-  border-left-width: 0px;
-  padding-left: 6px;
-  background: linear-gradient(to right, #<span class="caps">66BB6A</span> -40px, #<span class="caps">66BB6A</span> 5px, transparent 5px, transparent 100%);
+}
+.edit_mode div.cell.selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #<span class="caps">66BB6A</span>;
 }
 @media print {
   .edit_mode div.cell.selected {
@@ -371,7 +551,9 @@ div.input_area > div.highlight > pre {
 .CodeMirror-lines {
   /* In <span class="caps">CM2</span>, this used to be 0.4em, but in <span class="caps">CM3</span> it went to 4px. We need the em value because */
   /* we have set a different line-height and want this to scale with that. */
-  padding: 0.4em;
+  /* Note that this should set vertical padding only, since CodeMirror assumes
+       that horizontal padding will be set on CodeMirror pre */
+  padding: 0.4em 0;
 }
 .CodeMirror-linenumber {
   padding: 0 8px 0 4px;
@@ -381,11 +563,24 @@ div.input_area > div.highlight > pre {
   border-top-left-radius: 2px;
 }
 .CodeMirror pre {
-  /* In <span class="caps">CM3</span> this went to 4px from 0 in <span class="caps">CM2</span>. We need the 0 value because of how we size */
-  /* .CodeMirror-lines */
-  padding: 0;
+  /* In <span class="caps">CM3</span> this went to 4px from 0 in <span class="caps">CM2</span>. This sets horizontal padding only,
+    use .CodeMirror-lines for vertical */
+  padding: 0 0.4em;
   border: 0;
   border-radius: 0;
+}
+.CodeMirror-cursor {
+  border-left: 1.4px solid black;
+}
+@media screen and (min-width: 2138px) and (max-width: 4319px) {
+  .CodeMirror-cursor {
+    border-left: 2px solid black;
+  }
+}
+@media screen and (min-width: 4320px) {
+  .CodeMirror-cursor {
+    border-left: 4px solid black;
+  }
 }
 /*
 
@@ -633,6 +828,9 @@ div.output_area img.unconfined,
 div.output_area svg.unconfined {
   max-width: none;
 }
+div.output_area .mglyph > img {
+  max-width: none;
+}
 /* This is needed to protect the pre formating from global settings such
    as that of bootstrap */
 .output {
@@ -671,7 +869,7 @@ div.output_area svg.unconfined {
 }
 div.output_area pre {
   margin: 0;
-  padding: 0;
+  padding: 1px 0 1px 0;
   border: 0;
   vertical-align: baseline;
   color: black;
@@ -793,6 +991,10 @@ div.output_unrecognized a:hover {
 .rendered_html h6:first-child {
   margin-top: 1em;
 }
+.rendered_html ul:not(.list-inline),
+.rendered_html ol:not(.list-inline) {
+  padding-left: 2em;
+}
 
 
 
@@ -809,16 +1011,24 @@ div.output_unrecognized a:hover {
 }
 
 
+
+
+
 .rendered_html pre,
+
 
 
 
 .rendered_html tr,
 .rendered_html th,
 
-.rendered_html td,
 
-
+.rendered_html tbody tr:nth-child(odd) {
+  background: #f5f5f5;
+}
+.rendered_html tbody tr:hover {
+  background: rgba(66, 165, 245, 0.2);
+}
 .rendered_html * + table {
   margin-top: 1em;
 }
@@ -834,6 +1044,11 @@ div.output_unrecognized a:hover {
 
 .rendered_html img.unconfined,
 
+
+.rendered_html * + .alert {
+  margin-top: 1em;
+}
+[dir="rtl"] 
 div.text_cell {
   /* Old browsers */
   display: -webkit-box;
@@ -884,8 +1099,15 @@ h6:hover .anchor-link {
   display: none;
 }
 .text_cell.rendered 
+.text_cell.rendered .rendered_html tr,
+.text_cell.rendered .rendered_html th,
+.text_cell.rendered 
 .text_cell.unrendered .text_cell_render {
   display: none;
+}
+.text_cell .dropzone .input_area {
+  border: 2px dashed #bababa;
+  margin: -1px;
 }
 .cm-header-1,
 .cm-header-2,
@@ -1023,6 +1245,13 @@ h6:hover .anchor-link {
 
 .ansi-bold { font-weight: bold; }
 </style>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
@@ -1060,7 +1289,7 @@ h6:hover .anchor-link {
 <span class="n">feed</span> <span class="o">=</span> <span class="n">feedparser</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">atom_string</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -1101,7 +1330,7 @@ h6:hover .anchor-link {
     
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -1117,7 +1346,7 @@ h6:hover .anchor-link {
 <span class="nb">print</span><span class="p">(</span><span class="n">rdf_graph</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;turtle&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -1127,7 +1356,7 @@ h6:hover .anchor-link {
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -1175,7 +1404,7 @@ h6:hover .anchor-link {
 <span class="nb">print</span><span class="p">(</span><span class="n">another_rdf_graph</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;turtle&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -1185,7 +1414,7 @@ h6:hover .anchor-link {
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -1220,7 +1449,7 @@ h6:hover .anchor-link {
 <span class="nb">print</span><span class="p">(</span><span class="n">combined_graph</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;turtle&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -1230,7 +1459,7 @@ h6:hover .anchor-link {
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
@@ -1300,7 +1529,7 @@ h6:hover .anchor-link {
 <span class="s1">&#39;&#39;&#39;</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -1310,7 +1539,7 @@ h6:hover .anchor-link {
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 <div class="output_subarea output_text output_error">
@@ -1339,7 +1568,7 @@ h6:hover .anchor-link {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
@@ -1356,7 +1585,6 @@ h6:hover .anchor-link {
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
-        " linebreaks: { automatic: true, width: '95% container' }, " +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
         "    } " +
         "}); ";
@@ -1364,12 +1592,13 @@ h6:hover .anchor-link {
 }
 </script>
 
-  </div><!-- /.entry-content -->
-  <hr>
-  <h2>Comments</h2>
 
-<div id="disqus_thread"></div>
-<script>
+    <hr>
+
+    <h3>Comments</h3>
+
+    <div id="disqus_thread"></div>
+    <script>
 
 var disqus_config = function () {
    this.page.url = 'http://avengerpenguin.com/drafts/atom-and-rdf.html';
@@ -1381,127 +1610,21 @@ s.src = 'https://avengerpenguin.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</section>
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a
+            href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+
+</article>
 
 
 
+</main>
 
-        <aside>
-                <h2>About me</h2>
-                <img src="http://avengerpenguin.com/theme/img/logo.png">
-                <p>Opinions and thoughts
-                from <a href="http://rossfenning.co.uk/">Ross Fenning</a>, who is a Principal&nbsp;Software&nbsp;Enginner in
-                        BBC&nbsp;Design&nbsp;and&nbsp;Engineering. Opinions are all his.</p>
+<footer>
+    Copyright <a href="http://rossfenning.co.uk/">Ross Fenning</a>
+</footer><!-- /#contentinfo -->
 
-                <h2>Tags</h2>
-                <ul class="tagcloud">
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/identity.html">
-            Identity
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/web-development.html">
-            Web Development
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/trust.html">
-            Trust
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/semantics.html">
-            Semantics
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/mathematics.html">
-            Mathematics
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/python.html">
-            Python
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/javascript.html">
-            JavaScript
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/linguistics.html">
-            Linguistics
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/facebook.html">
-            Facebook
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/authentication.html">
-            Authentication
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/authorisation.html">
-            Authorisation
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/stoicism.html">
-            Stoicism
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/security.html">
-            Security
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/nodejs.html">
-            Node.js
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/hateoas.html">
-            HATEOAS
-            </a>
-        </li>
-        <li class="tag-1">
-            <a href="http://avengerpenguin.com/tag/philosophy.html">
-            Philosophy
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/privacy.html">
-            Privacy
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/rest.html">
-            REST
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/set-theory.html">
-            Set Theory
-            </a>
-        </li>
-        <li class="tag-4">
-            <a href="http://avengerpenguin.com/tag/social-media.html">
-            Social Media
-            </a>
-        </li>
-    </ul>
-        </aside>
-        </div>
-        <footer id="contentinfo" class="body">
-                Copyright <a href="http://rossfenning.co.uk/">Ross Fenning</a>
-        </footer><!-- /#contentinfo -->
 </body>
 </html>
