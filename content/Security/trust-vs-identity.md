@@ -7,15 +7,14 @@ Author: Ross Fenning
 Status: published
 
 As stated in the [previous article about the difference between
-authentication and authorisation](|filename|/authorisation-vs-authentication.md),
+authentication and authorisation](/authorisation-vs-authentication.md),
 it is important to understand the different aspects of security in order
 to control access to resources in as secure and as user-friendly a way
 as possible. However, the step of authentication itself — the act of
 ascertaining who a person is — comprises the two components of identity
 and trust.
 
-Authenticating an Identity
---------------------------
+### Authenticating an Identity
 
 To return to the preceding article's example of credit card purchases in
 a shop, the authentication step is where the retailer confirms your PIN
@@ -39,8 +38,7 @@ More generally, identity is proving that a person matches the person
 retained on record, e.g. that a user logging into the bank is the
 account holder for the account they are trying to access.
 
-Lack of Trust
--------------
+### Lack of Trust
 
 There is however an Achilles' heel to this process. Comparing signatures
 works on the assumption that the signature on the back of the card is
@@ -56,8 +54,7 @@ not always necessary in some applications, so it is worth understanding
 the difference. Any security system that requires both identity and
 trust should address each separately when analysing its strength.
 
-Trust on the Web
-----------------
+### Trust on the Web
 
 If we look at the example of a general website with a registration and
 login process, we can see identity and trust act differently in the
@@ -98,8 +95,7 @@ government online services, one may have to enter a passport number.
 This is providing trust by cross-referencing the user-entered details
 with that of another database.
 
-Trusting Signatures
--------------------
+### Trusting Signatures
 
 To come back to the credit card purchase, banks attempt to introduce
 trust by sending out new cards as securely as possible and then
@@ -146,8 +142,7 @@ authorities and thus indirectly trust all certificates vouched for by
 them. The security behind certificates used, web browsers and secure
 websites will be discussed in fuller detail in a future article.
 
-OpenID
-------
+### OpenID
 
 OpenID is standardised protocol that allows web users to have a single
 ID (from any OpenID provider) that they can use across several
@@ -170,8 +165,7 @@ details required. This allows the usual tactics of email verification,
 etc. as discussed earlier. Another approach to asserting the validity of
 users is to build a trust network on top of the OpenID system.
 
-SAML, Shibboleth and the UK Federation
---------------------------------------
+### SAML, Shibboleth and the UK Federation
 
 Another protocol by which people can use a single identity across
 multiple websites is SAML. The best-known implementation of SAML is
@@ -218,8 +212,7 @@ institution.
 The UK Federation can be seen as a trust network that attempts to build
 upon the identification framework provided by SAML.
 
-Whom to Trust
--------------
+### Whom to Trust
 
 In essence, trust is inherited and passed on just as much in the
 security world as in social interactions. Ultimately, it is necessary to

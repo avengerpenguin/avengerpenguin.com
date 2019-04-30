@@ -3,6 +3,7 @@ Date: 2019-01-09
 Slug: what-we-control
 Tags: Stoicism, Philosophy
 Status: published
+Category: Stoicism
 
 Today's (9 January) Daily Stoic insight is based on a core tenet of Stoic
 philosophy: accepting there are many things you cannot control, but you are not

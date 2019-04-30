@@ -17,8 +17,6 @@ html {
 
 body > header {
   color: $header-colour;
-  //font-family: 'Modak', cursive;
-
   h1 {
     text-align: center;
     margin-bottom: 1em;
@@ -41,8 +39,6 @@ body > header {
     border-left: none;
     border-right: none;
 
-    //font-size: calc(1.5rem + .00625*(100vw - 20rem));
-    
     a {
       color: $link-colour;
       text-decoration: none;
@@ -53,9 +49,16 @@ body > header {
       &:hover {
         color: $text-colour;
       }
-    }
-  }
 
+    }
+
+    li.active {
+      a {
+        color: $text-colour;
+      }
+    }
+
+  }
 
   aside {
     img {
@@ -66,16 +69,18 @@ body > header {
         margin-right: 2em;
       }
     }
-    border-bottom: 1px solid $header-colour;
+    @media (max-width: 65rem) {
+      border-bottom: 1px solid $header-colour;
+    }
     padding: 1em;
     padding-top: 0;
-    }
-  
-}
+  }
 
+}
 
 ol#post-list {
   list-style: none;
+  padding: 0;
 }
 
 div#main {
@@ -114,6 +119,30 @@ div#main {
       padding: 0.5em 0.5em;
     }
   }
+}
+
+article {
+  header {
+    h2, h3 {
+      a {
+        text-decoration: none;
+      }
+      a:visited {
+        color: $text-colour;
+      }
+    }
+    h2+p, h3+p {
+      text-align: center;
+      padding: 1em;
+    }
+  }
+  blockquote {
+    font-style: italic;
+  }
+}
+
+div.highlight pre, div.output_area pre {
+  background: none;
 }
 
 footer {

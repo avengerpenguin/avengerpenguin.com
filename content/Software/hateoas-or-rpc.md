@@ -18,7 +18,7 @@ common -- if not one of the most common -- approaches taken in
 client-server architectures is for the server-side to present a
 so-called *RESTful* API for the client application to consume.
 
-## The REST Architecture
+#### The REST Architecture
 
 Many software developers, particularly those building web
 applications, will have a passing familiarity with the REST
@@ -83,7 +83,7 @@ I'd like to take a totally-non-zealot, rational position on this:
 
 I will attempt to justify these statements one-by-one, with the exception that I hope that 1) is obvious.
 
-## Why can't I call my API RESTful?
+#### Why can't I call my API RESTful?
 
 Semantic debates are fun, aren't they? I can build an API and call it
 a REST API, then someone can say it isn't truly REST and now we're

@@ -12,7 +12,6 @@ and petty things -- are quickly forgotten.
 This is inspired by writings in _Meditations_ from Marcus Aurelius in
 which he notes how most emperors before him are mainly forgotten:
 
-
 > Run down the list of those who felt intense anger at something: the most famous, the most unfortunate, the most hated, the most whatever: Where is all that now? Smoke, dust, legend...or not even a legend. Think of all the examples. And how trivial the things we want so passionately are.
 >
 > -- <cite>Marcus Aurelius, Meditations, 12.27</cite>

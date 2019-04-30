@@ -17,8 +17,7 @@ using a secure system.
 
 <!-- PELICAN_END_SUMMARY -->
 
-Defining the Difference
------------------------
+### Defining the Difference
 
 The first division — and the one discussed in this post — is the
 difference between the process of authentication and that of
@@ -52,8 +51,7 @@ make the purchase. Here, the bank is happy that the user's identity has
 already been confirmed by signature or PIN and it is only concerned with
 authorising the desired request for funds.
 
-Authentication and Authorisation in Web Applications
-----------------------------------------------------
+### Authentication and Authorisation in Web Applications
 
 When designing the flow of an application, the best user experience
 comes from only authenticating once, but authorising on every request
@@ -171,8 +169,7 @@ have their own individual login pages that link up to your user
 directory, but still each perform both steps of authentication and
 authorisation individually as well.
 
-Single Sign-on
---------------
+### Single Sign-on
 
 Anything designed as a solution to the aforementioned problem is known
 as Single sign-on or SSO as it is commonly called. An SSO setup within
@@ -220,8 +217,7 @@ permitted resources, internal or external.
 A comparison of technical solutions for SSO will be discussed in a
 future post.
 
-Duality
--------
+### Duality
 
 Despite the important distinction between the two processes of
 authentication and authorisation, they do remain a tightly-coupled pair
@@ -231,8 +227,7 @@ accurately. For example, imagine a credit card transaction that
 authorised funds for a purchase without the buyer having signed anything
 nor entered their PIN.
 
-Further Considerations
-----------------------
+### Further Considerations
 
 In this post, the authentication process was assumed mostly to be the
 recognisable username and password combination. What has not been

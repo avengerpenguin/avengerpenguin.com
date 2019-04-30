@@ -3,59 +3,48 @@
 {% block title %}{{ article.title }} | {{ SITENAME }}{%endblock%}
 
 {% block head %}
-  {{ super() }}
-  {% if article.description %}
-    <meta name="description" content="{{article.description}}" />
-  {% endif %}
+{{ super() }}
+{% if article.description %}
+<meta name="description" content="{{article.description}}"/>
+{% endif %}
 
-  {% for tag in article.tags %}
-    <meta name="tags" content="{{tag}}" />
-  {% endfor %}
+{% for tag in article.tags %}
+<meta name="tags" content="{{tag}}"/>
+{% endfor %}
 
-    {% for tag in article.ogtags %}
-        {% if tag[0] == 'og:description' %}
-        <meta property="og:description" content="{{article._summary|striptags|e}}" />
-        {% else %}
-        <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
-        {% endif %}
-    {% endfor %}
+{% for tag in article.ogtags %}
+{% if tag[0] == 'og:description' %}
+<meta property="og:description" content="{{article._summary|striptags|e}}"/>
+{% else %}
+<meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}"/>
+{% endif %}
+{% endfor %}
 
 {% endblock %}
 
 {% block content %}
-<section id="content" class="body">
-  <header>
-    <h2 class="entry-title">
-      <a href="{{ SITEURL }}/{{ article.slug }}" rel="bookmark"
-         title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
- {% import 'translations.html' as translations with context %}
- {{ translations.translations_for(article) }}
-  </header>
-  <footer class="post-info">
-    <time class="published" datetime="{{ article.date.isoformat() }}">
-      {{ article.locale_date }}
-    </time>
-	{% if article.modified %}
-    <time class="modified" datetime="{{ article.modified.isoformat() }}">
-      {{ article.locale_modified }}
-    </time>
-	{% endif %}
-    {% if article.authors %}
-    <address class="vcard author">
-      By {% for author in article.authors %}
-          <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-        {% endfor %}
-    </address>
-    {% endif %}
-  </footer><!-- /.post-info -->
-  <div class="entry-content">
-    {{ article.content }}
-  </div><!-- /.entry-content -->
-  <hr>
-  <h2>Comments</h2>
+<article id="content" class="body">
+    <header>
+        <h2 class="entry-title">
+            <a href="{{ SITEURL }}/{{ article.slug }}" rel="bookmark"
+               title="Permalink to {{ article.title|striptags }}">{{
+                article.title }}</a></h2>
+        {% import 'translations.html' as translations with context %}
+        {{ translations.translations_for(article) }}
+        <p><time class="published" datetime="{{ article.date.isoformat() }}">
+            {{ article.locale_date }}
+    </time></p>
+        <p>Read more posts on <a href="{{category.url}}">{{category}}</a></p>
+    </header>
 
-<div id="disqus_thread"></div>
-<script>
+    {{ article.content }}
+
+    <hr>
+
+    <h3>Comments</h3>
+
+    <div id="disqus_thread"></div>
+    <script>
 
 var disqus_config = function () {
    this.page.url = '{{SITEURL}}/{{ article.url }}';
@@ -67,11 +56,13 @@ s.src = 'https://avengerpenguin.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</section>
 
+    </script>
+    <noscript>Please enable JavaScript to view the <a
+            href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
 
+</article>
 
 
 {% endblock %}

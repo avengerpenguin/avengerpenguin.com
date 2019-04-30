@@ -22,16 +22,6 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('@Avenger_Penguin', 'https://twitter.com/Avenger_Penguin'),
-          ('Another social link', '#'),)
-
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -42,13 +32,15 @@ THEME = './theme'
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}/index.html'
 
+CATEGORY_URL = '{slug}/'
+CATEGORY_SAVE_AS = '{slug}/index.html'
+
 MENUITEMS = (
     ('Home', '/'),
 )
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = True
-USE_FOLDER_AS_CATEGORY = False
-DEFAULT_CATEGORY = 'Other'
+USE_FOLDER_AS_CATEGORY = True
 
 PLUGINS = [
     'plugins.assets',

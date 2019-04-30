@@ -10,7 +10,7 @@ back to arguing about what is and isn't REST.
 The most common point of contention is whether or not to follow the
 HATEOAS constraint.
 
-## HATEOAS
+### HATEOAS
 
 For those not familiar,
 [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) is one part of the
@@ -59,7 +59,7 @@ What's missing in these arguments? Something that's missing
 in a lot of discussion on the web about this: any concrete discussion
 of the properties of the thing originally built.
 
-## Semantics
+### Semantics
 
 There's two distinct fallacies that appear when a debate around a
 definition or semantics emerges:
@@ -99,7 +99,7 @@ help or hinder us; we can revisit the advantages brought by lesser-used
 constraints such as HATEOAS. In this context, the definition is
 certainly useful and we are not longer arguing "just semantics".
 
-## Does it matter?
+### Does it matter?
 
 So, surely it's still my business whether I call my API RESTful or not?
 Well, sort of.
