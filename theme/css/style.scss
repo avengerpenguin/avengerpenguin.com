@@ -81,6 +81,9 @@ body > header {
 ol#post-list {
   list-style: none;
   padding: 0;
+  li {
+    margin-bottom: 3em;
+  }
 }
 
 div#main {
