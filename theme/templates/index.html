@@ -24,7 +24,7 @@
 
             </header>
 
-            <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+            <div class="entry-content"> {{ article._summary or article.summary }} </div><!-- /.entry-content -->
             <a href="{{ SITEURL }}/{{ article.slug }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Read more...</a>
 
           </article>

@@ -1,13 +1,15 @@
 Title: Impermanence
 Date: 2019-02-25
 Slug: impermanence
-Status: draft
+Status: published
 
 Today's entry from The Daily Stoic, entitled "The Smoke and
 Dust of Myth", discusses how quickly things -- particularly trivial
-and petty things -- are quickly forgotten.
+and petty things -- are quickly forgotten..
 
-## Smoke and Dust
+<!-- PELICAN_END_SUMMARY -->
+
+### Smoke and Dust
 
 This is inspired by writings in _Meditations_ from Marcus Aurelius in
 which he notes how most emperors before him are mainly forgotten:
@@ -20,27 +22,27 @@ This is a common Stoic theme: at the end, all your anger at trivial
 things and all your desire and passion to chase fame and possessions
 will have been for nothing.
 
-## The Impermanence of Things
+### The Impermanence of Things
 
 This transient, impermanent nature of things has played on my mind a
 lot over the last three to six months. It resonates strongly with me
 personally as it is a theme explored in one of my favourite Romantic
 poems:
 
-> I met a traveller from an antique land
-> Who said: Two vast and trunkless legs of stone
-> Stand in the desert... near them, on the sand,
-> Half sunk, a shattered visage lies, whose frown,
-> And wrinkled lip, and sneer of cold command,
-> Tell that its sculptor well those passions read
-> Which yet survive, stamped on these lifeless things,
-> The hand that mocked them and the heart that fed;
+> I met a traveller from an antique land  
+> Who said: Two vast and trunkless legs of stone  
+> Stand in the desert... near them, on the sand,  
+> Half sunk, a shattered visage lies, whose frown,  
+> And wrinkled lip, and sneer of cold command,  
+> Tell that its sculptor well those passions read  
+> Which yet survive, stamped on these lifeless things,  
+> The hand that mocked them and the heart that fed;  
 >
-> And on the pedestal these words appear:
-> 'My name is Ozymandias, king of kings;
-> Look on my works, ye Mighty, and despair!'
-> Nothing beside remains. Round the decay
-> Of that colossal wreck, boundless and bare
+> And on the pedestal these words appear:  
+> 'My name is Ozymandias, king of kings;  
+> Look on my works, ye Mighty, and despair!'  
+> Nothing beside remains. Round the decay  
+> Of that colossal wreck, boundless and bare  
 > The lone and level sands stretch far away.
 >
 > -- <cite>"Ozymandias', Percy Bysshe Shelley</cite>
@@ -79,7 +81,7 @@ been running for over ten years.
 
 So, while Eiffel or Brunel have a legacy of physical structures to
 their name, I am only half way through my own life and witness to
-whole teams of engineers work tirelessly to replace and tear down
+whole teams of engineers working tirelessly to replace and tear down
 whole service and applications I had a personal hand in designing,
 building and deploying.
 
@@ -115,13 +117,13 @@ So, does that make our work pointless? Should we abandon it? Not
 necessarily. This is where we need to dig one level deeper into Marcus
 Aurelius's and Shelley's words above.
 
-## Legacy
+### Legacy
 
 Marcus Aurelius was right to write meditations over the forgotten
 emperors before him and he was right to keep humble over his own anger
 and passion in light of that. He was right because he was unable to
 foresee the irony his words would acquire: he himself was not
-forgotten. We are ready his words some two millenia later and gaining
+forgotten. We are reading his words some two millenia later and gaining
 wisdom and value from them.
 
 In a sentence, we have not forgotten his words reminding us not to

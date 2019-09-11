@@ -7,6 +7,8 @@ Category: Stoicism
 Recently, I was prompted by an entry in my Daily Stoic Journal to consider
 "What would less look like?".
 
+<!-- PELICAN_END_SUMMARY -->
+
 The consideration for the day was around the benefits and virtues of being
 brief and concise with words, but perhaps also with other things in life.
 

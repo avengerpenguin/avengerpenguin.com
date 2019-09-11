@@ -1,8 +1,6 @@
 Title: Mocking Nothing But Data
 Date: 2018-02-05
 Slug: mocking-data-only
-Category: Software Engineering
-Status: draft
 
 There are a variety of arguments out there around the most effective
 approaches to software testing. We have unit tests, functional tests,

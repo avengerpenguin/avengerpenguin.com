@@ -9,7 +9,8 @@ SITEURL = ''
 PATH = 'content'
 MARKUP = ('md', 'ipynb')
 IGNORE_FILES = ['.ipynb_checkpoints']
-IPYNB_EXTEND_STOP_SUMMARY_TAGS = [('h2', None)]
+
+IPYNB_EXTEND_STOP_SUMMARY_TAGS = [('h2', None), ('h3', None)]
 
 TIMEZONE = 'Europe/London'
 
@@ -50,6 +51,7 @@ PLUGINS = [
     'plugins.pelican-open_graph',
     'plugins.pelican-ipynb.markup',
 ]
+
 SITEMAP = {
     'format': 'xml',
     'priorities': {
