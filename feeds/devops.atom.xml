@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Avenger Penguin - DevOps</title><link href="http://avengerpenguin.com/" rel="alternate"></link><link href="http://avengerpenguin.com/feeds/devops.atom.xml" rel="self"></link><id>http://avengerpenguin.com/</id><updated>2019-09-11T00:00:00+01:00</updated><entry><title>What is DevOps?</title><link href="http://avengerpenguin.com/what-is-devops.html" rel="alternate"></link><published>2019-09-11T00:00:00+01:00</published><updated>2019-09-11T00:00:00+01:00</updated><author><name>Ross Fenning</name></author><id>tag:avengerpenguin.com,2019-09-11:/what-is-devops.html</id><summary type="html">&lt;p&gt;A common problem with any buzzword coined in the software industry is that we struggle to pin down a precise definition.
+This is almost certainly the case with &lt;em&gt;DevOps&lt;/em&gt; with multiple companies, blogs and experts using the term to mean different&amp;nbsp;things.&lt;/p&gt;
+&lt;p&gt;With a systems mindset, all the definitions out …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A common problem with any buzzword coined in the software industry is that we struggle to pin down a precise definition.
+This is almost certainly the case with &lt;em&gt;DevOps&lt;/em&gt; with multiple companies, blogs and experts using the term to mean different&amp;nbsp;things.&lt;/p&gt;
+&lt;p&gt;With a systems mindset, all the definitions out there are arguably all correct at some level, with the &amp;#8220;true definition&amp;#8221; actually dependent on what level of abstraction appropriate to the&amp;nbsp;situation.&lt;/p&gt;
+&lt;h3&gt;My&amp;nbsp;definition&lt;/h3&gt;
+&lt;p&gt;I find it useful to use a definition of &lt;em&gt;DevOps&lt;/em&gt; (or indeed any other term) that is the most general while still being precise enough so we are clear what things fall under that term and what things do not.
+To that end, my preferred definition of &lt;em&gt;DevOps&lt;/em&gt;&amp;nbsp;is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Any practice, technique or tool in the software industry that is intended to speed up delivery of software&amp;nbsp;changes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;First, allow me to unpack some of the parts of that definition and then I will explain why the definition around the intent to &amp;#8220;speed up&amp;#8221; is the correct focus.
+Finally, I will discuss how various practices and implementations we may be familiar with fit nicely within the resulting &amp;#8220;DevOps&amp;#8221; umbrella that follows from this&amp;nbsp;definition.&lt;/p&gt;
+&lt;h3&gt;Practices, techniques,&amp;nbsp;tools&lt;/h3&gt;
+&lt;p&gt;A meme in blogs on this issue (with &lt;a href="https://www.atlassian.com/devops"&gt;Atlassian&lt;/a&gt; an exemplar of this) is to emphasise DevOps as &amp;#8220;culturual&amp;#8221; or &amp;#8220;philosophy&amp;#8221; in contrast to specific technical practices.
+Again, with a systems mindset, is is both &amp;#8212; just different things to different people at different levels of detail, but nobody is&amp;nbsp;&amp;#8220;wrong&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;This is why I am keen to follow a definition that loosely allows for anything so long as the goal of speeding up delivery is&amp;nbsp;achieved.&lt;/p&gt;
+&lt;p&gt;Do you practise Lean or Kanban to encourage small, incremental batches of change to go all the way to production as often as&amp;nbsp;possible?&lt;/p&gt;
+&lt;p&gt;That&amp;#8217;s&amp;nbsp;DevOps.&lt;/p&gt;
+&lt;p&gt;Do you employ techniques such as feature flags to make it easier to makes changes even more&amp;nbsp;incremental?&lt;/p&gt;
+&lt;p&gt;Then that&amp;#8217;s DevOps&amp;nbsp;too.&lt;/p&gt;
+&lt;p&gt;Do you make use of infrastructure as code tooling such as Terraform or use Docker to make it easier to keep development and production versions of code the&amp;nbsp;same?&lt;/p&gt;
+&lt;p&gt;Also&amp;nbsp;DevOps.&lt;/p&gt;
+&lt;p&gt;Note that we can acknowledge that engineers might consider the tools &amp;#8220;their&amp;#8221; way of viewing DevOps, but there&amp;#8217;s a definition that suits product managers too.
+Everyone is equally correct to use their definition as they all fit under the umbrella of things that make us go&amp;nbsp;faster.&lt;/p&gt;
+&lt;h3&gt;Software&amp;nbsp;Changes&lt;/h3&gt;
+&lt;p&gt;This definition stops short of saying features, preferring a looser term of &amp;#8220;software changes&amp;#8221;. What does that encompass? A non-exhaustive list for consideration&amp;nbsp;is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New features for users rolled out to a&amp;nbsp;website&lt;/li&gt;
+&lt;li&gt;New features to a library released to be used by other software&amp;nbsp;applications&lt;/li&gt;
+&lt;li&gt;Bug fixes in any of existing features in websites, libraries,&amp;nbsp;applications&lt;/li&gt;
+&lt;li&gt;Reconfiguration of production systems, such as increasing memory on a server that is&amp;nbsp;struggling&lt;/li&gt;
+&lt;li&gt;Changes to text&amp;nbsp;copy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a title="Kharnagy [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Devops-toolchain.svg"&gt;&lt;img width="100%" alt="Devops-toolchain" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg"&gt;&lt;/a&gt;&lt;/p&gt;</content><category term="DevOps"></category></entry></feed>

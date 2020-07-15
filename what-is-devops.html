@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>What is&nbsp;DevOps? | Avenger Penguin</title>
+    <meta charset="utf-8"/>
+    <meta name="google-site-verification"
+          content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://avengerpenguin.com/feeds/all.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Full Atom Feed"/>
+    <link href="http://avengerpenguin.com/feeds/{slug}.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Categories Atom Feed"/>
+
+
+
+<meta property="og:title" content="What is DevOps?"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://avengerpenguin.com/what-is-devops.html"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content=""/>
+<meta property="og:site_name" content="Avenger Penguin"/>
+<meta property="article:published_time" content="2019-09-11"/>
+<meta property="article:section" content="DevOps"/>
+
+    <link rel="stylesheet"
+          href="http://avengerpenguin.com/theme/css/awsm.css"/>
+    <!--<link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.css" />-->
+    <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.min.css?0773e691">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-786452-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-786452-8');
+
+    </script>
+
+</head>
+
+<body>
+
+<header>
+    <h1><a href="http://avengerpenguin.com/">Avenger Penguin <strong></strong></a></h1>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li
+ class="active"><a
+                href="http://avengerpenguin.com/devops/">DevOps</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/language/">Language</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/software/">Software</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/stoicism/">Stoicism</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <img src="http://avengerpenguin.com/theme/img/logo.png">
+        Ross Fenning is a principal software engineer at the BBC,
+        amateur computer scientist, Pythonista,
+        a student of Stoicism, a practitioner of Shotokan Karate,
+        an infrequent player of the bodhrán and the tin whistle and
+        a rebel against the Oxford comma.
+    </aside>
+
+    
+</header>
+
+<main>
+
+<article id="content" class="body">
+    <header>
+        <h2 class="entry-title">
+            <a href="http://avengerpenguin.com/what-is-devops" rel="bookmark"
+               title="Permalink to What is DevOps?">What is&nbsp;DevOps?</a></h2>
+        
+        <p><time class="published" datetime="2019-09-11T00:00:00+01:00">
+            Wed 11 September 2019
+    </time></p>
+        <p>Read more posts on <a href="devops/">DevOps</a></p>
+    </header>
+
+    <p>A common problem with any buzzword coined in the software industry is that we struggle to pin down a precise definition.
+This is almost certainly the case with <em>DevOps</em> with multiple companies, blogs and experts using the term to mean different&nbsp;things.</p>
+<p>With a systems mindset, all the definitions out there are arguably all correct at some level, with the &#8220;true definition&#8221; actually dependent on what level of abstraction appropriate to the&nbsp;situation.</p>
+<h3>My&nbsp;definition</h3>
+<p>I find it useful to use a definition of <em>DevOps</em> (or indeed any other term) that is the most general while still being precise enough so we are clear what things fall under that term and what things do not.
+To that end, my preferred definition of <em>DevOps</em>&nbsp;is:</p>
+<blockquote>
+<p>Any practice, technique or tool in the software industry that is intended to speed up delivery of software&nbsp;changes.</p>
+</blockquote>
+<p>First, allow me to unpack some of the parts of that definition and then I will explain why the definition around the intent to &#8220;speed up&#8221; is the correct focus.
+Finally, I will discuss how various practices and implementations we may be familiar with fit nicely within the resulting &#8220;DevOps&#8221; umbrella that follows from this&nbsp;definition.</p>
+<h3>Practices, techniques,&nbsp;tools</h3>
+<p>A meme in blogs on this issue (with <a href="https://www.atlassian.com/devops">Atlassian</a> an exemplar of this) is to emphasise DevOps as &#8220;culturual&#8221; or &#8220;philosophy&#8221; in contrast to specific technical practices.
+Again, with a systems mindset, is is both &#8212; just different things to different people at different levels of detail, but nobody is&nbsp;&#8220;wrong&#8221;.</p>
+<p>This is why I am keen to follow a definition that loosely allows for anything so long as the goal of speeding up delivery is&nbsp;achieved.</p>
+<p>Do you practise Lean or Kanban to encourage small, incremental batches of change to go all the way to production as often as&nbsp;possible?</p>
+<p>That&#8217;s&nbsp;DevOps.</p>
+<p>Do you employ techniques such as feature flags to make it easier to makes changes even more&nbsp;incremental?</p>
+<p>Then that&#8217;s DevOps&nbsp;too.</p>
+<p>Do you make use of infrastructure as code tooling such as Terraform or use Docker to make it easier to keep development and production versions of code the&nbsp;same?</p>
+<p>Also&nbsp;DevOps.</p>
+<p>Note that we can acknowledge that engineers might consider the tools &#8220;their&#8221; way of viewing DevOps, but there&#8217;s a definition that suits product managers too.
+Everyone is equally correct to use their definition as they all fit under the umbrella of things that make us go&nbsp;faster.</p>
+<h3>Software&nbsp;Changes</h3>
+<p>This definition stops short of saying features, preferring a looser term of &#8220;software changes&#8221;. What does that encompass? A non-exhaustive list for consideration&nbsp;is:</p>
+<ul>
+<li>New features for users rolled out to a&nbsp;website</li>
+<li>New features to a library released to be used by other software&nbsp;applications</li>
+<li>Bug fixes in any of existing features in websites, libraries,&nbsp;applications</li>
+<li>Reconfiguration of production systems, such as increasing memory on a server that is&nbsp;struggling</li>
+<li>Changes to text&nbsp;copy</li>
+</ul>
+<p><a title="Kharnagy [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Devops-toolchain.svg"><img width="100%" alt="Devops-toolchain" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg"></a></p>
+
+    <hr>
+
+    <h3>Comments</h3>
+
+    <div id="disqus_thread"></div>
+    <script>
+
+var disqus_config = function () {
+   this.page.url = 'http://avengerpenguin.com/what-is-devops.html';
+   this.page.identifier = 'what-is-devops';
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://avengerpenguin.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a
+            href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+
+</article>
+
+
+
+</main>
+
+<footer>
+    Copyright <a href="http://rossfenning.co.uk/">Ross Fenning</a>
+</footer><!-- /#contentinfo -->
+
+</body>
+</html>

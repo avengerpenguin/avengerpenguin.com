@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>It&#8217;s either <span class="caps">HATEOAS</span> or it&#8217;s <span class="caps">RPC</span> | Avenger Penguin</title>
+    <meta charset="utf-8"/>
+    <meta name="google-site-verification"
+          content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://avengerpenguin.com/feeds/all.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Full Atom Feed"/>
+    <link href="http://avengerpenguin.com/feeds/{slug}.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Categories Atom Feed"/>
+
+
+
+<meta property="og:title" content="It’s either HATEOAS or it’s RPC"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://avengerpenguin.com/drafts/hateoas-or-rpc.html"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content=""/>
+<meta property="og:site_name" content="Avenger Penguin"/>
+<meta property="article:published_time" content="2018-01-29"/>
+<meta property="article:section" content="Software Engineering"/>
+
+    <link rel="stylesheet"
+          href="http://avengerpenguin.com/theme/css/awsm.css"/>
+    <!--<link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.css" />-->
+    <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.min.css?0773e691">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-786452-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-786452-8');
+
+    </script>
+
+</head>
+
+<body>
+
+<header>
+    <h1><a href="http://avengerpenguin.com/">Avenger Penguin <strong></strong></a></h1>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/devops/">DevOps</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/language/">Language</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/software/">Software</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/stoicism/">Stoicism</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <img src="http://avengerpenguin.com/theme/img/logo.png">
+        Ross Fenning is a principal software engineer at the BBC,
+        amateur computer scientist, Pythonista,
+        a student of Stoicism, a practitioner of Shotokan Karate,
+        an infrequent player of the bodhrán and the tin whistle and
+        a rebel against the Oxford comma.
+    </aside>
+
+    
+</header>
+
+<main>
+
+<article id="content" class="body">
+    <header>
+        <h2 class="entry-title">
+            <a href="http://avengerpenguin.com/hateoas-or-rpc" rel="bookmark"
+               title="Permalink to It’s either HATEOAS or it’s RPC">It&#8217;s either <span class="caps">HATEOAS</span> or it&#8217;s <span class="caps">RPC</span></a></h2>
+        
+        <p><time class="published" datetime="2018-01-29T00:00:00+00:00">
+            Mon 29 January 2018
+    </time></p>
+        <p>Read more posts on <a href="software-engineering/">Software Engineering</a></p>
+    </header>
+
+    <p>Life is simple when you are working with only one
+computer. Distributed systems are&nbsp;hard.</p>
+<p>In fact, if you build software for a living or a hobby, can you think
+of a time you last wrote something that didn&#8217;t involve some kind of
+inter-machine communication? Even with the shift back to bigger client
+apps on smartphones, many require communication back to a central
+service via an <span class="caps">API</span>.</p>
+<p>It&#8217;s arguably safe to assert even without real evidence that the most
+common &#8212; if not one of the most common &#8212; approaches taken in
+client-server architectures is for the server-side to present a
+so-called <em>RESTful</em> <span class="caps">API</span> for the client application to&nbsp;consume.</p>
+<h4>The <span class="caps">REST</span>&nbsp;Architecture</h4>
+<p>Many software developers, particularly those building web
+applications, will have a passing familiarity with the <span class="caps">REST</span>
+architectural style in simple&nbsp;terms:</p>
+<ul>
+<li>Different URLs are used for different&nbsp;&#8220;resources&#8221;.</li>
+<li>You use all the <span class="caps">HTTP</span> verbs correctly: <code>GET</code> is read-only and
+  cacheable, <code>DELETE</code> is used to remove a resource,&nbsp;etc.</li>
+<li>All requests are kept&nbsp;stateless.</li>
+</ul>
+<p>And we&#8217;re done. Oh, what&#8217;s that? I forgot to talk about <span class="caps">HATEOAS</span>?</p>
+<p>For those not familiar,
+<a href="https://en.wikipedia.org/wiki/HATEOAS"><span class="caps">HATEOAS</span></a> is one part of the
+&#8220;Uniform Interface&#8221; constraint. Let&#8217;s look at those constraints
+in full for&nbsp;context:</p>
+<ul>
+<li><strong>Identification of resources</strong> &#8212; This basically amounts to using URLs
+  for each resource as described above (assuming we&#8217;re using <span class="caps">HTTP</span> as the
+  protocol, of&nbsp;course&#8230;)</li>
+<li><strong>Manipulation of resources through representations</strong> &#8212; Send a
+  resource represented in e.g. an <span class="caps">XML</span> or <span class="caps">JSON</span> format of some kind and
+  that should be enough for a client to read or update the&nbsp;resource.</li>
+<li><strong>Self-descriptive messages</strong> &#8212; Use headers like <code>Content-Type</code> to make
+  it clear how to parse&nbsp;responses.</li>
+<li><strong>Hypermedia as the engine of application state (<span class="caps">HATEOAS</span>)</strong> &#8212; A
+  client should only be able to move between resources by following
+  hypermedia links and controls on a particular&nbsp;representation.</li>
+</ul>
+<p>The definition of <span class="caps">HATEOAS</span> above is an attempt to summarise it in a
+single sentence, but if you&#8217;re not familiar with it at all, it&#8217;s not
+likely to be any clearer that that actually <em>means</em> but also <em>why</em> you
+might use&nbsp;it.</p>
+<p>In fact, Roy Fielding &#8212; who
+<a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm">coined <span class="caps">REST</span> in his famous PhD thesis</a>
+&#8212; has himself in the past
+<a href="http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven">attacked <span class="caps">HTTP</span> APIs</a>
+that claim to be &#8220;<span class="caps">REST</span>&#8221; APIs when they do not. There have also been
+examples of
+<a href="http://www.ben-morris.com/the-restafarian-flame-wars-common-points-of-disagreement-over-rest-api-design/">disagreements on whether <span class="caps">HATEOAS</span> is needed</a>
+for a <span class="caps">REST</span> <span class="caps">API</span>. That there is a significant level of confusion or even
+disagreements and arguments suggests a lack of clarity around what
+<span class="caps">HATEOAS</span> truly is and why you might use&nbsp;it.</p>
+<p>The argument usually boils down to people pointing
+that out failure to follow the <span class="caps">REST</span> constraint does not a <span class="caps">REST</span> <span class="caps">API</span>
+make. The common retort is that it is <em>zealous</em> or purist to ask for
+this constraint to be&nbsp;followed.</p>
+<p>A whole camp of <span class="caps">API</span> designers will furthermore claim the
+<span class="caps">REST</span>-minus-<span class="caps">HATEOAS</span> architectural style to be valid in its own
+right. Some even use terms such as
+[Pragmatic <span class="caps">REST</span>}(http://www.ben-morris.com/pragmatic-rest-apis-without-hypermedia-and-hateoas/) to describe/justify/differentiate their &#8220;non-purist&#8221; <span class="caps">API</span>&nbsp;design.</p>
+<p>I&#8217;d like to take a totally-non-zealot, rational position on&nbsp;this:</p>
+<ol>
+<li>Of course you can build a working <span class="caps">API</span> following all <span class="caps">REST</span> constraints minus <span class="caps">HATEOAS</span> (many people clearly do it every&nbsp;day!)</li>
+<li>If you do build a so-called &#8220;pragmatic <span class="caps">REST</span>&#8221; <span class="caps">API</span>, then calling it <span class="caps">REST</span> might invoke ire from purists, but more importantly it&#8217;s not helpful to call it <span class="caps">REST</span>.</li>
+<li>Whether you should follow <span class="caps">REST</span> 100% or not is ultimately up to you, but you&#8217;re missing out on some of the core benefits of the <span class="caps">REST</span> architectural style (and why it&nbsp;exists)</li>
+<li>Also, if you&#8217;re not going to benefit from the advantages of the <span class="caps">REST</span> architecture, it&#8217;s not clear why you need to follow some of the other constraints. You might be making a trade-off you don&#8217;t&nbsp;need.</li>
+</ol>
+<p>I will attempt to justify these statements one-by-one, with the exception that I hope that 1) is&nbsp;obvious.</p>
+<h4>Why can&#8217;t I call my <span class="caps">API</span>&nbsp;RESTful?</h4>
+<p>Semantic debates are fun, aren&#8217;t they? I can build an <span class="caps">API</span> and call it
+a <span class="caps">REST</span> <span class="caps">API</span>, then someone can say it isn&#8217;t truly <span class="caps">REST</span> and now we&#8217;re
+back to arguing about what is and isn&#8217;t <span class="caps">REST</span>.</p>
+<p>What&#8217;s missing in that hypothetical argument? Something that&#8217;s missing
+in a lot of discussion on the web about this: any concrete discussion
+of the properties of the thing originally&nbsp;built.</p>
+<p>There&#8217;s two distinct fallacies that appear when a debate around a
+definition or semantics&nbsp;emerges:</p>
+<ul>
+<li>we talk too much about whether something truly fits a definition
+<em>without actually discussing the merits of that thing</em>;&nbsp;or</li>
+<li>we dismiss opinions of those who disagree with us by incorrectly
+regarding a debate as being &#8220;just&nbsp;semantics&#8221;.</li>
+</ul>
+<p>If you already have an opinion on the <span class="caps">REST</span> vs. &#8220;pragmatic&#8221; debate, you
+might well recognise one of those fallacies in those with whom you
+disagree, but be careful of falling into the other fallacy in your
+own&nbsp;views.</p>
+<p>Both of these fallacies can be seen as extreme ends of a spectrum where
+at one end we get sucked into pointless debates over definitions and at
+the other end we see no value in discussing definitions <em>at all</em>,
+which is also&nbsp;irrational.</p>
+<p>It is indeed the case that an argument about whether my <span class="caps">API</span> is RESTful
+or not is not going to make much progress if we only discuss back and
+forth as to what <span class="caps">REST</span> is or whether it&#8217;s useful to use the word only
+in a purist sense or whether we can allow for &#8220;pragmatic&#8221; takes on the
+term. What&#8217;s lacking here is discussing it
+<em>in the context of the <span class="caps">API</span> I am building</em>.</p>
+<p>Conversely, we should not be so quick to shoot down those that point
+out where my <span class="caps">API</span> does not conform to <span class="caps">REST</span>. It is tempting to call such
+a person zealous or a purist and frame any of their arguments as
+irrational and therefore not worth hearing by&nbsp;definition.</p>
+<p>The more rational, balanced position is to discuss the definition in
+terms of <em>why</em> all the <span class="caps">REST</span> constraints exist and also in the <em>context</em>
+of a particular problem domain being solved by a &#8220;RESTful&#8221; <span class="caps">API</span>. Here
+we can rationally see if the constraints not being followed would
+help or hinder us; we can revisit the advantages brought by lesser-used
+constraints such as <span class="caps">HATEOAS</span>. In this context, the definition is
+certainly useful and we are not longer arguing &#8220;just&nbsp;semantics&#8221;.</p>
+<p>So, surely it&#8217;s still my business whether I call my <span class="caps">API</span> RESTful or not?
+Well, sort&nbsp;of.</p>
+<p>Semantics &#8212; as in the meaning of words &#8212; relies at least to some
+extent to people loosely agreeing what words mean. If you present
+a software system or a technology and use certain words to describe it,
+then expect confusion when you use a word differently to how others
+use it. I&#8217;m not saying we need to be overly pedantic about words, but
+if you build an <span class="caps">API</span> and call it RESTful, expect some confusion by
+some who will expect to call it in line with <em>all</em> of the <span class="caps">REST</span>&nbsp;constraints.</p>
+<p>In some ways, I would plead with people to avoid using the term <span class="caps">REST</span>
+if they are consciously choose not to follow the architectural style
+fully, but I fear we may have lost control of the term by now to the
+point where it&#8217;s hard to trust any meaning has been followed. In
+practical terms, it means that if someone presents an <span class="caps">API</span> to me and tells
+me it&#8217;s a <span class="caps">REST</span> <span class="caps">API</span>, I still don&#8217;t quite know what to expect until I
+see it. It is less than ideal for any word to get to a point where
+it doesn&#8217;t actually convey information any more. This is especially
+true in a technical industry like software&nbsp;engineering.</p>
+<h2>Advantages of <span class="caps">HATEOAS</span></h2>
+<h3>Why was <span class="caps">REST</span> even&nbsp;created?</h3>
+<h3>What is <span class="caps">HATEOAS</span>?</h3>
+<h3>Why is <span class="caps">HATEOAS</span> a good&nbsp;thing?</h3>
+<h2>Other <span class="caps">RPC</span>&nbsp;Approaches</h2>
+<h3>Java <span class="caps">RMI</span></h3>
+<h3><span class="caps">CORBA</span></h3>
+<h3>Thrift and Protocol&nbsp;Buffers</h3>
+<h3><span class="caps">SOAP</span></h3>
+<h3><span class="caps">JSON</span>-<span class="caps">RPC</span></h3>
+<h3>Where these are better than <span class="caps">REST</span></h3>
+<h3>Are any of these appropriate for&nbsp;me?</h3>
+
+    <hr>
+
+    <h3>Comments</h3>
+
+    <div id="disqus_thread"></div>
+    <script>
+
+var disqus_config = function () {
+   this.page.url = 'http://avengerpenguin.com/drafts/hateoas-or-rpc.html';
+   this.page.identifier = 'hateoas-or-rpc';
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://avengerpenguin.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a
+            href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+
+</article>
+
+
+
+</main>
+
+<footer>
+    Copyright <a href="http://rossfenning.co.uk/">Ross Fenning</a>
+</footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Simplest Way to &#8220;Keep Up&#8221; With the JavaScript&nbsp;Ecosystem | Avenger Penguin</title>
+    <meta charset="utf-8"/>
+    <meta name="google-site-verification"
+          content="Cx9ug7uhYZizoeahYsDwtPig7K2Lbm2ePRoDj13pHdA"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://avengerpenguin.com/feeds/all.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Full Atom Feed"/>
+    <link href="http://avengerpenguin.com/feeds/{slug}.atom.xml"
+          type="application/atom+xml" rel="alternate"
+          title="Avenger Penguin Categories Atom Feed"/>
+
+
+<meta name="tags" content="JavaScript"/>
+<meta name="tags" content="Web Development"/>
+<meta name="tags" content="Node.js"/>
+
+<meta property="og:title" content="The Simplest Way to “Keep Up” With the JavaScript Ecosystem"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://avengerpenguin.com/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content=""/>
+<meta property="og:site_name" content="Avenger Penguin"/>
+<meta property="article:published_time" content="2018-03-16"/>
+<meta property="article:section" content="Software"/>
+<meta property="article:tag" content="JavaScript"/>
+<meta property="article:tag" content="Web Development"/>
+<meta property="article:tag" content="Node.js"/>
+
+    <link rel="stylesheet"
+          href="http://avengerpenguin.com/theme/css/awsm.css"/>
+    <!--<link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.css" />-->
+    <link rel="stylesheet" href="http://avengerpenguin.com/theme/css/style.min.css?0773e691">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-786452-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-786452-8');
+
+    </script>
+
+</head>
+
+<body>
+
+<header>
+    <h1><a href="http://avengerpenguin.com/">Avenger Penguin <strong></strong></a></h1>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/devops/">DevOps</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/language/">Language</a></li>
+            <li
+ class="active"><a
+                href="http://avengerpenguin.com/software/">Software</a></li>
+            <li
+><a
+                href="http://avengerpenguin.com/stoicism/">Stoicism</a></li>
+        </ul>
+    </nav>
+
+    <aside>
+        <img src="http://avengerpenguin.com/theme/img/logo.png">
+        Ross Fenning is a principal software engineer at the BBC,
+        amateur computer scientist, Pythonista,
+        a student of Stoicism, a practitioner of Shotokan Karate,
+        an infrequent player of the bodhrán and the tin whistle and
+        a rebel against the Oxford comma.
+    </aside>
+
+    
+</header>
+
+<main>
+
+<article id="content" class="body">
+    <header>
+        <h2 class="entry-title">
+            <a href="http://avengerpenguin.com/the-simplest-way-to-keep-up-with-the-javascript-ecosystem" rel="bookmark"
+               title="Permalink to The Simplest Way to “Keep Up” With the JavaScript Ecosystem">The Simplest Way to &#8220;Keep Up&#8221; With the JavaScript&nbsp;Ecosystem</a></h2>
+        
+        <p><time class="published" datetime="2018-03-16T00:00:00+00:00">
+            Fri 16 March 2018
+    </time></p>
+        <p>Read more posts on <a href="software/">Software</a></p>
+    </header>
+
+    <p>I often hear the frustration or jokes around how fast the JavaScript ecosystem
+moves. Observations usually include things like &#8220;there&#8217;s a new framework
+every week&#8221; or that
+<a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f">you need a huge number of tools just to get started</a>
+on a basic modern&nbsp;application.</p>
+<!-- PELICAN_END_SUMMARY -->
+
+<p>The frustration can come from developers who either feel they need to learn
+several tools just to get going, whereas in the past you just needed a text
+editor and knowledge of <span class="caps">HTML</span>, <span class="caps">CSS</span> and JavaScript&nbsp;itself.</p>
+<p>It can be even more frustrating when you have large application UIs built,
+for example, in Angular but now everyone is using
+<a href="https://reactjs.org/">React</a>. Your build process is 
+fully dependent on <a href="https://bower.io/">Bower</a>
+and <a href="http://browserify.org/">browserify</a> but now everyone is using
+<a href="https://yarnpkg.com/">Yarn</a> and <a href="https://webpack.js.org/">Webpack</a>.</p>
+<p>This is particularly difficult for enterprise application developers as you
+tend to end up with large code bases where you have little justification going
+in to &#8220;modernise&#8221; or refactor things if the application works just fine. This
+is where Java was traditionally favoured in the enterprise as the language (and
+platform) changes slowly, is (almost) always backwards compatible (so you can
+upgrade tools without changing code) and the toolchain hasn&#8217;t moved that
+quickly either. Yes, we have <a href="http://ant.apache.org/">Ant</a>,
+<a href="https://maven.apache.org/">Maven</a> and <a href="https://gradle.org/">Gradle</a> now, but
+that&#8217;s been a slow and steady&nbsp;progression.</p>
+<p>So, clearly we don&#8217;t want to move at a break-neck speed and keep refactoring
+working code bases, but we also want to be able to held back by slow-moving
+platforms. People might like the fast innovation and choice in the JavaScript
+and Node.js ecosystems, but how do we keep up with all the frameworks and&nbsp;tools?</p>
+<p>Well, I have one suggestion to cope with &#8220;keeping up&#8221; with all the new tools
+and libraries and frameworks coming out each&nbsp;week:</p>
+<p>Don&#8217;t.</p>
+<p>Seriously, don&#8217;t keep adopting new technologies as they emerge. While a new
+build tool or framework might seem nicer than what you have, <em>wait until you
+have an actual problem the new tool solves</em> and be sceptical about migrating
+your applications to new&nbsp;frameworks.</p>
+<p>Even for newer projects, carefully consider the cost of adopting a new tool in
+terms of having to learn it. Maybe stick with what you know and play with new
+tools only on side projects or in &#8220;10% time&#8221; outside of your main&nbsp;work.</p>
+<p>For frameworks whose popularity is short-lived, you will be able to skip right
+over them and only move to things that stand the test of time. For frameworks
+that stick around, you will be able to adopt them when best practices are
+established and early bugs are&nbsp;fixed.</p>
+<p>Learn to live with applications in older frameworks and on older versions of
+Node.js and you will be able to focus more time on adding features and perhaps
+even working on new, exciting&nbsp;things.</p>
+
+    <hr>
+
+    <h3>Comments</h3>
+
+    <div id="disqus_thread"></div>
+    <script>
+
+var disqus_config = function () {
+   this.page.url = 'http://avengerpenguin.com/the-simplest-way-to-keep-up-with-the-javascript-ecosystem.html';
+   this.page.identifier = 'the-simplest-way-to-keep-up-with-the-javascript-ecosystem';
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://avengerpenguin.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a
+            href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+
+</article>
+
+
+
+</main>
+
+<footer>
+    Copyright <a href="http://rossfenning.co.uk/">Ross Fenning</a>
+</footer><!-- /#contentinfo -->
+
+</body>
+</html>
