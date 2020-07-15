@@ -10,7 +10,7 @@
     <link href="http://avengerpenguin.com/feeds/all.atom.xml"
           type="application/atom+xml" rel="alternate"
           title="Avenger Penguin Full Atom Feed"/>
-    <link href="http://avengerpenguin.com/feeds/{'slug': 'software'}.atom.xml"
+    <link href="http://avengerpenguin.com/feeds/{slug}.atom.xml"
           type="application/atom+xml" rel="alternate"
           title="Avenger Penguin Categories Atom Feed"/>
 
@@ -53,20 +53,8 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li
-><a
-                href="http://avengerpenguin.com/language/">Language</a></li>
-            <li
-><a
-                href="http://avengerpenguin.com/security/">Security</a></li>
-            <li
-><a
-                href="http://avengerpenguin.com/social-media/">Social Media</a></li>
-            <li
  class="active"><a
                 href="http://avengerpenguin.com/software/">Software</a></li>
-            <li
-><a
-                href="http://avengerpenguin.com/stoicism/">Stoicism</a></li>
         </ul>
     </nav>
 
@@ -1207,45 +1195,7 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<style type="text/css">
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #<span class="caps">3E424D</span>; }
-.ansi-black-bg { background-color: #<span class="caps">3E424D</span>; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #<span class="caps">E75C58</span>; }
-.ansi-red-bg { background-color: #<span class="caps">E75C58</span>; }
-.ansi-red-intense-fg { color: #<span class="caps">B22B31</span>; }
-.ansi-red-intense-bg { background-color: #<span class="caps">B22B31</span>; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #<span class="caps">DDB62B</span>; }
-.ansi-yellow-bg { background-color: #<span class="caps">DDB62B</span>; }
-.ansi-yellow-intense-fg { color: #<span class="caps">B27D12</span>; }
-.ansi-yellow-intense-bg { background-color: #<span class="caps">B27D12</span>; }
-.ansi-blue-fg { color: #<span class="caps">208FFB</span>; }
-.ansi-blue-bg { background-color: #<span class="caps">208FFB</span>; }
-.ansi-blue-intense-fg { color: #<span class="caps">0065CA</span>; }
-.ansi-blue-intense-bg { background-color: #<span class="caps">0065CA</span>; }
-.ansi-magenta-fg { color: #<span class="caps">D160C4</span>; }
-.ansi-magenta-bg { background-color: #<span class="caps">D160C4</span>; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #<span class="caps">60C6C8</span>; }
-.ansi-cyan-bg { background-color: #<span class="caps">60C6C8</span>; }
-.ansi-cyan-intense-fg { color: #<span class="caps">258F8F</span>; }
-.ansi-cyan-intense-bg { background-color: #<span class="caps">258F8F</span>; }
-.ansi-white-fg { color: #<span class="caps">C5C1B4</span>; }
-.ansi-white-bg { background-color: #<span class="caps">C5C1B4</span>; }
-.ansi-white-intense-fg { color: #<span class="caps">A1A6B2</span>; }
-.ansi-white-intense-bg { background-color: #<span class="caps">A1A6B2</span>; }
-
-.ansi-bold { font-weight: bold; }
-</style><body>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style><body><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The Python programming language has a nice declarative syntax for data
@@ -1537,7 +1487,7 @@ sructures known as <em>comprehensions</em>. They provide a quick, concise way to
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="k">import</span> <span class="n">count</span><span class="p">,</span> <span class="n">takewhile</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">count</span><span class="p">,</span> <span class="n">takewhile</span>
 
 <span class="c1"># Creates infinite list of squares</span>
 <span class="n">square_generator</span> <span class="o">=</span> <span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">count</span><span class="p">())</span>
@@ -1687,7 +1637,7 @@ B = \{n \in A \: | \: even(n) \}
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">namedtuple</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">namedtuple</span>
 
 <span class="n">User</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s1">&#39;User&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;department&#39;</span><span class="p">])</span>
 </pre></div>
