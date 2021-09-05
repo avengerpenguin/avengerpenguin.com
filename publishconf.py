@@ -7,7 +7,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 
-SITEURL = 'http://avengerpenguin.com'
+SITEURL = 'https://avengerpenguin.com'
 RELATIVE_URLS = False
 
 
