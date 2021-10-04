@@ -1,0 +1,2 @@
+crit - Questioner/Heretic/Iconoclast
+

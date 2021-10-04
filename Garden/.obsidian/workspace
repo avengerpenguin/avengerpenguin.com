@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "e4b337d2a24afa20",
+    "type": "split",
+    "children": [
+      {
+        "id": "4da6a961e2c4e6f2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Cognitive Functions.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b607273a84f48fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e03b46a13b07271",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3015267c2ad96fb4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7565a0a2a2f72002",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d50f0c6f46e34b31",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a89e4c33b3d4aa6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41dabde7a77dfddb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cognitive Functions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4da6a961e2c4e6f2",
+  "lastOpenFiles": [
+    "Cognitive Functions.md",
+    "Cold as Ice.md",
+    "How I Learned to Stop Worrying and Love Doing Less.md",
+    "Magic The Gathering.md",
+    "Death Cult.md",
+    "Designing a human centric next generation internet.md",
+    "Untitled.md",
+    "_index.md",
+    "Agile Results.md",
+    "FOSDEM 2021.md"
+  ]
+}
