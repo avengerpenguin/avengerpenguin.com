@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Explore-Exploit Dilemma.md",
+            "file": "_index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Explore-Exploit Dilemma.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "4da6a961e2c4e6f2",
   "lastOpenFiles": [
-    "Explore-Exploit Dilemma.md",
     "_index.md",
+    "Explore-Exploit Dilemma.md",
     "Designing a human centric next generation internet.md",
     "about.md",
     "scratch/dream-big-start-small.md",
