@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cognitive Functions.md",
+            "file": "Temperaments.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cognitive Functions.md",
+                "file": "Temperaments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4da6a961e2c4e6f2",
   "lastOpenFiles": [
-    "Cognitive Functions.md",
-    "Cold as Ice.md",
-    "How I Learned to Stop Worrying and Love Doing Less.md",
-    "Magic The Gathering.md",
-    "Death Cult.md",
-    "Designing a human centric next generation internet.md",
-    "Untitled.md",
-    "_index.md",
-    "Agile Results.md",
-    "FOSDEM 2021.md"
+    "Temperaments.md",
+    "Te Function.md",
+    "Obsidian.md",
+    "ENTP.md",
+    "CubicWeb as a Linked Open Data server.md",
+    "Ne Function.md",
+    "Flow Roles.md",
+    "Fi Function.md",
+    "Domestication of Users.md",
+    "_index.md"
   ]
 }

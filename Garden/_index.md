@@ -6,7 +6,7 @@ url:
 This is a collection of notes written in [[Obsidian]] to form my own [[Digital Gardening|Digital Garden]].
 
 
-## Some Areas of interest
+## Areas of interest
 
 - [[DevOps]]
 - [[Philosophy]]
