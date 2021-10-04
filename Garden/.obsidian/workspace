@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Temperaments.md",
+            "file": "Explore-Exploit Dilemma.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temperaments.md",
+                "file": "Explore-Exploit Dilemma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4da6a961e2c4e6f2",
   "lastOpenFiles": [
-    "Temperaments.md",
-    "Te Function.md",
-    "Obsidian.md",
-    "ENTP.md",
-    "CubicWeb as a Linked Open Data server.md",
-    "Ne Function.md",
-    "Flow Roles.md",
-    "Fi Function.md",
-    "Domestication of Users.md",
-    "_index.md"
+    "Explore-Exploit Dilemma.md",
+    "_index.md",
+    "Designing a human centric next generation internet.md",
+    "about.md",
+    "scratch/dream-big-start-small.md",
+    "Productivity/The Perfect Note-Taking App.md",
+    "daily/2020-09-28.md",
+    "Monorepo vs Multi repos.md",
+    "Terraform.md",
+    "Unleash the Pigs.md"
   ]
 }
