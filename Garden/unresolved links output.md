@@ -1,8 +1,8 @@
 Don't forget that creating the file from here may create the file in the wrong directory!
 - [[Essentialism]] in [[Agile Results]], [[Productivity/Four Burners Theory]]
 - [[Agile Methodology]] in [[Agile Results]]
-- [[analysis-paralysis]] in [[Digital Gardening]]
-- [[personality type]] in [[Digital Gardening]]
+- [[analysis-paralysis]] in [[Digital Garden]]
+- [[personality type]] in [[Digital Garden]]
 - [[anti-patterns]] in [[Premature scaling can stunt system iteration]]
 - [[YAGNI]] in [[Premature scaling can stunt system iteration]]
 - [[Feedback Loops]] in [[Premature scaling can stunt system iteration]]

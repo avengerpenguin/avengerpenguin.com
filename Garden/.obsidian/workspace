@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4da6a961e2c4e6f2",
+        "id": "b21f9e4986d9cb92",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4da6a961e2c4e6f2",
+  "active": "b21f9e4986d9cb92",
   "lastOpenFiles": [
     "_index.md",
+    "Undifferentiated Heavy Lifting.md",
+    "Tech/DevOps.md",
+    "Bootstrap Continuous Delivery.md",
+    "Now.md",
+    "Software Engineering.md",
     "unresolved links output.md",
     "about.md",
     "Fi Function.md",
-    "Ne Function.md",
-    "Essentialism.md",
-    "Agile Results.md",
-    "why-cant-i-call-my-api-restful.md",
-    "Cognitive Functions.md",
-    "Te Function.md"
+    "Ne Function.md"
   ]
 }
