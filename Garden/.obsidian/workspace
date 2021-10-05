@@ -7,11 +7,8 @@
         "id": "4da6a961e2c4e6f2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_index.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +84,15 @@
   },
   "active": "4da6a961e2c4e6f2",
   "lastOpenFiles": [
-    "_index.md",
-    "about.md",
-    "Fi Function.md",
-    "Ne Function.md",
-    "Essentialism.md",
-    "Agile Results.md",
-    "unresolved links output.md",
-    "why-cant-i-call-my-api-restful.md",
     "Cognitive Functions.md",
-    "Te Function.md"
+    "Cold as Ice.md",
+    "How I Learned to Stop Worrying and Love Doing Less.md",
+    "Magic The Gathering.md",
+    "Death Cult.md",
+    "Designing a human centric next generation internet.md",
+    "Untitled.md",
+    "_index.md",
+    "Agile Results.md",
+    "FOSDEM 2021.md"
   ]
 }
