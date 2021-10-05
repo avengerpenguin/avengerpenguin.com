@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_index.md",
+            "file": "MBTI Alignments.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "MBTI Alignments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4da6a961e2c4e6f2",
   "lastOpenFiles": [
+    "MBTI Alignments.md",
+    "Open Source Heroku.md",
+    "Untitled.md",
+    "Faerie Mischief.md",
+    "Productivity/The Perfect Note-Taking App.md",
+    "Productivity/Four Burners Theory.md",
+    "Muse Roles.md",
     "_index.md",
     "Explore-Exploit Dilemma.md",
-    "Designing a human centric next generation internet.md",
-    "about.md",
-    "scratch/dream-big-start-small.md",
-    "Productivity/The Perfect Note-Taking App.md",
-    "daily/2020-09-28.md",
-    "Monorepo vs Multi repos.md",
-    "Terraform.md",
-    "Unleash the Pigs.md"
+    "Designing a human centric next generation internet.md"
   ]
 }
