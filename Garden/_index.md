@@ -5,11 +5,11 @@ url:
 
 Writes his notes, thoughts and opinions in this [[Digital Garden]].
 
-He is a principal [[Software Engineering|software engineer]] at the BBC, amateur computer scientist, armchair [[Philosophy|philosopher]], Pythonista, student of Skotokan Karate, infrequent bodhrán and tin whistle player and a rebel against the Oxford comma.
+He is a principal [[Software Engineering|software engineer]] at the BBC, amateur computer scientist, armchair [[Philosophy|philosopher]], Pythonista, student of Skotokan Karate, infrequent bodhrán and tin whistle player and a rebel against the [[Oxford Comma]].
 
-See [[https://rossfenning.co.uk|rossfenning.co.uk]] for his professional profile and CV.
+See [rossfenning.co.uk](https://rossfenning.co.uk) for his professional profile and CV.
 
-Read [[Now|what I am doing at the moment]].
+Read [[Now|what he is doing at the moment]].
 
 ## Areas of Interest
 

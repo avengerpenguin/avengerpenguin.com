@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b21f9e4986d9cb92",
+        "id": "2e9229889b0ff0f3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_index.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b21f9e4986d9cb92",
+  "active": "2e9229889b0ff0f3",
   "lastOpenFiles": [
-    "_index.md",
-    "Undifferentiated Heavy Lifting.md",
-    "Tech/DevOps.md",
-    "Bootstrap Continuous Delivery.md",
-    "Now.md",
-    "Software Engineering.md",
+    "daily/2020-09-28.md",
+    "daily/2020-09-29.md",
     "unresolved links output.md",
-    "about.md",
-    "Fi Function.md",
-    "Ne Function.md"
+    "scratch/dream-big-start-small.md",
+    "Mentoring.md",
+    "Productivity/Agile Results.md",
+    "_index.md",
+    "YAGNI.md",
+    "Premature scaling can stunt system iteration.md",
+    "unlinked files output.md"
   ]
 }
