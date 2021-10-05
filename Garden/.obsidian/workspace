@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MBTI Alignments.md",
+            "file": "_index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MBTI Alignments.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4da6a961e2c4e6f2",
   "lastOpenFiles": [
-    "MBTI Alignments.md",
-    "Open Source Heroku.md",
-    "Untitled.md",
-    "Faerie Mischief.md",
-    "Productivity/The Perfect Note-Taking App.md",
-    "Productivity/Four Burners Theory.md",
-    "Muse Roles.md",
     "_index.md",
-    "Explore-Exploit Dilemma.md",
-    "Designing a human centric next generation internet.md"
+    "about.md",
+    "Fi Function.md",
+    "Ne Function.md",
+    "Essentialism.md",
+    "Agile Results.md",
+    "unresolved links output.md",
+    "why-cant-i-call-my-api-restful.md",
+    "Cognitive Functions.md",
+    "Te Function.md"
   ]
 }

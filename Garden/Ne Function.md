@@ -16,5 +16,3 @@ opp - Alice/Hobbit?
 crit - Motivator/Suggester
 vuln - Doomsayer?
 dem - Risk-taker
-
-See [[Cognitive Functions]]
