@@ -5,9 +5,6 @@ url:
 
 Writes his notes, thoughts and opinions in this [[Digital Gardening|Digital Garden]].
 
-
-
-
 ## Areas of Interest
 
 - [[DevOps]]
