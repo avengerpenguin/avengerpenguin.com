@@ -1,9 +1,11 @@
 save_as: index.html
 menu_title: Home
-title: Welcome
+title: Ross Fenning
 url:
 
-This is a collection of notes written in [[Obsidian]] to form my own [[Digital Gardening|Digital Garden]].
+Writes his notes, thoughts and opinions in this [[Digital Gardening|Digital Garden]].
+
+
 
 
 ## Areas of Interest
