@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "4da6a961e2c4e6f2",
+        "id": "7938815d4c668ee5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Languishing.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "b968ee61c468e992",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Languishing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4da6a961e2c4e6f2",
+  "active": "7938815d4c668ee5",
   "lastOpenFiles": [
+    "Languishing.md",
+    "conflict-files-obsidian-git.md",
+    "Untitled.md",
     "Cognitive Functions.md",
     "Cold as Ice.md",
     "How I Learned to Stop Worrying and Love Doing Less.md",
     "Magic The Gathering.md",
     "Death Cult.md",
     "Designing a human centric next generation internet.md",
-    "Untitled.md",
-    "_index.md",
-    "Agile Results.md",
-    "FOSDEM 2021.md"
+    "_index.md"
   ]
 }
