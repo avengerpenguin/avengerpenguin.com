@@ -1,21 +1,21 @@
 {
   "main": {
-    "id": "e4b337d2a24afa20",
+    "id": "43e4dd22277ee397",
     "type": "split",
     "children": [
       {
-        "id": "7938815d4c668ee5",
+        "id": "4db6b3296f8a94e5",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Languishing.md",
+            "file": "Flow.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "b968ee61c468e992",
+        "id": "e0749edc0d8a230e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -29,15 +29,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4b607273a84f48fd",
+    "id": "8acb3a4674cc978f",
     "type": "split",
     "children": [
       {
-        "id": "6e03b46a13b07271",
+        "id": "7a2fa74daeccf86a",
         "type": "tabs",
         "children": [
           {
-            "id": "3015267c2ad96fb4",
+            "id": "8cbf6ae5fba94ea6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -45,7 +45,7 @@
             }
           },
           {
-            "id": "7565a0a2a2f72002",
+            "id": "4a50ef5568efab02",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,20 +66,20 @@
     "width": 300
   },
   "right": {
-    "id": "d50f0c6f46e34b31",
+    "id": "f3fb9fc4b3c3d3c2",
     "type": "split",
     "children": [
       {
-        "id": "6a89e4c33b3d4aa6",
+        "id": "e94579a0ff9a6950",
         "type": "tabs",
         "children": [
           {
-            "id": "41dabde7a77dfddb",
+            "id": "56a6f1134b860a7a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languishing.md",
+                "file": "Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7938815d4c668ee5",
+  "active": "4db6b3296f8a94e5",
   "lastOpenFiles": [
-    "Languishing.md",
+    "Flow.md",
     "conflict-files-obsidian-git.md",
-    "Untitled.md",
-    "Cognitive Functions.md",
-    "Cold as Ice.md",
-    "How I Learned to Stop Worrying and Love Doing Less.md",
-    "Magic The Gathering.md",
-    "Death Cult.md",
-    "Designing a human centric next generation internet.md",
-    "_index.md"
+    "Untitled.md"
   ]
 }

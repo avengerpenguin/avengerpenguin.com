@@ -6,6 +6,5 @@ Schools of interest:
 * Marxism
 * Psychological types
 * Epistemology
-* Epistemology
 * Scepticism
 * Feminism

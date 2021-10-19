@@ -10,7 +10,7 @@ religion, music, art, films, programming languages, ethics, favourite
 "My Little Pony" character and many more important topics.
 
 One of my favourites in the web engineering world is debates about what
-["REST" is or is not](/why-cant-i-call-my-api-restful). While I argue there
+[[why-cant-i-call-my-api-restful|"REST" is or is not]]. While I argue there
 is value on understanding what REST was originally defined to be, I'm
 probably inviting a debate with arguments such as "REST isn't that, it's this"
 or semantic debates about whether a given system "is RESTful" or not.

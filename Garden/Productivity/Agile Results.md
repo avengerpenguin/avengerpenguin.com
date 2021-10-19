@@ -8,5 +8,4 @@ It essentially boils down to focus on a small number of things at a time -- just
 4. Three wins for the quarter.
 5. Three wins for the year.
 
-This isn't to be confused with the [[Agile Methodology]] but clearly has some overlap with it in that you focus on short term iteration, experiments, etc. with a focus on what you plan to get out of it, rather than just working through a list/backlog.
-
+This isn't to be confused with the Agile Methodology but clearly has some overlap with it in that you focus on short term iteration, experiments, etc. with a focus on what you plan to get out of it, rather than just working through a list/backlog.
