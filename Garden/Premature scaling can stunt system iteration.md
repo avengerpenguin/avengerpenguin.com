@@ -3,5 +3,4 @@ This is a phrase I've lifted entirely from [Andy Matuschak's notes](https://note
 I see this as a summary various things that paint you into corners if you do not following them (or at least understand them):
 
 * [[YAGNI]]
-* [[Feedback Loops]]
 * [[DevOps]] as a special case of leveraging feedback loops

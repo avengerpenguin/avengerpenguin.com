@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tech/Undifferentiated Heavy Lifting.md",
+            "file": "_index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech/Undifferentiated Heavy Lifting.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "2e9229889b0ff0f3",
   "lastOpenFiles": [
+    "_index.md",
+    "Premature scaling can stunt system iteration.md",
     "Tech/Undifferentiated Heavy Lifting.md",
     "Tech/DevOps.md",
-    "_index.md",
     "articles/DevOps/what-is-devops.md",
     "Tech/Bootstrap Continuous Delivery.md",
     "Tech/Software Engineering.md",
     "Flow.md",
     "daily/2020-09-28.md",
-    "daily/2020-09-29.md",
-    "unresolved links output.md"
+    "daily/2020-09-29.md"
   ]
 }
