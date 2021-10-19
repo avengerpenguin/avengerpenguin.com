@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Flow.md",
+            "file": "_index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flow.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,9 @@
   },
   "active": "4db6b3296f8a94e5",
   "lastOpenFiles": [
+    "_index.md",
+    "Oxford Comma.md",
+    "unlinked files output.md",
     "Flow.md",
     "conflict-files-obsidian-git.md",
     "Untitled.md"
