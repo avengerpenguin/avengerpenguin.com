@@ -14,6 +14,12 @@ FILENAME_METADATA = '(?P<title>.*)'
 #     'plugins.pelican-ipynb.markup',
 # ]
 
+
+PLUGINS += ['voltaire.search']
+TEMPLATE_PAGES = {
+    'search.html': 'search/index.html',
+}
+
 STATIC_PATHS = ["extra/CNAME"]
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
@@ -23,6 +29,7 @@ EXTRA_PATH_METADATA = {
 MENUITEMS_START = (
     ('Home', '/'),
     ('Blog', '/blog/'),
+    ('Search', '/search/'),
 )
 
 INDEX_SAVE_AS = 'blog/index.html'
