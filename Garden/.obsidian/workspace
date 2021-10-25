@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tech/Undifferentiated Heavy Lifting.md",
+            "file": "articles/DevOps/what-is-devops.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech/Undifferentiated Heavy Lifting.md",
+                "file": "articles/DevOps/what-is-devops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "4db6b3296f8a94e5",
   "lastOpenFiles": [
+    "articles/DevOps/what-is-devops.md",
     "Tech/Undifferentiated Heavy Lifting.md",
     "Tech/DevOps.md",
     "_index.md",
