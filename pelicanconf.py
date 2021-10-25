@@ -2,9 +2,10 @@ from voltaire.pelican import *
 
 
 SITENAME = u'Avenger Penguin'
-PATH = "Garden"
-PAGE_PATHS = ["."]
+PATH = "./Garden"
+PAGE_PATHS = [""]
 ARTICLE_PATHS = ["articles"]
+PAGE_EXCLUDES = ARTICLE_PATHS
 FILENAME_METADATA = '(?P<title>.*)'
 
 
