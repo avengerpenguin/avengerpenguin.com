@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4db6b3296f8a94e5",
+        "id": "e1d0603279569e56",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_index.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4db6b3296f8a94e5",
+  "active": "e1d0603279569e56",
   "lastOpenFiles": [
-    "_index.md",
-    "Things I Have Made.md",
-    "articles/DevOps/what-is-devops.md",
-    "Tech/Undifferentiated Heavy Lifting.md",
-    "Tech/DevOps.md",
-    "Oxford Comma.md",
+    "FOSDEM/Terraform.md",
     "unlinked files output.md",
+    "unresolved links output.md",
+    "_index.md",
+    "H Factor.md",
     "Flow.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled.md"
+    "Essentialism.md",
+    "Domestication of Users.md",
+    "Digital Garden.md",
+    "8values.md"
   ]
 }
