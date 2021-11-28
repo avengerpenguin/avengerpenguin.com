@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "e1d0603279569e56",
+        "id": "4db6b3296f8a94e5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "ENTP Productivity.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ENTP Productivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e1d0603279569e56",
+  "active": "4db6b3296f8a94e5",
   "lastOpenFiles": [
-    "FOSDEM/Terraform.md",
-    "unlinked files output.md",
-    "unresolved links output.md",
+    "ENTP Productivity.md",
     "_index.md",
-    "H Factor.md",
+    "Things I Have Made.md",
+    "articles/DevOps/what-is-devops.md",
+    "Tech/Undifferentiated Heavy Lifting.md",
+    "Tech/DevOps.md",
+    "Oxford Comma.md",
+    "unlinked files output.md",
     "Flow.md",
-    "Essentialism.md",
-    "Domestication of Users.md",
-    "Digital Garden.md",
-    "8values.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
