@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ENTP Productivity.md",
+            "file": "Tech Radar.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ENTP Productivity.md",
+                "file": "Tech Radar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "4db6b3296f8a94e5",
   "lastOpenFiles": [
+    "Tech Radar.md",
     "ENTP Productivity.md",
     "_index.md",
     "Things I Have Made.md",
@@ -96,7 +97,6 @@
     "Tech/DevOps.md",
     "Oxford Comma.md",
     "unlinked files output.md",
-    "Flow.md",
-    "conflict-files-obsidian-git.md"
+    "Flow.md"
   ]
 }
