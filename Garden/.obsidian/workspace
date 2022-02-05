@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_index.md",
+            "file": "LeftValues.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_index.md",
+                "file": "LeftValues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "4db6b3296f8a94e5",
   "lastOpenFiles": [
+    "LeftValues.md",
+    "Languishing.md",
     "_index.md",
-    "Tech Radar.md",
     "ENTP Productivity.md",
+    "FOSDEM/Terraform.md",
+    "Tech Radar.md",
     "Things I Have Made.md",
     "articles/DevOps/what-is-devops.md",
     "Tech/Undifferentiated Heavy Lifting.md",
-    "Tech/DevOps.md",
-    "Oxford Comma.md",
-    "unlinked files output.md",
-    "Flow.md"
+    "Tech/DevOps.md"
   ]
 }
