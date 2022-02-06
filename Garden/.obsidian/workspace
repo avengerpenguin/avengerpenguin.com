@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4db6b3296f8a94e5",
+        "id": "68cce23e252ccd50",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LeftValues.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mermaid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeftValues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +83,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4db6b3296f8a94e5",
+  "active": "68cce23e252ccd50",
   "lastOpenFiles": [
+    "FOSDEM/Open Source Heroku.md",
+    "Literature Notes in Obsidian.md",
+    "_index.md",
+    "articles/Software/mocking-data-only.md",
+    "unlinked files output.md",
+    "Digital Garden.md",
     "LeftValues.md",
     "Languishing.md",
-    "_index.md",
     "ENTP Productivity.md",
-    "FOSDEM/Terraform.md",
-    "Tech Radar.md",
-    "Things I Have Made.md",
-    "articles/DevOps/what-is-devops.md",
-    "Tech/Undifferentiated Heavy Lifting.md",
-    "Tech/DevOps.md"
+    "FOSDEM/Terraform.md"
   ]
 }
