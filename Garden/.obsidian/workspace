@@ -7,8 +7,12 @@
         "id": "68cce23e252ccd50",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Empyrrhic Victory.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Empyrrhic Victory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,7 @@
   },
   "active": "68cce23e252ccd50",
   "lastOpenFiles": [
+    "Empyrrhic Victory.md",
     "FOSDEM/Open Source Heroku.md",
     "Literature Notes in Obsidian.md",
     "_index.md",
@@ -92,7 +98,6 @@
     "Digital Garden.md",
     "LeftValues.md",
     "Languishing.md",
-    "ENTP Productivity.md",
-    "FOSDEM/Terraform.md"
+    "ENTP Productivity.md"
   ]
 }
