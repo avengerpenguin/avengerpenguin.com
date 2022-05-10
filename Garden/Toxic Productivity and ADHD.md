@@ -20,4 +20,19 @@ So, instead of the neurotypical motivations of:
 - Consequences
 - Rewards
 
-Peoplew
+People with ADHD may wish to consider instead:
+
+- Captivate -- Something that captures your interest.
+- Create -- Something novel you want to dive into and provides dopamine.
+- Compete -- A good challenge or a competition with someone else. Someone telling you that you can't do it can be a great motivator.
+- Complete -- Deadlines, urgency, panic.
+
+Strategies to use according to Jessie J. Anderson:
+
+- Embrace the pivot (captivate, create) -- Accept any new system is going to fail and you will abandon it, therefore simply do not pour everything into it; use it lightly so you are ready to pivot to the next system
+- Pomodoro Timers -- Create short deadlines with burst of 20-40 mins of work
+- Look for sidequests -- Being careful not to get derailed, you can still find a side angle on a project that is more interesting.
+- Micro commitments -- Commit to small amounts of progress only
+- Change your environment -- simply working somewhere different can help (e.g. coffee shop)
+- Making tests or paperwork into a game -- Do questions in reverse order, mix it up in other ways, etc.
+- Make time-based goals -- Instead of "write 1000 words", say "write for 20 mins"; instead of "clean the whole office", say "I'll spend 10 mins cleaning"
