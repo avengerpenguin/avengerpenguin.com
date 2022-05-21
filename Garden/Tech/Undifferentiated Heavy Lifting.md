@@ -11,7 +11,7 @@ I use the term "naive" in a sense that fits well with Computer Science -- that i
 
 ### Return of the Monorepo/-lith
 
-One instinctive reaction i have seen was the usual "hype curve" behaviour. Teams adopt microservices without truly understand what they were for, hit all the issues with undifferentiated heavy lifting ramping up rapidly and then the natural reaction is to swimg back to monolithic approaches, but strangely not necessarily full monoliths.
+One instinctive reaction I have seen was the usual "hype curve" behaviour. Teams adopt microservices without truly understanding what they were for, hit all the issues with undifferentiated heavy lifting ramping up rapidly and then the natural reaction is to swimg back to monolithic approaches, but strangely not necessarily full monoliths.
 
 There are a fair few trends at the moment to attempt to retain the [[Modular Aesthetic]] in a Mono_repo_ but either still deploy the parts independently or have some tooling to manage reassembling the parts into a single artefact.
 

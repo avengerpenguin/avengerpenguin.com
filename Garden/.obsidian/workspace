@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "68cce23e252ccd50",
+        "id": "036a6d18554a3c12",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Monorepo vs Multi repos.md",
+            "file": "unresolved links output.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "7e5295a2182e04e6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tech/Undifferentiated Heavy Lifting.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monorepo vs Multi repos.md",
+                "file": "Tech/Undifferentiated Heavy Lifting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "68cce23e252ccd50",
+  "active": "7e5295a2182e04e6",
   "lastOpenFiles": [
-    "Monorepo vs Multi repos.md",
-    "ENTP Productivity.md",
+    "Tech/Undifferentiated Heavy Lifting.md",
+    "unresolved links output.md",
+    "Obsidian.md",
+    "2020-09-28.md",
+    "unlinked files output.md",
+    "Socialist Articles.md",
+    "Oxford Comma.md",
     "Empyrrhic Victory.md",
-    "Lofi Hip Hop Generator.md",
-    "Toxic Productivity and ADHD.md",
-    "FOSDEM/Open Source Heroku.md",
-    "Literature Notes in Obsidian.md",
-    "_index.md",
-    "articles/Software/mocking-data-only.md",
-    "unlinked files output.md"
+    "Essentialism.md",
+    "about.md"
   ]
 }
