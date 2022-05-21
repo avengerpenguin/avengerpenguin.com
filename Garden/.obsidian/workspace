@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lofi Hip Hop Generator.md",
+            "file": "Monorepo vs Multi repos.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lofi Hip Hop Generator.md",
+                "file": "Monorepo vs Multi repos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "68cce23e252ccd50",
   "lastOpenFiles": [
+    "Monorepo vs Multi repos.md",
+    "ENTP Productivity.md",
+    "Empyrrhic Victory.md",
     "Lofi Hip Hop Generator.md",
     "Toxic Productivity and ADHD.md",
-    "Empyrrhic Victory.md",
     "FOSDEM/Open Source Heroku.md",
     "Literature Notes in Obsidian.md",
     "_index.md",
     "articles/Software/mocking-data-only.md",
-    "unlinked files output.md",
-    "Digital Garden.md",
-    "LeftValues.md"
+    "unlinked files output.md"
   ]
 }
