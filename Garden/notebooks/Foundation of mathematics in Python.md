@@ -1,6 +1,8 @@
 ---
 jupyter:
   jupytext:
+    cell_metadata_filter: all
+    notebook_metadata_filter: all
     split_at_heading: true
     text_representation:
       extension: .md
@@ -11,6 +13,16 @@ jupyter:
     display_name: Python 3 (ipykernel)
     language: python
     name: python3
+  language_info:
+    codemirror_mode:
+      name: ipython
+      version: 3
+    file_extension: .py
+    mimetype: text/x-python
+    name: python
+    nbconvert_exporter: python
+    pygments_lexer: ipython3
+    version: 3.10.4
 ---
 
 This is an exploration of building up Zermelo–Fraenkel set theory as a foundational basis of mathematics, but actually implemented in Python.
@@ -29,7 +41,7 @@ The most philosophical foundation before we get into what we can be sure exists 
 
 If we imagine that it is reasonable to group things together arbitrarily, then it follows we can create some empty grouping we can call the empty set:
 
-```python
+```python trusted=true
 Ø = frozenset()
 len(Ø)
 ```
@@ -38,7 +50,7 @@ Note for now we can just use Python's built-in concept of `frozenset` since it h
 
 ## Axiom of Infinity
 
-```python
+```python trusted=true
 class Set(frozenset):
     def __init__(self, definition=frozenset()):
         if hasattr(definition, '__call__'):
@@ -50,7 +62,7 @@ class Set(frozenset):
 Set()
 ```
 
-```python
+```python trusted=true
 # # Empty set
 # 〇 = frozenset()
 # # pair
@@ -61,7 +73,7 @@ Set()
 
 ```
 
-```python
+```python trusted=true
 𝕡 = lambda a, b: frozenset({a, b})
 𝑃 = lambda a, b: 𝕡(𝕡("l", a), 𝕡("r", b))
 
@@ -126,24 +138,24 @@ set(add(〇, 〇))
 
 ```
 
-```python
+```python trusted=true
 𝑃 = lambda a, b: 𝕡(𝕡("l", a), 𝕡("r", b))
 𝑃("a", "b")
 ```
 
-```python
+```python trusted=true
 left = lambda p: {r for r in {q for q in p if "l" in q}.pop() if r != "l"}.pop()
 right = lambda p: {r for r in {q for q in p if "r" in q}.pop() if r != 'r'}.pop()
 left(𝑃("a", "b")), right(𝑃("a", "b"))
 ```
 
-```python
+```python trusted=true
 𝑓 = lambda P: lambda a: next(right(p) for p in P if left(p) == a)
 succ = 𝑓(𝑃(n, frozenset({n}) | n) for n in ℕ())
 len(succ(succ(〇)))
 ```
 
-```python
+```python trusted=true
 class InfSet:
     def __init__(self, genf):
         self.genf = genf
