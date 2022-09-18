@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notebooks/Foundation of mathematics in Python.md",
+            "file": "Oxford Comma.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notebooks/Foundation of mathematics in Python.md",
+                "file": "Oxford Comma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,7 @@
   },
   "active": "036a6d18554a3c12",
   "lastOpenFiles": [
+    "notebooks/Foundation of mathematics in Python.md",
     "unresolved links output.md",
     "Tech/Undifferentiated Heavy Lifting.md",
     "Obsidian.md",
@@ -109,7 +110,6 @@
     "Socialist Articles.md",
     "Oxford Comma.md",
     "Empyrrhic Victory.md",
-    "Essentialism.md",
-    "about.md"
+    "Essentialism.md"
   ]
 }
