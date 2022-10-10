@@ -7,7 +7,6 @@ Technical projects, blogs or other ideas that are on my personal "tech radar" as
 - https://pgjones.gitlab.io/quart/tutorials/deployment.html (Deploying Quart — Quart 0.13.1 documentation)
 - https://airflow.apache.org/docs/stable/tutorial.html (Tutorial — Airflow Documentation)
 - https://htmx.org/ (</> htmx - high power tools for html)
-- "https://github.com/alpinejs/alpine/ (alpinejs/alpine: A rugged, minimal framework for composing JavaScript behavior in your markup.)"
 - https://stimulusjs.org/ (Stimulus: A modest JavaScript framework for the HTML you already have.)
 - https://github.com/turbolinks/turbolinks (turbolinks/turbolinks: Turbolinks makes navigating your web application faster)
 - "https://github.com/alpinejs/alpine/ (alpinejs/alpine: A rugged, minimal framework for composing JavaScript behavior in your markup.)"
