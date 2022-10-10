@@ -1,7 +1,7 @@
 from voltaire.pelican import *
 
 
-SITENAME = u'Avenger Penguin'
+SITENAME = "Ross Fenning's Digital Garden"
 PATH = "./Garden"
 PAGE_PATHS = [""]
 ARTICLE_PATHS = ["articles"]
