@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Tech Radar.md",
+            "file": "Technical Vision.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar.md",
+                "file": "Technical Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "602106991381934e",
   "lastOpenFiles": [
-    "Productivity.md",
-    "personality type.md",
-    "Technical Vision.md",
-    "Ne Function.md",
-    "Languishing.md",
-    "MCII.md",
-    "Essentialism.md",
+    "LeftValues.md",
+    "Mentoring.md",
+    "MBTI Socionics Function Mapping.md",
+    "12 Favourite Problems.md",
     "H Factor.md",
-    "articles/Software/true-innovation.md",
-    "unlinked files output.md"
+    "Socialist Articles.md",
+    "Magic The Gathering.md",
+    "Stages of Competence.md",
+    "_index.md",
+    "Tech Radar.md"
   ]
 }
