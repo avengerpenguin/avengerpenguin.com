@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "036a6d18554a3c12",
+        "id": "602106991381934e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Technical Design Documents.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "7e5295a2182e04e6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Technical Strategy.md",
+            "file": "Tech Radar.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technical Design Documents.md",
+                "file": "Tech Radar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "036a6d18554a3c12",
+  "active": "602106991381934e",
   "lastOpenFiles": [
-    "Technical Strategy.md",
-    "Tech/Undifferentiated Heavy Lifting.md",
-    "Technical Design Documents.md",
-    "Oxford Comma.md",
-    "notebooks/Foundation of mathematics in Python.md",
-    "unresolved links output.md",
-    "Obsidian.md",
-    "2020-09-28.md",
-    "unlinked files output.md",
-    "Socialist Articles.md"
+    "Productivity.md",
+    "personality type.md",
+    "Technical Vision.md",
+    "Ne Function.md",
+    "Languishing.md",
+    "MCII.md",
+    "Essentialism.md",
+    "H Factor.md",
+    "articles/Software/true-innovation.md",
+    "unlinked files output.md"
   ]
 }

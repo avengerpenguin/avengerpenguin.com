@@ -8,7 +8,7 @@ What makes this approach a garden (over, say, a stream or timeline) is that it's
 
 I have personally felt a lot of pressure with writing a complete blog post to make it well-structured, coherent and complete before publishing.
 
-This leads to perfectionism and [[analysis-paralysis]] (particular for my [[personality type]]) that prevents me writing at all.
+This leads to perfectionism and [[Analysis Paralysis]] that prevents me writing at all.
 
 I have always preferred this approach to my own blog, preferring punchy links such as `/what-is-devops/` for [my post on what I think DevOps is](http://avengerpenguin.com/what-is-devops).
 

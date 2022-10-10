@@ -1,5 +1,5 @@
 Don't forget that creating the file from here may create the file in the wrong directory!
-- [[analysis-paralysis]] in [[Digital Garden]]
+- [[Analysis Paralysis]] in [[Digital Garden]]
 - [[personality type]] in [[Digital Garden]]
 - [[2020-09-28]] in [[Obsidian]]
 - [[Trade-offs]] in [[Productivity/Four Burners Theory]]
