@@ -7,12 +7,8 @@
         "id": "602106991381934e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Technical Vision.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technical Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +84,7 @@
   },
   "active": "602106991381934e",
   "lastOpenFiles": [
+    "Technical Vision.md",
     "LeftValues.md",
     "Mentoring.md",
     "MBTI Socionics Function Mapping.md",
@@ -97,7 +93,6 @@
     "Socialist Articles.md",
     "Magic The Gathering.md",
     "Stages of Competence.md",
-    "_index.md",
-    "Tech Radar.md"
+    "_index.md"
   ]
 }
