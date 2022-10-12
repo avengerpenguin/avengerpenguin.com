@@ -48,7 +48,7 @@ effectiveness thereof, rather than on whether they are "truly left wing" or
 Don't accept someone saying they do not like a programming language because,
 for example, it is "not truly functional". Ask instead to debate the merits
 of various features. Perhaps also ask to
-[focus on the objective qualities of a programming language](/programming-language-matters).
+focus on the objective qualities of a programming language.
 
 As I've covered in both REST and programming language, the semantics and
 proper use of labels should not be ignored. They are a useful proxy and

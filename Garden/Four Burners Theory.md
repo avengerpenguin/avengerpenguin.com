@@ -2,7 +2,7 @@ The origins of this idea seem to be murky, but most people point to the [James C
 
 The idea is that you visualise health, work, family and friends as four seperate burners on a gas hob. The belief is that you need to turn one off to be successful or perhaps even turn off two in order to be _really_ successful.
 
-This is presented as a hard constraint -- there's no easy workaround (e.g. a standing desk alone isn't enough to maintain health while working). It's part of a mentality that life is all about [[Trade-offs]].
+This is presented as a hard constraint -- there's no easy workaround (e.g. a standing desk alone isn't enough to maintain health while working). It's part of a mentality that life is all about Trade-offs.
 
 ## Solutions
 
@@ -11,7 +11,7 @@ The options of how to deal with boil down to:
 1. Keep all four going and don't excel in any of them
 2. Outsource or delegate (or automate?)
 3. Use constraints, prioritise and otherwise make better use of your time (automation can help here too)
-4. Embrace the idea of [[Seasons of Life]]
+4. Embrace the idea of Seasons of Life
 
 ### 1. Maintain all four
 
@@ -46,4 +46,4 @@ The concept here is to break your life into seasons. Rather than striving for a 
 
 In [Nathan Barry's article on seasons](http://nathanbarry.com/seasons/), they seem to be anything from a few weeks to a few years where you have a particular focus, but then that season comes to an end.
 
-This appears to fit nicely with the idea of "less is more" as well as avoiding [[trade-off anxiety]] where it's hard to pick what to commit to, so you don't commit to anything. If we know that "I'm doing this for the next 3 months" then we know things being traded off simply have to wait -- you're not dropping them altogether.
+This appears to fit nicely with the idea of "less is more" as well as avoiding trade-off anxiety where it's hard to pick what to commit to, so you don't commit to anything. If we know that "I'm doing this for the next 3 months" then we know things being traded off simply have to wait -- you're not dropping them altogether.

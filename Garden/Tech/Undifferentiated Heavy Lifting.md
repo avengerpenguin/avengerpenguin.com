@@ -13,7 +13,7 @@ I use the term "naive" in a sense that fits well with Computer Science -- that i
 
 One instinctive reaction I have seen was the usual "hype curve" behaviour. Teams adopt microservices without truly understanding what they were for, hit all the issues with undifferentiated heavy lifting ramping up rapidly and then the natural reaction is to swimg back to monolithic approaches, but strangely not necessarily full monoliths.
 
-There are a fair few trends at the moment to attempt to retain the [[Modular Aesthetic]] in a Mono_repo_ but either still deploy the parts independently or have some tooling to manage reassembling the parts into a single artefact.
+There are a fair few trends at the moment to attempt to retain the Modular Aesthetic in a Mono_repo_ but either still deploy the parts independently or have some tooling to manage reassembling the parts into a single artefact.
 
 The former gives you the worst of both worlds in that code changes across deployable parts are possible, but then deployments will not be atomic which could be problematic unless we specifically code or test for the interim state where the change is only briefly applied in one place before the second deployment finishes.
 
