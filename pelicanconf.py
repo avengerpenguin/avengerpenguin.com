@@ -1,12 +1,11 @@
 from voltaire.pelican import *
 
-
 SITENAME = "Ross Fenning's Digital Garden"
 PATH = "./Garden"
 PAGE_PATHS = [""]
 ARTICLE_PATHS = ["articles"]
 PAGE_EXCLUDES = ARTICLE_PATHS
-FILENAME_METADATA = '(?P<title>.*)'
+FILENAME_METADATA = "(?P<title>.*)"
 
 
 # PLUGINS += [
@@ -16,9 +15,9 @@ FILENAME_METADATA = '(?P<title>.*)'
 # ]
 
 
-PLUGINS += ['voltaire.search']
+PLUGINS += ["voltaire.search"]
 TEMPLATE_PAGES = {
-    'search.html': 'search/index.html',
+    "search.html": "search/index.html",
 }
 
 STATIC_PATHS = ["../extra"]
@@ -37,12 +36,12 @@ EXTRA_PATH_METADATA = {
 
 
 MENUITEMS_START = (
-    ('Home', '/'),
-    ('Blog', '/blog/'),
-    ('Search', '/search/'),
+    ("Home", "/"),
+    ("Blog", "/blog/"),
+    ("Search", "/search/"),
 )
 
-INDEX_SAVE_AS = 'blog/index.html'
+INDEX_SAVE_AS = "blog/index.html"
 
 
 # AUTHOR = 'Ross Fenning'

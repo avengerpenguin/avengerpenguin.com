@@ -25,4 +25,3 @@ instructions -> safer, traceable, repeatable, smooth
 Automation augments decision-making with inforamtion and carrying-out
 
 Don't move decisions below the line
-
