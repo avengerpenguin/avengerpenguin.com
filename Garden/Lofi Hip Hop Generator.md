@@ -5,4 +5,3 @@ https://ninaornina.medium.com/building-ai-to-make-lofi-hip-hop-an-introduction-t
 ## SaaS Potential
 
 Something like https://voxiso.com/
-

@@ -34,4 +34,3 @@ to hear other examples in comments or on Facebook/Twitter.
 
 Where have you done less of something and then got more effective at it? Does
 anyone else have experiences to share?
-

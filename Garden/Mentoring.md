@@ -46,4 +46,3 @@ Show how to use resources to find things out.
 
 - Code reviews
 - Informal knowledge sharing
-

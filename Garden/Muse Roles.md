@@ -8,4 +8,4 @@ Where you use internal intuition to fill in gaps in your tertiary function. This
 
 The Ni dominant function is really good at generating insights for the auxhiliary function (Fe for INFJ, Te for INTJ), but it might not serve well for their tertiary (Ti for INFJ, Fi for INTJ). Here, flirting with a brief moment of Ne-driven curiosity (research for the INFJ, reading or via relationships for INTJ) can provide insights that the Ni isn't naturally inclined to intuit.
 
-## Te - 
+## Te -

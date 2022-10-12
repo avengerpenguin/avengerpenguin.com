@@ -6,7 +6,7 @@ The Ne function is normally regarded as the ability to see possibilities, create
 * The Detective
 * The Explorer
 
-In my character model, 
+In my character model,
 
 dom - Seeker
 aux - Detective

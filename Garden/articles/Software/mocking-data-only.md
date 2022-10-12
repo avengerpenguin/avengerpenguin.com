@@ -242,4 +242,3 @@ working together and therefore any test failures indicate potential
 fault in either component (or both). Conventional wisdom tells us the
 failure is harder to pinpoint in this case, so it is better to have a
 unit test fail before we get to that point.
-

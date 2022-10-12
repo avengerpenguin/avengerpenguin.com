@@ -13,4 +13,3 @@ The mission is to reduce overheads such that it is possible to manage multiple s
 ## Hyperspace
 
 General-purpose REST and hypermedia client written in Python. Implements support for multiple hypermedia types using Mike Amundsen's [[H Factor]] model.
-

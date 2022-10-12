@@ -118,8 +118,8 @@ class Set:
                     out.add(c)
                     yield c
         return Set(_gen)
-                
-                
+
+
 〇 = Set()
 succ = lambda n: Set(lambda: {n}) | n
 
@@ -131,7 +131,7 @@ class Naturals:
     def __iter__(self):
         return self
 
-        
+
 ℕ = Set(Naturals)
 add = lambda 𝑚, 𝑛: Set(lambda: (𝑚 * {〇}) | (𝑛 * {succ(〇)}))
 set(add(〇, 〇))
@@ -172,7 +172,7 @@ class InfSet:
             for v in map(next, iterators):
                 yield v
 
-        
+
 ℕ2 = InfSet(ℕ)
 S = ℕ2 | ℕ2
 for n in S:

@@ -5,4 +5,3 @@ Things to get that CI/CD feel locally:
 * pre-commit pre-commit and pre-push hooks:
 	* pre-commit: linting, formatting, etc.
 	* pre-push: run tests, stage, verify, publish
-

@@ -11,5 +11,3 @@ Further reading:
 - [Design Docs, Markdown, and Git – Caitie McCaffrey](https://caitiem.com/2020/03/29/design-docs-markdown-and-git/)
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
 - [Technical Decision-Making and Alignment in a Remote Culture | Stitch Fix Technology – Multithreaded](https://multithreaded.stitchfix.com/blog/2020/12/07/remote-decision-making/)
-
-

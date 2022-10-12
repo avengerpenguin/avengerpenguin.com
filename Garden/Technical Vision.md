@@ -9,4 +9,3 @@ This comprises a few principles:
 - Fewer remits per team, fewer teams per remit
 - Quick hand-offs
 - Less context switching
-

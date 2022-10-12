@@ -19,4 +19,3 @@ I have a lot to say about:
 - Agile
 - Continuous Delivery
 - Continuous Improvement
-

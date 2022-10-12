@@ -60,7 +60,7 @@ on out-of-band information for integration, which couples it further.
 Where we need to be careful is that arguments cannot progress if we argue
 over labels without unpacking what definitions we are using for those labels.
 If we fundamentally disagree on what a label means, then perhaps we need to
-drop semantics altogether and talk only about properties and nuances for a 
+drop semantics altogether and talk only about properties and nuances for a
 while.
 
 When someone says "this is not music", they are telling you they do not like

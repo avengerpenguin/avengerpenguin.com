@@ -18,7 +18,7 @@ Enchiridion Chapter 1:
 > Some things are in our control and others not. Things in our control are opinion, pursuit, desire, aversion, and, in a word, whatever are our own actions. Things not in our control are body, property, reputation, command, and, in one word, whatever are not our own actions.
 >
 > -- <cite>Epictetus, _Enchiridion_, Chapter 1</cite>
-    
+
 The key insight from today -- one that I might have missed when I first
 read The Daily Stoic -- is what it is telling you about what you _can_
 control. The focus for today is not the difficult task of trying hard to
@@ -40,7 +40,7 @@ to mind on reading today's thoughts was:
 > It is better to light a candle than to curse the darkness.
 >
 > -- <cite>W. L. Watkinson</cite>
-    
+
 That is, can we some way to do good in even the darkest of situations or events?
 
 If something is not as you would like it to be, but it seems to be out of
@@ -62,7 +62,7 @@ Will a single blog in the noise change policitians' minds or steer public
 discourse? No. Will eating better help chronic or terminal illnesses? No.
 
 But in the darkness, it is our Stoic duty to light that candle if only to
-focus our discipline away from cursing it. 
+focus our discipline away from cursing it.
 
 <aside>
 This is part of a series inspired by

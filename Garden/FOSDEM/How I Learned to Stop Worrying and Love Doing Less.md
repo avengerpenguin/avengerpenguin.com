@@ -7,4 +7,3 @@ Notes on https://fosdem.org/2021/schedule/event/community_devroom_stop_worrying_
 What is the core mission of the project?
 
 Do new ideas lead back to it?
-

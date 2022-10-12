@@ -17,7 +17,7 @@ editor and knowledge of HTML, CSS and JavaScript itself.
 
 It can be even more frustrating when you have large application UIs built,
 for example, in Angular but now everyone is using
-[React](https://reactjs.org/). Your build process is 
+[React](https://reactjs.org/). Your build process is
 fully dependent on [Bower](https://bower.io/)
 and [browserify](http://browserify.org/) but now everyone is using
 [Yarn](https://yarnpkg.com/) and [Webpack](https://webpack.js.org/).

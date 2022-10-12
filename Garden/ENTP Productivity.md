@@ -61,4 +61,3 @@ Writing this allowed me to close the tab for [How To be Organized as ENTP](https
 Articles that have fed into this:
 
 - [How To be Organized as ENTP](https://sensingsage.com/getting-this-done-entp-productivity/)
-
