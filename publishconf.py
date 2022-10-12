@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-
+from pelicanconf import *
 
 SITEURL = "https://avengerpenguin.com"
 RELATIVE_URLS = False
