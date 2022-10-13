@@ -9,7 +9,7 @@ docutils==0.18
 feedgenerator==2.0.0
 ghp-import==2.0.2
 idna==3.4
-invoke==1.6.0
+invoke==1.7.3
 Jinja2==3.0.2
 livereload==2.6.3
 Markdown==3.3.4
