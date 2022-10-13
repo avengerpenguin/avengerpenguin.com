@@ -7,7 +7,7 @@ commonmark==0.9.1
 cssmin==0.2.0
 docutils==0.19
 feedgenerator==2.0.0
-ghp-import==2.0.2
+ghp-import==2.1.0
 idna==3.4
 invoke==1.7.3
 Jinja2==3.0.2
