@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "43e4dd22277ee397",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e81131ed4623147",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8c688e0e9a67785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Now.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8acb3a4674cc978f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a2fa74daeccf86a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cbf6ae5fba94ea6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a50ef5568efab02",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f3fb9fc4b3c3d3c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e94579a0ff9a6950",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56a6f1134b860a7a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Now.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "d8c688e0e9a67785",
+  "lastOpenFiles": [
+    "_index.md",
+    "Tech/DevOps.md",
+    "Tech/Bootstrap Continuous Delivery.md",
+    "FOSDEM/CubicWeb as a Linked Open Data server.md",
+    "FOSDEM/FOSDEM 2021.md",
+    "FOSDEM/Retweeting as voting.md",
+    "FOSDEM/How I Learned to Stop Worrying and Love Doing Less.md",
+    "FOSDEM/Designing a human centric next generation internet.md",
+    "Agile Results.md",
+    "Explore-Exploit Dilemma.md"
+  ]
+}
