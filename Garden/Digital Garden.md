@@ -10,7 +10,7 @@ I have personally felt a lot of pressure with writing a complete blog post to ma
 
 This leads to perfectionism and [[Analysis Paralysis]] that prevents me writing at all.
 
-I have always preferred this approach to my own blog, preferring punchy links such as `/what-is-devops/` for [my post on what I think DevOps is](http://avengerpenguin.com/what-is-devops).
+I have always preferred this approach to my own blog, preferring punchy links such as `/what-is-devops/` for [my post on what I think DevOps is](/what-is-devops/).
 
 I've been doing this since reading [Kristian Glass's 2015 article on preferring permlinks to having dates in URLs](https://blog.doismellburning.co.uk/permalinks/) and have configured static site generators like Pelican for some time to prefer this.
 
