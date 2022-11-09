@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from voltaire.pelican import *
 
 SITENAME = "Ross Fenning's Digital Garden"
@@ -34,6 +36,7 @@ EXTRA_PATH_METADATA = {
     "../extra/site.webmanifest": {"path": "site.webmanifest"},
 }
 
+THEME_STATIC_PATHS += [Path.cwd() / "node_modules"]
 
 MENUITEMS_START = (
     ("Home", "/"),
@@ -43,6 +46,7 @@ MENUITEMS_START = (
 
 INDEX_SAVE_AS = "blog/index.html"
 
+WEBASSETS_CONFIG = [("PYSCSS_LOAD_PATHS", [str(Path.cwd() / "node_modules")])]
 
 # AUTHOR = 'Ross Fenning'
 # SITENAME = 'Avenger Penguin'

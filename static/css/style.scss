@@ -1,13 +1,21 @@
+@import "@fontsource/fira-sans/scss/mixins";
+
+@include fontFace(
+  $weight: 500,
+  $display: fallback,
+  $fontDir: "/theme/@fontsource/fira-sans/files"
+);
+
 $text-colour: #1F192F;
 $header-colour: #59677e;
 $link-colour: #3395AB;
 $highlight-colour: #bfcfe7;
-$not_there: #E9EBF5;
+//$not_there: #E9EBF5;
 
 html, html:root, body {
   color: $text-colour;
   padding: 0;
-  //font-family: 'Roboto', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 body {
