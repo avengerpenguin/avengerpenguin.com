@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "57da57986869a4e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unlinked files output.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9ce61eb4bb808f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "unresolved links output.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "964b156e892b16ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "H Factor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "H Factor.md",
+                "file": "Digital Garden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "964b156e892b16ec",
+  "active": "d8c688e0e9a67785",
   "lastOpenFiles": [
-    "_index.md",
-    "12 Favourite Problems.md",
-    "LeftValues.md",
-    "Modular Aesthetic.md",
-    "unresolved links output.md",
     "unlinked files output.md",
-    "Digital Garden.md",
-    "articles/Stoicism/less-is-more.md",
-    "Voltaire.md",
-    "Analysis Paralysis.md"
+    "unresolved links output.md",
+    "Domestication of Users.md",
+    "_index.md",
+    "Now.md",
+    "DevOps.md",
+    "Bootstrap Continuous Delivery.md",
+    "Obsidian.md",
+    "Philosophy.md",
+    "Modular Aesthetic.md"
   ]
 }
