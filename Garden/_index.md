@@ -14,5 +14,5 @@ Read [[Now|what he is doing at the moment]].
 ## Areas of Interest
 
 - [[DevOps]]
-- [[Philosophy]]
+- [[Software Engineering]]
 - [[Productivity]]

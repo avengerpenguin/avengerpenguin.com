@@ -10,6 +10,7 @@
 8. How do I incorporate a significant reading habit into my life such that I actually read all the books I have?
 
 ## Tech
+
 9. How do we balance locality and autonomy with the desire to reduce [[Undifferentiated Heavy Lifting]]?
 10. Can we restore some of design principles of the World Wide Web (REST, semantics, Linked Data) to APIs and Enterprise Integration and reduce wasted effort on repeated, bespoke integration middlewares?
 11. Is it possible to having less than a day between writing code and shipping to production? Can we deploy changes within 10 minutes?

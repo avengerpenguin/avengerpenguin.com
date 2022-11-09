@@ -47,12 +47,8 @@
             "id": "964b156e892b16ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modular Aesthetic.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -114,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modular Aesthetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,15 +129,15 @@
   },
   "active": "964b156e892b16ec",
   "lastOpenFiles": [
+    "_index.md",
+    "12 Favourite Problems.md",
+    "LeftValues.md",
+    "Modular Aesthetic.md",
     "unresolved links output.md",
     "unlinked files output.md",
     "Digital Garden.md",
     "articles/Stoicism/less-is-more.md",
     "Voltaire.md",
-    "_index.md",
-    "Analysis Paralysis.md",
-    "8values.md",
-    "Bootstrap Continuous Delivery.md",
-    "Now.md"
+    "Analysis Paralysis.md"
   ]
 }
