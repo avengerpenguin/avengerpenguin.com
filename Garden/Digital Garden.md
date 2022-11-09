@@ -17,3 +17,8 @@ I've been doing this since reading [Kristian Glass's 2015 article on preferring 
 However, even in my own blog post above, I still have a date in the article and the default behaviour of many static site generators is for the homepage to be a stream of content rather than an [old school home page](https://stackingthebricks.com/how-blogs-broke-the-web/).
 
 With the Digital Gardening approach, I plan to write more in the open and build daily habits to write more.
+
+Tools:
+
+- [[Obsidian]]
+- [[Voltaire]]
