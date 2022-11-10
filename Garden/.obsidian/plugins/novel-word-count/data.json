@@ -11,14 +11,23 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "HATEOAS or RPC.md": {
+      "noteCount": 1,
+      "wordCount": 1362,
+      "pageCount": 4.54,
+      "characterCount": 8151,
+      "nonWhitespaceCharacterCount": 6731,
+      "createdDate": 1665398706477,
+      "modifiedDate": 1665398706477
+    },
     "Semantic Arguments.md": {
       "noteCount": 1,
-      "wordCount": 771,
-      "pageCount": 2.57,
-      "characterCount": 4642,
-      "nonWhitespaceCharacterCount": 3856,
+      "wordCount": 757,
+      "pageCount": 2.5233333333333334,
+      "characterCount": 4507,
+      "nonWhitespaceCharacterCount": 3736,
       "createdDate": 1665579177978,
-      "modifiedDate": 1668105862608
+      "modifiedDate": 1668105887180
     },
     "What is DevOps?.md": {
       "noteCount": 1,
@@ -146,15 +155,6 @@
       "createdDate": 1665579177978,
       "modifiedDate": 1665579180158
     },
-    "articles/Software/HATEOAS or RPC.md": {
-      "noteCount": 1,
-      "wordCount": 1362,
-      "pageCount": 4.54,
-      "characterCount": 8151,
-      "nonWhitespaceCharacterCount": 6731,
-      "createdDate": 1665398706477,
-      "modifiedDate": 1665398706477
-    },
     "articles/Language/pedantry-paradox.md": {
       "noteCount": 1,
       "wordCount": 137,
@@ -166,12 +166,12 @@
     },
     "_index.md": {
       "noteCount": 1,
-      "wordCount": 90,
-      "pageCount": 0.3,
-      "characterCount": 677,
-      "nonWhitespaceCharacterCount": 580,
+      "wordCount": 95,
+      "pageCount": 0.31666666666666665,
+      "characterCount": 716,
+      "nonWhitespaceCharacterCount": 612,
       "createdDate": 1667995476614,
-      "modifiedDate": 1668105164099
+      "modifiedDate": 1668105904664
     },
     "YAGNI.md": {
       "noteCount": 1,

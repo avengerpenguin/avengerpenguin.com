@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/Language/pedantry-paradox.md",
+                "file": "HATEOAS or RPC.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/Language/pedantry-paradox.md",
+                "file": "HATEOAS or RPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,9 +97,9 @@
   },
   "active": "57a86c6c188f6c19",
   "lastOpenFiles": [
+    "articles/Language/pedantry-paradox.md",
     "_index.md",
     "Semantic Arguments.md",
-    "articles/Language/pedantry-paradox.md",
     "Tech Radar.md",
     "unresolved links output.md",
     "unlinked files output.md",
