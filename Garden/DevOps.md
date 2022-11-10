@@ -1,4 +1,4 @@
-I use a holistic, broad definition of DevOps as a mix of technologies, practices and culture. See [[what-is-devops|What is DevOps?]] for a full definition.
+I use a holistic, broad definition of DevOps as a mix of technologies, practices and culture. See [[What is DevOps?|What is DevOps?]] for a full definition.
 
 Other topics in this space:
 

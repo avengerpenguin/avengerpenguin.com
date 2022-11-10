@@ -1,10 +1,3 @@
-Title: Semantic Arguments
-Date: 2018-03-20
-Slug: semantic-arguments
-Status: published
-Category: Language
-Tags: Linguistics, Semantics
-
 As a species, we like to debate a lot. There are debates over politics,
 religion, music, art, films, programming languages, ethics, favourite
 "My Little Pony" character and many more important topics.
@@ -21,6 +14,7 @@ of whether *properties* of the thing being discussed are good or useful. We
 are just focusing instead of whether things qualify for a label and possibly
 not even acknowledging that all sides involved could be using different
 definitions for that label.
+
 This happens in multiple fields:
 
 * Is some musical genre "real" music?

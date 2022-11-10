@@ -12,6 +12,11 @@ See [rossfenning.co.uk](https://rossfenning.co.uk) for his professional profile 
 Read [[Now|what he is doing at the moment]].
 
 
-## DevOps
+## DevOps and Engineering
 
-- [[what-is-devops|What is DevOps?]]
+- [[What is DevOps?|What is DevOps?]]
+- [[Undifferentiated Heavy Lifting]]
+
+## Language
+
+- [[Semantic Arguments]]

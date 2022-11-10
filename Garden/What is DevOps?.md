@@ -1,8 +1,3 @@
-Title: What is DevOps?
-Date: 2019-09-11
-Status: published
-Category: DevOps
-
 A common problem with any buzzword coined in the software industry is that we struggle to pin down a precise definition.
 This is almost certainly the case with _DevOps_ with multiple companies, blogs and experts using the term to mean different things.
 
@@ -20,7 +15,7 @@ Finally, I will discuss how various practices and implementations we may be fami
 
 ### Practices, techniques, tools
 
-A meme in blogs on this issue (with [Atlassian](https://www.atlassian.com/devops) an exemplar of this) is to emphasise DevOps as "culturual" or "philosophy" in contrast to specific technical practices.
+A meme in blogs on this issue (with [Atlassian](https://www.atlassian.com/devops) an exemplar of this) is to emphasise DevOps as "cultural" or "philosophy" in contrast to specific technical practices.
 Again, with a systems mindset, is is both -- just different things to different people at different levels of detail, but nobody is "wrong".
 
 This is why I am keen to follow a definition that loosely allows for anything so long as the goal of speeding up delivery is achieved.

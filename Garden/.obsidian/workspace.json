@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2e81131ed4623147",
+        "id": "2b522196ea30dab4",
         "type": "tabs",
         "children": [
           {
-            "id": "d8c688e0e9a67785",
+            "id": "57a86c6c188f6c19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Garden.md",
+                "file": "articles/Language/pedantry-paradox.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital Garden.md",
+                "file": "articles/Language/pedantry-paradox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d8c688e0e9a67785",
+  "active": "57a86c6c188f6c19",
   "lastOpenFiles": [
-    "unlinked files output.md",
-    "unresolved links output.md",
-    "Domestication of Users.md",
     "_index.md",
-    "Now.md",
-    "DevOps.md",
-    "Bootstrap Continuous Delivery.md",
-    "Obsidian.md",
-    "Philosophy.md",
-    "Modular Aesthetic.md"
+    "Semantic Arguments.md",
+    "articles/Language/pedantry-paradox.md",
+    "Tech Radar.md",
+    "unresolved links output.md",
+    "unlinked files output.md",
+    "What is DevOps?.md",
+    "Toxic Productivity and ADHD.md",
+    "Undifferentiated Heavy Lifting.md",
+    "Storytelling techniques for creating impactful presentations.md"
   ]
 }
