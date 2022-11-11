@@ -4,7 +4,7 @@
     "countType2": "none",
     "countType3": "none",
     "abbreviateDescriptions": true,
-    "alignment": "inline",
+    "alignment": "right",
     "debugMode": false,
     "wordsPerPage": 300,
     "charsPerPage": 1500,
@@ -13,12 +13,12 @@
   "cachedCounts": {
     "HATEOAS or RPC.md": {
       "noteCount": 1,
-      "wordCount": 1362,
-      "pageCount": 4.54,
-      "characterCount": 8151,
-      "nonWhitespaceCharacterCount": 6731,
+      "wordCount": 1353,
+      "pageCount": 4.51,
+      "characterCount": 8068,
+      "nonWhitespaceCharacterCount": 6657,
       "createdDate": 1665398706477,
-      "modifiedDate": 1665398706477
+      "modifiedDate": 1668111859866
     },
     "Semantic Arguments.md": {
       "noteCount": 1,

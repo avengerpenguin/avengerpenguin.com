@@ -87,6 +87,14 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "2297d4396f04e3b6",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
           }
         ]
       }
