@@ -11,6 +11,15 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "Staying in the Garden.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1668273091229,
+      "modifiedDate": 1668273091229
+    },
     "HATEOAS or RPC.md": {
       "noteCount": 1,
       "wordCount": 1353,

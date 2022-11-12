@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "05521aef3e1bb03d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Staying in the Garden.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HATEOAS or RPC.md",
+                "file": "Staying in the Garden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,8 +116,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "57a86c6c188f6c19",
+  "active": "05521aef3e1bb03d",
   "lastOpenFiles": [
+    "HATEOAS or RPC.md",
     "articles/Language/pedantry-paradox.md",
     "_index.md",
     "Semantic Arguments.md",
@@ -113,7 +127,6 @@
     "unlinked files output.md",
     "What is DevOps?.md",
     "Toxic Productivity and ADHD.md",
-    "Undifferentiated Heavy Lifting.md",
-    "Storytelling techniques for creating impactful presentations.md"
+    "Undifferentiated Heavy Lifting.md"
   ]
 }
