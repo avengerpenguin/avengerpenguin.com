@@ -48,6 +48,9 @@ INDEX_SAVE_AS = "blog/index.html"
 
 WEBASSETS_CONFIG = [("PYSCSS_LOAD_PATHS", [str(Path.cwd() / "node_modules")])]
 
+DISQUS_SITE = "avengerpenguin"
+
+
 # AUTHOR = 'Ross Fenning'
 # SITENAME = 'Avenger Penguin'
 # SITEURL = ''
