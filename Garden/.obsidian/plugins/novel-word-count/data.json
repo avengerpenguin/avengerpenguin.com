@@ -11,42 +11,6 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "Staying in the Garden.md": {
-      "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "createdDate": 1668273091229,
-      "modifiedDate": 1668273091229
-    },
-    "HATEOAS or RPC.md": {
-      "noteCount": 1,
-      "wordCount": 1353,
-      "pageCount": 4.51,
-      "characterCount": 8068,
-      "nonWhitespaceCharacterCount": 6657,
-      "createdDate": 1665398706477,
-      "modifiedDate": 1668111859866
-    },
-    "Semantic Arguments.md": {
-      "noteCount": 1,
-      "wordCount": 757,
-      "pageCount": 2.5233333333333334,
-      "characterCount": 4507,
-      "nonWhitespaceCharacterCount": 3736,
-      "createdDate": 1665579177978,
-      "modifiedDate": 1668105887180
-    },
-    "What is DevOps?.md": {
-      "noteCount": 1,
-      "wordCount": 504,
-      "pageCount": 1.68,
-      "characterCount": 3259,
-      "nonWhitespaceCharacterCount": 2735,
-      "createdDate": 1665398706453,
-      "modifiedDate": 1668105712935
-    },
     "unresolved links output.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -191,6 +155,15 @@
       "createdDate": 1665398706453,
       "modifiedDate": 1665398706453
     },
+    "What is DevOps?.md": {
+      "noteCount": 1,
+      "wordCount": 504,
+      "pageCount": 1.68,
+      "characterCount": 3259,
+      "nonWhitespaceCharacterCount": 2735,
+      "createdDate": 1665398706453,
+      "modifiedDate": 1668105712935
+    },
     "Voltaire.md": {
       "noteCount": 1,
       "wordCount": 2,
@@ -299,6 +272,15 @@
       "createdDate": 1665398706453,
       "modifiedDate": 1665398706453
     },
+    "Staying in the Garden.md": {
+      "noteCount": 1,
+      "wordCount": 32,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 169,
+      "nonWhitespaceCharacterCount": 136,
+      "createdDate": 1668273091229,
+      "modifiedDate": 1668276235704
+    },
     "Stages of Competence.md": {
       "noteCount": 1,
       "wordCount": 34,
@@ -325,6 +307,15 @@
       "nonWhitespaceCharacterCount": 138,
       "createdDate": 1665579177978,
       "modifiedDate": 1665579180226
+    },
+    "Semantic Arguments.md": {
+      "noteCount": 1,
+      "wordCount": 757,
+      "pageCount": 2.5233333333333334,
+      "characterCount": 4507,
+      "nonWhitespaceCharacterCount": 3736,
+      "createdDate": 1665579177978,
+      "modifiedDate": 1668105887180
     },
     "Productivity.md": {
       "noteCount": 1,
@@ -470,6 +461,15 @@
       "createdDate": 1665579177974,
       "modifiedDate": 1665579180222
     },
+    "HATEOAS or RPC.md": {
+      "noteCount": 1,
+      "wordCount": 1353,
+      "pageCount": 4.51,
+      "characterCount": 8068,
+      "nonWhitespaceCharacterCount": 6657,
+      "createdDate": 1665398706477,
+      "modifiedDate": 1668111859866
+    },
     "H Factor.md": {
       "noteCount": 1,
       "wordCount": 3,
@@ -479,15 +479,6 @@
       "createdDate": 1665398706449,
       "modifiedDate": 1668007915310
     },
-    "Four Burners Theory.md": {
-      "noteCount": 1,
-      "wordCount": 555,
-      "pageCount": 1.85,
-      "characterCount": 3253,
-      "nonWhitespaceCharacterCount": 2677,
-      "createdDate": 1665398706453,
-      "modifiedDate": 1665580813038
-    },
     "Flow.md": {
       "noteCount": 1,
       "wordCount": 63,
@@ -496,6 +487,15 @@
       "nonWhitespaceCharacterCount": 317,
       "createdDate": 1665398706449,
       "modifiedDate": 1665398706449
+    },
+    "Four Burners Theory.md": {
+      "noteCount": 1,
+      "wordCount": 555,
+      "pageCount": 1.85,
+      "characterCount": 3253,
+      "nonWhitespaceCharacterCount": 2677,
+      "createdDate": 1665398706453,
+      "modifiedDate": 1665580813038
     },
     "Explore-Exploit Dilemma.md": {
       "noteCount": 1,
