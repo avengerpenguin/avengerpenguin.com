@@ -11,6 +11,24 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "Platform Pitfalls and Myths.md": {
+      "noteCount": 1,
+      "wordCount": 61,
+      "pageCount": 0.20333333333333334,
+      "characterCount": 427,
+      "nonWhitespaceCharacterCount": 357,
+      "createdDate": 1668515563198,
+      "modifiedDate": 1668516105569
+    },
+    "Tenets for Platform Sucess.md": {
+      "noteCount": 1,
+      "wordCount": 55,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 359,
+      "nonWhitespaceCharacterCount": 291,
+      "createdDate": 1668515234671,
+      "modifiedDate": 1668515467725
+    },
     "unresolved links output.md": {
       "noteCount": 1,
       "wordCount": 23,

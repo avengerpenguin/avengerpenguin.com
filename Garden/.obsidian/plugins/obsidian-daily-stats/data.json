@@ -1,11 +1,20 @@
 {
   "dayCounts": {
-    "2022/10/12": 30
+    "2022/10/12": 30,
+    "2022/10/15": 422
   },
   "todaysWordCount": {
-    "Staying in the Garden.md": {
-      "initial": 1,
-      "current": 31
+    "Tenets for Platform Sucess.md": {
+      "initial": 0,
+      "current": 46
+    },
+    "Platform Myths.md": {
+      "initial": 0,
+      "current": 58
+    },
+    "Platform Pitfalls and Myths.md": {
+      "initial": 58,
+      "current": 376
     }
   }
 }
