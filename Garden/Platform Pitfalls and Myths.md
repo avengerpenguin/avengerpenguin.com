@@ -1,6 +1,8 @@
 When building an internal platform for an organisation, there are a few traps people fall into.
 
-The breakdown of this is largely thanks to [Scaling your business with platform thinking by Thoughtworks](https://www.thoughtworks.com/en-gb/what-we-do/enterprise-modernization-platforms-cloud/empc-hub/scaling-your-business-with-platform-thinking) combined with my own experience with successful and unsuccessful platform initiatives.
+The breakdown of this is largely thanks to [Scaling your business with platform thinking by Thoughtworks](https://www.thoughtworks.com/en-gb/what-we-do/enterprise-modernization-platforms-cloud/empc-hub/scaling-your-business-with-platform-thinking) with details filled in with my own experience with successful and unsuccessful platform initiatives.
+
+For how to get it right, see [[Tenets for Platform Sucess]].
 
 ## 1. Build it and they will come
 
@@ -20,10 +22,17 @@ Again, arguing from Economics or indeed human behaviour, we can clearly empathis
 
 ## 3. Platforms help you beat Conway's Law
 
-Platforms cannot reduce organisational friction.
+Conway's Law states that "Organizations, who design systems, are constrained to produce designs which are copies of the communication structures of these organizations."
 
-## Platforms are monoliths
+Common outcomes of this include systems not being joined up if there is too much communication friction.
 
-Platforms are set of loosely coupled capabilities
+A temptation here is to build a platform that encourages everyone to collaborate, but organisational friction should be fixed by team structures and topologies. A platform cannot magically fix organisational friction (and again, the temptation is to mandate adoption when existing friction prevents it happening naturally).
 
-Arranged to make a meaningful experience
+## 4. Platforms are monoliths
+
+Another temptation is to build platforms as a singular monolith with a highly-abstract API and a single use case.
+
+In reality, successful platforms are a set of loosely coupled capabilities where teams can perhaps adopt it partially where they have solutions for some functionality already. Or theyy may wish to orchestrate the capabilities in newer ways.
+
+The capabilities should be arrange to create a meaningful experience, built around use cases as they emerge.
+

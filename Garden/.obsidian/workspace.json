@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Platform Pitfalls and Myths.md",
+                "file": "Tenets for Platform Sucess.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,8 +140,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f37b96a1c53c912f",
+  "active": "f7f5e915cc893ad0",
   "lastOpenFiles": [
+    "Platform Pitfalls and Myths.md",
     "Tenets for Platform Sucess.md",
     "Staying in the Garden.md",
     "HATEOAS or RPC.md",
@@ -150,7 +151,6 @@
     "Semantic Arguments.md",
     "Tech Radar.md",
     "unresolved links output.md",
-    "unlinked files output.md",
-    "What is DevOps?.md"
+    "unlinked files output.md"
   ]
 }
