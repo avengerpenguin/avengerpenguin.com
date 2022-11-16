@@ -11,6 +11,15 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "Building a Successful Platform.md": {
+      "noteCount": 1,
+      "wordCount": 466,
+      "pageCount": 1.5533333333333332,
+      "characterCount": 2954,
+      "nonWhitespaceCharacterCount": 2469,
+      "createdDate": 1668605901637,
+      "modifiedDate": 1668615506469
+    },
     "unresolved links output.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -209,15 +218,6 @@
       "createdDate": 1668605901637,
       "modifiedDate": 1668605901637
     },
-    "Tenets for Platform Sucess.md": {
-      "noteCount": 1,
-      "wordCount": 466,
-      "pageCount": 1.5533333333333332,
-      "characterCount": 2954,
-      "nonWhitespaceCharacterCount": 2469,
-      "createdDate": 1668605901637,
-      "modifiedDate": 1668615506469
-    },
     "Temperaments.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -339,10 +339,10 @@
       "noteCount": 1,
       "wordCount": 502,
       "pageCount": 1.6733333333333333,
-      "characterCount": 3357,
-      "nonWhitespaceCharacterCount": 2836,
+      "characterCount": 3361,
+      "nonWhitespaceCharacterCount": 2840,
       "createdDate": 1668605901634,
-      "modifiedDate": 1668612060306
+      "modifiedDate": 1668618351502
     },
     "Premature scaling can stunt system iteration.md": {
       "noteCount": 1,

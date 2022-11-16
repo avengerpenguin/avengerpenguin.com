@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tenets for Platform Sucess.md",
+                "file": "Building a Successful Platform.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tenets for Platform Sucess.md",
+                "file": "Building a Successful Platform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
   "active": "f7f5e915cc893ad0",
   "lastOpenFiles": [
     "Platform Pitfalls and Myths.md",
-    "Tenets for Platform Sucess.md",
+    "Building a Successful Platform.md",
     "DevOps.md",
     "Staying in the Garden.md",
     "HATEOAS or RPC.md",
