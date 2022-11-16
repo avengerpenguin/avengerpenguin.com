@@ -1,20 +1,13 @@
 {
   "dayCounts": {
     "2022/10/12": 30,
-    "2022/10/15": 422
+    "2022/10/15": 422,
+    "2022/10/16": 0
   },
   "todaysWordCount": {
     "Tenets for Platform Sucess.md": {
-      "initial": 0,
-      "current": 46
-    },
-    "Platform Myths.md": {
-      "initial": 0,
-      "current": 58
-    },
-    "Platform Pitfalls and Myths.md": {
-      "initial": 58,
-      "current": 376
+      "initial": 486,
+      "current": 486
     }
   }
 }
