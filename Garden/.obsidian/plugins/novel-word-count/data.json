@@ -11,14 +11,23 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "conflict-files-obsidian-git.md": {
+      "noteCount": 1,
+      "wordCount": 23,
+      "pageCount": 0.07666666666666666,
+      "characterCount": 152,
+      "nonWhitespaceCharacterCount": 130,
+      "createdDate": 1668625132328,
+      "modifiedDate": 1668625132329
+    },
     "Building a Successful Platform.md": {
       "noteCount": 1,
       "wordCount": 466,
       "pageCount": 1.5533333333333332,
-      "characterCount": 2954,
+      "characterCount": 2952,
       "nonWhitespaceCharacterCount": 2469,
-      "createdDate": 1668605901637,
-      "modifiedDate": 1668615506469
+      "createdDate": 1668625132297,
+      "modifiedDate": 1668625132297
     },
     "unresolved links output.md": {
       "noteCount": 1,

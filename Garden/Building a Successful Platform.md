@@ -35,5 +35,3 @@ As with Agile transformations, organisations with cross-functional teams benefit
 ## 5. Careful with change management
 
 It is a significant change to move an organisation to one that adopts platform thinking. Without proper change management to help buy into the platform and adapt workflows to it, expect adoption not to get off the ground and the value of the platform is never unlocked.
-
-
