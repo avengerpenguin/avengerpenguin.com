@@ -11,6 +11,24 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "conflict-files-obsidian-git.md": {
+      "noteCount": 1,
+      "wordCount": 28,
+      "pageCount": 0.09333333333333334,
+      "characterCount": 218,
+      "nonWhitespaceCharacterCount": 191,
+      "createdDate": 1668726298254,
+      "modifiedDate": 1668726298254
+    },
+    "Building a Successful Platform.md": {
+      "noteCount": 1,
+      "wordCount": 466,
+      "pageCount": 1.5533333333333332,
+      "characterCount": 2952,
+      "nonWhitespaceCharacterCount": 2469,
+      "createdDate": 1668726297922,
+      "modifiedDate": 1668726297922
+    },
     "unresolved links output.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -209,15 +227,6 @@
       "createdDate": 1665398706453,
       "modifiedDate": 1665398706453
     },
-    "Tenets for Platform Sucess.md": {
-      "noteCount": 1,
-      "wordCount": 466,
-      "pageCount": 1.5533333333333332,
-      "characterCount": 2952,
-      "nonWhitespaceCharacterCount": 2469,
-      "createdDate": 1668618657743,
-      "modifiedDate": 1668621742042
-    },
     "Temperaments.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -348,10 +357,10 @@
       "noteCount": 1,
       "wordCount": 502,
       "pageCount": 1.6733333333333333,
-      "characterCount": 3357,
-      "nonWhitespaceCharacterCount": 2836,
-      "createdDate": 1668618657743,
-      "modifiedDate": 1668618657743
+      "characterCount": 3361,
+      "nonWhitespaceCharacterCount": 2840,
+      "createdDate": 1668726297918,
+      "modifiedDate": 1668726297918
     },
     "Philosophy.md": {
       "noteCount": 1,

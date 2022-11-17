@@ -2,7 +2,7 @@ When building an internal platform for an organisation, there are a few traps pe
 
 The breakdown of this is largely thanks to [Scaling your business with platform thinking by Thoughtworks](https://www.thoughtworks.com/en-gb/what-we-do/enterprise-modernization-platforms-cloud/empc-hub/scaling-your-business-with-platform-thinking) with details filled in with my own experience with successful and unsuccessful platform initiatives.
 
-For how to get it right, see [[Tenets for Platform Sucess]].
+For how to get it right, see [[Building a Successful Platform]].
 
 ## 1. Build it and they will come
 
