@@ -4,55 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2b522196ea30dab4",
+        "id": "75d0dabc5c4c6139",
         "type": "tabs",
         "children": [
           {
-            "id": "57a86c6c188f6c19",
+            "id": "445d31cdfeb663fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HATEOAS or RPC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05521aef3e1bb03d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Staying in the Garden.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f408d0201b1b031b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f37b96a1c53c912f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Platform Pitfalls and Myths.md",
+                "file": "Commercial Conferences.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Commercial Conferences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,17 +103,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8cbf6ae5fba94ea6",
+  "active": "445d31cdfeb663fa",
   "lastOpenFiles": [
+    "Platform Pitfalls and Myths.md",
+    "Commercial Conferences.md",
+    "Shipping Theatre.md",
+    "Connecting Engineering Work to the Business.md",
     "Staying in the Garden.md",
     "2022-11-16.md",
-    "Platform Pitfalls and Myths.md",
     "Tenets for Platform Sucess.md",
     "HATEOAS or RPC.md",
     "articles/Language/pedantry-paradox.md",
-    "_index.md",
-    "Semantic Arguments.md",
-    "Tech Radar.md",
-    "unresolved links output.md"
+    "_index.md"
   ]
 }

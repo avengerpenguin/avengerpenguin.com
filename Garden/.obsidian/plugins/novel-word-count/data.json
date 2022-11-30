@@ -11,14 +11,14 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "Building a Successful Platform.md": {
+    "Commercial Conferences.md": {
       "noteCount": 1,
-      "wordCount": 466,
-      "pageCount": 1.5533333333333332,
-      "characterCount": 2952,
-      "nonWhitespaceCharacterCount": 2469,
-      "createdDate": 1668726297922,
-      "modifiedDate": 1668726297922
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1669806900168,
+      "modifiedDate": 1669806900168
     },
     "unresolved links output.md": {
       "noteCount": 1,
@@ -155,15 +155,6 @@
       "createdDate": 1667995476614,
       "modifiedDate": 1668105904664
     },
-    "YAGNI.md": {
-      "noteCount": 1,
-      "wordCount": 5,
-      "pageCount": 0.016666666666666666,
-      "characterCount": 69,
-      "nonWhitespaceCharacterCount": 64,
-      "createdDate": 1665398706453,
-      "modifiedDate": 1665398706453
-    },
     "What is DevOps?.md": {
       "noteCount": 1,
       "wordCount": 504,
@@ -172,6 +163,15 @@
       "nonWhitespaceCharacterCount": 2735,
       "createdDate": 1665398706453,
       "modifiedDate": 1668105712935
+    },
+    "YAGNI.md": {
+      "noteCount": 1,
+      "wordCount": 5,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 69,
+      "nonWhitespaceCharacterCount": 64,
+      "createdDate": 1665398706453,
+      "modifiedDate": 1665398706453
     },
     "Voltaire.md": {
       "noteCount": 1,
@@ -272,6 +272,15 @@
       "createdDate": 1665579177978,
       "modifiedDate": 1665579180226
     },
+    "Platform Pitfalls and Myths.md": {
+      "noteCount": 1,
+      "wordCount": 502,
+      "pageCount": 1.6733333333333333,
+      "characterCount": 3361,
+      "nonWhitespaceCharacterCount": 2840,
+      "createdDate": 1668726297918,
+      "modifiedDate": 1668726297918
+    },
     "Storytelling techniques for creating impactful presentations.md": {
       "noteCount": 1,
       "wordCount": 556,
@@ -317,6 +326,15 @@
       "createdDate": 1665579177978,
       "modifiedDate": 1665579180226
     },
+    "Shipping Theatre.md": {
+      "noteCount": 1,
+      "wordCount": 113,
+      "pageCount": 0.37666666666666665,
+      "characterCount": 687,
+      "nonWhitespaceCharacterCount": 572,
+      "createdDate": 1669712733838,
+      "modifiedDate": 1669713024727
+    },
     "Semantic Arguments.md": {
       "noteCount": 1,
       "wordCount": 757,
@@ -344,14 +362,14 @@
       "createdDate": 1665398706453,
       "modifiedDate": 1665398706453
     },
-    "Platform Pitfalls and Myths.md": {
+    "Modular Aesthetic.md": {
       "noteCount": 1,
-      "wordCount": 502,
-      "pageCount": 1.6733333333333333,
-      "characterCount": 3361,
-      "nonWhitespaceCharacterCount": 2840,
-      "createdDate": 1668726297918,
-      "modifiedDate": 1668726297918
+      "wordCount": 12,
+      "pageCount": 0.04,
+      "characterCount": 74,
+      "nonWhitespaceCharacterCount": 62,
+      "createdDate": 1667954008748,
+      "modifiedDate": 1667954023964
     },
     "Philosophy.md": {
       "noteCount": 1,
@@ -415,15 +433,6 @@
       "nonWhitespaceCharacterCount": 4,
       "createdDate": 1665398706449,
       "modifiedDate": 1665398706449
-    },
-    "Modular Aesthetic.md": {
-      "noteCount": 1,
-      "wordCount": 12,
-      "pageCount": 0.04,
-      "characterCount": 74,
-      "nonWhitespaceCharacterCount": 62,
-      "createdDate": 1667954008748,
-      "modifiedDate": 1667954023964
     },
     "Mentoring.md": {
       "noteCount": 1,
@@ -524,6 +533,15 @@
       "createdDate": 1665579177978,
       "modifiedDate": 1665579180222
     },
+    "Connecting Engineering Work to the Business.md": {
+      "noteCount": 1,
+      "wordCount": 292,
+      "pageCount": 0.9733333333333334,
+      "characterCount": 1871,
+      "nonWhitespaceCharacterCount": 1565,
+      "createdDate": 1669711669201,
+      "modifiedDate": 1669714613598
+    },
     "Essentialism.md": {
       "noteCount": 1,
       "wordCount": 18,
@@ -577,6 +595,15 @@
       "nonWhitespaceCharacterCount": 257,
       "createdDate": 1665398706453,
       "modifiedDate": 1668105164083
+    },
+    "Building a Successful Platform.md": {
+      "noteCount": 1,
+      "wordCount": 466,
+      "pageCount": 1.5533333333333332,
+      "characterCount": 2952,
+      "nonWhitespaceCharacterCount": 2469,
+      "createdDate": 1668726297922,
+      "modifiedDate": 1668726297922
     },
     "Bootstrap Continuous Delivery.md": {
       "noteCount": 1,
