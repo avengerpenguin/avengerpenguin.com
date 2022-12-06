@@ -115,6 +115,10 @@ Stable Diffusion
 - Raises more questions around the ethics of using artists' work and style
 - More broadly, crowd-sourcing data with permission raises questions
 
+Carbon Aware SDK
+
+- Helps software to use less carbon
+
 ### Adopt
 
 Kotest

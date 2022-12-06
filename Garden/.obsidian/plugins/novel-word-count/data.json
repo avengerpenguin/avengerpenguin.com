@@ -11,15 +11,6 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "Thoughtworks Tech Radar 27.md": {
-      "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "createdDate": 1670328090855,
-      "modifiedDate": 1670328090855
-    },
     "unresolved links output.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -199,6 +190,15 @@
       "nonWhitespaceCharacterCount": 2041,
       "createdDate": 1665398706453,
       "modifiedDate": 1665398706453
+    },
+    "Thoughtworks Tech Radar 27.md": {
+      "noteCount": 1,
+      "wordCount": 555,
+      "pageCount": 1.85,
+      "characterCount": 3430,
+      "nonWhitespaceCharacterCount": 2829,
+      "createdDate": 1670328090855,
+      "modifiedDate": 1670331390449
     },
     "Things I Have Made.md": {
       "noteCount": 1,
@@ -389,15 +389,6 @@
       "createdDate": 1665579177974,
       "modifiedDate": 1665579180222
     },
-    "Modular Aesthetic.md": {
-      "noteCount": 1,
-      "wordCount": 12,
-      "pageCount": 0.04,
-      "characterCount": 74,
-      "nonWhitespaceCharacterCount": 62,
-      "createdDate": 1667954008748,
-      "modifiedDate": 1667954023964
-    },
     "Now.md": {
       "noteCount": 1,
       "wordCount": 80,
@@ -433,6 +424,15 @@
       "nonWhitespaceCharacterCount": 4,
       "createdDate": 1665398706449,
       "modifiedDate": 1665398706449
+    },
+    "Modular Aesthetic.md": {
+      "noteCount": 1,
+      "wordCount": 12,
+      "pageCount": 0.04,
+      "characterCount": 74,
+      "nonWhitespaceCharacterCount": 62,
+      "createdDate": 1667954008748,
+      "modifiedDate": 1667954023964
     },
     "Mentoring.md": {
       "noteCount": 1,
@@ -488,6 +488,15 @@
       "createdDate": 1665579177974,
       "modifiedDate": 1665579180222
     },
+    "Four Burners Theory.md": {
+      "noteCount": 1,
+      "wordCount": 555,
+      "pageCount": 1.85,
+      "characterCount": 3253,
+      "nonWhitespaceCharacterCount": 2677,
+      "createdDate": 1665398706453,
+      "modifiedDate": 1665580813038
+    },
     "HATEOAS or RPC.md": {
       "noteCount": 1,
       "wordCount": 1353,
@@ -505,15 +514,6 @@
       "nonWhitespaceCharacterCount": 54,
       "createdDate": 1665398706449,
       "modifiedDate": 1668007915310
-    },
-    "Four Burners Theory.md": {
-      "noteCount": 1,
-      "wordCount": 555,
-      "pageCount": 1.85,
-      "characterCount": 3253,
-      "nonWhitespaceCharacterCount": 2677,
-      "createdDate": 1665398706453,
-      "modifiedDate": 1665580813038
     },
     "Flow.md": {
       "noteCount": 1,
