@@ -55,3 +55,39 @@ Questions
 
 - Vision -> Strategy -> Tactics
 - Strategy: effectivness, tactics: efficiency
+
+## Influence
+
+Create a great personal brand
+
+Be known for finishing projects or clearly explaining why they died.
+
+Learn to say "no".
+
+Really listen. Wait 30 seconds after you're ready to jump in.
+
+Give credit.
+
+Build a network. Give influence to other influencers.
+
+## Being a better IC after a year in leadership
+
+- Be honest about needing time to learn and upskil
+- Find "people" people on the team to aid you in relationship building
+- Help all ICs be better leaders
+
+## Code Reviews
+
+- Readability
+	- Can someone with lower context understand what the code is doing?
+- Prod scale
+	- Lots of concurrent requests?
+	- Does it scale with database rows?
+- User Experience
+	- Clear error messages
+	- Is all copy clear?
+	- Does it work cross platform? Accessibility?
+
+## Interviewing
+
+0-4 rubric scale for each attribute

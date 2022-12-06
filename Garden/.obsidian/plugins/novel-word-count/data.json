@@ -11,15 +11,6 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "LeadDev Unwrapped 2022.md": {
-      "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "createdDate": 1670339500934,
-      "modifiedDate": 1670339500934
-    },
     "unresolved links output.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -488,6 +479,15 @@
       "createdDate": 1665398706449,
       "modifiedDate": 1665398706449
     },
+    "LeadDev Unwrapped 2022.md": {
+      "noteCount": 1,
+      "wordCount": 472,
+      "pageCount": 1.5733333333333333,
+      "characterCount": 2686,
+      "nonWhitespaceCharacterCount": 2168,
+      "createdDate": 1670339500934,
+      "modifiedDate": 1670348435890
+    },
     "Languishing.md": {
       "noteCount": 1,
       "wordCount": 29,
@@ -496,15 +496,6 @@
       "nonWhitespaceCharacterCount": 178,
       "createdDate": 1665579177974,
       "modifiedDate": 1665579180222
-    },
-    "Four Burners Theory.md": {
-      "noteCount": 1,
-      "wordCount": 555,
-      "pageCount": 1.85,
-      "characterCount": 3253,
-      "nonWhitespaceCharacterCount": 2677,
-      "createdDate": 1665398706453,
-      "modifiedDate": 1665580813038
     },
     "HATEOAS or RPC.md": {
       "noteCount": 1,
@@ -523,6 +514,15 @@
       "nonWhitespaceCharacterCount": 54,
       "createdDate": 1665398706449,
       "modifiedDate": 1668007915310
+    },
+    "Four Burners Theory.md": {
+      "noteCount": 1,
+      "wordCount": 555,
+      "pageCount": 1.85,
+      "characterCount": 3253,
+      "nonWhitespaceCharacterCount": 2677,
+      "createdDate": 1665398706453,
+      "modifiedDate": 1665580813038
     },
     "Flow.md": {
       "noteCount": 1,
