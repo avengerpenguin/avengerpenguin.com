@@ -50,3 +50,5 @@ Questions
 
 - Give opportunities to unrepresented groups -- they need opportunity, not advice
 - Lend your privilege
+
+## Strategy
