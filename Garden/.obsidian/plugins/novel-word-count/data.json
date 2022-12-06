@@ -11,6 +11,15 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "LeadDev Unwrapped 2022.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1670339500934,
+      "modifiedDate": 1670339500934
+    },
     "unresolved links output.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -193,12 +202,12 @@
     },
     "Thoughtworks Tech Radar 27.md": {
       "noteCount": 1,
-      "wordCount": 555,
-      "pageCount": 1.85,
-      "characterCount": 3430,
-      "nonWhitespaceCharacterCount": 2829,
+      "wordCount": 565,
+      "pageCount": 1.8833333333333333,
+      "characterCount": 3485,
+      "nonWhitespaceCharacterCount": 2872,
       "createdDate": 1670328090855,
-      "modifiedDate": 1670331390449
+      "modifiedDate": 1670331561578
     },
     "Things I Have Made.md": {
       "noteCount": 1,

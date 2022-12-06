@@ -5,12 +5,16 @@
     "2022/10/16": 0,
     "2022/10/29": 413,
     "2022/10/30": 629,
-    "2022/11/6": 516
+    "2022/11/6": 821
   },
   "todaysWordCount": {
     "Thoughtworks Tech Radar 27.md": {
       "initial": 1,
       "current": 517
+    },
+    "LeadDev Unwrapped 2022.md": {
+      "initial": 1,
+      "current": 306
     }
   }
 }
