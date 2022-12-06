@@ -91,3 +91,39 @@ Build a network. Give influence to other influencers.
 ## Interviewing
 
 0-4 rubric scale for each attribute
+
+
+## Leadership and Execution
+
+- Management vs. Leadership
+	- Team management includes social cohesion
+	- Delegation
+- Risk
+	- "Things would be better if we just did X" -- ok, then do it
+	- Putting money where your mouth is
+	- Being irresponsible has its benefits
+	- Make bets with your time
+	- Find something you disagree with, take 1 day, chunk it out, prove it
+- Reliability
+	- "Make it work"
+	- Understand the real objective
+	- Incremental results
+	- Willingness to adapt
+	- Set hard deadlines, keep objectives in mind, don't obsess about missing
+- Reputation
+	- Don't throw people under the bus
+	- Connect people who need connected
+	- Think how you present in meetings or writing
+- Relationships
+	- Favour gifting -- give someone something they want
+- Reducing Complexity
+	- Early execution is "depth-first", leadership is "breadth-first"
+	- Summarisation:
+		- Elevator pitches
+		- Potential leaders should write more
+		- Encourage and reward curiosity to unfamiliar areas
+
+
+## Moon before Mars
+
+- Crossing the A - creating a bridge between teams that otherwise would only have the CTO in common
