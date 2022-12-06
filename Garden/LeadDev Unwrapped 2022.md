@@ -127,3 +127,29 @@ Build a network. Give influence to other influencers.
 ## Moon before Mars
 
 - Crossing the A - creating a bridge between teams that otherwise would only have the CTO in common
+
+
+## Developer Productivity
+
+1. Focus on value created for the business
+2. Get feedback from your team
+3. Get Qualitative feedback
+4. Eliminate biggest timewasters
+5. Invest in leverage
+6. Take your team on the journey with you
+7. Iterate!
+
+
+## People building
+
+- Position
+	- Know our scope
+	- Know your level
+	- Know your performance
+- Plan
+	- What's your motivation? Don't project motivations
+	- What's your current path? What's the next step?
+- Progress
+	- Designing work
+	- Growth areas, Action Items, Things to discuss
+	- Reward and recognition
