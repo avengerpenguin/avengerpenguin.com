@@ -52,3 +52,6 @@ Questions
 - Lend your privilege
 
 ## Strategy
+
+- Vision -> Strategy -> Tactics
+- Strategy: effectivness, tactics: efficiency
