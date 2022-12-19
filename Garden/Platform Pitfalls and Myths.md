@@ -35,4 +35,3 @@ Another temptation is to build platforms as a singular monolith with a highly-ab
 In reality, successful platforms are a set of loosely coupled capabilities where teams can perhaps adopt it partially where they have solutions for some functionality already. Or theyy may wish to orchestrate the capabilities in newer ways.
 
 The capabilities should be arrange to create a meaningful experience, built around use cases as they emerge.
-
