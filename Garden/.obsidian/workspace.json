@@ -4,41 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99230ffa43131a16",
+        "id": "9fbb3450235ecc6f",
         "type": "tabs",
         "children": [
           {
-            "id": "ff73e11918b1a60d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tech Radar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "75d0dabc5c4c6139",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "13c724b657ec79ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tech Radar - Techniques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "511ab0092828e895",
+            "id": "76978328752ba613",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3d611b2bc666f908",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tech Radar - Platforms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7baed8bb681c5576",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tech Radar - Languages & Frameworks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar - Platforms.md",
+                "file": "Tech Radar - Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,17 +114,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3d611b2bc666f908",
+  "active": "76978328752ba613",
   "lastOpenFiles": [
-    "Tech Radar - Tools.md",
-    "Tech Radar - Techniques.md",
-    "Tech Radar - Platforms.md",
     "Tech Radar - Languages & Frameworks.md",
-    "Tech Radar.md",
-    "LeadDev Unwrapped 2022.md",
+    "Tech Radar - Platforms.md",
+    "YAGNI.md",
+    "unlinked files output.md",
+    "Toxic Productivity and ADHD.md",
+    "Tech Radar - Techniques.md",
     "Thoughtworks Tech Radar 27.md",
-    "Commercial Conferences.md",
-    "Platform Pitfalls and Myths.md",
-    "Shipping Theatre.md"
+    "Tech Radar - Tools.md",
+    "Building a Successful Platform.md",
+    "Commercial Conferences.md"
   ]
 }

@@ -6,7 +6,7 @@
     "2022/10/29": 413,
     "2022/10/30": 629,
     "2022/11/6": 1195,
-    "2023/0/6": 162
+    "2023/0/6": 192
   },
   "todaysWordCount": {
     "Tech Radar.md": {
@@ -15,19 +15,23 @@
     },
     "Tech Radar - Platforms.md": {
       "initial": 0,
-      "current": 44
+      "current": 21
     },
     "Tech Radar - Languages & Frameworks.md": {
       "initial": 0,
-      "current": 43
+      "current": 66
     },
     "Tech Radar - Tools.md": {
       "initial": 0,
-      "current": 44
+      "current": 72
     },
     "Tech Radar - Techniques.md": {
       "initial": 0,
       "current": 18
+    },
+    "_index.md": {
+      "initial": 101,
+      "current": 103
     }
   }
 }

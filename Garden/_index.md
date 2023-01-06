@@ -15,6 +15,7 @@ Read [[Now|what he is doing at the moment]].
 
 - [[What is DevOps?|What is DevOps?]]
 - [[Undifferentiated Heavy Lifting]]
+- [[Tech Radar]]
 
 ## Language
 
