@@ -16,3 +16,5 @@ Technical projects, blogs or other ideas that are on my personal "tech radar" as
 - [Shape-up](https://basecamp.com/shapeup/shape-up.pdf)
 - [Talk write-up: "How to build a PaaS for 1500 engineers"](https://srvaroa.github.io/paas/infrastructure/platform/kubernetes/cloud/2020/01/02/talk-how-to-build-a-paas-for-1500-engineers.html)
 - [Typer](https://typer.tiangolo.com/)
+- Data Mesh
+
