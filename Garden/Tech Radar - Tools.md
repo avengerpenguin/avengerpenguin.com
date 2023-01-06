@@ -16,4 +16,10 @@ See [About | testmon](https://testmon.org/)
 
 - Status: Adopt
 
-See [mingrammer/diagrams: Diagram as Code for prototyping cloud system architectures](https://github.com/mingrammer/diagrams)
+In the spirit of PlantUML, a Python library for generating diagrams with specific icons. What appeals in particular is the C4 shapes as well as cloud-provider-specific icons. See [mingrammer/diagrams: Diagram as Code for prototyping cloud system architectures](https://github.com/mingrammer/diagrams)
+
+## gitStream
+
+- Status: Assess
+
+A tool to push the idea of "continuous merge". See [gitStream by LinearB · GitHub Marketplace](https://github.com/marketplace/gitstream-by-linearb).
