@@ -11,5 +11,13 @@ createRadarJson({
     path.resolve("./Garden/Tech Radar - Tools.md"),
   ],
 }).then((radar) => {
-  console.log(JSON.stringify(radar.blips));
+  console.log(
+    JSON.stringify(
+      radar.blips.map((blip) => {
+        const blipFixed = { ...blip };
+        blipFixed.isNew = blip.isNew.toString().toUpperCase();
+        return blipFixed;
+      })
+    )
+  );
 });
