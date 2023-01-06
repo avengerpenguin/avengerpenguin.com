@@ -1,15 +1,19 @@
 # Platforms
 
-## [Solid](https://solidproject.org/)
+## Solid
 
 - Status: Assess
 
-## [IDOM](https://ryanmorshead.com/articles/2021/idom-react-but-its-python/article/)
+See [Solid Project Website](https://solidproject.org/)
+
+## IDOM
 
 - Status: Hold
 
-It's React, but in Python!
+It's React, but in Python! See [IDOM docs](https://ryanmorshead.com/articles/2021/idom-react-but-its-python/article/)
 
-## [Project Gemini](https://gemini.circumlunar.space/)
+## Gemini
 
 - Status: Hold
+
+See [Project Gemini](https://gemini.circumlunar.space/).

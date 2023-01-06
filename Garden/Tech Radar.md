@@ -7,6 +7,8 @@ To follow conventions from the [Thoughtsworks Tech Radar](https://www.thoughtwor
 - [[Tech Radar - Techniques]]
 - [[Tech Radar - Languages & Frameworks]]
 
+You can see this visually at [Thoughtworks' "Build your own radar"](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Favengerpenguin.com%2Fradar.json)
+
 Scratchpad:
 
 - https://pgjones.gitlab.io/quart/tutorials/deployment.html (Deploying Quart — Quart 0.13.1 documentation)
@@ -22,4 +24,3 @@ Scratchpad:
 - [Talk write-up: "How to build a PaaS for 1500 engineers"](https://srvaroa.github.io/paas/infrastructure/platform/kubernetes/cloud/2020/01/02/talk-how-to-build-a-paas-for-1500-engineers.html)
 - [Typer](https://typer.tiangolo.com/)
 - Data Mesh
-

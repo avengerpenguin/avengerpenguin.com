@@ -73,7 +73,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar - Techniques.md",
+                "file": "Tech Radar - Platforms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,12 +169,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "13c724b657ec79ea",
+  "active": "3d611b2bc666f908",
   "lastOpenFiles": [
     "Tech Radar - Tools.md",
     "Tech Radar - Techniques.md",
-    "Tech Radar - Languages & Frameworks.md",
     "Tech Radar - Platforms.md",
+    "Tech Radar - Languages & Frameworks.md",
     "Tech Radar.md",
     "LeadDev Unwrapped 2022.md",
     "Thoughtworks Tech Radar 27.md",
