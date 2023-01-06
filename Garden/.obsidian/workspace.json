@@ -60,9 +60,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7baed8bb681c5576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech Radar - Languages & Frameworks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar - Platforms.md",
+                "file": "Tech Radar - Languages & Frameworks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,11 +169,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3d611b2bc666f908",
+  "active": "7baed8bb681c5576",
   "lastOpenFiles": [
+    "Tech Radar.md",
     "Tech Radar - Languages & Frameworks.md",
     "Tech Radar - Platforms.md",
-    "Tech Radar.md",
     "Tech Radar - Tools.md",
     "Tech Radar - Techniques.md",
     "LeadDev Unwrapped 2022.md",

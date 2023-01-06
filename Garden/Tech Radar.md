@@ -1,9 +1,14 @@
 Technical projects, blogs or other ideas that are on my personal "tech radar" as something I may or may not come back to.
 
-- https://solidproject.org/about (About Solid · Solid)
-- "https://rmorshea.github.io/articles/2021/idom-react-but-its-python/article/ (IDOM - It's React, but in Python - Ryan Morshead)"
-- Gemini
-- https://github.com/sanic-org/sanic (sanic-org/sanic: Async Python 3.6+ web server/framework | Build fast. Run fast.)
+To follow conventions from the [Thoughtsworks Tech Radar](https://www.thoughtworks.com/en-gb/radar), I have broken this down into four areas:
+
+- [[Tech Radar - Tools]]
+- [[Tech Radar - Platforms]]
+- [[Tech Radar - Techniques]]
+- [[Tech Radar - Languages & Frameworks]]
+
+Scratchpad:
+
 - https://pgjones.gitlab.io/quart/tutorials/deployment.html (Deploying Quart — Quart 0.13.1 documentation)
 - https://airflow.apache.org/docs/stable/tutorial.html (Tutorial — Airflow Documentation)
 - https://htmx.org/ (</> htmx - high power tools for html)
