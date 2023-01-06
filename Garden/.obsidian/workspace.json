@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar - Languages & Frameworks.md",
+                "file": "Tech Radar - Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,13 +169,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "7baed8bb681c5576",
+  "active": "511ab0092828e895",
   "lastOpenFiles": [
-    "Tech Radar.md",
+    "Tech Radar - Techniques.md",
+    "Tech Radar - Tools.md",
     "Tech Radar - Languages & Frameworks.md",
     "Tech Radar - Platforms.md",
-    "Tech Radar - Tools.md",
-    "Tech Radar - Techniques.md",
+    "Tech Radar.md",
     "LeadDev Unwrapped 2022.md",
     "Thoughtworks Tech Radar 27.md",
     "Commercial Conferences.md",

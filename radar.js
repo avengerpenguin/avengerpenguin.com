@@ -5,11 +5,11 @@ createRadarJson({
   title: 'My radar',
   rings: ['Adopt', 'Explore', 'Endure', 'Retire'],
   quadrants: [
+    path.resolve('./Garden/Tech Radar - Languages & Frameworks.md'),
     path.resolve('./Garden/Tech Radar - Platforms.md'),
-//    path.resolve('./data/platforms.md'),
-//    path.resolve('./data/techniques.md'),
-//    path.resolve('./data/tools.md'),
+    //path.resolve('./Garden/Tech Radar - Techniques.md'),
+    //path.resolve('./Garden/Tech Radar - Tools.md'),
   ],
 }).then(radar => {
-  console.log(radar);
+  console.log(JSON.stringify(radar));
 });
