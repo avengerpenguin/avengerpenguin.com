@@ -30,7 +30,7 @@ work and at worst giving us even more work to do than we had before.
 
 There is a urban legend of a quotation from Henry Ford that comes to mind here:
 
-  >If I had asked people what they wanted, they would have said faster horses.
+> If I had asked people what they wanted, they would have said faster horses.
 
 Now, it is questionable as to whether Mr. Ford actually said this, but it is
 commonly applied to applaud the approaches of, say, Apple where companies will
@@ -94,20 +94,20 @@ the focus of this article: sheer volume of emails.
 We receive too many emails. This should be evident to anyone with an email
 address. In a relatively short time period, we can receive:
 
-* spam
-* notifications from automated systems
-* auto-replies from companies
-* delivery notifications from online shops
-* spam
-* mailing list updates from companies we signed up to hear from
-* genuine messages from people we know
-* alerts from social media sites
-* spam spam
+- spam
+- notifications from automated systems
+- auto-replies from companies
+- delivery notifications from online shops
+- spam
+- mailing list updates from companies we signed up to hear from
+- genuine messages from people we know
+- alerts from social media sites
+- spam spam
 
 So, how do we solve this? Gmail has released features that
 automatically categorise emails into different groups. This sounds
 fantastic on the face of it in that I can see emails from my family
-distinct from marketing nonsense.  This is in addition to a
+distinct from marketing nonsense. This is in addition to a
 long-running, effective spam filter that keeps the biggest noise out
 of our inboxes.
 
@@ -151,26 +151,26 @@ from colleagues, friends or family.
 
 What are the real problems here? In my mind it is:
 
-* A single inbox is mixing up critical alerts, FYI notices from
+- A single inbox is mixing up critical alerts, FYI notices from
   systems, notifications of things like deliveries and proper human
   communication messages.
-* No distinction between messages that need action (so, you’d want
+- No distinction between messages that need action (so, you’d want
   them there when you get back from being away so as to reply
   eventually) and updates that are not interesting once they get
   old. (Do I really need to sift through a backlog of alerts from
   systems at work once I get back from being away from 2 weeks? Won’t
   they all be addressed by colleagues in my absence?)
-* Marketing emails might take more effort to opt out of than to create
+- Marketing emails might take more effort to opt out of than to create
   a filter to hide them. Or I might be interested in some updates from
   that company, but not all are interesting (so, again, if the
   newsletters haven’t been read for a week, then I don’t care
   anymore).
-* Other transient emails like despatch notices from companies become
+- Other transient emails like despatch notices from companies become
   very uninteresting if I see the email after I already have the item
   in my hands.
-* The fact that spam exists. Not sure we can solve that one, but don’t
+- The fact that spam exists. Not sure we can solve that one, but don’t
   dismiss it right away.
-* Our email doubles up as an identity so that we can sign petitions or
+- Our email doubles up as an identity so that we can sign petitions or
   otherwise do things that need to be restricted to one account per
   person. It is also used for password recovery when we use it to sign
   up for an account on a website.
@@ -180,7 +180,7 @@ if I looked at other people’s inboxes.
 
 So, what can we do better here? Isn’t the first point exactly what
 Google is trying to address with the auto-sorting features in Gmail?
-Well, sort of.  Google is addressing the symptom by splitting up these
+Well, sort of. Google is addressing the symptom by splitting up these
 different kinds of emails and making it easier for users to see what’s
 going on, but they aren’t actually addressing the underlying issue of
 why we have this all mixed up in the first place.
@@ -207,21 +207,21 @@ front of us.
 If we attempt to find patterns in the list of problems I listed above, I can
 pick out themes such as:
 
-* Some emails require action (e.g. replying to a question), but some
+- Some emails require action (e.g. replying to a question), but some
   are transient (i.e. they become uninteresting if I do not read nor
   act on them by some date).
-* Emails are used to let me know something has happened — either
+- Emails are used to let me know something has happened — either
   because something needs attention or to keep me posted about changes
   in an order status.
-* Companies love to send us email to make us come buy more things and
+- Companies love to send us email to make us come buy more things and
   sometimes we want to hear about news and products from companies we
   like.
-* Emails are used as an authentication mechanism so that websites with
+- Emails are used as an authentication mechanism so that websites with
   user accounts can control the number of spam accounts, attempt to
   tie at of their accounts to a real person or otherwise prevent
   people from skewing something with fake accounts (e.g. petitions,
   online polls)
-* Some emails are from humans, some are from automated systems.
+- Some emails are from humans, some are from automated systems.
 
 I’d say this is one level up in terms of abstraction in that the list
 is in some ways just a re-wording of the list of problems I gave
@@ -229,28 +229,28 @@ above, but we are starting to blur some of the precision. Let us step
 back a bit further and consider the use cases for email in light of
 these observed patterns:
 
-* A person you know (or a colleague you’ve not met) wishes to ask you
+- A person you know (or a colleague you’ve not met) wishes to ask you
   a question and get a response.
-* Someone you know quite well wants to engage in general conversation
+- Someone you know quite well wants to engage in general conversation
   and keep in touch.
-* Some companies want you to associate a unique identity to your
+- Some companies want you to associate a unique identity to your
   online account so that spam accounts are harder to create.
-* I want to keep up-to-date about new products from a brand or company
+- I want to keep up-to-date about new products from a brand or company
   I love (e.g. product launches, competitions, discounts/offers)
-* Some companies want a way to identify you in the case you forget
+- Some companies want a way to identify you in the case you forget
   your password.
-* Online petitions and polls want to ensure integrity by preventing
+- Online petitions and polls want to ensure integrity by preventing
   people voting/signing twice.
-* I want notification when online shops despatch and deliver my parcel
+- I want notification when online shops despatch and deliver my parcel
   so I know when you wait for it or when to expect it in case it
   doesn’t arrive and I have to chase it.
-* People in a work setting might need some of their systems to notify
+- People in a work setting might need some of their systems to notify
   them when something happens that needs attention (e.g. customer
   order placed, website has gone down, something else has gone wrong).
 
 Note I have deliberately tried to avoid using word email in all of
 these. This is the only way to get the right level of abstraction that
-allows us to question the need for email *at all* in any of this and
+allows us to question the need for email _at all_ in any of this and
 free us up to think of completely new ideas to solve our problems.
 
 ## Real problems lead to true innovation
@@ -379,11 +379,11 @@ incentives stronger than badgering people for an email address?
 
 It seems to me that such a system would be:
 
-* something a user is exposed to daily (so marketers will reach
+- something a user is exposed to daily (so marketers will reach
   them this way — this is the only reason TV advertising ever worked);
-* something that doesn’t block the user seeing messages from friends
+- something that doesn’t block the user seeing messages from friends
   or colleagues (thus avoids the “too many emails” problem); and
-* something where the user is always in control, companies are
+- something where the user is always in control, companies are
   dissuaded from spamming, but marketers are still empowered to keep
   giving people reasons to stay subscribed (marketers will keep
   emailing people if they can’t keep hold of subscribers on other
@@ -423,11 +423,11 @@ registration process.
 So, why do they do this? There are likely a few reasons, but we can
 pick out a few key ones:
 
-* it ensures recovery of your account if you forget your password;
-* it discourages spammers from creating multiple accounts in an
+- it ensures recovery of your account if you forget your password;
+- it discourages spammers from creating multiple accounts in an
   automated way;
-* it links your identity to the account; and
-* the website can send you emails
+- it links your identity to the account; and
+- the website can send you emails
 
 The ability for the website to email you updates, newsletters, etc. is
 clearly covered under the previous section on marketing emails. As for

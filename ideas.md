@@ -1,4 +1,4 @@
-* Systems for communicating
-* Less is more
-* Stopping pinning, integrate continuously
-* Apt pinning
+- Systems for communicating
+- Less is more
+- Stopping pinning, integrate continuously
+- Apt pinning

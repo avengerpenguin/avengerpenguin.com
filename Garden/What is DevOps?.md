@@ -39,11 +39,10 @@ Everyone is equally correct to use their definition as they all fit under the um
 
 This definition stops short of saying features, preferring a looser term of "software changes". What does that encompass? A non-exhaustive list for consideration is:
 
-* New features for users rolled out to a website
-* New features to a library released to be used by other software applications
-* Bug fixes in any of existing features in websites, libraries, applications
-* Reconfiguration of production systems, such as increasing memory on a server that is struggling
-* Changes to text copy
-
+- New features for users rolled out to a website
+- New features to a library released to be used by other software applications
+- Bug fixes in any of existing features in websites, libraries, applications
+- Reconfiguration of production systems, such as increasing memory on a server that is struggling
+- Changes to text copy
 
 <a title="Kharnagy [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Devops-toolchain.svg"><img width="100%" alt="Devops-toolchain" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg"></a>

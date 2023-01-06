@@ -1,4 +1,3 @@
-
 ## Ego
 
 Leading == Dominant == Leader

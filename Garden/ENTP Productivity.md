@@ -53,9 +53,6 @@ Another technique is writing this right now. Any links I want to keep for "refer
 
 Writing this allowed me to close the tab for [How To be Organized as ENTP](https://sensingsage.com/getting-this-done-entp-productivity/) at the very least.
 
-
-
-
 ## References
 
 Articles that have fed into this:

@@ -16,7 +16,6 @@ DevOps -> CI
 Agile -> Retro
 DevEx -> Atomist and other tools
 
-
 People control the setup and need visibility
 
 Moving things below the human/machine line moves things fro humans to

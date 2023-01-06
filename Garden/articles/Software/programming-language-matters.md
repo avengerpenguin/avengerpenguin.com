@@ -65,13 +65,13 @@ if you just get used to it or have appropriate tooling.
 
 ### Boilerplate
 
-Yes, Java is verbose and Scala is not. Does it *really* matter for
+Yes, Java is verbose and Scala is not. Does it _really_ matter for
 your project? Only if that boilerplate soaks up real time, which is
 rare with appropriate tooling. Personally, I prefer to get going more
 quickly with Python but that's because I like to do rapid prototyping
 where I think there are some objective arguments that you can move
 faster in more expressive languages. However, in that case you are
-probably always better prototyping in languages you *know* well, which
+probably always better prototyping in languages you _know_ well, which
 makes this a subjective point again.
 
 ### Typing (sort of)
@@ -93,7 +93,7 @@ was demonstrably slower than Java (or other languages) in a few
 cases. I've not been following performance benchmarks recently, so
 maybe the argument went away because Python is faster now. However, I
 heard a very convincing argument from a speaker at PyCon UK around
-that time in that Python (in her view) saves *developer* time — which is
+that time in that Python (in her view) saves _developer_ time — which is
 expensive — while trading off CPU time, which is arguably a lot
 cheaper than developer salaries now.
 
@@ -145,7 +145,7 @@ team who is forced to work with tools they are unfamiliar with.
 
 I realise that means I could be interpreted as supporting the argument
 that "PHP is good because so many things are written in it and it's
-easy to deploy."  I do not
+easy to deploy." I do not
 feel good about this and can only apologise.
 
 ## Objective differences that do matter
@@ -163,7 +163,7 @@ are whole collections of solutions to things like the Towers of Hanoi
 in multiple languages.
 
 So, in this sense, all languages are capable of solving (nearly) all
-problems, but are some objectively *better* at certain problems? What
+problems, but are some objectively _better_ at certain problems? What
 things make a language better?
 
 ### A language is more than just a language
@@ -190,7 +190,7 @@ around it.
 Consider how many people got into Python because they wanted to
 use [Jupyter](http://jupyter.org/), [Numpy](http://www.numpy.org/)
 or [Django](https://www.djangoproject.com/). Was it not just as good
-to use PHP to get into data science? I mean, you *could* implement
+to use PHP to get into data science? I mean, you _could_ implement
 many machine learning algorithms yourself in PHP or JavaScript, but
 why would you if you wanted to see results right away?
 
@@ -203,7 +203,7 @@ to [Jenkins pipelines](https://jenkins.io/doc/book/pipeline/). Some of
 these can be done in other languages, but there is a clear "right
 choice" for many of these applications.
 
-It is this capability in the *available libraries and frameworks* that
+It is this capability in the _available libraries and frameworks_ that
 I think is one of the strongest objective considerations around
 language choice. It doesn't have to be the only consideration as you
 can still use less mature libraries in a language your team is
@@ -215,7 +215,7 @@ Semantic Web for which I
 find [RDFLib](https://github.com/RDFLib/rdflib) — written in Python —
 to be extremely powerful. It is useful for building applications that
 deal with RDF which much of the details around the various RDF formats
-abstracted away. In fact, I am yet to find an equivalent in *any*
+abstracted away. In fact, I am yet to find an equivalent in _any_
 other language where a common Graph model can be parsed out of various
 formats. Most implementations elsewhere only deal with one format at a
 time, so I always come back to Python when I want to move quickly and

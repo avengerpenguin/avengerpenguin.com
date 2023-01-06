@@ -11,7 +11,6 @@ See [rossfenning.co.uk](https://rossfenning.co.uk) for his professional profile 
 
 Read [[Now|what he is doing at the moment]].
 
-
 ## DevOps and Engineering
 
 - [[What is DevOps?|What is DevOps?]]

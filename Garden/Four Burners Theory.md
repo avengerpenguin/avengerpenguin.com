@@ -27,10 +27,10 @@ Does this mean this option isn't really an option? Or at least not a healthy one
 
 James points out we outsource lots of things already:
 
-* Dry cleaning
-* Cooking (when ordering takeaway)
-* Repairs
-* Childcare
+- Dry cleaning
+- Cooking (when ordering takeaway)
+- Repairs
+- Childcare
 
 Essentially the idea is that outsourcing keeps the _burner_ running, but with you removed from the equation. This might not be fulfilling as just because your children are looked after, doesn't mean that _you_ are spending time with them. Also, if you manage to delegate all your work, you might not want to have days with nothing motivating to work on.
 

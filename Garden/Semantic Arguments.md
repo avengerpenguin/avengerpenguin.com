@@ -10,27 +10,27 @@ or semantic debates about whether a given system "is RESTful" or not.
 
 What's missing in that hypothetical argument? Something that's missing
 in a lot of discussion on the web about this: any concrete discussion
-of whether *properties* of the thing being discussed are good or useful. We
+of whether _properties_ of the thing being discussed are good or useful. We
 are just focusing instead of whether things qualify for a label and possibly
 not even acknowledging that all sides involved could be using different
 definitions for that label.
 
 This happens in multiple fields:
 
-* Is some musical genre "real" music?
-* Is modern art really art?
-* Is this leader truly left wing?
-* Is this programming language really a functional language?
+- Is some musical genre "real" music?
+- Is modern art really art?
+- Is this leader truly left wing?
+- Is this programming language really a functional language?
 
 The debate has broken down to arguing the ontological commitments made
 by assigning something to a class or category, rather than discuss the
 thing originally being debated. Consider the productive discussions
 we could have with each of these examples:
 
-* What musical features are present in this genre of music? How do different people respond to it?
-* Do people like modern art? What patterns have emerged that differentiate it from more traditional art forms? What do people feel when they see it?
-* What policies does that leader want? What are her values? How does his beliefs match up to past leaders and famous figureheads?
-* Does this programming language allow immutable data structures? Are they useful in my application? What bugs are hard to write in this language?
+- What musical features are present in this genre of music? How do different people respond to it?
+- Do people like modern art? What patterns have emerged that differentiate it from more traditional art forms? What do people feel when they see it?
+- What policies does that leader want? What are her values? How does his beliefs match up to past leaders and famous figureheads?
+- Does this programming language allow immutable data structures? Are they useful in my application? What bugs are hard to write in this language?
 
 These are arguably a more epistemological debate around what we know
 about these nuances, how our opinions are justified and what beliefs are

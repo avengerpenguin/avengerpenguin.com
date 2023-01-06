@@ -66,7 +66,6 @@ Online services for formatting or parsing code
 - Pasting potentially sensitive info into 3rd parties
 - JSON from log files could have personal information -- would be a GDPR violation or even _exporting_ of personal data if the service is hosted in another country
 
-
 ## Platforms
 
 ### Adopt
@@ -97,7 +96,6 @@ OrioleDB
 IAM Roles Anywhere
 
 - Get temporary credentials to AWS services from outside of AWS
-
 
 ## Languages and Frameworks
 

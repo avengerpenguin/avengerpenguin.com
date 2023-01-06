@@ -104,6 +104,7 @@ Organise multiple stories around central concept.
 Uses repetition like as with Sparklines.
 
 > What is Slack so successful?
+>
 > - One of a kind innovation (IRC, Hipchat)
 > - Brilliant founders? (MS, Google)
 > - Good timing? (Palm, Yahoo)
