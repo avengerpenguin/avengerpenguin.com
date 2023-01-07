@@ -3,7 +3,7 @@ const { createRadarJson } = require("tech-radar-markdown-tools");
 
 createRadarJson({
   title: "Ross Fenning's Tech Radar",
-  rings: ["Adopt", "Trial", "Assess", "Hold"],
+  rings: ["Hold", "Assess", "Trial", "Adopt"],
   quadrants: [
     path.resolve("./Garden/Tech Radar - Languages & Frameworks.md"),
     path.resolve("./Garden/Tech Radar - Platforms.md"),
@@ -16,6 +16,7 @@ createRadarJson({
       radar.blips.map((blip) => {
         const blipFixed = { ...blip };
         blipFixed.isNew = blip.isNew.toString().toUpperCase();
+        blipFixed.ring = blip.ring.toLowerCase();
         return blipFixed;
       })
     )

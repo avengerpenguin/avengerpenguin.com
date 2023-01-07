@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar - Languages & Frameworks.md",
+                "file": "Tech Radar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,13 +169,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ae9d79753cfb64f2",
+  "active": "76978328752ba613",
   "lastOpenFiles": [
+    "Tech Radar - Languages & Frameworks.md",
     "Tech Radar.md",
     "Tech Radar - Techniques.md",
     "Tech Radar - Platforms.md",
     "Tech Radar - Tools.md",
-    "Tech Radar - Languages & Frameworks.md",
     "YAGNI.md",
     "unlinked files output.md",
     "Toxic Productivity and ADHD.md",
