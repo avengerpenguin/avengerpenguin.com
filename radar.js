@@ -1,7 +1,7 @@
 const path = require("path");
 const { createRadarJson } = require("tech-radar-markdown-tools");
 
-const rings = ["Hold", "Assess", "Trial", "Adopt"];
+const rings = ["Adopt", "Trial", "Assess", "Hold"];
 
 createRadarJson({
   quadrants: [
