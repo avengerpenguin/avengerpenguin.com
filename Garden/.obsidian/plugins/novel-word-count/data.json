@@ -11,15 +11,6 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "conflict-files-obsidian-git.md": {
-      "noteCount": 1,
-      "wordCount": 28,
-      "pageCount": 0.09333333333333334,
-      "characterCount": 218,
-      "nonWhitespaceCharacterCount": 191,
-      "createdDate": 1673180402868,
-      "modifiedDate": 1673180402872
-    },
     "Tech Radar - Tools.md": {
       "noteCount": 1,
       "wordCount": 106,
