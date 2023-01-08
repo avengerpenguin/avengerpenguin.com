@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e884629dc2debc5a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +127,18 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ff73e11918b1a60d",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "e884629dc2debc5a",
   "lastOpenFiles": [
     "Thoughtworks Tech Radar 27.md",
     "Commercial Conferences.md",
