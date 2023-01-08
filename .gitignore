@@ -7,3 +7,6 @@ output
 .ipynb_checkpoints
 *.pid
 /cache
+/package-lock.json
+/extra/radar.json
+node_modules

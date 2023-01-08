@@ -6,19 +6,19 @@ Test pyramid applies pre-prod
 
 In prod:
 
-* Monitoring, tracing, fault-injection testing
-* Canary deployments, Blue-Green deployments, A/B Testing
+- Monitoring, tracing, fault-injection testing
+- Canary deployments, Blue-Green deployments, A/B Testing
 
 Fault Injection e.g. Simian Army
 
 # CI
 
-* Feature toggles
+- Feature toggles
 
 # Environments
 
-* Environment plan with intended use
-* Dynamic environment creation
+- Environment plan with intended use
+- Dynamic environment creation
 
 Repo -> CI -> (Showcase, Dev) -> Promote -> (QA, Perf) -> Promote ->
 (Prod, DR)
@@ -27,6 +27,6 @@ Repo -> CI -> (Showcase, Dev) -> Promote -> (QA, Perf) -> Promote ->
 
 # Remediation
 
-* Roll forward
-* Rollback
-* Hotfix pipeline deploys straight to production
+- Roll forward
+- Rollback
+- Hotfix pipeline deploys straight to production

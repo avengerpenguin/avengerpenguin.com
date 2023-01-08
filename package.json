@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@fontsource/fira-sans": "^4.5.10"
+    "@fontsource/fira-sans": "^4.5.10",
+    "tech-radar-markdown-tools": "^0.1.5"
   }
 }

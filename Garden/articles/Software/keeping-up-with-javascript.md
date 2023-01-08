@@ -44,8 +44,8 @@ and libraries and frameworks coming out each week:
 Don't.
 
 Seriously, don't keep adopting new technologies as they emerge. While a new
-build tool or framework might seem nicer than what you have, *wait until you
-have an actual problem the new tool solves* and be sceptical about migrating
+build tool or framework might seem nicer than what you have, _wait until you
+have an actual problem the new tool solves_ and be sceptical about migrating
 your applications to new frameworks.
 
 Even for newer projects, carefully consider the cost of adopting a new tool in

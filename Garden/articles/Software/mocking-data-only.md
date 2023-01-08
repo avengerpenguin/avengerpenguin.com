@@ -44,7 +44,7 @@ older than me, but notably early enough to experience writing simple
 code projects with no package managers, no build "tools" and no
 Github.
 
-For PHP, there was no *composer* to download packages and I got by
+For PHP, there was no _composer_ to download packages and I got by
 with a zip file download of PHP and Apache HTTPD on Windows 98 (later
 XP) using only the PHP standard library. For help, I had an offline
 copy of the php.net documentation since dial-up Internet took long
@@ -57,7 +57,7 @@ a browser locally quite easily with `file:///c:/My Documents/...`
 
 For Java, I wrote code in a text editor (even in Notepad) and used
 javac to compile "`*.java`". It was some years later before I would
-even use *Ant*, let alone *Maven*.
+even use _Ant_, let alone _Maven_.
 
 In fact, I acquired the JDK for the first time by being handed a pack
 of four Java CDs at a University open day. Across these CDs were the
@@ -91,7 +91,7 @@ year on year.
 However, note that I can just about name all the platforms, frameworks
 and libraries in a single sentence. In contrast to that, if I print
 out the dependency tree of a more recent Java project, I see hundreds
-of packages.  It's also a running joke in some circles that the
+of packages. It's also a running joke in some circles that the
 `node_modules` directory in a typical Node.js project can fill your
 hard disk. It's not quite that extreme, but I have one project where
 the `node_modules` directory totals over 600MB!
@@ -120,7 +120,7 @@ search for a library.
 
 I had similar experience with JavaScript around the year 2000 in that
 I was happy to download the odd library like jQuery and sometimes
-another library (jQuery UI being one of them) would itself *depend* on
+another library (jQuery UI being one of them) would itself _depend_ on
 jQuery, but downloading two JavaScript files and writing two
 `<script>` tags into my page was not too difficult.
 
@@ -140,10 +140,10 @@ copy-pasting the solutions.
 I think there are two crucial changes this effects in modernising
 software development:
 
-* it is possible to write an application with very little code
-(e.g. microservices)
-* the increase in quantity of dependencies causes great variation in
-the quality of those dependencies.
+- it is possible to write an application with very little code
+  (e.g. microservices)
+- the increase in quantity of dependencies causes great variation in
+  the quality of those dependencies.
 
 Allow me to expand a little on both of these.
 
@@ -195,14 +195,14 @@ testing shortly.
 ### Quantity vs. quality of dependencies
 
 Not only is it cheap to add dependencies to a project and quick to
-download them, but it is also cheap to *publish* packages today.
+download them, but it is also cheap to _publish_ packages today.
 
 A natural effect of this is that we have a long tail of libraries that
 work fine for our use cases, but are lower in quality than very mature
 frameworks.
 
 This is not a comment on the ability of competence of individual
-programmers.  It is true that less experienced programmers can publish
+programmers. It is true that less experienced programmers can publish
 a useful package as part of their learning, but even very skilled
 developers might quickly wrap up some business logic in a nice
 package, but not have the time nor incentive to work out all the edge

@@ -6,20 +6,22 @@
   $fontDir: "/theme/@fontsource/fira-sans/files"
 );
 
-$text-colour: #1F192F;
+$text-colour: #1f192f;
 $header-colour: #59677e;
-$link-colour: #3395AB;
+$link-colour: #3395ab;
 $highlight-colour: #bfcfe7;
 //$not_there: #E9EBF5;
 
-html, html:root, body {
+html,
+html:root,
+body {
   color: $text-colour;
   padding: 0;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 body {
-  background: url('/theme/img/tree.png') no-repeat bottom left;
+  background: url("/theme/img/tree.png") no-repeat bottom left;
   background-attachment: fixed;
 }
 
@@ -40,7 +42,7 @@ body > header {
     }
   }
 
-  nav  {
+  nav {
     text-align: center;
 
     border: 1px solid $header-colour;
@@ -57,7 +59,6 @@ body > header {
       &:hover {
         color: $text-colour;
       }
-
     }
 
     li.active {
@@ -65,7 +66,6 @@ body > header {
         color: $text-colour;
       }
     }
-
   }
 
   aside {
@@ -83,7 +83,6 @@ body > header {
     padding: 1em;
     padding-top: 0;
   }
-
 }
 
 ol#post-list {
@@ -116,7 +115,9 @@ div#main {
       display: none;
     }
     .highlight {
-      .k, .nb, .kn {
+      .k,
+      .nb,
+      .kn {
         color: $link-colour;
       }
       .c1 {
@@ -134,7 +135,8 @@ div#main {
 
 article {
   header {
-    h2, h3 {
+    h2,
+    h3 {
       a {
         text-decoration: none;
       }
@@ -142,7 +144,8 @@ article {
         color: $text-colour;
       }
     }
-    h2+p, h3+p {
+    h2 + p,
+    h3 + p {
       text-align: center;
       padding: 1em;
     }
@@ -150,10 +153,11 @@ article {
 }
 
 blockquote {
-    font-style: italic;
+  font-style: italic;
 }
 
-div.highlight pre, div.output_area pre {
+div.highlight pre,
+div.output_area pre {
   background: none;
 }
 

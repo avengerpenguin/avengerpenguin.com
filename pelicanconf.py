@@ -25,6 +25,7 @@ TEMPLATE_PAGES = {
 STATIC_PATHS = ["../extra"]
 EXTRA_PATH_METADATA = {
     "../extra/CNAME": {"path": "CNAME"},
+    "../extra/radar.json": {"path": "radar.json"},
     "../extra/android-chrome-144x144.png": {"path": "android-chrome-144x144.png"},
     "../extra/apple-touch-icon.png": {"path": "apple-touch-icon.png"},
     "../extra/browserconfig.xml": {"path": "browserconfig.xml"},

@@ -2,7 +2,6 @@ Data in Health
 
 Genomics
 
-
 NLP
 
 Part of Speech -- Syntax

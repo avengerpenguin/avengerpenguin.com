@@ -24,27 +24,27 @@ Questions
 
 1. Why were you hired?
 2. How can I build my network?
-	1. Look at org chart
-	2. Make a contact in each CTO-reporting function
-	3. Look for places that violate Conway's Law
-	4. Find human connections with coupled systems
-	5. Set up 1-2-1s with ICs reporting to your manager
-	6. Build team context
-	7. Build peer network -- people you can share ideas with
-	8. Meeting and Information access -- how to get information from your leader
-	9. Comms cadence -- min 30 mins per fortnight
+   1. Look at org chart
+   2. Make a contact in each CTO-reporting function
+   3. Look for places that violate Conway's Law
+   4. Find human connections with coupled systems
+   5. Set up 1-2-1s with ICs reporting to your manager
+   6. Build team context
+   7. Build peer network -- people you can share ideas with
+   8. Meeting and Information access -- how to get information from your leader
+   9. Comms cadence -- min 30 mins per fortnight
 3. What's your job?
 4. What (wrong) lessons did you learn?
-	1. Things from pervious job
+   1. Things from pervious job
 5. What can I tackle now?
-	1. What can you uniquely do as a new person?
-	2. Tackle paper cuts
+   1. What can you uniquely do as a new person?
+   2. Tackle paper cuts
 6. Learning?
-	1. Am I in to level up the org? Or to help ship?
-	2. Do they need to do more or spend more time researching?
-	3. Technical breadth -- draw an infra diagram, app arch diagram, map out a request
-	4. Map out steps to deploying code
-	5. Pair with people
+   1. Am I in to level up the org? Or to help ship?
+   2. Do they need to do more or spend more time researching?
+   3. Technical breadth -- draw an infra diagram, app arch diagram, map out a request
+   4. Map out steps to deploying code
+   5. Pair with people
 
 ## Delegation
 
@@ -79,55 +79,52 @@ Build a network. Give influence to other influencers.
 ## Code Reviews
 
 - Readability
-	- Can someone with lower context understand what the code is doing?
+  - Can someone with lower context understand what the code is doing?
 - Prod scale
-	- Lots of concurrent requests?
-	- Does it scale with database rows?
+  - Lots of concurrent requests?
+  - Does it scale with database rows?
 - User Experience
-	- Clear error messages
-	- Is all copy clear?
-	- Does it work cross platform? Accessibility?
+  - Clear error messages
+  - Is all copy clear?
+  - Does it work cross platform? Accessibility?
 
 ## Interviewing
 
 0-4 rubric scale for each attribute
 
-
 ## Leadership and Execution
 
 - Management vs. Leadership
-	- Team management includes social cohesion
-	- Delegation
+  - Team management includes social cohesion
+  - Delegation
 - Risk
-	- "Things would be better if we just did X" -- ok, then do it
-	- Putting money where your mouth is
-	- Being irresponsible has its benefits
-	- Make bets with your time
-	- Find something you disagree with, take 1 day, chunk it out, prove it
+  - "Things would be better if we just did X" -- ok, then do it
+  - Putting money where your mouth is
+  - Being irresponsible has its benefits
+  - Make bets with your time
+  - Find something you disagree with, take 1 day, chunk it out, prove it
 - Reliability
-	- "Make it work"
-	- Understand the real objective
-	- Incremental results
-	- Willingness to adapt
-	- Set hard deadlines, keep objectives in mind, don't obsess about missing
+  - "Make it work"
+  - Understand the real objective
+  - Incremental results
+  - Willingness to adapt
+  - Set hard deadlines, keep objectives in mind, don't obsess about missing
 - Reputation
-	- Don't throw people under the bus
-	- Connect people who need connected
-	- Think how you present in meetings or writing
+  - Don't throw people under the bus
+  - Connect people who need connected
+  - Think how you present in meetings or writing
 - Relationships
-	- Favour gifting -- give someone something they want
+  - Favour gifting -- give someone something they want
 - Reducing Complexity
-	- Early execution is "depth-first", leadership is "breadth-first"
-	- Summarisation:
-		- Elevator pitches
-		- Potential leaders should write more
-		- Encourage and reward curiosity to unfamiliar areas
-
+  - Early execution is "depth-first", leadership is "breadth-first"
+  - Summarisation:
+    - Elevator pitches
+    - Potential leaders should write more
+    - Encourage and reward curiosity to unfamiliar areas
 
 ## Moon before Mars
 
 - Crossing the A - creating a bridge between teams that otherwise would only have the CTO in common
-
 
 ## Developer Productivity
 
@@ -139,17 +136,16 @@ Build a network. Give influence to other influencers.
 6. Take your team on the journey with you
 7. Iterate!
 
-
 ## People building
 
 - Position
-	- Know our scope
-	- Know your level
-	- Know your performance
+  - Know our scope
+  - Know your level
+  - Know your performance
 - Plan
-	- What's your motivation? Don't project motivations
-	- What's your current path? What's the next step?
+  - What's your motivation? Don't project motivations
+  - What's your current path? What's the next step?
 - Progress
-	- Designing work
-	- Growth areas, Action Items, Things to discuss
-	- Reward and recognition
+  - Designing work
+  - Growth areas, Action Items, Things to discuss
+  - Reward and recognition

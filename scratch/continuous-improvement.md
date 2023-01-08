@@ -1,6 +1,5 @@
 Kaizen
 
-
 # WIGs
 
 WIGs - Wildly Important Goals
