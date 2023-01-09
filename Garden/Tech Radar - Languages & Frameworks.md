@@ -1,5 +1,9 @@
 # Languages & Frameworks
 
+These are languages and frameworks on my radar at various levels. See the top-level [[Tech Radar]] for other categories.
+
+Note that I rarely look at whole new languages as I have a bias towards frameworks and libraries that help me build things over improving the act of writing code itself. A language might have promise on here if its ecosystem of libraries and frameworks mature around it since that's a key feature for me over aethetics of syntax or language semantics.
+
 ## Sanic
 
 - Status: Assess

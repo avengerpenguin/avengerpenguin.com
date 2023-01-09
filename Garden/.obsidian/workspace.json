@@ -73,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar - Languages & Frameworks.md",
+                "file": "Tech Radar - Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,12 +168,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ae9d79753cfb64f2",
+  "active": "ebd77bd0e631cdf7",
   "lastOpenFiles": [
-    "Tech Radar.md",
-    "Tech Radar - Languages & Frameworks.md",
-    "Tech Radar - Techniques.md",
     "Tech Radar - Platforms.md",
+    "Tech Radar - Techniques.md",
+    "Tech Radar - Languages & Frameworks.md",
+    "Tech Radar.md",
     "Tech Radar - Tools.md",
     "YAGNI.md",
     "unlinked files output.md",
