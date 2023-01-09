@@ -4,49 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "75d0dabc5c4c6139",
+        "id": "9fbb3450235ecc6f",
         "type": "tabs",
         "children": [
           {
-            "id": "445d31cdfeb663fa",
+            "id": "76978328752ba613",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thoughtworks Tech Radar 27.md",
+                "file": "Tech Radar.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6f662600f6420637",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebd77bd0e631cdf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech Radar - Tools.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ff73e11918b1a60d",
+            "id": "0df3a8a70b3b1f4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeadDev Unwrapped 2022.md",
+                "file": "Tech Radar - Platforms.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e884629dc2debc5a",
+            "id": "0a8ae580c0b1f897",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.9"
+                "file": "Tech Radar - Techniques.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "8d8601521b399937",
+            "id": "ae9d79753cfb64f2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tech Radar - Languages & Frameworks.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -92,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f3fb9fc4b3c3d3c2",
@@ -109,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tech Radar - Languages & Frameworks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,17 +169,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8d8601521b399937",
+  "active": "ae9d79753cfb64f2",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Tech Radar.md",
+    "Tech Radar - Languages & Frameworks.md",
+    "Tech Radar - Techniques.md",
+    "Tech Radar - Platforms.md",
+    "Tech Radar - Tools.md",
+    "YAGNI.md",
+    "unlinked files output.md",
+    "Toxic Productivity and ADHD.md",
     "Thoughtworks Tech Radar 27.md",
-    "Commercial Conferences.md",
-    "Platform Pitfalls and Myths.md",
-    "Shipping Theatre.md",
-    "Connecting Engineering Work to the Business.md",
-    "Staying in the Garden.md",
-    "2022-11-16.md",
-    "Tenets for Platform Sucess.md",
-    "HATEOAS or RPC.md"
+    "Building a Successful Platform.md"
   ]
 }

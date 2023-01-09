@@ -28,4 +28,6 @@ A solid attempt to extend HTML affordances in a standard way user agents could w
 
 - Status: Adopt
 
+I'm a big fan of libraries that use decorators etc. effectively so you can write your code as you normally would and it "just works" to turn it into e.g. a CLI tool as is the case with Typer. There's an extra appeal with it using type hints to do some magic that other libraries like `clize` need help with. I certainly don't know why anyone would continue using `ArgumentParser` in Python today.
+
 See [Typer](https://typer.tiangolo.com/).
