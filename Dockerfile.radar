@@ -9,7 +9,7 @@ WORKDIR /src/build-your-own-radar
 RUN npm install
 
 RUN npm test && ASSET_PATH=/radar/ npm run build:prod
-RUN sed -i 's|/images/|images|g' dist/index.html
+RUN sed -i 's|/images/|images/|g' dist/*.html dist/*.js
 
 FROM scratch as output
 
