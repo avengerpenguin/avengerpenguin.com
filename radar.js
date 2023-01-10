@@ -32,7 +32,7 @@ createRadarJson({
           );
           return blipFixed;
         })
-        .sort((a, b) => rings.indexOf(a.ring) - rings.indexOf(b.ring))
-    )
+        .sort((a, b) => rings.indexOf(a.ring) - rings.indexOf(b.ring)),
+    ),
   );
 });
