@@ -26,7 +26,7 @@ createRadarJson({
         .map((blip) => {
           const blipFixed = { ...blip };
           blipFixed.isNew = blip.isNew.toString().toUpperCase();
-          blipFixed.description = blipFixed.description.replace(
+          blipFixed.description = blipFixed.description.replaceAll(
             /\[\[([^|\]]+)\|?(.*?)\]\]/,
             wikilinkToMarkdown
           );
