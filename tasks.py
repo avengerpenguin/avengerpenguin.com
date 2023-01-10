@@ -10,7 +10,7 @@ def radar(c, output_path="output/radar"):
     c.run(f"mkdir -p {output_path}")
     print(output_path)
     c.run(
-        f'DOCKER_BUILDKIT=1 docker build --build-arg SHEET_ID=https://avengerpenguin.com/radar.json --build-args SHEET_NAME="Ross Fenning\'s Tech Radar" -t radar -f Dockerfile.radar --output type=local,dest={output_path} .'
+        f'DOCKER_BUILDKIT=1 docker build --build-arg SHEET_ID=https://avengerpenguin.com/radar.json --build-arg SHEET_NAME="Ross Fenning\'s Tech Radar" -t radar -f Dockerfile.radar --output type=local,dest={output_path} .'
     )
     c.run(f"tree {output_path}/..")
 
