@@ -1,13 +1,16 @@
-FROM wwwthoughtworks/build-your-own-radar:latest
+FROM node:18 AS build
 
+ARG SHEET_ID
+ARG SHEET_NAME
+
+WORKDIR /src
+RUN git clone https://github.com/avengerpenguin/build-your-own-radar.git
 WORKDIR /src/build-your-own-radar
-RUN npm run build:prod
+RUN npm install
 
-RUN mkdir -p /opt/build-your-own-radar
-WORKDIR /opt/build-your-own-radar
-RUN cp -r /src/build-your-own-radar/dist/* ./
-RUN mkdir -p files
-RUN cp /src/build-your-own-radar/spec/end_to_end_tests/resources/localfiles/* ./files/
-RUN cp /src/build-your-own-radar/default.template /etc/nginx/conf.d/default.conf
+RUN npm test && ASSET_PATH=/radar/ npm run build:prod
+RUN sed -i 's|/images/|images|g' dist/index.html
 
-CMD nginx -g 'daemon off;'
+FROM scratch as output
+
+COPY --from=build /src/build-your-own-radar/dist /
