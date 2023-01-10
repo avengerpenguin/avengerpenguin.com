@@ -12,6 +12,7 @@ def radar(c, output_path="output/radar"):
     c.run(
         f"docker build -t radar -f Dockerfile.radar --output type=local,dest={output_path} ."
     )
+    c.run(f"tree {output_path}/..")
 
 
 @task
