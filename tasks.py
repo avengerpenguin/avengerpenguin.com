@@ -21,7 +21,7 @@ def radar_publish(c):
 
 
 namespace.add_task(radar)
-namespace.task_with_config("build")[0].post.append(radar)
+namespace.task_with_config("build")[0].pre.append(radar)
 
 namespace.add_task(radar_publish)
-namespace.task_with_config("publish")[0].post.append(radar_publish)
+namespace.task_with_config("publish")[0].pre.append(radar_publish)
