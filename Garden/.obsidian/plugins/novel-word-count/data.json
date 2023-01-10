@@ -11,14 +11,14 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "Remote Engineering.md": {
+    "Effective Remote Working.md": {
       "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
+      "wordCount": 87,
+      "pageCount": 0.29,
+      "characterCount": 516,
+      "nonWhitespaceCharacterCount": 425,
       "createdDate": 1673370960500,
-      "modifiedDate": 1673370960500
+      "modifiedDate": 1673371197889
     },
     "unresolved links output.md": {
       "noteCount": 1,
@@ -274,12 +274,12 @@
     },
     "Tech Radar.md": {
       "noteCount": 1,
-      "wordCount": 72,
-      "pageCount": 0.24,
-      "characterCount": 548,
-      "nonWhitespaceCharacterCount": 473,
+      "wordCount": 83,
+      "pageCount": 0.27666666666666667,
+      "characterCount": 580,
+      "nonWhitespaceCharacterCount": 494,
       "createdDate": 1673003914922,
-      "modifiedDate": 1673037079556
+      "modifiedDate": 1673381916252
     },
     "Tech Radar - Tools.md": {
       "noteCount": 1,
@@ -451,15 +451,6 @@
       "nonWhitespaceCharacterCount": 415,
       "createdDate": 1673003914919,
       "modifiedDate": 1673011243854
-    },
-    "Muse Roles.md": {
-      "noteCount": 1,
-      "wordCount": 144,
-      "pageCount": 0.48,
-      "characterCount": 811,
-      "nonWhitespaceCharacterCount": 662,
-      "createdDate": 1673003914919,
-      "modifiedDate": 1673003914919
     },
     "Monorepo vs Multi repos.md": {
       "noteCount": 1,
