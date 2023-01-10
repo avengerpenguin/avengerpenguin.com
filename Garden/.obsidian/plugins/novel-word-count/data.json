@@ -11,6 +11,15 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "Remote Engineering.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1673370960500,
+      "modifiedDate": 1673370960500
+    },
     "unresolved links output.md": {
       "noteCount": 1,
       "wordCount": 23,
@@ -288,7 +297,7 @@
       "characterCount": 1338,
       "nonWhitespaceCharacterCount": 1114,
       "createdDate": 1673004166562,
-      "modifiedDate": 1673254802948
+      "modifiedDate": 1673340507350
     },
     "Tech Radar - Platforms.md": {
       "noteCount": 1,

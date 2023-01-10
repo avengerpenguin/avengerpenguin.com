@@ -8,12 +8,16 @@
     "2022/11/6": 1195,
     "2023/0/6": 330,
     "2023/0/9": 398,
-    "2023/0/10": 20
+    "2023/0/10": 112
   },
   "todaysWordCount": {
     "Tech Radar - Techniques.md": {
       "initial": 204,
       "current": 224
+    },
+    "Remote Engineering.md": {
+      "initial": 0,
+      "current": 92
     }
   }
 }
