@@ -15,7 +15,7 @@ def radar(c, output_path="output/radar"):
 
 @task
 def radar_publish(c):
-    radar(c, output_path="dest/radar")
+    radar(c, output_path="dist/radar")
 
 
 namespace.add_task(radar)
