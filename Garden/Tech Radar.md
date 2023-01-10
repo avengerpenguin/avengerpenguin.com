@@ -7,4 +7,4 @@ To follow conventions from the [Thoughtsworks Tech Radar](https://www.thoughtwor
 - [[Tech Radar - Techniques]]
 - [[Tech Radar - Languages & Frameworks]]
 
-You can see this visually at [Thoughtworks' "Build your own radar"](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Favengerpenguin.com%2Fradar.json)
+There is also a [visual version](/radar/) using the ["Build Your Own Radar" tool from Thoughtworks](https://www.thoughtworks.com/en-gb/radar/byor) (with some hackery to publish it here).

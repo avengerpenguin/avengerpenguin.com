@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "6f662600f6420637",
@@ -145,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Remote Engineering.md",
+                "file": "Tech Radar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,8 +181,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d3bb07527db96102",
+  "active": "76978328752ba613",
   "lastOpenFiles": [
+    "Remote Engineering.md",
     "Tech Radar.md",
     "Tech Radar - Techniques.md",
     "Tech Radar - Platforms.md",
@@ -192,7 +192,6 @@
     "YAGNI.md",
     "unlinked files output.md",
     "Toxic Productivity and ADHD.md",
-    "Thoughtworks Tech Radar 27.md",
-    "Building a Successful Platform.md"
+    "Thoughtworks Tech Radar 27.md"
   ]
 }
