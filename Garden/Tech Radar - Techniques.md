@@ -1,6 +1,6 @@
-These are software engineering techniques on my radar at various levels. See the top-level [[Tech Radar]] for other categories.
-
 # Techniques
+
+These are software engineering techniques on my radar at various levels. See the top-level [[Tech Radar]] for other categories.
 
 ## Platform Engineering
 

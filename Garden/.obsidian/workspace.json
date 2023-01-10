@@ -73,7 +73,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar.md",
+                "file": "Tech Radar - Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,10 +169,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "76978328752ba613",
+  "active": "0a8ae580c0b1f897",
   "lastOpenFiles": [
-    "Tech Radar - Tools.md",
     "Tech Radar - Platforms.md",
+    "Tech Radar - Tools.md",
     "Tech Radar - Techniques.md",
     "Tech Radar - Languages & Frameworks.md",
     "Tech Radar.md",
