@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar.md",
+                "file": "Tech Radar - Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,17 +181,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "76978328752ba613",
+  "active": "0a8ae580c0b1f897",
   "lastOpenFiles": [
-    "Remote Engineering.md",
-    "Tech Radar.md",
+    "Building a Successful Platform.md",
     "Tech Radar - Techniques.md",
+    "Tech Radar.md",
+    "Remote Engineering.md",
     "Tech Radar - Platforms.md",
     "Tech Radar - Tools.md",
     "Tech Radar - Languages & Frameworks.md",
     "YAGNI.md",
     "unlinked files output.md",
-    "Toxic Productivity and ADHD.md",
-    "Thoughtworks Tech Radar 27.md"
+    "Toxic Productivity and ADHD.md"
   ]
 }

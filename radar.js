@@ -1,7 +1,16 @@
 const path = require("path");
 const { createRadarJson } = require("tech-radar-markdown-tools");
+const slugify = require("slugify");
 
 const rings = ["Adopt", "Trial", "Assess", "Hold"];
+
+function wikilinkToMarkdown(match, href, foundText) {
+  const text = foundText || href;
+  const cleanHref = slugify(href, {
+    lower: true,
+  });
+  return `<a href="/${cleanHref}/">${text}</a>`;
+}
 
 createRadarJson({
   quadrants: [
@@ -17,6 +26,10 @@ createRadarJson({
         .map((blip) => {
           const blipFixed = { ...blip };
           blipFixed.isNew = blip.isNew.toString().toUpperCase();
+          blipFixed.description = blipFixed.description.replace(
+            /\[\[([^|\]]+)\|?(.*?)\]\]/,
+            wikilinkToMarkdown
+          );
           return blipFixed;
         })
         .sort((a, b) => rings.indexOf(a.ring) - rings.indexOf(b.ring))
