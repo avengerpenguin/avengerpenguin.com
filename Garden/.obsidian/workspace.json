@@ -4,59 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "6f662600f6420637",
+        "id": "0a4eed951c76624b",
         "type": "tabs",
         "children": [
           {
-            "id": "ebd77bd0e631cdf7",
+            "id": "61ec3ca34184a6bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech Radar - Tools.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0df3a8a70b3b1f4c",
+            "id": "68597db7d5b8fc62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Staying in the Garden.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0a8ae580c0b1f897",
+            "id": "220af35378bbf7cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Productivity.md",
+                "file": "DevOps.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ae9d79753cfb64f2",
+            "id": "683efeca69bc3364",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech Radar - Languages & Frameworks.md",
+                "file": "Technical Debt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Staying in the Garden.md",
+                "file": "Technical Debt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,17 +151,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "0df3a8a70b3b1f4c",
+  "active": "683efeca69bc3364",
   "lastOpenFiles": [
-    "Tech Radar - Platforms.md",
-    "Productivity.md",
-    "Tech Radar - Techniques.md",
-    "Stages of Competence.md",
-    "unlinked files output.md",
-    "unresolved links output.md",
-    "Undifferentiated Heavy Lifting.md",
-    "Modular Aesthetic.md",
+    "DevOps.md",
+    "Technical Debt.md",
+    "_index.md",
+    "Premature scaling can stunt system iteration.md",
+    "HATEOAS or RPC.md",
     "Things I Have Made.md",
-    "What is DevOps?.md"
+    "Philosophy.md",
+    "Empyrrhic Victory.md",
+    "Now.md",
+    "12 Favourite Problems.md"
   ]
 }

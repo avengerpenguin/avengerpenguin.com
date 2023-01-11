@@ -8,20 +8,45 @@
     "2022/11/6": 1195,
     "2023/0/6": 330,
     "2023/0/9": 398,
-    "2023/0/10": 142
+    "2023/0/10": 142,
+    "2023/0/11": 675
   },
   "todaysWordCount": {
-    "Tech Radar - Techniques.md": {
-      "initial": 204,
-      "current": 224
+    "Explore-Exploit Dilemma.md": {
+      "initial": 57,
+      "current": 66
     },
-    "Remote Engineering.md": {
-      "initial": 0,
-      "current": 92
+    "ENTP Productivity.md": {
+      "initial": 676,
+      "current": 696
     },
-    "Tech Radar.md": {
-      "initial": 60,
-      "current": 90
+    "_index.md": {
+      "initial": 103,
+      "current": 114
+    },
+    "Productivity.md": {
+      "initial": 7,
+      "current": 12
+    },
+    "Now.md": {
+      "initial": 84,
+      "current": 199
+    },
+    "Philosophy.md": {
+      "initial": 11,
+      "current": 11
+    },
+    "Things I Have Made.md": {
+      "initial": 165,
+      "current": 223
+    },
+    "Technical Debt Taxonomy.md": {
+      "initial": 1,
+      "current": 7
+    },
+    "Technical Debt.md": {
+      "initial": 7,
+      "current": 458
     }
   }
 }

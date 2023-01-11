@@ -10,6 +10,12 @@ The intent here is to provide minimal bootstrapping between creating a new vault
 
 The mission is to reduce overheads such that it is possible to manage multiple sites, apply broad updates across them all but still be able to configure things differently in each one where they need to diverge.
 
+## Weblint
+
+[View Github repository](https://github.com/avengerpenguin/webcheck)
+
+A project wrapping [Scrapy](https://scrapy.org/) to provide a way to crawl and "lint" a whole website. The primary aim at first was to look for broken links but the vision is to create a full test suite for static sites which will pair nicely with Voltaire above.
+
 ## Hyperspace
 
 General-purpose REST and hypermedia client written in Python. Implements support for multiple hypermedia types using Mike Amundsen's [[H Factor]] model.

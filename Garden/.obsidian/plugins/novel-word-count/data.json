@@ -11,6 +11,15 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "Technical Debt.md": {
+      "noteCount": 1,
+      "wordCount": 7,
+      "pageCount": 0.023333333333333334,
+      "characterCount": 36,
+      "nonWhitespaceCharacterCount": 29,
+      "createdDate": 1673003914923,
+      "modifiedDate": 1673439277416
+    },
     "Voltaire.md": {
       "noteCount": 1,
       "wordCount": 2,
@@ -157,12 +166,12 @@
     },
     "_index.md": {
       "noteCount": 1,
-      "wordCount": 98,
-      "pageCount": 0.32666666666666666,
-      "characterCount": 732,
-      "nonWhitespaceCharacterCount": 626,
+      "wordCount": 114,
+      "pageCount": 0.38,
+      "characterCount": 854,
+      "nonWhitespaceCharacterCount": 728,
       "createdDate": 1673003914925,
-      "modifiedDate": 1673011369235
+      "modifiedDate": 1673438917342
     },
     "YAGNI.md": {
       "noteCount": 1,
@@ -202,12 +211,12 @@
     },
     "Things I Have Made.md": {
       "noteCount": 1,
-      "wordCount": 149,
-      "pageCount": 0.49666666666666665,
-      "characterCount": 1017,
-      "nonWhitespaceCharacterCount": 861,
+      "wordCount": 200,
+      "pageCount": 0.6666666666666666,
+      "characterCount": 1365,
+      "nonWhitespaceCharacterCount": 1154,
       "createdDate": 1673003914924,
-      "modifiedDate": 1673003914924
+      "modifiedDate": 1673439051611
     },
     "The Perfect Note-Taking App.md": {
       "noteCount": 1,
@@ -215,15 +224,6 @@
       "pageCount": 0.14,
       "characterCount": 379,
       "nonWhitespaceCharacterCount": 335,
-      "createdDate": 1673003914924,
-      "modifiedDate": 1673003914924
-    },
-    "Temperaments.md": {
-      "noteCount": 1,
-      "wordCount": 23,
-      "pageCount": 0.07666666666666666,
-      "characterCount": 110,
-      "nonWhitespaceCharacterCount": 84,
       "createdDate": 1673003914924,
       "modifiedDate": 1673003914924
     },
@@ -271,15 +271,6 @@
       "nonWhitespaceCharacterCount": 1426,
       "createdDate": 1673004178104,
       "modifiedDate": 1673254498892
-    },
-    "Technical Debt Taxonomy.md": {
-      "noteCount": 1,
-      "wordCount": 1,
-      "pageCount": 0.0033333333333333335,
-      "characterCount": 5,
-      "nonWhitespaceCharacterCount": 4,
-      "createdDate": 1673003914923,
-      "modifiedDate": 1673003914923
     },
     "Tech Radar.md": {
       "noteCount": 1,
@@ -355,12 +346,12 @@
     },
     "Productivity.md": {
       "noteCount": 1,
-      "wordCount": 9,
-      "pageCount": 0.03,
-      "characterCount": 62,
-      "nonWhitespaceCharacterCount": 52,
+      "wordCount": 15,
+      "pageCount": 0.05,
+      "characterCount": 117,
+      "nonWhitespaceCharacterCount": 100,
       "createdDate": 1673003914921,
-      "modifiedDate": 1673003914921
+      "modifiedDate": 1673438234762
     },
     "Premature scaling can stunt system iteration.md": {
       "noteCount": 1,
@@ -382,12 +373,12 @@
     },
     "Philosophy.md": {
       "noteCount": 1,
-      "wordCount": 21,
-      "pageCount": 0.07,
-      "characterCount": 133,
-      "nonWhitespaceCharacterCount": 111,
+      "wordCount": 18,
+      "pageCount": 0.06,
+      "characterCount": 115,
+      "nonWhitespaceCharacterCount": 96,
       "createdDate": 1673003914920,
-      "modifiedDate": 1673011243632
+      "modifiedDate": 1673438851265
     },
     "Oxford Comma.md": {
       "noteCount": 1,
@@ -409,21 +400,12 @@
     },
     "Now.md": {
       "noteCount": 1,
-      "wordCount": 80,
-      "pageCount": 0.26666666666666666,
-      "characterCount": 499,
-      "nonWhitespaceCharacterCount": 414,
+      "wordCount": 178,
+      "pageCount": 0.5933333333333334,
+      "characterCount": 1147,
+      "nonWhitespaceCharacterCount": 958,
       "createdDate": 1673003914920,
-      "modifiedDate": 1673003914920
-    },
-    "Ne Function.md": {
-      "noteCount": 1,
-      "wordCount": 81,
-      "pageCount": 0.27,
-      "characterCount": 499,
-      "nonWhitespaceCharacterCount": 415,
-      "createdDate": 1673003914919,
-      "modifiedDate": 1673011243854
+      "modifiedDate": 1673438459379
     },
     "Monorepo vs Multi repos.md": {
       "noteCount": 1,
@@ -451,15 +433,6 @@
       "nonWhitespaceCharacterCount": 884,
       "createdDate": 1673003914918,
       "modifiedDate": 1673003914919
-    },
-    "MBTI Socionics Function Mapping.md": {
-      "noteCount": 1,
-      "wordCount": 48,
-      "pageCount": 0.16,
-      "characterCount": 308,
-      "nonWhitespaceCharacterCount": 249,
-      "createdDate": 1673003914918,
-      "modifiedDate": 1673011243610
     },
     "MBTI Alignments.md": {
       "noteCount": 1,
@@ -544,12 +517,12 @@
     },
     "Explore-Exploit Dilemma.md": {
       "noteCount": 1,
-      "wordCount": 48,
-      "pageCount": 0.16,
-      "characterCount": 325,
-      "nonWhitespaceCharacterCount": 276,
+      "wordCount": 57,
+      "pageCount": 0.19,
+      "characterCount": 385,
+      "nonWhitespaceCharacterCount": 326,
       "createdDate": 1673003914914,
-      "modifiedDate": 1673003914915
+      "modifiedDate": 1673437962751
     },
     "Essentialism.md": {
       "noteCount": 1,
@@ -589,12 +562,12 @@
     },
     "ENTP Productivity.md": {
       "noteCount": 1,
-      "wordCount": 634,
-      "pageCount": 2.1133333333333333,
-      "characterCount": 3865,
-      "nonWhitespaceCharacterCount": 3203,
+      "wordCount": 654,
+      "pageCount": 2.18,
+      "characterCount": 3967,
+      "nonWhitespaceCharacterCount": 3285,
       "createdDate": 1673003914914,
-      "modifiedDate": 1673011243692
+      "modifiedDate": 1673438004459
     },
     "Commercial Conferences.md": {
       "noteCount": 1,
@@ -625,12 +598,12 @@
     },
     "DevOps.md": {
       "noteCount": 1,
-      "wordCount": 46,
-      "pageCount": 0.15333333333333332,
-      "characterCount": 305,
-      "nonWhitespaceCharacterCount": 257,
+      "wordCount": 45,
+      "pageCount": 0.15,
+      "characterCount": 296,
+      "nonWhitespaceCharacterCount": 249,
       "createdDate": 1673003914913,
-      "modifiedDate": 1673003914913
+      "modifiedDate": 1673439282151
     },
     "Analysis Paralysis.md": {
       "noteCount": 1,

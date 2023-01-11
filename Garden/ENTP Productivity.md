@@ -20,7 +20,7 @@ Again, from [How to be Organized as ENTP](https://sensingsage.com/getting-this-d
 
 ### Daily Tasks
 
-Use Bullet Journalling.
+Use Bullet Journalling. Or at least some way to distill down a summary 2-10 things that need done _today_ and defer the rest.
 
 I have gone back and forth on that approach and the biggest benefit I found was the chore of having to re-write a carried-over tasks would eventually frustrate me to the point of doing the task right now or perhaps just dropping it as it's clearly not valuable to me.
 

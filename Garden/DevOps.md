@@ -4,4 +4,4 @@ Other topics in this space:
 
 - [[Undifferentiated Heavy Lifting]]
 - [[Premature scaling can stunt system iteration]]
-- [[Technical Debt Taxonomy]]
+- [[Technical Debt]]
