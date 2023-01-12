@@ -11,42 +11,6 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "Technical Debt.md": {
-      "noteCount": 1,
-      "wordCount": 7,
-      "pageCount": 0.023333333333333334,
-      "characterCount": 36,
-      "nonWhitespaceCharacterCount": 29,
-      "createdDate": 1673003914923,
-      "modifiedDate": 1673439277416
-    },
-    "Voltaire.md": {
-      "noteCount": 1,
-      "wordCount": 2,
-      "pageCount": 0.006666666666666667,
-      "characterCount": 56,
-      "nonWhitespaceCharacterCount": 54,
-      "createdDate": 1673003914925,
-      "modifiedDate": 1673003914925
-    },
-    "Thoughtworks Tech Radar 27.md": {
-      "noteCount": 1,
-      "wordCount": 565,
-      "pageCount": 1.8833333333333333,
-      "characterCount": 3483,
-      "nonWhitespaceCharacterCount": 2872,
-      "createdDate": 1673003914924,
-      "modifiedDate": 1673011243538
-    },
-    "Tech Radar - Techniques.md": {
-      "noteCount": 1,
-      "wordCount": 212,
-      "pageCount": 0.7066666666666667,
-      "characterCount": 1338,
-      "nonWhitespaceCharacterCount": 1114,
-      "createdDate": 1673004166562,
-      "modifiedDate": 1673340507350
-    },
     "unlinked files output.md": {
       "noteCount": 1,
       "wordCount": 133,
@@ -56,14 +20,59 @@
       "createdDate": 1673003914999,
       "modifiedDate": 1673011243835
     },
-    "notebooks/Foundation of mathematics in Python.md": {
+    "articles/Software/why-cant-i-call-my-api-restful.md": {
       "noteCount": 1,
-      "wordCount": 698,
-      "pageCount": 2.3266666666666667,
-      "characterCount": 5152,
-      "nonWhitespaceCharacterCount": 3513,
-      "createdDate": 1673003914999,
-      "modifiedDate": 1673011243537
+      "wordCount": 1128,
+      "pageCount": 3.76,
+      "characterCount": 6770,
+      "nonWhitespaceCharacterCount": 5601,
+      "createdDate": 1673003914998,
+      "modifiedDate": 1673011243538
+    },
+    "articles/Software/true-innovation.md": {
+      "noteCount": 1,
+      "wordCount": 3771,
+      "pageCount": 12.57,
+      "characterCount": 21554,
+      "nonWhitespaceCharacterCount": 17621,
+      "createdDate": 1673003914997,
+      "modifiedDate": 1673011243774
+    },
+    "articles/Software/programming-language-matters.md": {
+      "noteCount": 1,
+      "wordCount": 2527,
+      "pageCount": 8.423333333333334,
+      "characterCount": 15506,
+      "nonWhitespaceCharacterCount": 12918,
+      "createdDate": 1673003914997,
+      "modifiedDate": 1673011243796
+    },
+    "articles/Software/mocking-data-only.md": {
+      "noteCount": 1,
+      "wordCount": 2047,
+      "pageCount": 6.823333333333333,
+      "characterCount": 11974,
+      "nonWhitespaceCharacterCount": 9878,
+      "createdDate": 1673003914997,
+      "modifiedDate": 1673011243654
+    },
+    "articles/Software/lean-vs-craft.md": {
+      "noteCount": 1,
+      "wordCount": 12,
+      "pageCount": 0.04,
+      "characterCount": 94,
+      "nonWhitespaceCharacterCount": 82,
+      "createdDate": 1673003914997,
+      "modifiedDate": 1673003914997
+    },
+    "articles/Software/keeping-up-with-javascript.md": {
+      "noteCount": 1,
+      "wordCount": 484,
+      "pageCount": 1.6133333333333333,
+      "characterCount": 3141,
+      "nonWhitespaceCharacterCount": 2645,
+      "createdDate": 1673003914997,
+      "modifiedDate": 1673011243797
     },
     "articles/Stoicism/less-is-more.md": {
       "noteCount": 1,
@@ -101,60 +110,6 @@
       "createdDate": 1673003914998,
       "modifiedDate": 1673003914998
     },
-    "articles/Software/programming-language-matters.md": {
-      "noteCount": 1,
-      "wordCount": 2527,
-      "pageCount": 8.423333333333334,
-      "characterCount": 15506,
-      "nonWhitespaceCharacterCount": 12918,
-      "createdDate": 1673003914997,
-      "modifiedDate": 1673011243796
-    },
-    "articles/Software/why-cant-i-call-my-api-restful.md": {
-      "noteCount": 1,
-      "wordCount": 1128,
-      "pageCount": 3.76,
-      "characterCount": 6770,
-      "nonWhitespaceCharacterCount": 5601,
-      "createdDate": 1673003914998,
-      "modifiedDate": 1673011243538
-    },
-    "articles/Software/true-innovation.md": {
-      "noteCount": 1,
-      "wordCount": 3771,
-      "pageCount": 12.57,
-      "characterCount": 21554,
-      "nonWhitespaceCharacterCount": 17621,
-      "createdDate": 1673003914997,
-      "modifiedDate": 1673011243774
-    },
-    "articles/Software/mocking-data-only.md": {
-      "noteCount": 1,
-      "wordCount": 2047,
-      "pageCount": 6.823333333333333,
-      "characterCount": 11974,
-      "nonWhitespaceCharacterCount": 9878,
-      "createdDate": 1673003914997,
-      "modifiedDate": 1673011243654
-    },
-    "articles/Software/lean-vs-craft.md": {
-      "noteCount": 1,
-      "wordCount": 12,
-      "pageCount": 0.04,
-      "characterCount": 94,
-      "nonWhitespaceCharacterCount": 82,
-      "createdDate": 1673003914997,
-      "modifiedDate": 1673003914997
-    },
-    "articles/Software/keeping-up-with-javascript.md": {
-      "noteCount": 1,
-      "wordCount": 484,
-      "pageCount": 1.6133333333333333,
-      "characterCount": 3141,
-      "nonWhitespaceCharacterCount": 2645,
-      "createdDate": 1673003914997,
-      "modifiedDate": 1673011243797
-    },
     "articles/Language/pedantry-paradox.md": {
       "noteCount": 1,
       "wordCount": 137,
@@ -163,15 +118,6 @@
       "nonWhitespaceCharacterCount": 635,
       "createdDate": 1673003914926,
       "modifiedDate": 1673003914926
-    },
-    "_index.md": {
-      "noteCount": 1,
-      "wordCount": 114,
-      "pageCount": 0.38,
-      "characterCount": 854,
-      "nonWhitespaceCharacterCount": 728,
-      "createdDate": 1673003914925,
-      "modifiedDate": 1673438917342
     },
     "YAGNI.md": {
       "noteCount": 1,
@@ -182,6 +128,24 @@
       "createdDate": 1673003914925,
       "modifiedDate": 1673003914925
     },
+    "notebooks/Foundation of mathematics in Python.md": {
+      "noteCount": 1,
+      "wordCount": 698,
+      "pageCount": 2.3266666666666667,
+      "characterCount": 5152,
+      "nonWhitespaceCharacterCount": 3513,
+      "createdDate": 1673003914999,
+      "modifiedDate": 1673011243537
+    },
+    "_index.md": {
+      "noteCount": 1,
+      "wordCount": 114,
+      "pageCount": 0.38,
+      "characterCount": 852,
+      "nonWhitespaceCharacterCount": 728,
+      "createdDate": 1673003914925,
+      "modifiedDate": 1673441262456
+    },
     "What is DevOps?.md": {
       "noteCount": 1,
       "wordCount": 504,
@@ -191,14 +155,14 @@
       "createdDate": 1673003914925,
       "modifiedDate": 1673011243874
     },
-    "Toxic Productivity and ADHD.md": {
+    "Voltaire.md": {
       "noteCount": 1,
-      "wordCount": 426,
-      "pageCount": 1.42,
-      "characterCount": 2479,
-      "nonWhitespaceCharacterCount": 2041,
-      "createdDate": 1673003914924,
-      "modifiedDate": 1673003914924
+      "wordCount": 2,
+      "pageCount": 0.006666666666666667,
+      "characterCount": 56,
+      "nonWhitespaceCharacterCount": 54,
+      "createdDate": 1673003914925,
+      "modifiedDate": 1673003914925
     },
     "Undifferentiated Heavy Lifting.md": {
       "noteCount": 1,
@@ -209,14 +173,59 @@
       "createdDate": 1673003914925,
       "modifiedDate": 1673011243654
     },
+    "Toxic Productivity and ADHD.md": {
+      "noteCount": 1,
+      "wordCount": 426,
+      "pageCount": 1.42,
+      "characterCount": 2479,
+      "nonWhitespaceCharacterCount": 2041,
+      "createdDate": 1673003914924,
+      "modifiedDate": 1673003914924
+    },
+    "Tech Radar - Techniques.md": {
+      "noteCount": 1,
+      "wordCount": 212,
+      "pageCount": 0.7066666666666667,
+      "characterCount": 1338,
+      "nonWhitespaceCharacterCount": 1114,
+      "createdDate": 1673004166562,
+      "modifiedDate": 1673340507350
+    },
+    "Tech Radar - Languages & Frameworks.md": {
+      "noteCount": 1,
+      "wordCount": 269,
+      "pageCount": 0.8966666666666666,
+      "characterCount": 1713,
+      "nonWhitespaceCharacterCount": 1426,
+      "createdDate": 1673004178104,
+      "modifiedDate": 1673254498892
+    },
+    "Tech Radar - Tools.md": {
+      "noteCount": 1,
+      "wordCount": 106,
+      "pageCount": 0.35333333333333333,
+      "characterCount": 869,
+      "nonWhitespaceCharacterCount": 751,
+      "createdDate": 1673004173873,
+      "modifiedDate": 1673037544295
+    },
+    "Thoughtworks Tech Radar 27.md": {
+      "noteCount": 1,
+      "wordCount": 565,
+      "pageCount": 1.8833333333333333,
+      "characterCount": 3483,
+      "nonWhitespaceCharacterCount": 2872,
+      "createdDate": 1673003914924,
+      "modifiedDate": 1673011243538
+    },
     "Things I Have Made.md": {
       "noteCount": 1,
       "wordCount": 200,
       "pageCount": 0.6666666666666666,
-      "characterCount": 1365,
+      "characterCount": 1364,
       "nonWhitespaceCharacterCount": 1154,
       "createdDate": 1673003914924,
-      "modifiedDate": 1673439051611
+      "modifiedDate": 1673441258458
     },
     "The Perfect Note-Taking App.md": {
       "noteCount": 1,
@@ -254,23 +263,14 @@
       "createdDate": 1673003914923,
       "modifiedDate": 1673003914923
     },
-    "Tech Radar - Tools.md": {
+    "Technical Debt.md": {
       "noteCount": 1,
-      "wordCount": 106,
-      "pageCount": 0.35333333333333333,
-      "characterCount": 869,
-      "nonWhitespaceCharacterCount": 751,
-      "createdDate": 1673004173873,
-      "modifiedDate": 1673037544295
-    },
-    "Tech Radar - Languages & Frameworks.md": {
-      "noteCount": 1,
-      "wordCount": 269,
-      "pageCount": 0.8966666666666666,
-      "characterCount": 1713,
-      "nonWhitespaceCharacterCount": 1426,
-      "createdDate": 1673004178104,
-      "modifiedDate": 1673254498892
+      "wordCount": 426,
+      "pageCount": 1.42,
+      "characterCount": 2734,
+      "nonWhitespaceCharacterCount": 2298,
+      "createdDate": 1673003914923,
+      "modifiedDate": 1673440028654
     },
     "Tech Radar.md": {
       "noteCount": 1,
@@ -299,15 +299,6 @@
       "createdDate": 1673003914922,
       "modifiedDate": 1673011243673
     },
-    "Staying in the Garden.md": {
-      "noteCount": 1,
-      "wordCount": 32,
-      "pageCount": 0.10666666666666667,
-      "characterCount": 169,
-      "nonWhitespaceCharacterCount": 136,
-      "createdDate": 1673003914922,
-      "modifiedDate": 1673003914922
-    },
     "Software Engineering.md": {
       "noteCount": 1,
       "wordCount": 47,
@@ -315,6 +306,15 @@
       "characterCount": 252,
       "nonWhitespaceCharacterCount": 200,
       "createdDate": 1673003914921,
+      "modifiedDate": 1673003914922
+    },
+    "Staying in the Garden.md": {
+      "noteCount": 1,
+      "wordCount": 32,
+      "pageCount": 0.10666666666666667,
+      "characterCount": 169,
+      "nonWhitespaceCharacterCount": 136,
+      "createdDate": 1673003914922,
       "modifiedDate": 1673003914922
     },
     "Socialist Articles.md": {
@@ -348,10 +348,10 @@
       "noteCount": 1,
       "wordCount": 15,
       "pageCount": 0.05,
-      "characterCount": 117,
+      "characterCount": 116,
       "nonWhitespaceCharacterCount": 100,
       "createdDate": 1673003914921,
-      "modifiedDate": 1673438234762
+      "modifiedDate": 1673441258459
     },
     "Premature scaling can stunt system iteration.md": {
       "noteCount": 1,
@@ -402,10 +402,10 @@
       "noteCount": 1,
       "wordCount": 178,
       "pageCount": 0.5933333333333334,
-      "characterCount": 1147,
+      "characterCount": 1146,
       "nonWhitespaceCharacterCount": 958,
       "createdDate": 1673003914920,
-      "modifiedDate": 1673438459379
+      "modifiedDate": 1673441262503
     },
     "Monorepo vs Multi repos.md": {
       "noteCount": 1,
@@ -443,21 +443,21 @@
       "createdDate": 1673003914918,
       "modifiedDate": 1673011243535
     },
-    "Lofi Hip Hop Generator.md": {
-      "noteCount": 1,
-      "wordCount": 10,
-      "pageCount": 0.03333333333333333,
-      "characterCount": 190,
-      "nonWhitespaceCharacterCount": 177,
-      "createdDate": 1673003914918,
-      "modifiedDate": 1673003914918
-    },
     "LeftValues.md": {
       "noteCount": 1,
       "wordCount": 1,
       "pageCount": 0.0033333333333333335,
       "characterCount": 91,
       "nonWhitespaceCharacterCount": 90,
+      "createdDate": 1673003914918,
+      "modifiedDate": 1673003914918
+    },
+    "Lofi Hip Hop Generator.md": {
+      "noteCount": 1,
+      "wordCount": 10,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 190,
+      "nonWhitespaceCharacterCount": 177,
       "createdDate": 1673003914918,
       "modifiedDate": 1673003914918
     },
@@ -551,15 +551,6 @@
       "createdDate": 1673370960500,
       "modifiedDate": 1673371197889
     },
-    "Connecting Engineering Work to the Business.md": {
-      "noteCount": 1,
-      "wordCount": 292,
-      "pageCount": 0.9733333333333334,
-      "characterCount": 1870,
-      "nonWhitespaceCharacterCount": 1565,
-      "createdDate": 1673003914913,
-      "modifiedDate": 1673003914913
-    },
     "ENTP Productivity.md": {
       "noteCount": 1,
       "wordCount": 654,
@@ -568,24 +559,6 @@
       "nonWhitespaceCharacterCount": 3285,
       "createdDate": 1673003914914,
       "modifiedDate": 1673438004459
-    },
-    "Commercial Conferences.md": {
-      "noteCount": 1,
-      "wordCount": 613,
-      "pageCount": 2.0433333333333334,
-      "characterCount": 3458,
-      "nonWhitespaceCharacterCount": 2829,
-      "createdDate": 1673003914913,
-      "modifiedDate": 1673003914913
-    },
-    "Digital Garden.md": {
-      "noteCount": 1,
-      "wordCount": 261,
-      "pageCount": 0.87,
-      "characterCount": 1747,
-      "nonWhitespaceCharacterCount": 1475,
-      "createdDate": 1673003914913,
-      "modifiedDate": 1673003914914
     },
     "Domestication of Users.md": {
       "noteCount": 1,
@@ -596,6 +569,15 @@
       "createdDate": 1673003914914,
       "modifiedDate": 1673011243753
     },
+    "Digital Garden.md": {
+      "noteCount": 1,
+      "wordCount": 261,
+      "pageCount": 0.87,
+      "characterCount": 1747,
+      "nonWhitespaceCharacterCount": 1475,
+      "createdDate": 1673003914913,
+      "modifiedDate": 1673003914914
+    },
     "DevOps.md": {
       "noteCount": 1,
       "wordCount": 45,
@@ -605,14 +587,23 @@
       "createdDate": 1673003914913,
       "modifiedDate": 1673439282151
     },
-    "Analysis Paralysis.md": {
+    "Connecting Engineering Work to the Business.md": {
       "noteCount": 1,
-      "wordCount": 33,
-      "pageCount": 0.11,
-      "characterCount": 199,
-      "nonWhitespaceCharacterCount": 166,
-      "createdDate": 1673003914912,
-      "modifiedDate": 1673003914912
+      "wordCount": 292,
+      "pageCount": 0.9733333333333334,
+      "characterCount": 1870,
+      "nonWhitespaceCharacterCount": 1565,
+      "createdDate": 1673003914913,
+      "modifiedDate": 1673003914913
+    },
+    "Commercial Conferences.md": {
+      "noteCount": 1,
+      "wordCount": 613,
+      "pageCount": 2.0433333333333334,
+      "characterCount": 3458,
+      "nonWhitespaceCharacterCount": 2829,
+      "createdDate": 1673003914913,
+      "modifiedDate": 1673003914913
     },
     "Building a Successful Platform.md": {
       "noteCount": 1,
@@ -623,12 +614,12 @@
       "createdDate": 1673003914913,
       "modifiedDate": 1673003914913
     },
-    "8values.md": {
+    "Analysis Paralysis.md": {
       "noteCount": 1,
-      "wordCount": 4,
-      "pageCount": 0.013333333333333334,
-      "characterCount": 108,
-      "nonWhitespaceCharacterCount": 104,
+      "wordCount": 33,
+      "pageCount": 0.11,
+      "characterCount": 199,
+      "nonWhitespaceCharacterCount": 166,
       "createdDate": 1673003914912,
       "modifiedDate": 1673003914912
     },
@@ -647,6 +638,15 @@
       "pageCount": 0.42333333333333334,
       "characterCount": 781,
       "nonWhitespaceCharacterCount": 651,
+      "createdDate": 1673003914912,
+      "modifiedDate": 1673003914912
+    },
+    "8values.md": {
+      "noteCount": 1,
+      "wordCount": 4,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 108,
+      "nonWhitespaceCharacterCount": 104,
       "createdDate": 1673003914912,
       "modifiedDate": 1673003914912
     },
