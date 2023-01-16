@@ -28,11 +28,11 @@ createRadarJson({
           blipFixed.isNew = blip.isNew.toString().toUpperCase();
           blipFixed.description = blipFixed.description.replaceAll(
             /\[\[([^|\]]+)\|?(.*?)\]\]/g,
-            wikilinkToMarkdown
+            wikilinkToMarkdown,
           );
           return blipFixed;
         })
-        .sort((a, b) => rings.indexOf(a.ring) - rings.indexOf(b.ring))
-    )
+        .sort((a, b) => rings.indexOf(a.ring) - rings.indexOf(b.ring)),
+    ),
   );
 });
