@@ -4,6 +4,12 @@ These are languages and frameworks on my radar at various levels. See the top-le
 
 Note that I rarely look at whole new languages as I have a bias towards frameworks and libraries that help me build things over improving the act of writing code itself. A language might have promise on here if its ecosystem of libraries and frameworks mature around it since that's a key feature for me over aethetics of syntax or language semantics.
 
+## Quarkus
+
+- Status: Assess
+
+It's clear Quarkus is inevitible if Java is to survive the "cloud native" trends that see people otherwise favour Go or other things that compile to a small binary that boots quickly in a small container.
+
 ## Sanic
 
 - Status: Assess

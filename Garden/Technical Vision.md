@@ -6,6 +6,6 @@ This comprises a few principles:
 - Being data-driven
 - Optimised lead times
 - Frequent releases
-- Fewer remits per team, fewer teams per remit
+- [[Fewer remits per team, fewer teams per remit]]
 - Quick hand-offs
 - Less context switching

@@ -4,59 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "0a4eed951c76624b",
+        "id": "59082d9d30fdd8f4",
         "type": "tabs",
         "children": [
           {
-            "id": "61ec3ca34184a6bb",
+            "id": "085710d6bc935f8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "Technical Vision.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "68597db7d5b8fc62",
+            "id": "8d04091c26d99d17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "220af35378bbf7cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevOps.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "683efeca69bc3364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technical Debt.md",
+                "file": "Fewer remits per team, fewer teams per remit.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technical Debt.md",
+                "file": "Fewer remits per team, fewer teams per remit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,17 +127,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "683efeca69bc3364",
+  "active": "8d04091c26d99d17",
   "lastOpenFiles": [
-    "DevOps.md",
-    "Technical Debt.md",
+    "Technical Vision.md",
+    "Technical Strategy.md",
+    "Tech Radar - Languages & Frameworks.md",
     "_index.md",
+    "DevOps.md",
+    "Keeping up with JavaScript.md",
+    "unlinked files output.md",
+    "Technical Debt.md",
     "Premature scaling can stunt system iteration.md",
-    "HATEOAS or RPC.md",
-    "Things I Have Made.md",
-    "Philosophy.md",
-    "Empyrrhic Victory.md",
-    "Now.md",
-    "12 Favourite Problems.md"
+    "HATEOAS or RPC.md"
   ]
 }

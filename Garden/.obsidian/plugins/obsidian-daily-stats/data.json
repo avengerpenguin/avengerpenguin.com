@@ -9,44 +9,29 @@
     "2023/0/6": 330,
     "2023/0/9": 398,
     "2023/0/10": 142,
-    "2023/0/11": 675
+    "2023/0/11": 675,
+    "2023/1/7": 121
   },
   "todaysWordCount": {
-    "Explore-Exploit Dilemma.md": {
-      "initial": 57,
-      "current": 66
-    },
-    "ENTP Productivity.md": {
-      "initial": 676,
-      "current": 696
-    },
     "_index.md": {
-      "initial": 103,
-      "current": 114
+      "initial": 114,
+      "current": 118
     },
-    "Productivity.md": {
-      "initial": 7,
-      "current": 12
+    "Keeping up with JavaScript.md": {
+      "initial": 534,
+      "current": 534
     },
-    "Now.md": {
-      "initial": 84,
-      "current": 199
+    "Tech Radar - Languages & Frameworks.md": {
+      "initial": 295,
+      "current": 335
     },
-    "Philosophy.md": {
-      "initial": 11,
-      "current": 11
+    "Technical Vision.md": {
+      "initial": 48,
+      "current": 48
     },
-    "Things I Have Made.md": {
-      "initial": 165,
-      "current": 223
-    },
-    "Technical Debt Taxonomy.md": {
+    "Fewer remits per team, fewer teams per remit.md": {
       "initial": 1,
-      "current": 7
-    },
-    "Technical Debt.md": {
-      "initial": 7,
-      "current": 458
+      "current": 78
     }
   }
 }

@@ -17,6 +17,7 @@ Read [[Now|what he is doing at the moment]].
 - More [[DevOps]] topics
 - [[Undifferentiated Heavy Lifting]]
 - [[Tech Radar]]
+- [[Keeping up with JavaScript]]
 
 ## Language
 

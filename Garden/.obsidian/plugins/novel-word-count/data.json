@@ -11,6 +11,24 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "Fewer remits per team, fewer teams per remit.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1675799091464,
+      "modifiedDate": 1675799091464
+    },
+    "Keeping up with JavaScript.md": {
+      "noteCount": 1,
+      "wordCount": 481,
+      "pageCount": 1.6033333333333333,
+      "characterCount": 3111,
+      "nonWhitespaceCharacterCount": 2619,
+      "createdDate": 1673003914997,
+      "modifiedDate": 1675798967462
+    },
     "unlinked files output.md": {
       "noteCount": 1,
       "wordCount": 133,
@@ -64,15 +82,6 @@
       "nonWhitespaceCharacterCount": 82,
       "createdDate": 1673003914997,
       "modifiedDate": 1673003914997
-    },
-    "articles/Software/keeping-up-with-javascript.md": {
-      "noteCount": 1,
-      "wordCount": 484,
-      "pageCount": 1.6133333333333333,
-      "characterCount": 3141,
-      "nonWhitespaceCharacterCount": 2645,
-      "createdDate": 1673003914997,
-      "modifiedDate": 1673011243797
     },
     "articles/Stoicism/less-is-more.md": {
       "noteCount": 1,
@@ -139,12 +148,12 @@
     },
     "_index.md": {
       "noteCount": 1,
-      "wordCount": 114,
-      "pageCount": 0.38,
-      "characterCount": 852,
-      "nonWhitespaceCharacterCount": 728,
+      "wordCount": 119,
+      "pageCount": 0.39666666666666667,
+      "characterCount": 885,
+      "nonWhitespaceCharacterCount": 756,
       "createdDate": 1673003914925,
-      "modifiedDate": 1673441262456
+      "modifiedDate": 1675798951299
     },
     "What is DevOps?.md": {
       "noteCount": 1,
@@ -193,12 +202,12 @@
     },
     "Tech Radar - Languages & Frameworks.md": {
       "noteCount": 1,
-      "wordCount": 269,
-      "pageCount": 0.8966666666666666,
-      "characterCount": 1713,
-      "nonWhitespaceCharacterCount": 1426,
+      "wordCount": 310,
+      "pageCount": 1.0333333333333334,
+      "characterCount": 1949,
+      "nonWhitespaceCharacterCount": 1618,
       "createdDate": 1673004178104,
-      "modifiedDate": 1673254498892
+      "modifiedDate": 1675799045424
     },
     "Tech Radar - Tools.md": {
       "noteCount": 1,
@@ -240,10 +249,10 @@
       "noteCount": 1,
       "wordCount": 53,
       "pageCount": 0.17666666666666667,
-      "characterCount": 327,
-      "nonWhitespaceCharacterCount": 272,
+      "characterCount": 331,
+      "nonWhitespaceCharacterCount": 276,
       "createdDate": 1673003914923,
-      "modifiedDate": 1673003914923
+      "modifiedDate": 1675799091625
     },
     "Technical Strategy.md": {
       "noteCount": 1,
