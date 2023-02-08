@@ -11,8 +11,12 @@
             "id": "085710d6bc935f8f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "12 Favourite Problems.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "12 Favourite Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,15 +116,15 @@
   },
   "active": "085710d6bc935f8f",
   "lastOpenFiles": [
-    "_index.md",
-    "Bootstrap Continuous Delivery.md",
-    "LeadDev Unwrapped 2022.md",
-    "Flow.md",
-    "articles/Software/programming-language-matters.md",
-    "articles/Software/true-innovation.md",
-    "articles/Software/why-cant-i-call-my-api-restful.md",
     "articles/Software/mocking-data-only.md",
-    "articles/Software/lean-vs-craft.md",
-    "articles/Language/pedantry-paradox.md"
+    "Oxford Comma.md",
+    "Shipping Theatre.md",
+    "Building a Successful Platform.md",
+    "Commercial Conferences.md",
+    "Connecting Engineering Work to the Business.md",
+    "Fewer remits per team, fewer teams per remit.md",
+    "Digital Garden.md",
+    "Analysis Paralysis.md",
+    "Effective Remote Working.md"
   ]
 }

@@ -11,6 +11,15 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "Stages of Competence.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1675886238184,
+      "modifiedDate": 1675886238184
+    },
     "Fewer remits per team, fewer teams per remit.md": {
       "noteCount": 1,
       "wordCount": 79,
@@ -478,15 +487,6 @@
       "nonWhitespaceCharacterCount": 3499,
       "createdDate": 1673003914918,
       "modifiedDate": 1673011243733
-    },
-    "Languishing.md": {
-      "noteCount": 1,
-      "wordCount": 29,
-      "pageCount": 0.09666666666666666,
-      "characterCount": 213,
-      "nonWhitespaceCharacterCount": 178,
-      "createdDate": 1673003914917,
-      "modifiedDate": 1673003914917
     },
     "HATEOAS or RPC.md": {
       "noteCount": 1,

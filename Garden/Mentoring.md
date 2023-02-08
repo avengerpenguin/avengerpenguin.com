@@ -1,5 +1,3 @@
-See [[Stages of Competence]]
-
 ## Jargon
 
 Jargon is a shortcut to comms. Useful only if there's a prior understanding.
