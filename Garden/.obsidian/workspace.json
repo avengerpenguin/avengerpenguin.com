@@ -13,30 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical Vision.md",
+                "file": "Bootstrap Continuous Delivery.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "8d04091c26d99d17",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tech Radar - Languages & Frameworks.md",
+                "file": "Bootstrap Continuous Delivery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,17 +114,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8d04091c26d99d17",
+  "active": "085710d6bc935f8f",
   "lastOpenFiles": [
-    "Fewer remits per team, fewer teams per remit.md",
-    "Technical Vision.md",
-    "Technical Strategy.md",
-    "Tech Radar - Languages & Frameworks.md",
-    "_index.md",
-    "DevOps.md",
-    "Keeping up with JavaScript.md",
-    "unlinked files output.md",
-    "Technical Debt.md",
-    "Premature scaling can stunt system iteration.md"
+    "LeadDev Unwrapped 2022.md",
+    "Flow.md",
+    "articles/Software/programming-language-matters.md",
+    "articles/Software/true-innovation.md",
+    "articles/Software/why-cant-i-call-my-api-restful.md",
+    "articles/Software/mocking-data-only.md",
+    "articles/Software/lean-vs-craft.md",
+    "articles/Language/pedantry-paradox.md",
+    "Untitled.canvas",
+    "Fewer remits per team, fewer teams per remit.md"
   ]
 }
