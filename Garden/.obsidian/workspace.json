@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12 Favourite Problems.md",
+                "file": "Hacking Remote Work.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12 Favourite Problems.md",
+                "file": "Hacking Remote Work.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +116,8 @@
   },
   "active": "085710d6bc935f8f",
   "lastOpenFiles": [
+    "Soft Discipline.md",
+    "12 Favourite Problems.md",
     "articles/Software/mocking-data-only.md",
     "Oxford Comma.md",
     "Shipping Theatre.md",
@@ -123,8 +125,6 @@
     "Commercial Conferences.md",
     "Connecting Engineering Work to the Business.md",
     "Fewer remits per team, fewer teams per remit.md",
-    "Digital Garden.md",
-    "Analysis Paralysis.md",
-    "Effective Remote Working.md"
+    "Digital Garden.md"
   ]
 }

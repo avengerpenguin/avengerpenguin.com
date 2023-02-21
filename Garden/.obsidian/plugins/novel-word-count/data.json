@@ -11,32 +11,23 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "Stages of Competence.md": {
+    "Hacking Remote Work.md": {
       "noteCount": 1,
       "wordCount": 0,
       "pageCount": 0,
       "characterCount": 0,
       "nonWhitespaceCharacterCount": 0,
-      "createdDate": 1675886238184,
-      "modifiedDate": 1675886238184
+      "createdDate": 1676937590065,
+      "modifiedDate": 1676937590065
     },
-    "Fewer remits per team, fewer teams per remit.md": {
+    "Tech Radar - Platforms.md": {
       "noteCount": 1,
-      "wordCount": 79,
-      "pageCount": 0.2633333333333333,
-      "characterCount": 443,
-      "nonWhitespaceCharacterCount": 363,
-      "createdDate": 1675799091464,
-      "modifiedDate": 1675802720553
-    },
-    "Keeping up with JavaScript.md": {
-      "noteCount": 1,
-      "wordCount": 481,
-      "pageCount": 1.6033333333333333,
-      "characterCount": 3111,
-      "nonWhitespaceCharacterCount": 2619,
-      "createdDate": 1673003914997,
-      "modifiedDate": 1675798967462
+      "wordCount": 75,
+      "pageCount": 0.25,
+      "characterCount": 560,
+      "nonWhitespaceCharacterCount": 476,
+      "createdDate": 1673004189588,
+      "modifiedDate": 1673254970527
     },
     "unlinked files output.md": {
       "noteCount": 1,
@@ -46,6 +37,24 @@
       "nonWhitespaceCharacterCount": 1026,
       "createdDate": 1673003914999,
       "modifiedDate": 1673011243835
+    },
+    "notebooks/Foundation of mathematics in Python.md": {
+      "noteCount": 1,
+      "wordCount": 698,
+      "pageCount": 2.3266666666666667,
+      "characterCount": 5152,
+      "nonWhitespaceCharacterCount": 3513,
+      "createdDate": 1673003914999,
+      "modifiedDate": 1673011243537
+    },
+    "_index.md": {
+      "noteCount": 1,
+      "wordCount": 119,
+      "pageCount": 0.39666666666666667,
+      "characterCount": 885,
+      "nonWhitespaceCharacterCount": 756,
+      "createdDate": 1673003914925,
+      "modifiedDate": 1675798951299
     },
     "articles/Software/why-cant-i-call-my-api-restful.md": {
       "noteCount": 1,
@@ -146,24 +155,6 @@
       "createdDate": 1673003914925,
       "modifiedDate": 1673003914925
     },
-    "notebooks/Foundation of mathematics in Python.md": {
-      "noteCount": 1,
-      "wordCount": 698,
-      "pageCount": 2.3266666666666667,
-      "characterCount": 5152,
-      "nonWhitespaceCharacterCount": 3513,
-      "createdDate": 1673003914999,
-      "modifiedDate": 1673011243537
-    },
-    "_index.md": {
-      "noteCount": 1,
-      "wordCount": 119,
-      "pageCount": 0.39666666666666667,
-      "characterCount": 885,
-      "nonWhitespaceCharacterCount": 756,
-      "createdDate": 1673003914925,
-      "modifiedDate": 1675798951299
-    },
     "What is DevOps?.md": {
       "noteCount": 1,
       "wordCount": 504,
@@ -199,33 +190,6 @@
       "nonWhitespaceCharacterCount": 2041,
       "createdDate": 1673003914924,
       "modifiedDate": 1673003914924
-    },
-    "Tech Radar - Techniques.md": {
-      "noteCount": 1,
-      "wordCount": 212,
-      "pageCount": 0.7066666666666667,
-      "characterCount": 1338,
-      "nonWhitespaceCharacterCount": 1114,
-      "createdDate": 1673004166562,
-      "modifiedDate": 1673340507350
-    },
-    "Tech Radar - Languages & Frameworks.md": {
-      "noteCount": 1,
-      "wordCount": 310,
-      "pageCount": 1.0333333333333334,
-      "characterCount": 1949,
-      "nonWhitespaceCharacterCount": 1618,
-      "createdDate": 1673004178104,
-      "modifiedDate": 1675799045424
-    },
-    "Tech Radar - Tools.md": {
-      "noteCount": 1,
-      "wordCount": 106,
-      "pageCount": 0.35333333333333333,
-      "characterCount": 869,
-      "nonWhitespaceCharacterCount": 751,
-      "createdDate": 1673004173873,
-      "modifiedDate": 1673037544295
     },
     "Thoughtworks Tech Radar 27.md": {
       "noteCount": 1,
@@ -263,21 +227,21 @@
       "createdDate": 1673003914923,
       "modifiedDate": 1675799091625
     },
-    "Technical Strategy.md": {
-      "noteCount": 1,
-      "wordCount": 40,
-      "pageCount": 0.13333333333333333,
-      "characterCount": 716,
-      "nonWhitespaceCharacterCount": 675,
-      "createdDate": 1673003914923,
-      "modifiedDate": 1673003914923
-    },
     "Technical Design Documents.md": {
       "noteCount": 1,
       "wordCount": 162,
       "pageCount": 0.54,
       "characterCount": 1582,
       "nonWhitespaceCharacterCount": 1416,
+      "createdDate": 1673003914923,
+      "modifiedDate": 1673003914923
+    },
+    "Technical Strategy.md": {
+      "noteCount": 1,
+      "wordCount": 40,
+      "pageCount": 0.13333333333333333,
+      "characterCount": 716,
+      "nonWhitespaceCharacterCount": 675,
       "createdDate": 1673003914923,
       "modifiedDate": 1673003914923
     },
@@ -299,14 +263,41 @@
       "createdDate": 1673003914922,
       "modifiedDate": 1673381916252
     },
-    "Tech Radar - Platforms.md": {
+    "Tech Radar - Tools.md": {
       "noteCount": 1,
-      "wordCount": 75,
-      "pageCount": 0.25,
-      "characterCount": 560,
-      "nonWhitespaceCharacterCount": 476,
-      "createdDate": 1673004189588,
-      "modifiedDate": 1673254970527
+      "wordCount": 106,
+      "pageCount": 0.35333333333333333,
+      "characterCount": 869,
+      "nonWhitespaceCharacterCount": 751,
+      "createdDate": 1673004173873,
+      "modifiedDate": 1673037544295
+    },
+    "Tech Radar - Techniques.md": {
+      "noteCount": 1,
+      "wordCount": 212,
+      "pageCount": 0.7066666666666667,
+      "characterCount": 1338,
+      "nonWhitespaceCharacterCount": 1114,
+      "createdDate": 1673004166562,
+      "modifiedDate": 1673340507350
+    },
+    "Tech Radar - Languages & Frameworks.md": {
+      "noteCount": 1,
+      "wordCount": 310,
+      "pageCount": 1.0333333333333334,
+      "characterCount": 1949,
+      "nonWhitespaceCharacterCount": 1618,
+      "createdDate": 1673004178104,
+      "modifiedDate": 1675799045424
+    },
+    "Soft Discipline.md": {
+      "noteCount": 1,
+      "wordCount": 164,
+      "pageCount": 0.5466666666666666,
+      "characterCount": 962,
+      "nonWhitespaceCharacterCount": 790,
+      "createdDate": 1676897303164,
+      "modifiedDate": 1676903345955
     },
     "Storytelling techniques for creating impactful presentations.md": {
       "noteCount": 1,
@@ -317,15 +308,6 @@
       "createdDate": 1673003914922,
       "modifiedDate": 1673011243673
     },
-    "Software Engineering.md": {
-      "noteCount": 1,
-      "wordCount": 47,
-      "pageCount": 0.15666666666666668,
-      "characterCount": 252,
-      "nonWhitespaceCharacterCount": 200,
-      "createdDate": 1673003914921,
-      "modifiedDate": 1673003914922
-    },
     "Staying in the Garden.md": {
       "noteCount": 1,
       "wordCount": 32,
@@ -335,14 +317,32 @@
       "createdDate": 1673003914922,
       "modifiedDate": 1673003914922
     },
-    "Socialist Articles.md": {
+    "Fewer remits per team, fewer teams per remit.md": {
       "noteCount": 1,
-      "wordCount": 18,
-      "pageCount": 0.06,
-      "characterCount": 157,
-      "nonWhitespaceCharacterCount": 138,
+      "wordCount": 79,
+      "pageCount": 0.2633333333333333,
+      "characterCount": 443,
+      "nonWhitespaceCharacterCount": 363,
+      "createdDate": 1675799091464,
+      "modifiedDate": 1675802720553
+    },
+    "Software Engineering.md": {
+      "noteCount": 1,
+      "wordCount": 47,
+      "pageCount": 0.15666666666666668,
+      "characterCount": 252,
+      "nonWhitespaceCharacterCount": 200,
       "createdDate": 1673003914921,
-      "modifiedDate": 1673011243586
+      "modifiedDate": 1673003914922
+    },
+    "Stages of Competence.md": {
+      "noteCount": 1,
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "createdDate": 1675886238184,
+      "modifiedDate": 1675886238184
     },
     "Shipping Theatre.md": {
       "noteCount": 1,
@@ -353,6 +353,15 @@
       "createdDate": 1673003914921,
       "modifiedDate": 1673003914921
     },
+    "Socialist Articles.md": {
+      "noteCount": 1,
+      "wordCount": 18,
+      "pageCount": 0.06,
+      "characterCount": 157,
+      "nonWhitespaceCharacterCount": 138,
+      "createdDate": 1673003914921,
+      "modifiedDate": 1673011243586
+    },
     "Semantic Arguments.md": {
       "noteCount": 1,
       "wordCount": 757,
@@ -361,6 +370,15 @@
       "nonWhitespaceCharacterCount": 3736,
       "createdDate": 1673003914921,
       "modifiedDate": 1673011243693
+    },
+    "Keeping up with JavaScript.md": {
+      "noteCount": 1,
+      "wordCount": 481,
+      "pageCount": 1.6033333333333333,
+      "characterCount": 3111,
+      "nonWhitespaceCharacterCount": 2619,
+      "createdDate": 1673003914997,
+      "modifiedDate": 1675798967462
     },
     "Productivity.md": {
       "noteCount": 1,
@@ -445,12 +463,12 @@
     },
     "Mentoring.md": {
       "noteCount": 1,
-      "wordCount": 180,
-      "pageCount": 0.6,
-      "characterCount": 1083,
-      "nonWhitespaceCharacterCount": 884,
+      "wordCount": 176,
+      "pageCount": 0.5866666666666667,
+      "characterCount": 1053,
+      "nonWhitespaceCharacterCount": 859,
       "createdDate": 1673003914918,
-      "modifiedDate": 1673003914919
+      "modifiedDate": 1675886256386
     },
     "MBTI Alignments.md": {
       "noteCount": 1,
@@ -461,21 +479,21 @@
       "createdDate": 1673003914918,
       "modifiedDate": 1673011243535
     },
-    "LeftValues.md": {
-      "noteCount": 1,
-      "wordCount": 1,
-      "pageCount": 0.0033333333333333335,
-      "characterCount": 91,
-      "nonWhitespaceCharacterCount": 90,
-      "createdDate": 1673003914918,
-      "modifiedDate": 1673003914918
-    },
     "Lofi Hip Hop Generator.md": {
       "noteCount": 1,
       "wordCount": 10,
       "pageCount": 0.03333333333333333,
       "characterCount": 190,
       "nonWhitespaceCharacterCount": 177,
+      "createdDate": 1673003914918,
+      "modifiedDate": 1673003914918
+    },
+    "LeftValues.md": {
+      "noteCount": 1,
+      "wordCount": 1,
+      "pageCount": 0.0033333333333333335,
+      "characterCount": 91,
+      "nonWhitespaceCharacterCount": 90,
       "createdDate": 1673003914918,
       "modifiedDate": 1673003914918
     },
@@ -523,6 +541,15 @@
       "nonWhitespaceCharacterCount": 317,
       "createdDate": 1673003914915,
       "modifiedDate": 1673011243632
+    },
+    "12 Favourite Problems.md": {
+      "noteCount": 1,
+      "wordCount": 242,
+      "pageCount": 0.8066666666666666,
+      "characterCount": 1358,
+      "nonWhitespaceCharacterCount": 1111,
+      "createdDate": 1673003914911,
+      "modifiedDate": 1673003914911
     },
     "Explore-Exploit Dilemma.md": {
       "noteCount": 1,
@@ -623,15 +650,6 @@
       "createdDate": 1673003914913,
       "modifiedDate": 1673003914913
     },
-    "Analysis Paralysis.md": {
-      "noteCount": 1,
-      "wordCount": 33,
-      "pageCount": 0.11,
-      "characterCount": 199,
-      "nonWhitespaceCharacterCount": 166,
-      "createdDate": 1673003914912,
-      "modifiedDate": 1673003914912
-    },
     "Bootstrap Continuous Delivery.md": {
       "noteCount": 1,
       "wordCount": 51,
@@ -640,6 +658,15 @@
       "nonWhitespaceCharacterCount": 274,
       "createdDate": 1673003914912,
       "modifiedDate": 1673011243692
+    },
+    "Analysis Paralysis.md": {
+      "noteCount": 1,
+      "wordCount": 33,
+      "pageCount": 0.11,
+      "characterCount": 199,
+      "nonWhitespaceCharacterCount": 166,
+      "createdDate": 1673003914912,
+      "modifiedDate": 1673003914912
     },
     "Agile Results.md": {
       "noteCount": 1,
@@ -658,15 +685,6 @@
       "nonWhitespaceCharacterCount": 104,
       "createdDate": 1673003914912,
       "modifiedDate": 1673003914912
-    },
-    "12 Favourite Problems.md": {
-      "noteCount": 1,
-      "wordCount": 242,
-      "pageCount": 0.8066666666666666,
-      "characterCount": 1358,
-      "nonWhitespaceCharacterCount": 1111,
-      "createdDate": 1673003914911,
-      "modifiedDate": 1673003914911
     }
   }
 }
