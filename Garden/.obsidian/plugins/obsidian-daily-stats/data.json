@@ -13,12 +13,13 @@
     "2023/1/7": 121,
     "2023/1/8": 0,
     "2023/1/20": 166,
-    "2023/1/21": 29
+    "2023/1/21": 29,
+    "2023/1/23": 10
   },
   "todaysWordCount": {
-    "Hacking Remote Work.md": {
-      "initial": 2,
-      "current": 31
+    "Things I Have Made.md": {
+      "initial": 223,
+      "current": 233
     }
   }
 }

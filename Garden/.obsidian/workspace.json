@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeadDev Unwrapped 2022.md",
+                "file": "Things I Have Made.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeadDev Unwrapped 2022.md",
+                "file": "Things I Have Made.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,8 +114,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "085710d6bc935f8f",
+  "active": "8cbf6ae5fba94ea6",
   "lastOpenFiles": [
+    "LeadDev Unwrapped 2022.md",
     "Flow.md",
     "Explore-Exploit Dilemma.md",
     "Essentialism.md",
@@ -124,7 +125,6 @@
     "12 Favourite Problems.md",
     "articles/Software/mocking-data-only.md",
     "Oxford Comma.md",
-    "Shipping Theatre.md",
-    "Building a Successful Platform.md"
+    "Shipping Theatre.md"
   ]
 }
