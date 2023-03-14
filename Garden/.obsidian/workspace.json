@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical Vision.md",
+                "file": "Fewer remits per team, fewer teams per remit.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technical Vision.md",
+                "file": "Fewer remits per team, fewer teams per remit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +116,15 @@
   },
   "active": "085710d6bc935f8f",
   "lastOpenFiles": [
-    "Things I Have Made.md",
-    "LeadDev Unwrapped 2022.md",
-    "Flow.md",
-    "Explore-Exploit Dilemma.md",
-    "Essentialism.md",
-    "Hacking Remote Work.md",
-    "Soft Discipline.md",
-    "12 Favourite Problems.md",
-    "articles/Software/mocking-data-only.md",
-    "Oxford Comma.md"
+    "Technical Vision.md",
+    "What we control and what we don't.md",
+    "articles/Stoicism/0101-control-and-choice.md",
+    "articles/Software/true-innovation.md",
+    "Why Programming Language Matters.md",
+    "Mocking Data Only.md",
+    "articles/Software/lean-vs-craft.md",
+    "articles/Language/pedantry-paradox.md",
+    "unlinked files output.md",
+    "Things I Have Made.md"
   ]
 }

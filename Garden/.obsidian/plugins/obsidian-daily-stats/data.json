@@ -14,12 +14,29 @@
     "2023/1/8": 0,
     "2023/1/20": 166,
     "2023/1/21": 29,
-    "2023/1/23": 10
+    "2023/1/23": 10,
+    "2023/2/14": 227
   },
   "todaysWordCount": {
-    "Things I Have Made.md": {
-      "initial": 223,
-      "current": 233
+    "articles/Software/Mocking Data Only.md": {
+      "initial": 2061,
+      "current": 2061
+    },
+    "articles/Software/Why Programming Language Matters.md": {
+      "initial": 2633,
+      "current": 2633
+    },
+    "articles/Stoicism/0109-what-we-control.md": {
+      "initial": 526,
+      "current": 516
+    },
+    "articles/Stoicism/What we control and what we don't.md": {
+      "initial": 492,
+      "current": 492
+    },
+    "Fewer remits per team, fewer teams per remit.md": {
+      "initial": 78,
+      "current": 305
     }
   }
 }
