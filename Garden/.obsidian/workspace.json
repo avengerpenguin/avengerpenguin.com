@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fewer remits per team, fewer teams per remit.md",
+                "file": "Soft Discipline.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fewer remits per team, fewer teams per remit.md",
+                "file": "Soft Discipline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +116,7 @@
   },
   "active": "085710d6bc935f8f",
   "lastOpenFiles": [
+    "Fewer remits per team, fewer teams per remit.md",
     "Technical Vision.md",
     "What we control and what we don't.md",
     "articles/Stoicism/0101-control-and-choice.md",
@@ -124,7 +125,6 @@
     "Mocking Data Only.md",
     "articles/Software/lean-vs-craft.md",
     "articles/Language/pedantry-paradox.md",
-    "unlinked files output.md",
-    "Things I Have Made.md"
+    "unlinked files output.md"
   ]
 }
