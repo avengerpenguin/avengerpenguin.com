@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Soft Discipline.md",
+                "file": "Effective Remote Working.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Soft Discipline.md",
+                "file": "Effective Remote Working.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +116,15 @@
   },
   "active": "085710d6bc935f8f",
   "lastOpenFiles": [
+    "Domestication of Users.md",
+    "Digital Garden.md",
+    "Agile Results.md",
+    "Soft Discipline.md",
     "Fewer remits per team, fewer teams per remit.md",
     "Technical Vision.md",
     "What we control and what we don't.md",
     "articles/Stoicism/0101-control-and-choice.md",
     "articles/Software/true-innovation.md",
-    "Why Programming Language Matters.md",
-    "Mocking Data Only.md",
-    "articles/Software/lean-vs-craft.md",
-    "articles/Language/pedantry-paradox.md",
-    "unlinked files output.md"
+    "Why Programming Language Matters.md"
   ]
 }
