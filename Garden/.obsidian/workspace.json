@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "59082d9d30fdd8f4",
+        "id": "bed01e548cbbcaa3",
         "type": "tabs",
         "children": [
           {
-            "id": "085710d6bc935f8f",
+            "id": "31721b80a4ed9600",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENTP Productivity.md",
+                "file": "Software Engineering/Programming Language Matters.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,6 +56,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b2d942a78a550a9e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ENTP Productivity.md",
+                "file": "Software Engineering/Programming Language Matters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,17 +122,42 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "085710d6bc935f8f",
+  "active": "31721b80a4ed9600",
   "lastOpenFiles": [
-    "articles/Software/why-cant-i-call-my-api-restful.md",
-    "articles/Software/true-innovation.md",
+    "Software Engineering/Shipping Theatre.md",
     "articles/Stoicism/less-is-more.md",
     "articles/Stoicism/impermanence.md",
+    "articles/Software/why-cant-i-call-my-api-restful.md",
+    "articles/Software/true-innovation.md",
+    "articles/Software/python-set-theory.ipynb",
+    "articles/Software/atom-and-rdf.ipynb",
+    "articles/Software/URIs with Hypothesis.ipynb",
+    "articles/Stoicism",
+    "articles/Software",
+    "articles",
+    "Why Programming Language Matters.md",
+    "What we control and what we don't.md",
+    "What is DevOps?.md",
+    "Undifferentiated Heavy Lifting.md",
+    "Toxic Productivity and ADHD.md",
+    "Thoughtworks Tech Radar 27.md",
+    "Technical Design Documents.md",
+    "Technical Debt.md",
+    "Software Engineering.md",
+    "Shipping Theatre.md",
+    "Organised Chaos.md",
+    "Mocking Data Only.md",
+    "Hacking Remote Work.md",
+    "Four Burners Theory.md",
+    "Flow.md",
+    "Fewer remits per team, fewer teams per remit.md",
     "Effective Remote Working.md",
-    "Domestication of Users.md",
-    "Digital Garden.md",
-    "Agile Results.md",
-    "Soft Discipline.md",
-    "Fewer remits per team, fewer teams per remit.md"
+    "ENTP Productivity.md",
+    "DevOps.md",
+    "Commercial Conferences.md",
+    "Bootstrap Continuous Delivery.md",
+    "Software Engineering/Platform Engineering",
+    "Software Engineering/DevOps",
+    "Productivity"
   ]
 }

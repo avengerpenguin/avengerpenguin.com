@@ -2,5 +2,6 @@
   "find-unlinked-files",
   "novel-word-count",
   "obsidian-daily-stats",
-  "obsidian-git"
+  "obsidian-git",
+  "folder-note-plugin"
 ]

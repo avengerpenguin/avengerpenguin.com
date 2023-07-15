@@ -11,3 +11,6 @@ output
 /extra/radar.json
 node_modules
 Garden/.obsidian/plugins/novel-word-count/data.json
+.hypothesis
+dist
+.cache

@@ -39,15 +39,15 @@ Hero leaves home for a difficult journey. Comes home with wisdom.
 
 Like hero's journey, but not always a happy ending. Building tensions, overcoming obstacles.
 
-"I was born to a single mother in rural Mississippi and my hightest aspiration was to one day be a maid like my grandmother" - Oprah
+"I was born to a single mother in rural Mississippi and my highest aspiration was to one day be a maid like my grandmother" - Oprah
 
 ### Nested Loops
 
-Three or more narratives layered within eaqch other.
+Three or more narratives layered within each other.
 
-Core story at the centre and others elaborate on it. First story you being is the last you finish.
+Core story at the centre and others elaborate on it. First story you begin is the last you finish.
 
-"Growing up, I fanced many obstacles... I had a 2nd grade teacher who taught me... What I learned was..."
+"Growing up, I faced many obstacles... I had a 2nd grade teacher who taught me... What I learned was..."
 
 Titanic:
 
@@ -60,7 +60,7 @@ Structure often contrast ordinary with extraordinary/ideal.
 
 Steve Jobs: unveils iPhone. Talks about clunky reality of phones and paints a picture of what it could be.
 
-- Inspirating the audience to action
+- Inspiring the audience to action
 - Creating hope and excitement
 - Creating a following
 

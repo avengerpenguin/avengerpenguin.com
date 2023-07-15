@@ -6,37 +6,37 @@
     "2022/10/29": 413,
     "2022/10/30": 629,
     "2022/11/6": 1195,
-    "2023/0/6": 330,
-    "2023/0/9": 398,
-    "2023/0/10": 142,
-    "2023/0/11": 675,
-    "2023/1/7": 121,
-    "2023/1/8": 0,
-    "2023/1/20": 166,
-    "2023/1/21": 29,
-    "2023/1/23": 10,
-    "2023/2/14": 227
+    "2023/1/21": 187,
+    "2023/6/15": 0
   },
   "todaysWordCount": {
-    "articles/Software/Mocking Data Only.md": {
-      "initial": 2061,
-      "current": 2061
+    "Hacking Remote Work.md": {
+      "initial": 218,
+      "current": 218
     },
-    "articles/Software/Why Programming Language Matters.md": {
-      "initial": 2633,
-      "current": 2633
+    "Productivity/Productivity.md": {
+      "initial": 73,
+      "current": 3
     },
-    "articles/Stoicism/0109-what-we-control.md": {
-      "initial": 526,
-      "current": 516
+    "Commercial Conferences.md": {
+      "initial": 631,
+      "current": 631
     },
-    "articles/Stoicism/What we control and what we don't.md": {
-      "initial": 492,
-      "current": 492
+    "Software Engineering/DevOps/DevOps.md": {
+      "initial": 43,
+      "current": 43
     },
-    "Fewer remits per team, fewer teams per remit.md": {
-      "initial": 78,
-      "current": 305
+    "Software Engineering/DevOps/Undifferentiated Heavy Lifting.md": {
+      "initial": 1254,
+      "current": 1254
+    },
+    "Storytelling techniques for creating impactful presentations.md": {
+      "initial": 525,
+      "current": 525
+    },
+    "Software Engineering/Technical Debt.md": {
+      "initial": 458,
+      "current": 458
     }
   }
 }
