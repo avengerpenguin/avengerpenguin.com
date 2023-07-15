@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bed01e548cbbcaa3",
+        "id": "9caaf270d3dffd8b",
         "type": "tabs",
         "children": [
           {
-            "id": "31721b80a4ed9600",
+            "id": "90977fdabb2841ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Programming Language Matters.md",
+                "file": "unlinked files output.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Programming Language Matters.md",
+                "file": "unlinked files output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,9 +122,21 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "31721b80a4ed9600",
+  "active": "90977fdabb2841ee",
   "lastOpenFiles": [
-    "Software Engineering/Shipping Theatre.md",
+    "Digital Garden.md",
+    "Productivity/Productivity.md",
+    "Now.md",
+    "unresolved links output.md",
+    "_index.md",
+    "Software Engineering/DevOps/Connecting Engineering Work to the Business.md",
+    "Software Engineering/Platform Engineering/Platform Engineering.md",
+    "Monorepo vs Multi repos.md",
+    "Software Engineering/DevOps/Shipping Theatre.md",
+    "Software Engineering/Software Engineering.md",
+    "Software Engineering/why-cant-i-call-my-api-restful.md",
+    "unlinked files output.md",
+    "Software Engineering/Programming Language Matters.md",
     "articles/Stoicism/less-is-more.md",
     "articles/Stoicism/impermanence.md",
     "articles/Software/why-cant-i-call-my-api-restful.md",
@@ -144,18 +156,6 @@
     "Technical Design Documents.md",
     "Technical Debt.md",
     "Software Engineering.md",
-    "Shipping Theatre.md",
-    "Organised Chaos.md",
-    "Mocking Data Only.md",
-    "Hacking Remote Work.md",
-    "Four Burners Theory.md",
-    "Flow.md",
-    "Fewer remits per team, fewer teams per remit.md",
-    "Effective Remote Working.md",
-    "ENTP Productivity.md",
-    "DevOps.md",
-    "Commercial Conferences.md",
-    "Bootstrap Continuous Delivery.md",
     "Software Engineering/Platform Engineering",
     "Software Engineering/DevOps",
     "Productivity"

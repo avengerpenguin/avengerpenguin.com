@@ -7,7 +7,7 @@
     "2022/10/30": 629,
     "2022/11/6": 1195,
     "2023/1/21": 187,
-    "2023/6/15": 0
+    "2023/6/15": 6
   },
   "todaysWordCount": {
     "Hacking Remote Work.md": {
@@ -37,6 +37,22 @@
     "Software Engineering/Technical Debt.md": {
       "initial": 458,
       "current": 458
+    },
+    "Software Engineering/Platform Engineering/Platform Engineering.md": {
+      "initial": 3,
+      "current": 3
+    },
+    "_index.md": {
+      "initial": 118,
+      "current": 122
+    },
+    "Digital Garden.md": {
+      "initial": 298,
+      "current": 300
+    },
+    "Now.md": {
+      "initial": 199,
+      "current": 199
     }
   }
 }

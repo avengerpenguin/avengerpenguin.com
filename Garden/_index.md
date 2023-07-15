@@ -18,6 +18,7 @@ Read [[Now|what he is doing at the moment]].
 - [[Undifferentiated Heavy Lifting]]
 - [[Tech Radar]]
 - [[Keeping up with JavaScript]]
+- [[Why Programming Language Matters]]
 
 ## Language
 
