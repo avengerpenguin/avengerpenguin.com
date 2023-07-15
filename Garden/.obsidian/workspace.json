@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "unlinked files output.md",
+                "file": "Philosophy/Stoicism/Stoicism.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa745ee2b2130466",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Philosophy/Rationalism/Empyrrhic Victory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4d037f5a2fe3fa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/DevOps/Socio-technical Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f55bde1c7dc3e6c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Philosophy/Stoicism/Less is More.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b4099c3ce82a553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Philosophy/Stoicism/Impermanence.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unlinked files output.md",
+                "file": "Software Engineering/DevOps/Socio-technical Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,12 +171,29 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "90977fdabb2841ee",
+  "active": "c4d037f5a2fe3fa0",
   "lastOpenFiles": [
+    "Software Engineering/DevOps/DevOps.md",
+    "Software Engineering/DevOps/Socio-technical Systems.md",
+    "Tech Radar/Tech Radar.md",
+    "Lofi Hip Hop Generator.md",
+    "unlinked files output.md",
+    "Philosophy/Rationalism/Empyrrhic Victory.md",
+    "Philosophy/Rationalism",
+    "Philosophy/Philosophy.md",
+    "Tech Radar",
+    "Language",
+    "Philosophy",
+    "Semantic Arguments.md",
+    "Philosophy/Stoicism/Stoicism.md",
+    "Philosophy/Stoicism/Less is More.md",
+    "Philosophy/Stoicism/Impermanence.md",
+    "Stoicism/0101-control-and-choice.md",
+    "notebooks/Foundation of mathematics in Python.md",
+    "unresolved links output.md",
     "Digital Garden.md",
     "Productivity/Productivity.md",
     "Now.md",
-    "unresolved links output.md",
     "_index.md",
     "Software Engineering/DevOps/Connecting Engineering Work to the Business.md",
     "Software Engineering/Platform Engineering/Platform Engineering.md",
@@ -135,29 +201,13 @@
     "Software Engineering/DevOps/Shipping Theatre.md",
     "Software Engineering/Software Engineering.md",
     "Software Engineering/why-cant-i-call-my-api-restful.md",
-    "unlinked files output.md",
     "Software Engineering/Programming Language Matters.md",
     "articles/Stoicism/less-is-more.md",
-    "articles/Stoicism/impermanence.md",
-    "articles/Software/why-cant-i-call-my-api-restful.md",
-    "articles/Software/true-innovation.md",
     "articles/Software/python-set-theory.ipynb",
     "articles/Software/atom-and-rdf.ipynb",
     "articles/Software/URIs with Hypothesis.ipynb",
     "articles/Stoicism",
     "articles/Software",
-    "articles",
-    "Why Programming Language Matters.md",
-    "What we control and what we don't.md",
-    "What is DevOps?.md",
-    "Undifferentiated Heavy Lifting.md",
-    "Toxic Productivity and ADHD.md",
-    "Thoughtworks Tech Radar 27.md",
-    "Technical Design Documents.md",
-    "Technical Debt.md",
-    "Software Engineering.md",
-    "Software Engineering/Platform Engineering",
-    "Software Engineering/DevOps",
-    "Productivity"
+    "articles"
   ]
 }

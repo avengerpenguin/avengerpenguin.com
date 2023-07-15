@@ -7,7 +7,7 @@
     "2022/10/30": 629,
     "2022/11/6": 1195,
     "2023/1/21": 187,
-    "2023/6/15": 6
+    "2023/6/15": 41
   },
   "todaysWordCount": {
     "Hacking Remote Work.md": {
@@ -53,6 +53,10 @@
     "Now.md": {
       "initial": 199,
       "current": 199
+    },
+    "Stoicism/Stoicism.md": {
+      "initial": 4,
+      "current": 39
     }
   }
 }
