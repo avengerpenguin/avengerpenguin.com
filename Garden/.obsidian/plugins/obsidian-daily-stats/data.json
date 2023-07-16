@@ -7,56 +7,13 @@
     "2022/10/30": 629,
     "2022/11/6": 1195,
     "2023/1/21": 187,
-    "2023/6/15": 41
+    "2023/6/15": 41,
+    "2023/6/16": 0
   },
   "todaysWordCount": {
-    "Hacking Remote Work.md": {
-      "initial": 218,
-      "current": 218
-    },
-    "Productivity/Productivity.md": {
-      "initial": 73,
-      "current": 3
-    },
-    "Commercial Conferences.md": {
-      "initial": 631,
-      "current": 631
-    },
-    "Software Engineering/DevOps/DevOps.md": {
-      "initial": 43,
-      "current": 43
-    },
-    "Software Engineering/DevOps/Undifferentiated Heavy Lifting.md": {
-      "initial": 1254,
-      "current": 1254
-    },
-    "Storytelling techniques for creating impactful presentations.md": {
-      "initial": 525,
-      "current": 525
-    },
-    "Software Engineering/Technical Debt.md": {
-      "initial": 458,
-      "current": 458
-    },
-    "Software Engineering/Platform Engineering/Platform Engineering.md": {
-      "initial": 3,
-      "current": 3
-    },
-    "_index.md": {
-      "initial": 118,
-      "current": 122
-    },
-    "Digital Garden.md": {
-      "initial": 298,
-      "current": 300
-    },
-    "Now.md": {
-      "initial": 199,
-      "current": 199
-    },
-    "Stoicism/Stoicism.md": {
-      "initial": 4,
-      "current": 39
+    "Software Engineering/DevOps/Socio-technical Systems.md": {
+      "initial": 1,
+      "current": 0
     }
   }
 }
