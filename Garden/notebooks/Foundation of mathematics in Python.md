@@ -1,29 +1,4 @@
----
-jupyter:
-  jupytext:
-    cell_metadata_filter: all
-    notebook_metadata_filter: all
-    split_at_heading: true
-    text_representation:
-      extension: .md
-      format_name: markdown
-      format_version: "1.3"
-      jupytext_version: 1.14.1
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.10.4
----
+<!-- #region -->
 
 This is an exploration of building up Zermelo–Fraenkel set theory as a foundational basis of mathematics, but actually implemented in Python.
 
@@ -41,14 +16,20 @@ The most philosophical foundation before we get into what we can be sure exists 
 
 If we imagine that it is reasonable to group things together arbitrarily, then it follows we can create some empty grouping we can call the empty set:
 
+<!-- #endregion -->
+
 ```python trusted=true
 Ø = frozenset()
-len(Ø)
+Ø, len(Ø), 2
 ```
+
+<!-- #region -->
 
 Note for now we can just use Python's built-in concept of `frozenset` since it has all the properties we want for now (i.e. it's empty).
 
 ## Axiom of Infinity
+
+<!-- #endregion -->
 
 ```python trusted=true
 class Set(frozenset):
@@ -57,7 +38,7 @@ class Set(frozenset):
             self.gen_func = definition
         else:
             self.gen_func = None
-            super(definition)
+            #super(definition)
 
 Set()
 ```

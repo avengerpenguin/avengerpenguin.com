@@ -12,7 +12,6 @@ def radar(c, output_path="output/radar"):
     c.run(
         f'DOCKER_BUILDKIT=1 docker build --build-arg SHEET_ID=https://avengerpenguin.com/radar.json --build-arg SHEET_NAME="Ross Fenning\'s Tech Radar" -t radar -f Dockerfile.radar --output type=local,dest={output_path} .'
     )
-    c.run(f"tree {output_path}/..")
 
 
 @task
