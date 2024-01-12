@@ -22,7 +22,7 @@ Where this has not been folllowed we can see:
 
 Once we avoid the "build it and they will come" mentality -- as would be the case for any customer-facing product -- we are forced to build a platform that unlocks clear value early on, makes people want to use it (avoiding the mandate pitfall) and is resilient to change over time.
 
-A clear change I've seen in successfull platforms and tools is the ability to _scale back_ capibilities now available from open source or commercial vendors (where there weren't before). For example, if you provide some CI capabilities that are now available as Jenkins plugins or as features of AWS CodeBuild.
+A clear change I've seen in successful platforms and tools is the ability to _scale back_ capabilities now available from open source or commercial vendors (where there weren't before). For example, if you provide some CI capabilities that are now available as Jenkins plugins or as features of AWS CodeBuild.
 
 This is key in particular with cloud engineering as many things you need to build as an internal platform are likely to become features of cloud vendors later. I've seen similar with services like Github providing capabilities I've previously built in-house.
 
