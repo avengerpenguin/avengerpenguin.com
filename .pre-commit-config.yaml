@@ -48,3 +48,5 @@ repos:
     rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
+default_language_version:
+  python: python3.11
