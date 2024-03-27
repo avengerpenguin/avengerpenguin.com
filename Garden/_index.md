@@ -1,26 +1,14 @@
-- `save_as: index.html
-  menu_title: Home
-  title: Ross Fenning
-  url:
+---
+save_as: index/index.html
+menu_title: Index
+title: Topic Index
+url: index
+---
 
-  Writes his notes, thoughts and opinions in this [[Digital Garden]].
+## Topic Index
 
-  He is a Lead [[Software Engineering|Software Engineer]] at Inrix, amateur computer scientist, armchair [[Philosophy|philosopher]], student of Skotokan Karate, infrequent bodhrán and tin whistle player and a rebel against the [[Oxford Comma]].
+This is a full list of topics and areas so all notes can be seen "at a glance". This is to create for myself a launch point for everything and incidentally helps search crawlers. It's not necessarily intended for others to browse.
 
-  See [rossfenning.co.uk](https://rossfenning.co.uk) for his professional profile and CV. You might also be interested in [[Things I Have Made]].
+### Software Engineering
 
-  Read [[Now|what he is doing at the moment]].
-
-- ## DevOps and Engineering
-- [[What is DevOps?|What is DevOps?]]
-- More [[DevOps]] topics
-- [[Undifferentiated Heavy Lifting]]
-- [[Tech Radar]]
-- [[Keeping up with JavaScript]]
-- [[Why Programming Language Matters]]
-- ## Language
-- [[Semantic Arguments]]
-- ## Productivity
-- [[Four Burners Theory]]
-- [[ENTP Productivity]]
-- Other [[Productivity]] thoughts
+### Philosophy

@@ -45,8 +45,11 @@ MENUITEMS_START = (
 
 INDEX_SAVE_AS = "blog/index.html"
 
-WEBASSETS_CONFIG = [("PYSCSS_LOAD_PATHS", [str(Path.cwd() / "node_modules")])]
-
+WEBASSETS_CONFIG = [
+    ("SASS_LOAD_PATHS", [str(Path.cwd() / "node_modules")]),
+    ("SASS_BIN", str(Path.cwd() / "node_modules" / ".bin" / "sass")),
+    ("SASS_USE_SCSS", True),
+]
 DISQUS_SITE = "avengerpenguin"
 
 MARKDOWN["extension_configs"]["markdown.extensions.codehilite"] = {

@@ -18,3 +18,5 @@ Garden/.obsidian/plugins/*
 .pytest_cache
 dist
 .cache
+.smart-connections
+/Garden/.smart-connections/
