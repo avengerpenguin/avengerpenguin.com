@@ -16,7 +16,7 @@ Keras is an API frontend for machine learning written in Python capable of runni
 
 Here is an example of training a Keras Sequential model with TensorFlow:
 
-```{code-cell} ipython3
+```python
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
@@ -48,8 +48,4 @@ model.fit(X_train, y_train, batch_size=32, epochs=10, validation_split=0.1)
 test_loss, test_accuracy = model.evaluate(X_test, y_test)
 print("Test Loss:", test_loss)
 print("Test Accuracy:", test_accuracy)
-```
-
-```{code-cell} ipython3
-
 ```

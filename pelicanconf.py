@@ -56,3 +56,5 @@ DISQUS_SITE = "avengerpenguin"
 MARKDOWN["extension_configs"]["markdown.extensions.codehilite"] = {
     "css_class": "highlight"
 }
+
+TYPOGRIFY = False
