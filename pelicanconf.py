@@ -6,7 +6,8 @@ SITENAME = "Ross Fenning's Digital Garden"
 PATH = "./Garden"
 PAGE_PATHS = [""]
 ARTICLE_PATHS = ["articles"]
-PAGE_EXCLUDES = ARTICLE_PATHS
+ARTICLE_EXCLUDES = [".ipynb_checkpoints"]
+PAGE_EXCLUDES = ARTICLE_PATHS + ARTICLE_EXCLUDES
 FILENAME_METADATA = "(?P<title>.*)"
 
 
