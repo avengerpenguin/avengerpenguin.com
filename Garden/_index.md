@@ -16,6 +16,7 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
 - Programming
   - [[Why Programming Language Matters]]
   - [[Keeping up with JavaScript]]
+  - Build as if you could throw it away
 - [[REST]], RDF, Linked Data
   - [[H Factor]]
   - [[HATEOAS or RPC]]
