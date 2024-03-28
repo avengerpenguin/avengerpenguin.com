@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>partial.lagda | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/partiallagda/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - partial.lagda" />
+    <meta property="og:description" content="Proof of associativity of partial functions: open import Data.Maybe using (Maybe ; just ; nothing) import Data.Maybe as Maybe open import Level renaming (zero to lzero) open import Function..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="Proof of associativity of partial functions: open import Data.Maybe using (Maybe ; just ; nothing) import Data.Maybe as Maybe open import Level renaming (zero to lzero) open import Function using (const) renaming (_∘_ to _∘ᶠ_) open import Data.Fin using (Fin) renaming (zero to fz ; suc to fs …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?c83357b8">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>partial.lagda</h1>
+    
+
+    <p>Proof of associativity of partial functions:</p>
+<div class="highlight"><pre><span></span><code><span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Data.Maybe</span><span class="w"> </span><span class="kr">using</span><span class="w"> </span><span class="o">(</span>Maybe<span class="w"> </span>;<span class="w"> </span>just<span class="w"> </span>;<span class="w"> </span>nothing<span class="o">)</span>
+<span class="kr">import</span><span class="w"> </span><span class="n">Data.Maybe</span><span class="w"> </span>as<span class="w"> </span>Maybe
+
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Level</span><span class="w"> </span><span class="kr">renaming</span><span class="w"> </span><span class="o">(</span>zero<span class="w"> </span>to<span class="w"> </span>lzero<span class="o">)</span>
+
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Function</span><span class="w"> </span><span class="kr">using</span><span class="w"> </span><span class="o">(</span>const<span class="o">)</span><span class="w"> </span><span class="kr">renaming</span><span class="w"> </span><span class="o">(</span>_∘_<span class="w"> </span>to<span class="w"> </span>_∘ᶠ_<span class="o">)</span>
+
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Data.Fin</span><span class="w"> </span><span class="kr">using</span><span class="w"> </span><span class="o">(</span>Fin<span class="o">)</span><span class="w"> </span><span class="kr">renaming</span><span class="w"> </span><span class="o">(</span>zero<span class="w"> </span>to<span class="w"> </span>fz<span class="w"> </span>;<span class="w"> </span>suc<span class="w"> </span>to<span class="w"> </span>fs<span class="o">)</span>
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Data.Empty</span>
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Relation.Nullary</span>
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Data.Unit</span><span class="w"> </span><span class="kr">using</span><span class="w"> </span><span class="o">(</span>⊤<span class="w"> </span>;<span class="w"> </span>tt<span class="o">)</span>
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Data.Bool</span>
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Data.Sum</span><span class="w"> </span>as<span class="w"> </span>Sum
+
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Data.Maybe</span><span class="w"> </span><span class="kr">using</span><span class="w"> </span><span class="o">(</span>Maybe<span class="w"> </span>;<span class="w"> </span>just<span class="w"> </span>;<span class="w"> </span>nothing<span class="o">)</span>
+<span class="kr">import</span><span class="w"> </span><span class="n">Data.Maybe</span><span class="w"> </span>as<span class="w"> </span>Maybe
+
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Category.Monad</span>
+
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Relation.Binary</span>
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Relation.Binary.Core</span>
+<span class="kr">open</span><span class="w"> </span><span class="kr">import</span><span class="w"> </span><span class="n">Relation.Binary.PropositionalEquality</span><span class="w"> </span><span class="kr">using</span><span class="w"> </span><span class="o">(</span>[_]<span class="w"> </span>;<span class="w"> </span>inspect<span class="w"> </span>;<span class="w"> </span>sym<span class="w"> </span>;<span class="w"> </span>cong<span class="o">)</span>
+
+<span class="nf">_⇀_</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="ow">∀</span><span class="w"> </span><span class="o">{</span>ℓ<span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span>ℓ<span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span>ℓ<span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span>ℓ
+A<span class="w"> </span>⇀<span class="w"> </span>B<span class="w"> </span><span class="ow">=</span><span class="w"> </span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span>Maybe<span class="w"> </span>B
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code><span class="nf">Subset</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="ow">∀</span><span class="w"> </span><span class="o">{</span>ℓ<span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span>ℓ<span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span>ℓ
+Subset<span class="w"> </span>A<span class="w"> </span><span class="ow">=</span><span class="w"> </span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span>Maybe<span class="w"> </span>A
+
+<span class="nf">dom</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="ow">∀</span><span class="w"> </span><span class="o">{</span>ℓ<span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span>ℓ<span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>A<span class="w"> </span>⇀<span class="w"> </span>B<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>Subset<span class="w"> </span>A
+dom<span class="w"> </span>f<span class="w"> </span>a<span class="w"> </span><span class="kr">with</span><span class="w"> </span>f<span class="w"> </span>a
+<span class="ow">...</span><span class="w"> </span><span class="ow">|</span><span class="w"> </span>just<span class="w"> </span>x<span class="w"> </span><span class="ow">=</span><span class="w"> </span>just<span class="w"> </span>a
+<span class="ow">...</span><span class="w"> </span><span class="ow">|</span><span class="w"> </span>nothing<span class="w"> </span><span class="ow">=</span><span class="w"> </span>nothing
+
+<span class="nf">_∙_</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="ow">∀</span><span class="w"> </span><span class="o">{</span>ℓ<span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span>C<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span>ℓ<span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>B<span class="w"> </span>⇀<span class="w"> </span>C<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>A<span class="w"> </span>⇀<span class="w"> </span>B<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>A<span class="w"> </span>⇀<span class="w"> </span>C<span class="o">)</span>
+<span class="o">(</span>g<span class="w"> </span>∙<span class="w"> </span>f<span class="o">)</span><span class="w"> </span>a<span class="w"> </span><span class="kr">with</span><span class="w"> </span>f<span class="w"> </span>a
+<span class="ow">...</span><span class="w"> </span><span class="ow">|</span><span class="w"> </span>just<span class="w"> </span>b<span class="w"> </span><span class="ow">=</span><span class="w"> </span>g<span class="w"> </span>b
+<span class="ow">...</span><span class="w"> </span><span class="ow">|</span><span class="w"> </span>nothing<span class="w"> </span><span class="ow">=</span><span class="w"> </span>nothing
+<span class="kr">infixr</span><span class="w"> </span><span class="mi">9</span><span class="w"> </span>_∙_
+
+
+<span class="kr">data</span><span class="w"> </span>_≡_<span class="w"> </span><span class="o">{</span>A<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span><span class="kr">where</span>
+<span class="w">  </span><span class="nf">refl</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>x<span class="w"> </span><span class="ow">:</span><span class="w"> </span>A<span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>x<span class="w"> </span>≡<span class="w"> </span>x
+<span class="kr">infix</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span>_≡_
+
+<span class="nf">_≈_</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>Rel<span class="w"> </span><span class="o">(</span>A<span class="w"> </span>⇀<span class="w"> </span>B<span class="o">)</span><span class="w"> </span>lzero
+f<span class="w"> </span>≈<span class="w"> </span>g<span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="ow">∀</span><span class="w"> </span>a<span class="w"> </span><span class="ow">→</span><span class="w"> </span>f<span class="w"> </span>a<span class="w"> </span>≡<span class="w"> </span>g<span class="w"> </span>a
+
+<span class="kr">infix</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span>_≈_
+
+
+<span class="nf">∙-assoc</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span>C<span class="w"> </span>D<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="o">(</span>f<span class="w"> </span><span class="ow">:</span><span class="w"> </span>A<span class="w"> </span>⇀<span class="w"> </span>B<span class="o">)</span><span class="w"> </span><span class="o">(</span>g<span class="w"> </span><span class="ow">:</span><span class="w"> </span>B<span class="w"> </span>⇀<span class="w"> </span>C<span class="o">)</span><span class="w"> </span><span class="o">(</span>h<span class="w"> </span><span class="ow">:</span><span class="w"> </span>C<span class="w"> </span>⇀<span class="w"> </span>D<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>h<span class="w"> </span>∙<span class="w"> </span>g<span class="o">)</span><span class="w"> </span>∙<span class="w"> </span>f<span class="w"> </span>≈<span class="w"> </span>h<span class="w"> </span>∙<span class="w"> </span><span class="o">(</span>g<span class="w"> </span>∙<span class="w"> </span>f<span class="o">)</span>
+∙-assoc<span class="w"> </span>f<span class="w"> </span>g<span class="w"> </span>_<span class="w"> </span>a<span class="w"> </span><span class="kr">with</span><span class="w"> </span>f<span class="w"> </span>a
+<span class="ow">...</span><span class="w"> </span><span class="ow">|</span><span class="w"> </span>nothing<span class="w"> </span><span class="ow">=</span><span class="w"> </span>refl
+<span class="ow">...</span><span class="w"> </span><span class="ow">|</span><span class="w"> </span>just<span class="w"> </span>b<span class="w"> </span><span class="kr">with</span><span class="w"> </span>g<span class="w"> </span>b
+<span class="ow">...</span><span class="w"> </span><span class="ow">|</span><span class="w"> </span>nothing<span class="w"> </span><span class="ow">=</span><span class="w"> </span>refl
+<span class="ow">...</span><span class="w"> </span><span class="ow">|</span><span class="w"> </span>just<span class="w"> </span>x<span class="w"> </span><span class="ow">=</span><span class="w"> </span>refl
+</code></pre></div>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/partiallagda/';
+      this.page.identifier = 'partiallagda';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
