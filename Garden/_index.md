@@ -16,7 +16,10 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
 - Programming
   - [[Why Programming Language Matters]]
   - [[Keeping up with JavaScript]]
-  - Build as if you could throw it away
+  - Build software as if it's being deleted
+  - [[The best software has the fewest moving parts]]
+  - [[The Open Source Hive Mind is smarter than you]]
+  - [[Every line of code is a liability]]
 - [[REST]], RDF, Linked Data
   - [[H Factor]]
   - [[HATEOAS or RPC]]
@@ -29,3 +32,8 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
   - [[Less is More]]
 
 ### [[Productivity]]
+
+```dataview
+LIST
+FROM ![[_index]]
+```
