@@ -31,6 +31,10 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
   - [[What we control and what we don't]]
   - [[Less is More]]
 
+## Politics
+
+- [[There is no such thing as the individual]]
+
 ### [[Productivity]]
 
 ```dataview
