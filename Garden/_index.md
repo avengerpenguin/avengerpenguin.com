@@ -37,6 +37,8 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
 
 ### [[Productivity]]
 
+- [[Only work on one thing at a time]]
+
 ```dataview
 LIST
 FROM ![[_index]]
