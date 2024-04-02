@@ -24,8 +24,20 @@ In the spirit of PlantUML, a Python library for generating diagrams with specifi
 
 A tool to push the idea of "continuous merge". See [gitStream by LinearB · GitHub Marketplace](https://github.com/marketplace/gitstream-by-linearb).
 
-## Gatlin
+## Gatling
 
 - Status: Adopt
 
 JVM-based load testing tool.
+
+## nitpick
+
+- Status: Assess
+
+Potentially useful for enforcing standards across multiple repos.
+
+## tfautomv
+
+- Status: Assess
+
+Looks very useful for big refactors but the need for it hasn't quite come up yet for me. See [busser/tfautomv: Generate Terraform moved blocks automatically for painless refactoring](https://github.com/busser/tfautomv).
