@@ -23,3 +23,9 @@ In the spirit of PlantUML, a Python library for generating diagrams with specifi
 - Status: Assess
 
 A tool to push the idea of "continuous merge". See [gitStream by LinearB · GitHub Marketplace](https://github.com/marketplace/gitstream-by-linearb).
+
+## Gatlin
+
+- Status: Adopt
+
+JVM-based load testing tool.

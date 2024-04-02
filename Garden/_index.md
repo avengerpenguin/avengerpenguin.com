@@ -20,6 +20,7 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
   - [[The best software has the fewest moving parts]]
   - [[The Open Source Hive Mind is smarter than you]]
   - [[Every line of code is a liability]]
+  - [[Humans are part of our systems]]
 - [[REST]], RDF, Linked Data
   - [[H Factor]]
   - [[HATEOAS or RPC]]
