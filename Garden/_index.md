@@ -12,6 +12,7 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
 ### [[Software Engineering]]
 
 - [[DevOps]]
+  - [[Undifferentiated Heavy Lifting]]
 - [[Platform Engineering]]
 - Programming
   - [[Why Programming Language Matters]]
@@ -32,15 +33,10 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
   - [[What we control and what we don't]]
   - [[Less is More]]
 
-## Politics
+### Politics
 
 - [[There is no such thing as the individual]]
 
 ### [[Productivity]]
 
 - [[Only work on one thing at a time]]
-
-```dataview
-LIST
-FROM ![[_index]]
-```
