@@ -1,0 +1,7 @@
+pip-tools
+voltaire
+jupyter
+jupytext
+Markdown
+rdflib
+pre-commit
