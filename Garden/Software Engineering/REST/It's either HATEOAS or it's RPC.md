@@ -1,5 +1,3 @@
-Title: It's either HATEOAS or it's RPC
-
 Life is simple when you are working with only one
 computer. Distributed systems are hard.
 

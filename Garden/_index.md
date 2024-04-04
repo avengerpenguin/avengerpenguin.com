@@ -9,12 +9,9 @@ url: index
 
 This is a full list of topics and areas so all notes can be seen "at a glance". This is to create for myself a launch point for everything and incidentally helps search crawlers. It's not necessarily intended for others to browse.
 
-### [[Software Engineering]]
+### Technology
 
-- [[DevOps]]
-  - [[Undifferentiated Heavy Lifting]]
-- [[Platform Engineering]]
-- Programming
+- [[Software Engineering]]
   - [[Why Programming Language Matters]]
   - [[Keeping up with JavaScript]]
   - Build software as if it's being deleted
@@ -24,7 +21,10 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
   - [[Humans are part of our systems]]
 - [[REST]], RDF, Linked Data
   - [[H Factor]]
-  - [[HATEOAS or RPC]]
+  - [[It's either HATEOAS or it's RPC]]
+- [[DevOps]]
+  - [[Undifferentiated Heavy Lifting]]
+- [[Platform Engineering]]
 
 ### [[Philosophy]]
 
