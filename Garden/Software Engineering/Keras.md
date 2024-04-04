@@ -1,20 +1,6 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.16.1
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
----
-
 Keras is an API frontend for machine learning written in Python capable of running on to of [[TensorFlow]], JAX or PyTorch.
 
-Here is an example of training a Keras Sequential model with TensorFlow:
+Here is an example of training a Sequential model with TensorFlow:
 
 ```python
 import tensorflow as tf
@@ -23,6 +9,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
 import numpy as np
+
 
 # Generate some synthetic data for demonstration
 np.random.seed(0)

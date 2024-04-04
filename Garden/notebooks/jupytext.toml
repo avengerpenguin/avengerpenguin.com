@@ -1,3 +1,0 @@
-formats = "ipynb,markdown"
-notebook_metadata_filter = "-all"
-cell_metadata_filter = "all,-hide_output"
