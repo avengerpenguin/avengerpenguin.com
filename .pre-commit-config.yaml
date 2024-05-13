@@ -1,7 +1,7 @@
 exclude: "^$|venv|.obsidian"
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.6.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -11,7 +11,7 @@ repos:
       - id: check-yaml
       - id: debug-statements
   - repo: https://github.com/psf/black
-    rev: 23.7.0
+    rev: 24.4.2
     hooks:
       - id: black
         language_version: python3.12
@@ -21,19 +21,19 @@ repos:
       - id: autoflake
         args: ["--in-place", "--remove-unused-variable"]
   - repo: https://github.com/PyCQA/isort
-    rev: 5.12.0
+    rev: 5.13.2
     hooks:
       - id: isort
         args: ["--line-length=79"]
         language_version: python3.12
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.9.0
+    rev: v3.15.2
     hooks:
       - id: pyupgrade
         args:
           - --py38-plus
   - repo: https://github.com/andreoliwa/nitpick
-    rev: v0.33.2
+    rev: v0.35.0
     hooks:
       - id: nitpick
   - repo: https://github.com/pre-commit/pygrep-hooks
@@ -45,11 +45,11 @@ repos:
       - id: python-no-log-warn
       - id: rst-backticks
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v3.0.0
+    rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
   - repo: https://github.com/MartinThoma/check-pip-compile
-    rev: 0.1.0
+    rev: 0.1.1
     hooks:
       - id: check-pip-compile
         args: ["."]
