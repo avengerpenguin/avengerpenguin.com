@@ -53,3 +53,5 @@ repos:
     hooks:
       - id: check-pip-compile
         args: ["."]
+default_language_version:
+  python: python3.11
