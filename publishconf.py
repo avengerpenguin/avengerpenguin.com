@@ -1,4 +1,4 @@
-from pelicanconf import *
+from pelicanconf import *  # isort: skip
 
 SITEURL = "https://avengerpenguin.com"
 RELATIVE_URLS = False
