@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>curry-howard.lagda | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/curry-howardlagda/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - curry-howard.lagda" />
+    <meta property="og:description" content="data Either (A : Set) (B : Set) : Set where left : A → Either A B right : B → Either A B cases : {A B C : Set} → Either A B → (A → C) → (B → C) → C cases (left a) f _ = f a cases (right b) _ g..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="data Either (A : Set) (B : Set) : Set where left : A → Either A B right : B → Either A B cases : {A B C : Set} → Either A B → (A → C) → (B → C) → C cases (left a) f _ = f a cases (right b) _ g = g b data ⊤ : Set where tt : ⊤ data …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?c83357b8">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>curry-howard.lagda</h1>
+    
+
+    <div class="highlight"><pre><span></span><code><span class="kr">data</span><span class="w"> </span>Either<span class="w"> </span><span class="o">(</span>A<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">)</span><span class="w"> </span><span class="o">(</span>B<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">)</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span><span class="kr">where</span>
+<span class="w">  </span><span class="nf">left</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span>Either<span class="w"> </span>A<span class="w"> </span>B
+<span class="w">  </span><span class="nf">right</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span>Either<span class="w"> </span>A<span class="w"> </span>B
+
+<span class="nf">cases</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span>C<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>Either<span class="w"> </span>A<span class="w"> </span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span>C<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span>C<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>C
+cases<span class="w"> </span><span class="o">(</span>left<span class="w"> </span>a<span class="o">)</span><span class="w"> </span>f<span class="w"> </span>_<span class="w"> </span><span class="ow">=</span><span class="w"> </span>f<span class="w"> </span>a
+cases<span class="w"> </span><span class="o">(</span>right<span class="w"> </span>b<span class="o">)</span><span class="w"> </span>_<span class="w"> </span>g<span class="w"> </span><span class="ow">=</span><span class="w"> </span>g<span class="w"> </span>b
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code><span class="kr">data</span><span class="w"> </span>⊤<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span><span class="kr">where</span>
+<span class="w">  </span><span class="nf">tt</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span>⊤
+
+<span class="kr">data</span><span class="w"> </span>⊥<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span><span class="kr">where</span>
+<span class="c1">-- no constructors</span>
+
+<span class="kr">data</span><span class="w"> </span>_×_<span class="w"> </span><span class="o">(</span>A<span class="w"> </span>B<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">)</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="w"> </span><span class="kr">where</span>
+<span class="w">  </span><span class="nf">_,_</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span>A<span class="w"> </span>×<span class="w"> </span>B
+<span class="kr">infixr</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span>_,_
+
+<span class="nf">fst</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>A<span class="w"> </span>×<span class="w"> </span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span>A
+fst<span class="w"> </span><span class="o">(</span>x<span class="w"> </span>,<span class="w"> </span>y<span class="o">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span>x
+<span class="nf">snd</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>A<span class="w"> </span>×<span class="w"> </span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span>B
+snd<span class="w"> </span><span class="o">(</span>x<span class="w"> </span>,<span class="w"> </span>y<span class="o">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span>y
+
+<span class="nf">proof1</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span>A<span class="o">)</span>
+proof1<span class="w"> </span>a<span class="w"> </span>b<span class="w"> </span><span class="ow">=</span><span class="w"> </span>a
+
+<span class="nf">proof2</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>A<span class="w"> </span>×<span class="w"> </span>⊤<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>Either<span class="w"> </span>A<span class="w"> </span>⊥
+proof2<span class="w"> </span><span class="o">(</span>a<span class="w"> </span>,<span class="w"> </span>b<span class="o">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span>left<span class="w"> </span>a
+
+<span class="nf">proof3</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span>C<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span>C<span class="o">))</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">((</span>A<span class="w"> </span>×<span class="w"> </span>B<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>C<span class="o">)</span>
+proof3<span class="w"> </span>f<span class="w"> </span><span class="o">(</span>a<span class="w"> </span>,<span class="w"> </span>b<span class="o">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span>f<span class="w"> </span>a<span class="w"> </span>b
+
+<span class="nf">proof4</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span>C<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>A<span class="w"> </span>×<span class="w"> </span><span class="o">(</span>Either<span class="w"> </span>B<span class="w"> </span>C<span class="o">))</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>Either<span class="w"> </span><span class="o">(</span>A<span class="w"> </span>×<span class="w"> </span>B<span class="o">)</span><span class="w"> </span><span class="o">(</span>A<span class="w"> </span>×<span class="w"> </span>C<span class="o">)</span>
+proof4<span class="w"> </span><span class="o">(</span>a<span class="w"> </span>,<span class="w"> </span>left<span class="w"> </span>b<span class="o">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span>left<span class="w"> </span><span class="o">(</span>a<span class="w"> </span>,<span class="w"> </span>b<span class="o">)</span>
+proof4<span class="w"> </span><span class="o">(</span>a<span class="w"> </span>,<span class="w"> </span>right<span class="w"> </span>c<span class="o">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span>right<span class="w"> </span><span class="o">(</span>a<span class="w"> </span>,<span class="w"> </span>c<span class="o">)</span>
+
+<span class="nf">proof5</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>A<span class="w"> </span>B<span class="w"> </span>C<span class="w"> </span>D<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">((</span>A<span class="w"> </span><span class="ow">→</span><span class="w"> </span>C<span class="o">)</span><span class="w"> </span>×<span class="w"> </span><span class="o">(</span>B<span class="w"> </span><span class="ow">→</span><span class="w"> </span>D<span class="o">))</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">((</span>A<span class="w"> </span>×<span class="w"> </span>B<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>C<span class="w"> </span>×<span class="w"> </span>D<span class="o">))</span>
+proof5<span class="w"> </span><span class="o">(</span>f<span class="w"> </span>,<span class="w"> </span>g<span class="o">)</span><span class="w"> </span><span class="o">(</span>a<span class="w"> </span>,<span class="w"> </span>b<span class="o">)</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="o">(</span>f<span class="w"> </span>a<span class="o">)</span><span class="w"> </span>,<span class="w"> </span><span class="o">(</span>g<span class="w"> </span>b<span class="o">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code><span class="nf">fun</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="o">{</span>P<span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Set</span><span class="o">}</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span><span class="o">(</span>Either<span class="w"> </span>P<span class="w"> </span><span class="o">(</span>P<span class="w"> </span><span class="ow">→</span><span class="w"> </span>⊥<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>⊥<span class="o">)</span><span class="w"> </span><span class="ow">→</span><span class="w"> </span>⊥
+fun<span class="w"> </span>f<span class="w"> </span><span class="ow">=</span><span class="w"> </span>f<span class="w"> </span><span class="o">(</span>right<span class="w"> </span><span class="o">(</span><span class="ow">λ</span><span class="w"> </span>x<span class="w"> </span><span class="ow">→</span><span class="w"> </span>f<span class="w"> </span><span class="o">(</span>left<span class="w"> </span>x<span class="o">)))</span>
+</code></pre></div>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/curry-howardlagda/';
+      this.page.identifier = 'curry-howardlagda';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
