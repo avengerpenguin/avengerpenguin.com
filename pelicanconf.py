@@ -1,7 +1,4 @@
-from pathlib import Path
-
-from voltaire.pelican import *  # noqa
-
+from voltaire.pelican import *
 
 SITENAME = "Ross Fenning's Digital Garden"
 PATH = "./Garden"
@@ -10,14 +7,6 @@ ARTICLE_PATHS = ["articles"]
 ARTICLE_EXCLUDES = [".ipynb_checkpoints"]
 PAGE_EXCLUDES = ARTICLE_PATHS + ARTICLE_EXCLUDES
 FILENAME_METADATA = "(?P<title>.*)"
-
-
-# PLUGINS += [
-#     'plugins.sitemap',
-#     'plugins.pelican-open_graph',
-#     'plugins.pelican-ipynb.markup',
-# ]
-
 
 PLUGINS += ["voltaire.search"]
 TEMPLATE_PAGES = {
