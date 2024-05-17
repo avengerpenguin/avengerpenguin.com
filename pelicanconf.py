@@ -1,4 +1,8 @@
-from voltaire.pelican import *
+from collections import defaultdict
+from pathlib import Path
+from typing import Any, Dict
+
+from voltaire.pelican import *  # isort: skip
 
 SITENAME = "Ross Fenning's Digital Garden"
 PATH = "./Garden"
@@ -8,6 +12,8 @@ ARTICLE_EXCLUDES = [".ipynb_checkpoints"]
 PAGE_EXCLUDES = ARTICLE_PATHS + ARTICLE_EXCLUDES
 FILENAME_METADATA = "(?P<title>.*)"
 
+if "PLUGINS" not in globals():
+    PLUGINS = []
 PLUGINS += ["voltaire.search"]
 TEMPLATE_PAGES = {
     "search.html": "search/index.html",
@@ -43,8 +49,10 @@ WEBASSETS_CONFIG = [
 ]
 DISQUS_SITE = "avengerpenguin"
 
-MARKDOWN["extension_configs"]["markdown.extensions.codehilite"] = {
-    "css_class": "highlight"
-}
+if "MARKDOWN" not in globals():
+    MARKDOWN: Dict[str, Dict[str, Any]] = defaultdict(dict)
+    MARKDOWN["extension_configs"]["markdown.extensions.codehilite"] = {
+        "css_class": "highlight"
+    }
 
 TYPOGRIFY = False
