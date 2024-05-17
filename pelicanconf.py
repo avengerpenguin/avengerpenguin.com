@@ -1,6 +1,7 @@
 from pathlib import Path
 
-from voltaire.pelican import *
+from voltaire.pelican import *  # noqa
+
 
 SITENAME = "Ross Fenning's Digital Garden"
 PATH = "./Garden"
