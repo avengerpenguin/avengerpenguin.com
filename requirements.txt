@@ -180,7 +180,7 @@ jupyterlab-server==2.25.4
     #   notebook
 jupyterlab-widgets==3.0.10
     # via ipywidgets
-jupytext==1.16.1
+jupytext==1.16.2
     # via -r requirements.in
 livereload==2.6.3
     # via voltaire
@@ -380,8 +380,6 @@ terminado==0.18.1
     #   jupyter-server-terminals
 tinycss2==1.2.1
     # via nbconvert
-toml==0.10.2
-    # via jupytext
 tornado==6.4
     # via
     #   ipykernel
