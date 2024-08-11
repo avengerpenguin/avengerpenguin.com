@@ -1,26 +1,42 @@
-- `save_as: index.html
-  menu_title: Home
-  title: Ross Fenning
-  url:
+---
+save_as: index/index.html
+menu_title: Index
+title: Topic Index
+url: index
+---
 
-  Writes his notes, thoughts and opinions in this [[Digital Garden]].
+## Topics
 
-  He is a Lead [[Software Engineering|Software Engineer]] at Inrix, amateur computer scientist, armchair [[Philosophy|philosopher]], student of Skotokan Karate, infrequent bodhrán and tin whistle player and a rebel against the [[Oxford Comma]].
+This is a full list of topics and areas so all notes can be seen "at a glance". This is to create for myself a launch point for everything and incidentally helps search crawlers. It's not necessarily intended for others to browse.
 
-  See [rossfenning.co.uk](https://rossfenning.co.uk) for his professional profile and CV. You might also be interested in [[Things I Have Made]].
+### Technology
 
-  Read [[Now|what he is doing at the moment]].
+- [[Software Engineering]]
+  - [[Why Programming Language Matters]]
+  - [[Keeping up with JavaScript]]
+  - Build software as if it's being deleted
+  - [[The best software has the fewest moving parts]]
+  - [[The Open Source Hive Mind is smarter than you]]
+  - [[Every line of code is a liability]]
+  - [[Humans are part of our systems]]
+- [[REST]], RDF, Linked Data
+  - [[H Factor]]
+  - [[It's either HATEOAS or it's RPC]]
+- [[DevOps]]
+  - [[Undifferentiated Heavy Lifting]]
+- [[Platform Engineering]]
 
-- ## DevOps and Engineering
-- [[What is DevOps?|What is DevOps?]]
-- More [[DevOps]] topics
-- [[Undifferentiated Heavy Lifting]]
-- [[Tech Radar]]
-- [[Keeping up with JavaScript]]
-- [[Why Programming Language Matters]]
-- ## Language
-- [[Semantic Arguments]]
-- ## Productivity
-- [[Four Burners Theory]]
-- [[ENTP Productivity]]
-- Other [[Productivity]] thoughts
+### [[Philosophy]]
+
+- [[Stoicism]]
+  - [[Impermanence]]
+  - [[What we control and what we don't]]
+  - [[Less is More]]
+
+### Politics
+
+- [[There is no such thing as the individual]]
+
+### [[Productivity]]
+
+- [[Only work on one thing at a time]]

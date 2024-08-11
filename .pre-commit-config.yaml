@@ -14,7 +14,6 @@ repos:
     rev: 23.7.0
     hooks:
       - id: black
-        language_version: python3.11
   - repo: https://github.com/humitos/mirrors-autoflake.git
     rev: v1.1
     hooks:
@@ -25,13 +24,12 @@ repos:
     hooks:
       - id: isort
         args: ["--line-length=79"]
-        language_version: python3.11
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.9.0
     hooks:
       - id: pyupgrade
         args:
-          - --py37-plus
+          - --py38-plus
   - repo: https://github.com/andreoliwa/nitpick
     rev: v0.33.2
     hooks:
@@ -48,3 +46,8 @@ repos:
     rev: v3.0.0
     hooks:
       - id: prettier
+  - repo: https://github.com/MartinThoma/check-pip-compile
+    rev: 0.1.0
+    hooks:
+      - id: check-pip-compile
+        args: ["."]

@@ -10,11 +10,13 @@ output
 /package-lock.json
 /extra/radar.json
 node_modules
-Garden/.obsidian/plugins/novel-word-count/data.json
-Garden/.obsidian/plugins/obsidian-daily-stats/data.json
 Garden/.obsidian/workspace.json
+Garden/.obsidian/workspace/*
+Garden/.obsidian/plugins/*
 .hypothesis
 .mypy_cache
 .pytest_cache
 dist
 .cache
+.smart-connections
+/Garden/.smart-connections/

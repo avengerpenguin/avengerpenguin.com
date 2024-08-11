@@ -32,7 +32,7 @@ It's React, but in Python! While interesting, I'm yet to think this is a good id
 
 - Status: Trial
 
-A solid attempt to extend HTML affordances in a standard way user agents could well support natively in future. I think this is a strong approach than bloated UI frameworks like React. See [</> htmx - high power tools for html](https://htmx.org/).
+A solid attempt to extend HTML affordances in a standard way user agents could well support natively in future. I think this is a strong approach than bloated UI frameworks like React. See [htmx - high power tools for html](https://htmx.org/).
 
 ## Typer
 
@@ -41,3 +41,9 @@ A solid attempt to extend HTML affordances in a standard way user agents could w
 I'm a big fan of libraries that use decorators etc. effectively so you can write your code as you normally would and it "just works" to turn it into e.g. a CLI tool as is the case with Typer. There's an extra appeal with it using type hints to do some magic that other libraries like `clize` need help with. I certainly don't know why anyone would continue using `ArgumentParser` in Python today.
 
 See [Typer](https://typer.tiangolo.com/).
+
+## OpenTelemetry
+
+- Status: Trial
+
+Still looking for a way to bring together all the tools I've used in this space to get the most out of this standard.
