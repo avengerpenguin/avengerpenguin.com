@@ -41,3 +41,9 @@ Potentially useful for enforcing standards across multiple repos.
 - Status: Assess
 
 Looks very useful for big refactors but the need for it hasn't quite come up yet for me. See [busser/tfautomv: Generate Terraform moved blocks automatically for painless refactoring](https://github.com/busser/tfautomv).
+
+## Vanna
+
+- Status: Assess
+
+[GitHub - vanna-ai/vanna: 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using RAG 🔄.](https://github.com/vanna-ai/vanna)
