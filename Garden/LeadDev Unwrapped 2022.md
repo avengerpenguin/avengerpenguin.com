@@ -35,7 +35,7 @@ Questions
    9. Comms cadence -- min 30 mins per fortnight
 3. What's your job?
 4. What (wrong) lessons did you learn?
-   1. Things from pervious job
+   1. Things from previous job
 5. What can I tackle now?
    1. What can you uniquely do as a new person?
    2. Tackle paper cuts
