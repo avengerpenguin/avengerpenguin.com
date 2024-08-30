@@ -103,7 +103,6 @@ ipykernel==6.29.4
     #   jupyter
     #   jupyter-console
     #   jupyterlab
-    #   qtconsole
 ipython==8.23.0
     # via
     #   ipykernel
@@ -135,7 +134,7 @@ jsonschema[format-nongpl]==4.21.1
     #   nbformat
 jsonschema-specifications==2023.12.1
     # via jsonschema
-jupyter==1.0.0
+jupyter==1.1.0
     # via -r requirements.in
 jupyter-client==8.6.1
     # via
@@ -143,7 +142,6 @@ jupyter-client==8.6.1
     #   jupyter-console
     #   jupyter-server
     #   nbclient
-    #   qtconsole
 jupyter-console==6.6.3
     # via jupyter
 jupyter-core==5.7.2
@@ -156,7 +154,6 @@ jupyter-core==5.7.2
     #   nbclient
     #   nbconvert
     #   nbformat
-    #   qtconsole
 jupyter-events==0.10.0
     # via jupyter-server
 jupyter-lsp==2.2.4
@@ -171,7 +168,9 @@ jupyter-server==2.13.0
 jupyter-server-terminals==0.5.3
     # via jupyter-server
 jupyterlab==4.2.5
-    # via notebook
+    # via
+    #   jupyter
+    #   notebook
 jupyterlab-pygments==0.3.0
     # via nbconvert
 jupyterlab-server==2.27.3
@@ -243,8 +242,6 @@ packaging==24.0
     #   jupyterlab-server
     #   jupytext
     #   nbconvert
-    #   qtconsole
-    #   qtpy
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.3
@@ -292,7 +289,6 @@ pygments==2.17.2
     #   jupyter-console
     #   nbconvert
     #   pelican
-    #   qtconsole
     #   rich
 pyparsing==3.1.2
     # via rdflib
@@ -321,11 +317,6 @@ pyzmq==25.1.2
     #   jupyter-client
     #   jupyter-console
     #   jupyter-server
-    #   qtconsole
-qtconsole==5.5.1
-    # via jupyter
-qtpy==2.4.1
-    # via qtconsole
 rdflib==7.0.0
     # via -r requirements.in
 referencing==0.34.0
@@ -405,7 +396,6 @@ traitlets==5.14.2
     #   nbclient
     #   nbconvert
     #   nbformat
-    #   qtconsole
 types-python-dateutil==2.9.0.20240316
     # via arrow
 typogrify==2.0.7
