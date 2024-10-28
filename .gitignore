@@ -20,3 +20,4 @@ dist
 .cache
 .smart-connections
 /Garden/.smart-connections/
+.smart-env
