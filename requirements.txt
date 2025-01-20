@@ -315,7 +315,7 @@ pyzmq==25.1.2
     #   jupyter-client
     #   jupyter-console
     #   jupyter-server
-rdflib==7.1.2
+rdflib==7.1.3
     # via -r requirements.in
 referencing==0.34.0
     # via
