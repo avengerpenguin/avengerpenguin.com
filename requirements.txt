@@ -263,7 +263,7 @@ platformdirs==4.2.0
     # via
     #   jupyter-core
     #   virtualenv
-pre-commit==4.0.1
+pre-commit==4.1.0
     # via -r requirements.in
 prometheus-client==0.20.0
     # via jupyter-server
