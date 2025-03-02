@@ -14,12 +14,13 @@ This is a full list of topics and areas so all notes can be seen "at a glance". 
 - [[Software Engineering]]
   - [[Why Programming Language Matters]]
   - [[Keeping up with JavaScript]]
-  - Build software as if it's being deleted
   - [[The best software has the fewest moving parts]]
-  - [[The Open Source Hive Mind is smarter than you]]
-  - [[Every line of code is a liability]]
+	  - [[The Open Source Hive Mind is smarter than you]]
   - [[Software is a service industry not a manufacturing industry]]
+	  - [[Every line of code is a liability]]
+	  - Build software as if it's being deleted
   - [[Humans are part of our systems]]
+	  - [[Software and Subjectivity]]
 - [[REST]], RDF, Linked Data
   - [[H Factor]]
   - [[It's either HATEOAS or it's RPC]]
