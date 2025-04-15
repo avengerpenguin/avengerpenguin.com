@@ -10,10 +10,10 @@
         ],
         "menu": [],
         "restrictBaseUrl": [
-            "https://matrix.scw.avengerpenguin.com"
+            "https://matrix.avengerpenguin.com"
         ]
     },
     "m.homeserver": {
-        "base_url": "https://matrix.scw.avengerpenguin.com"
+        "base_url": "https://matrix.avengerpenguin.com"
     }
 }
