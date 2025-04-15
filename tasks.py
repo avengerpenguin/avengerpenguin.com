@@ -19,8 +19,8 @@ def radar_publish(c):
     radar(c, output_path="dist/radar")
 
 
-namespace.add_task(radar)
-namespace.task_with_config("build")[0].pre.append(radar)
-
-namespace.add_task(radar_publish)
-namespace.task_with_config("publish")[0].pre.append(radar_publish)
+# namespace.add_task(radar)
+# namespace.task_with_config("build")[0].pre.append(radar)
+#
+# namespace.add_task(radar_publish)
+# namespace.task_with_config("publish")[0].pre.append(radar_publish)
