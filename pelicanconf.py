@@ -34,6 +34,7 @@ EXTRA_PATH_METADATA = {
     "../extra/site.webmanifest": {"path": "site.webmanifest"},
     "../extra/well-known/matrix/server": {"path": ".well-known/matrix/server"},
     "../extra/well-known/matrix/client": {"path": ".well-known/matrix/client"},
+    "../extra/_config.yml": {"path": "_config.yml"},
 }
 
 MENUITEMS_START = (
