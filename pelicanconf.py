@@ -32,6 +32,7 @@ EXTRA_PATH_METADATA = {
     "../extra/mstile-150x150.png": {"path": "mstile-150x150.png"},
     "../extra/safari-pinned-tab.svg": {"path": "safari-pinned-tab.svg"},
     "../extra/site.webmanifest": {"path": "site.webmanifest"},
+    "../extra/well-known": {"path": ".well-known"},
 }
 
 MENUITEMS_START = (
