@@ -9,8 +9,6 @@ anyio==4.9.0
     #   httpx
     #   jupyter-server
     #   watchfiles
-appnope==0.1.4
-    # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -183,7 +181,7 @@ jupyterlab-server==2.27.3
     #   notebook
 jupyterlab-widgets==3.0.14
     # via ipywidgets
-jupytext==1.17.0
+jupytext==1.17.1
     # via -r requirements.in
 livereload==2.7.1
     # via voltaire
