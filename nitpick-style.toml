@@ -1,6 +1,6 @@
 [nitpick.styles]
 include = [
-    "py://nitpick/resources/python/pre-commit-hooks",
+    "py://nitpick/resources/any/pre-commit-hooks",
 ]
 
 [nitpick.files.present]

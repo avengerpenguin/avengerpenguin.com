@@ -1,7 +1,7 @@
 exclude: "^$|venv|.obsidian"
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
@@ -14,7 +14,7 @@ repos:
     rev: 25.1.0
     hooks:
       - id: black
-        language_version: python3.12
+        language_version: python3.13
   - repo: https://github.com/PyCQA/autoflake
     rev: v2.3.1
     hooks:
@@ -25,9 +25,9 @@ repos:
     hooks:
       - id: isort
         args: ["--profile", "black", "--filter-files", "--line-length=79"]
-        language_version: python3.12
+        language_version: python3.13
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.17.0
+    rev: v1.17.1
     hooks:
       - id: mypy
         additional_dependencies:
@@ -66,4 +66,4 @@ repos:
       - id: check-pip-compile
         args: ["."]
 default_language_version:
-  python: python3.11
+  python: python3.13
