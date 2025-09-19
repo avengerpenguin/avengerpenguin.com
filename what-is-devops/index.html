@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>What is DevOps? | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/what-is-devops/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - What is DevOps?" />
+    <meta property="og:description" content="A common problem with any buzzword coined in the software industry is that we struggle to pin down a precise definition. This is almost certainly the case with DevOps with multiple companies,..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="A common problem with any buzzword coined in the software industry is that we struggle to pin down a precise definition. This is almost certainly the case with DevOps with multiple companies, blogs and experts using the term to mean different things. With a systems mindset, all the definitions out …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>What is DevOps?</h1>
+    
+
+    <p>A common problem with any buzzword coined in the software industry is that we struggle to pin down a precise definition.
+This is almost certainly the case with <em>DevOps</em> with multiple companies, blogs and experts using the term to mean different things.</p>
+<p>With a systems mindset, all the definitions out there are arguably all correct at some level, with the "true definition" actually dependent on what level of abstraction appropriate to the situation.</p>
+<h3 id="my-definition">My definition</h3>
+<p>I find it useful to use a definition of <em>DevOps</em> (or indeed any other term) that is the most general while still being precise enough so we are clear what things fall under that term and what things do not.
+To that end, my preferred definition of <em>DevOps</em> is:</p>
+<blockquote>
+<p>Any practice, technique or tool in the software industry that is intended to speed up delivery of software changes.</p>
+</blockquote>
+<p>First, allow me to unpack some of the parts of that definition and then I will explain why the definition around the intent to "speed up" is the correct focus.
+Finally, I will discuss how various practices and implementations we may be familiar with fit nicely within the resulting "DevOps" umbrella that follows from this definition.</p>
+<h3 id="practices-techniques-tools">Practices, techniques, tools</h3>
+<p>A meme in blogs on this issue (with <a href="https://www.atlassian.com/devops">Atlassian</a> an exemplar of this) is to emphasise DevOps as "cultural" or "philosophy" in contrast to specific technical practices.
+Again, with a systems mindset, is is both -- just different things to different people at different levels of detail, but nobody is "wrong".</p>
+<p>This is why I am keen to follow a definition that loosely allows for anything so long as the goal of speeding up delivery is achieved.</p>
+<p>Do you practise Lean or Kanban to encourage small, incremental batches of change to go all the way to production as often as possible?</p>
+<p>That's DevOps.</p>
+<p>Do you employ techniques such as feature flags to make it easier to makes changes even more incremental?</p>
+<p>Then that's DevOps too.</p>
+<p>Do you make use of infrastructure as code tooling such as Terraform or use Docker to make it easier to keep development and production versions of code the same?</p>
+<p>Also DevOps.</p>
+<p>Note that we can acknowledge that engineers might consider the tools "their" way of viewing DevOps, but there's a definition that suits product managers too.
+Everyone is equally correct to use their definition as they all fit under the umbrella of things that make us go faster.</p>
+<h3 id="software-changes">Software Changes</h3>
+<p>This definition stops short of saying features, preferring a looser term of "software changes". What does that encompass? A non-exhaustive list for consideration is:</p>
+<ul>
+<li>New features for users rolled out to a website</li>
+<li>New features to a library released to be used by other software applications</li>
+<li>Bug fixes in any of existing features in websites, libraries, applications</li>
+<li>Reconfiguration of production systems, such as increasing memory on a server that is struggling</li>
+<li>Changes to text copy</li>
+</ul>
+<p><a title="Kharnagy [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Devops-toolchain.svg"><img width="100%" alt="Devops-toolchain" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg"></a></p>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/what-is-devops/';
+      this.page.identifier = 'what-is-devops';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
