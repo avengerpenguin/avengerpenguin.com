@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Thoughtworks Tech Radar 27 | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/thoughtworks-tech-radar-27/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Thoughtworks Tech Radar 27" />
+    <meta property="og:description" content="Notes and thoughts about the 27th volume of the Thoughtworks Tech Radar. Techniques Hold Satellite workers without &quot;remote native&quot;. Remote workers are starting to be exluded again..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="Notes and thoughts about the 27th volume of the Thoughtworks Tech Radar. Techniques Hold Satellite workers without &#34;remote native&#34;. Remote workers are starting to be exluded again from meetings etc. as we move into a more hybrid model. With remote workers, it&#39;s easy to add more people than is necessary …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Thoughtworks Tech Radar 27</h1>
+    
+
+    <p>Notes and thoughts about the 27th volume of the Thoughtworks Tech Radar.</p>
+<h2 id="techniques">Techniques</h2>
+<h3 id="hold">Hold</h3>
+<p>Satellite workers without "remote native".</p>
+<ul>
+<li>Remote workers are starting to be exluded again from meetings etc. as we move into a more hybrid model.</li>
+<li>With remote workers, it's easy to add more people than is necessary to meetings.</li>
+<li>People remoted into a meeting room can't always hear everything being said.</li>
+</ul>
+<p>Superficial cloud native.</p>
+<ul>
+<li>There's a return to the "lift and shift" of deploying monoliths on top of cloud vendor services as opposed to rethinking to maximise the value of cloud architecture.</li>
+<li>Elasticity is a key feature of true "cloud native"</li>
+<li>Thought experiment: can I turn it off automatically if it's not under load?</li>
+</ul>
+<h3 id="assess">Assess</h3>
+<p>CUPID</p>
+<ul>
+<li>A follow-on from "SOLID"</li>
+<li>Dan Terhorst-North's attempt to describe "properties" over "principles"</li>
+<li>Composable: plays well with others</li>
+<li>Unix philosophy: does one thing well</li>
+<li>Predictable: does what you expect</li>
+<li>Idiomatic: feels natural</li>
+<li>Domain-based: the solution domain models the problem domain in language and structure</li>
+<li>Properties lead to "joyful" coding.</li>
+</ul>
+<h3 id="adopt">Adopt</h3>
+<p>Team Cognitive Load</p>
+<ul>
+<li>Comes from "Team Topologies"</li>
+<li>Measure the amount of knowledge needed for a team to get things done</li>
+<li>For example, a "front end" team might need to understand the whole business if they're the front layer to everything else</li>
+<li>Seems to feed better into cross-functional, vertical teams that own a domain slice, but across multiple technologies (e.g. microservices)</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<h3 id="trial">Trial</h3>
+<p>Excalidraw</p>
+<ul>
+<li>Online, collaborative whiteboard</li>
+<li>Makes diagrams look rough and hand-drawn</li>
+</ul>
+<p>xbar for build monitoring</p>
+<ul>
+<li>Build failures on the Mac menu bar</li>
+</ul>
+<h3 id="assess_1">Assess</h3>
+<p>Teller</p>
+<ul>
+<li>Puts secrets in environment variables</li>
+<li>Uses multiple sources</li>
+</ul>
+<h3 id="hold_1">Hold</h3>
+<p>Online services for formatting or parsing code</p>
+<ul>
+<li>Using online JSON/YAML formatters</li>
+<li>Pasting potentially sensitive info into 3rd parties</li>
+<li>JSON from log files could have personal information -- would be a GDPR violation or even <em>exporting</em> of personal data if the service is hosted in another country</li>
+</ul>
+<h2 id="platforms">Platforms</h2>
+<h3 id="adopt_1">Adopt</h3>
+<p>Backstage</p>
+<ul>
+<li>Facilitates finding documentation for APIs (API Catalogue)</li>
+<li>Uses Markdown TechDocs</li>
+<li>Delegates writing of docs to the local repo, but centralises the discovery</li>
+<li>Can enable one-click quickstarts for projects</li>
+<li>Includes Kubernetes monitoring and management (from a service view, not a K8s admin view)</li>
+<li>There's quite a lot to it so it needs some management for rolling it out</li>
+</ul>
+<h3 id="assess_2">Assess</h3>
+<p>Dragonfly</p>
+<ul>
+<li>Alternative to Redis</li>
+<li>Uses new ring buffer algorithms</li>
+<li>Still uses LRU for evictions</li>
+<li>Provisional cache mechanism avoids high churn and thundering herd after outage</li>
+</ul>
+<p>OrioleDB</p>
+<ul>
+<li>New storage engine for PostgreSQL</li>
+<li>Designed for SSD and NVRAM (original Postgres engine optimised for hard drives)</li>
+</ul>
+<p>IAM Roles Anywhere</p>
+<ul>
+<li>Get temporary credentials to AWS services from outside of AWS</li>
+</ul>
+<h2 id="languages-and-frameworks">Languages and Frameworks</h2>
+<h3 id="assess_3">Assess</h3>
+<p>JonRunr</p>
+<ul>
+<li>Alternative to Quartz</li>
+<li>Job runner with built-in dashboard</li>
+<li>Schedule tasks and cron jobs via lambda expressions</li>
+</ul>
+<p>Stable Diffusion</p>
+<ul>
+<li>Generates images from text prompts like DALL-E</li>
+<li>Raises more questions around the ethics of using artists' work and style</li>
+<li>More broadly, crowd-sourcing data with permission raises questions</li>
+</ul>
+<p>Carbon Aware SDK</p>
+<ul>
+<li>Helps software to use less carbon</li>
+</ul>
+<h3 id="adopt_2">Adopt</h3>
+<p>Kotest</p>
+<ul>
+<li>Previously KotlinTest</li>
+<li>Sensible default over JUnit</li>
+<li>Property testing built in</li>
+<li>Fluent DSL</li>
+<li>Rich matchers</li>
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/thoughtworks-tech-radar-27/';
+      this.page.identifier = 'thoughtworks-tech-radar-27';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

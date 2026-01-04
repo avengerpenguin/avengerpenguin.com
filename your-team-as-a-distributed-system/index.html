@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Your Team as a Distributed System | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/your-team-as-a-distributed-system/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Your Team as a Distributed System" />
+    <meta property="og:description" content="A software engineering team meets the definition of a distributed system: Multiple processes (people) Inter-process communication (interpersonal communication) Disjoint address space (people..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="A software engineering team meets the definition of a distributed system: Multiple processes (people) Inter-process communication (interpersonal communication) Disjoint address space (people have their own ideas of what they&#39;re working on) Collective goal (we hope) Applying Fallacies of Distributed Systems Applying Fallacies of distributed computing - Wikipedia to teams: 1. The …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Your Team as a Distributed System</h1>
+    
+
+    <p>A software engineering team meets the definition of a distributed system:</p>
+<ol>
+<li>Multiple processes (people)</li>
+<li>Inter-process communication (interpersonal communication)</li>
+<li>Disjoint address space (people have their own ideas of what they're working on)</li>
+<li>Collective goal (we hope)</li>
+</ol>
+<h2 id="applying-fallacies-of-distributed-systems">Applying Fallacies of Distributed Systems</h2>
+<p>Applying <a href="https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing">Fallacies of distributed computing - Wikipedia</a> to teams:</p>
+<h3 id="1-the-network-is-reliable">1. The network is reliable</h3>
+<p>Messages between people get lost. Not every email or Slack message is received or read. Even things you say verbally might not get heard.</p>
+<p>We can compensate for this by being more "TCP" than "UDP". That is, ensure things are acknowledged with more back and forth.</p>
+<h3 id="2-latency-is-zero">2. Latency is zero</h3>
+<p>Things get blocked while you're waiting for someone else to do something.</p>
+<p>We can minimise this by processes for raising if there's deadlock or ensure we deal with conflicting work.</p>
+<h3 id="3-bandwidth-is-infinite">3. Bandwidth is infinite</h3>
+<p>There is only a finite amount of information we can give to another person. Face to face communicates more than a phone call where body language gone. Email is even worse.</p>
+<p>Then when there's gaps in what is communicated, people fill it in with inference and their own assumptions.</p>
+<p>We have to understand the trade-offs with low bandwidth communications. We need to understand when to upgrade to face-to-face (i.e. when we need to build up context).</p>
+<h3 id="4-information-is-transmitted-accurately">4. Information is transmitted accurately</h3>
+<p>Twist on "The network is secure".</p>
+<p>We can't assume that information we have sent is received accurately.</p>
+<p>Firstly, we need to start with the base assumption that everyone is trying their best such things are dealt with well when miscommuniation happens.</p>
+<p>We need to ensure what we heard is what was said and what we said is actually heard. In networks we use checksums for this. For people we might do active listening.</p>
+<h3 id="5-topology-doesnt-change">5. Topology doesn't change</h3>
+<p>Organisation structures can change any time. Don't rely on it staying the same.</p>
+<h3 id="6-there-is-one-administrator">6. There is one administrator</h3>
+<p>We can't assume there is one owner or stakeholder for something. We need to focus on consensus-building instead, which is notoriously hard for computer systems to solve.</p>
+<h3 id="7-transport-cost-is-zero">7. Transport cost is zero</h3>
+<p>Communications have a cost. The "handshake" problem highlights the exponential growth of point-to-point communication.</p>
+<h3 id="8-the-network-is-homogeneous">8. The network is homogeneous</h3>
+<p>More diverse teams have a higher cumulative intelligence, but people's differences can lead to misunderstandings.</p>
+<h2 id="single-points-of-failure">Single Points of Failure</h2>
+<p>A lot of teams end up with the lead being a single point of failure. Could be a principal engineer or just a really skilled developer.</p>
+<p>We need to apply patterns from carving up monoliths and ensure teams don't have these single individuals that don't scale.</p>
+<p>Rockstar developers don't scale. They need to more like Jazz musicians who listen to each other when others are doing their solos.</p>
+<h2 id="how-do-we-scale-teams">How do we scale teams?</h2>
+<h3 id="monitoring">Monitoring</h3>
+<p>We need to monitor our teams. Does the team know where we're going? Can they articulate why they are doing what they're doing?</p>
+<p>The best tool is the 1:1 meeting to check people's understandings.</p>
+<h3 id="conflict-resolution">Conflict Resolution</h3>
+<p>We need to get people back on the same page when things get weird. This is like long-lived branches that, if left too long, become near impossible to merge back into the mainline.</p>
+<h3 id="communication">Communication</h3>
+<p>People need to make good decisions independently. This requires good communications of what we're doing and why.</p>
+<h3 id="redundant-communication">Redundant Communication</h3>
+<p>It's better to repeat yourself than under-communicate.</p>
+<h3 id="clarify-of-roles">Clarify of roles</h3>
+<p>We need to understand other people's goals. We need to be able to express our goals.</p>
+<h3 id="re-iterate-collective-goals">Re-iterate Collective Goals</h3>
+<p>Keep reminding people of the goals.</p>
+<h3 id="culture-eats-strategy-for-breakfast">Culture eats strategy for breakfast</h3>
+<p>Culture is ultimately the driving force for how you scale.</p>
+<p>Culture is the collective character of a group. It emerges from choices and decisions we make.</p>
+<p>It's who we hire, who we fire, the behaviours we reward and the behaviours we reprimand.</p>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/your-team-as-a-distributed-system/';
+      this.page.identifier = 'your-team-as-a-distributed-system';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

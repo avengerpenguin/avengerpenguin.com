@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Tech Radar - Techniques | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/tech-radar-techniques/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Tech Radar - Techniques" />
+    <meta property="og:description" content="Techniques These are software engineering techniques on my radar at various levels. See the top-level Tech Radar for other categories. Platform Engineering Status: Assess At the time of..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="Techniques These are software engineering techniques on my radar at various levels. See the top-level Tech Radar for other categories. Platform Engineering Status: Assess At the time of writing, this is a fairly emergent term that has a few people excited although -- as it typically the case -- it&#39;s a term …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Tech Radar - Techniques</h1>
+    
+
+    <h1 id="techniques">Techniques</h1>
+<p>These are software engineering techniques on my radar at various levels. See the top-level <a href="/tech-radar/">Tech Radar</a> for other categories.</p>
+<h2 id="platform-engineering">Platform Engineering</h2>
+<ul>
+<li>Status: Assess</li>
+</ul>
+<p>At the time of writing, this is a fairly emergent term that has a few people excited although -- as it typically the case -- it's a term for a pattern that has been growing for some time.</p>
+<p>See <a href="/building-a-successful-platform/">Building a Successful Platform</a> and <a href="/platform-pitfalls-and-myths/">Platform Pitfalls and Myths</a> for some more of my thoughts on platforms.</p>
+<p>See <a href="https://platformengineering.org/blog/what-is-platform-engineering">What is Platform Engineering?</a> for an introduction.</p>
+<h2 id="data-mesh">Data Mesh</h2>
+<ul>
+<li>Status: Assess</li>
+</ul>
+<p>An alternative to centralised data lakes -- i.e. what if we could distribute data across an organisation such that people locally own the parts that are relevant for them to own, but we can still do analysis and mining across it all.</p>
+<h2 id="shape-up">Shape-up</h2>
+<ul>
+<li>Status: Trial</li>
+</ul>
+<p>This is probably best explained in the fully <a href="https://basecamp.com/shapeup/shape-up.pdf">Shape-up book</a> published by Basecamp. A reductive summary is that it's a process of working in larger "blocks" or sprints of time (e.g. 6 weeks) and choosing work for those sprints based on things you think are worth spending that time on. A key component of this is stopping if the time is exhausted to avoid the sunk cost fallacy.</p>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/tech-radar-techniques/';
+      this.page.identifier = 'tech-radar-techniques';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
