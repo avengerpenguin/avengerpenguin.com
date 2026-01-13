@@ -74,7 +74,7 @@ fastjsonschema==2.21.1
     # via nbformat
 feedgenerator==2.1.0
     # via pelican
-filelock==3.20.1
+filelock==3.20.3
     # via virtualenv
 fqdn==1.5.1
     # via jsonschema
