@@ -245,6 +245,7 @@ packaging==24.2
     #   jupyterlab-server
     #   jupytext
     #   nbconvert
+    #   wheel
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
@@ -424,7 +425,7 @@ webencodings==0.5.1
     #   tinycss2
 websocket-client==1.8.0
     # via jupyter-server
-wheel==0.45.1
+wheel==0.46.2
     # via pip-tools
 widgetsnbextension==4.0.14
     # via ipywidgets
