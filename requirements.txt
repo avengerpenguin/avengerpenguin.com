@@ -185,7 +185,7 @@ jupytext==1.19.0
     # via -r requirements.in
 livereload==2.7.1
     # via voltaire
-markdown==3.10
+markdown==3.10.1
     # via
     #   -r requirements.in
     #   plantuml-markdown
