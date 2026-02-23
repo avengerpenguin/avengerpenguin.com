@@ -4,8 +4,8 @@
   "translucency": false,
   "cssTheme": "Shimmering Focus",
   "enabledCssSnippets": [
-    "snippet",
-    "logo"
+    "logo",
+    "snippet"
   ],
   "accentColor": ""
 }
