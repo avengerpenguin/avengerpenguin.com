@@ -329,7 +329,7 @@ referencing==0.36.2
     #   jsonschema
     #   jsonschema-specifications
     #   jupyter-events
-requests==2.32.4
+requests==2.33.0
     # via
     #   jupyterlab-server
     #   plantuml-markdown
