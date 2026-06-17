@@ -29,7 +29,7 @@ beautifulsoup4==4.13.3
     # via
     #   nbconvert
     #   voltaire
-bleach[css]==6.2.0
+bleach[css]==6.4.0
     # via nbconvert
 blinker==1.7.0
     # via
