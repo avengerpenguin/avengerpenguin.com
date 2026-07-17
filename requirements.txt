@@ -347,7 +347,7 @@ rpds-py==0.24.0
     #   referencing
 send2trash==1.8.3
     # via jupyter-server
-sh==2.2.2
+sh==2.2.4
     # via voltaire
 six==1.17.0
     # via
