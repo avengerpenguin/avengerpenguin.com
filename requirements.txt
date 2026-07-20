@@ -259,7 +259,7 @@ pelican-webassets==2.1.0
     # via voltaire
 pexpect==4.9.0
     # via ipython
-pip-tools==7.5.3
+pip-tools==7.6.0
     # via -r requirements.in
 plantuml-markdown==3.11.1
     # via voltaire
