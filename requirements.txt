@@ -181,7 +181,7 @@ jupyterlab-server==2.28.0
     #   notebook
 jupyterlab-widgets==3.0.14
     # via ipywidgets
-jupytext==1.19.4
+jupytext==1.19.5
     # via -r requirements.in
 livereload==2.7.1
     # via voltaire
