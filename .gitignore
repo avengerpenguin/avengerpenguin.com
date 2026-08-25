@@ -13,6 +13,7 @@ node_modules
 Garden/.obsidian/workspace.json
 Garden/.obsidian/workspace/*
 Garden/.obsidian/plugins/*
+Garden/.obsidian/community-plugins.json
 .hypothesis
 .mypy_cache
 .pytest_cache
@@ -20,3 +21,14 @@ dist
 .cache
 .smart-connections
 /Garden/.smart-connections/
+
+# Obsidian local workspace state
+Garden/.obsidian/workspace-mobile.json
+Garden/.obsidian/cache/
+
+# Obsidian local trash
+Garden/.trash/
+
+# Android / filesystem noise
+.DS_Store
+Thumbs.db
