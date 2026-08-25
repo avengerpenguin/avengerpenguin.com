@@ -8,7 +8,7 @@ The main problem is being good at understanding things quickly and starting thin
 
 ## Possible causes
 
-In [How to be Organized as ENTP](https://sensingsage.com/getting-this-done-entp-productivity/) it is hypothesised the issue is a natural outcome of that strength to see new ideas and possibilites. That is, it is hard to _stop_ seeing them even when trying to following through on an existing plan.
+In [How to be Organized as ENTP]([https://sensingsage.com/getting-this-done-entp-productivity/](https://web.archive.org/web/20260608150016/https://sensingsage.com/getting-this-done-entp-productivity/)) it is hypothesised the issue is a natural outcome of that strength to see new ideas and possibilites. That is, it is hard to _stop_ seeing them even when trying to following through on an existing plan.
 
 This attention problem arguably puts these traits on the spectrum for ADHD. Whether ADHD is actually diagnosable or not, the methods for coping with it have a strange habit of being applicable for those identifying with decriptors like ENTP or Hyperlinker.
 
@@ -16,7 +16,7 @@ The article above goes on to present a tension between being good at coming up w
 
 ## Solutions to try
 
-Again, from [How to be Organized as ENTP](https://sensingsage.com/getting-this-done-entp-productivity/), the solutions suggested are generally to keep things minimalist and simple.
+Again, from [How to be Organized as ENTP]([https://sensingsage.com/getting-this-done-entp-productivity/](https://web.archive.org/web/20260608150016/https://sensingsage.com/getting-this-done-entp-productivity/), the solutions suggested are generally to keep things minimalist and simple.
 
 ### Daily Tasks
 
@@ -57,4 +57,4 @@ Writing this allowed me to close the tab for [How To be Organized as ENTP](https
 
 Articles that have fed into this:
 
-- [How To be Organized as ENTP](https://sensingsage.com/getting-this-done-entp-productivity/)
+- [How To be Organized as ENTP]([https://sensingsage.com/getting-this-done-entp-productivity/](https://web.archive.org/web/20260608150016/https://sensingsage.com/getting-this-done-entp-productivity/))
