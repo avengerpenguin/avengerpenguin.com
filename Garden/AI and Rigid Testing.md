@@ -1,4 +1,4 @@
-From observation, most AI-written tests I've seen follow the same anti-patterns inexperience developers do:
+From observation, most AI-written tests I've seen follow the same anti-patterns inexperienced developers do:
 
 - Tests after the fact
 - Tests therefore tend to focus on executing the good and asserting the code does what it was written to do, not asset if the behaviour is _correct_ as we get with TDD and BDD
