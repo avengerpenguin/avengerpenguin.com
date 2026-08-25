@@ -1,0 +1,1 @@
+This is my attempt at a living article with my personal thoughts on what the future holds for "AI" which is used synonymously with Large Language Models (LLMs) at the moment. I will carefully try to discuss both LLMs and broader AI where I can/
