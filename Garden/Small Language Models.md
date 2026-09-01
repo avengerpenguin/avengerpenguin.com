@@ -5,4 +5,3 @@ With the concerns of LLMs being very capable, but at huge energy and hardware co
 References:
 
 - https://huggingface.co/blog/jjokah/small-language-model
-
