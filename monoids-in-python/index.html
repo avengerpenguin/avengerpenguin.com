@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Monoids in Python | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/monoids-in-python/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Monoids in Python" />
+    <meta property="og:description" content="```python trusted=true from typing import TypeVar, Generic from abc import ABCMeta, abstractmethod T = TypeVar('T') class Monoid(Generic[T], metaclass=ABCMeta): @property @abstractmethod def..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="```python trusted=true from typing import TypeVar, Generic from abc import ABCMeta, abstractmethod T = TypeVar(&#39;T&#39;) class Monoid(Generic[T], metaclass=ABCMeta): @property @abstractmethod def identity(self) -&gt; T: pass @abstractmethod def compose(self, x: T, y: T) -&gt; T: pass Monoid ```python trusted=false class IntMonoid(Monoid[int]): @property def identity …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Monoids in Python</h1>
+    
+
+    <p>```python trusted=true
+from typing import TypeVar, Generic
+from abc import ABCMeta, abstractmethod</p>
+<p>T = TypeVar('T')</p>
+<p>class Monoid(Generic[T], metaclass=ABCMeta):</p>
+<pre><code>@property
+@abstractmethod
+def identity(self) -&gt; T: pass
+
+@abstractmethod
+def compose(self, x: T, y: T) -&gt; T: pass
+</code></pre>
+<p>Monoid</p>
+<pre><code>
+```python trusted=false
+class IntMonoid(Monoid[int]):
+
+    @property
+    def identity(self):
+        return 0
+
+    def compose(self, x, y):
+        return x + y
+</code></pre>
+<p>```python trusted=false
+class StringMonoid(Monoid[str]):
+    @property
+    def identity(self):
+        return ""</p>
+<pre><code>def compose(self, x, y):
+    return f"{y}{x}"
+</code></pre>
+<pre><code>
+```python trusted=false
+from hypothesis import given
+from hypothesis.strategies import data, from_type
+import pytest
+from typing import get_args
+
+
+monoids = [
+    IntMonoid(),
+    StringMonoid(),
+]
+
+
+@given(data())
+@pytest.mark.parametrize(&quot;m&quot;, monoids)
+def test_identity(m: Monoid[T], data):
+    t = type(m.identity)
+
+    x: T = data.draw(from_type(t))
+
+    print(x, m.identity)
+    assert x == m.compose(x, m.identity)
+    assert x == m.compose(m.identity, x)
+
+
+@given(data())
+@pytest.mark.parametrize(&quot;m&quot;, monoids)
+def test_composition(m, data):
+    t = type(m.identity)
+
+    x: T = data.draw(from_type(t))
+    y: T = data.draw(from_type(t))
+    assert type(m.compose(x, y)) == t
+
+
+@given(data())
+@pytest.mark.parametrize(&quot;m&quot;, monoids)
+def test_associativity(m, data):
+    t = type(m.identity)
+
+    x: T = data.draw(from_type(t))
+    y: T = data.draw(from_type(t))
+    z: T = data.draw(from_type(t))
+
+    xy: T = m.compose(x, y)
+    yz: T = m.compose(y, z)
+
+    assert m.compose(xy, z) == m.compose(x, yz)
+
+import ipytest
+ipytest.config(addopts=['-q'])
+ipytest.run()
+
+</code></pre>
+<p>```python trusted=false
+from <strong>future</strong> import annotations
+from typing import Callable</p>
+<p>U = TypeVar("U")
+A = TypeVar("A")
+B = TypeVar("B")</p>
+<p>class Functor(Generic[T], metaclass=ABCMeta):
+    @abstractmethod
+    def map(t: T, f: Callable[A, B]) -&gt; T[B]: pass</p>
+<p>class Maybe(Functor[A], metaclass=ABCMeta):
+    def map(m: Maybe, f): pass</p>
+<p>class Nothing(Maybe[A]):
+    def <strong>init</strong>(self, *args):
+        pass
+    def map(self: Maybe, <em>):
+        return Nothing()
+    def __eq__(self, </em>):
+        return True
+    def <strong>str</strong>(self):
+        return '[Nothing]'</p>
+<p>class Just(Maybe[A]):
+    def <strong>init</strong>(self, x: A):
+        self.x = x
+    def map(self: Maybe, f: Callable[A, B]) -&gt; Just[B]:
+        return Just(f(self.x))
+    def <strong>eq</strong>(self, y):
+        return self.x == y
+    def <strong>str</strong>(self):
+        return f'[Just({self.x})]'</p>
+<p>from hypothesis import given
+from hypothesis.strategies import data, from_type, functions
+from hypothesis import settings, Verbosity
+import pytest
+from typing import get_args</p>
+<p>functors = [
+    Nothing,
+    Just,
+]
+types = [
+    int,
+    str,
+    frozenset,
+    bool,
+]</p>
+<p>identity = lambda x: x</p>
+<p>@given(data())
+@pytest.mark.parametrize("t", types)
+@pytest.mark.parametrize("f", functors)
+def test_identity(f: Functor, t: type, data):
+    F = f[t]
+    x = data.draw(from_type(t))</p>
+<pre><code>print(F(x), F(x).map(identity))
+assert F(x) == F(x).map(identity)
+</code></pre>
+<p>@given(data())
+@pytest.mark.parametrize("C", types)
+@pytest.mark.parametrize("B", types)
+@pytest.mark.parametrize("A", types)
+@pytest.mark.parametrize("f", functors)
+def test_composition(f: Functor, A: type, B:type, C: type, data):</p>
+<pre><code>F = f[A]
+a: A = data.draw(from_type(A))
+
+def f_spec(x: A) -&gt; B: pass
+f: Callable[A, B] = data.draw(functions(like=f_spec, returns=from_type(B), pure=True))
+
+def g_spec(y: B) -&gt; C: pass
+g: Callable[b, c] = data.draw(functions(like=g_spec, returns=from_type(C), pure=True))
+
+def h(x: A) -&gt; C:
+    return g(f(x))
+
+assert F(a).map(h) == F(a).map(f).map(g)
+</code></pre>
+<p>@given(data())
+@pytest.mark.parametrize("D", types)
+@pytest.mark.parametrize("C", types)
+@pytest.mark.parametrize("B", types)
+@pytest.mark.parametrize("A", types)
+@pytest.mark.parametrize("f", functors)
+def test_associativity(f: Functor, A: type, B:type, C: type, D: type, data):
+    F = f[A]
+    a: A = data.draw(from_type(A))</p>
+<pre><code>def f_spec(x: A) -&gt; B: pass
+f: Callable[A, B] = data.draw(functions(like=f_spec, returns=from_type(B), pure=True))
+
+def g_spec(y: B) -&gt; C: pass
+g: Callable[b, c] = data.draw(functions(like=g_spec, returns=from_type(C), pure=True))
+
+def h_spec(z: C) -&gt; D: pass
+h: Callable[b, c] = data.draw(functions(like=h_spec, returns=from_type(D), pure=True))
+
+fg: Callable[A, C] = lambda x: g(f(x))
+gh: Callable[B, D] = lambda y: h(g(y))
+
+assert F(a).map(f).map(gh) == F(a).map(fg).map(h)
+</code></pre>
+<p>import ipytest
+ipytest.run()
+```</p>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/monoids-in-python/';
+      this.page.identifier = 'monoids-in-python';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
