@@ -1,7 +1,5 @@
 [You Ain't Gonna Need It](https://martinfowler.com/bliki/Yagni.html)
 
-
-
 ## Sources
 
 - [The Cost YAGNI Was Never About](https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about) — Kent Beck
