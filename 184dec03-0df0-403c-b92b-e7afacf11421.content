@@ -1,0 +1,86 @@
+{
+    "cPages": {
+        "lastOpened": {
+            "timestamp": "0:0",
+            "value": ""
+        },
+        "original": {
+            "timestamp": "0:0",
+            "value": -1
+        },
+        "pages": [
+            {
+                "id": "770fd59c-9516-4996-b6a5-bd5fac2a2167",
+                "idx": {
+                    "timestamp": "1:2",
+                    "value": "ba"
+                },
+                "modifed": "1788359122189",
+                "scrollTime": {
+                    "timestamp": "1:1",
+                    "value": "2026-09-02T14:26:50Z"
+                },
+                "template": {
+                    "timestamp": "1:1",
+                    "value": "P Dots large"
+                },
+                "verticalScroll": {
+                    "timestamp": "1:1",
+                    "value": 3840
+                }
+            }
+        ],
+        "uuids": [
+            {
+                "first": "3a1cdab8-448a-54b4-bf4f-807b97f66e16",
+                "second": 1
+            }
+        ]
+    },
+    "coverPageNumber": -1,
+    "customZoomCenterX": 0,
+    "customZoomCenterY": 936,
+    "customZoomOrientation": "portrait",
+    "customZoomPageHeight": 1872,
+    "customZoomPageWidth": 1404,
+    "customZoomScale": 1,
+    "documentMetadata": {
+    },
+    "extraMetadata": {
+        "LastActiveTool": "primary",
+        "LastEraseSectionColor": "Black",
+        "LastEraseSectionSize": "2",
+        "LastEraserColor": "Black",
+        "LastEraserSize": "2",
+        "LastEraserTool": "EraseSection",
+        "LastFinelinerv2Color": "Black",
+        "LastFinelinerv2Size": "2",
+        "LastPen": "Finelinerv2",
+        "LastPencilv2Color": "Black",
+        "LastPencilv2Size": "2",
+        "LastSelectionToolColor": "Black",
+        "LastSelectionToolSize": "2",
+        "SecondaryHighlighterv2Color": "ArgbCode",
+        "SecondaryHighlighterv2ColorCode": "4294962549",
+        "SecondaryHighlighterv2Size": "1",
+        "SecondaryPen": "Highlighterv2"
+    },
+    "fileType": "notebook",
+    "fontName": "",
+    "formatVersion": 2,
+    "keyboardMetadata": {
+        "count": 1,
+        "timestamp": 1788357370662
+    },
+    "lineHeight": -1,
+    "orientation": "portrait",
+    "pageCount": 1,
+    "pageTags": [
+    ],
+    "sizeInBytes": "105089",
+    "tags": [
+    ],
+    "textAlignment": "justify",
+    "textScale": 1,
+    "zoomMode": "bestFit"
+}
