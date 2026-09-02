@@ -22,3 +22,17 @@ Tools:
 
 - [[Obsidian]]
 - [[Voltaire]]
+
+
+
+## Note growth model
+
+[Maggie Appleton's history of digital gardens](https://maggieappleton.com/garden-history) uses the metaphors of seedlings, budding notes, and evergreens. A useful five-stage working model is:
+
+1. **Seedling — source:** capture an idea from someone else's work with clear attribution.
+2. **Germination — current interpretation:** record what the idea seems to mean and why it has energy now.
+3. **Budding — concrete experience:** add lived examples, applications, tensions, or counterexamples.
+4. **Cross-pollination — connections:** link it to adjacent concepts and look for a larger pattern.
+5. **Evergreen — synthesis:** express a more durable argument in my own terms, potentially drawing it into a full article or talk.
+
+This is a growth model, not a mandatory content pipeline or quality ranking. Some notes can remain useful seedlings; evergreen notes remain open to revision.
