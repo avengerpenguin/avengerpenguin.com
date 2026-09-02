@@ -23,8 +23,6 @@ Tools:
 - [[Obsidian]]
 - [[Voltaire]]
 
-
-
 ## Note growth model
 
 [Maggie Appleton's history of digital gardens](https://maggieappleton.com/garden-history) uses the metaphors of seedlings, budding notes, and evergreens. A useful five-stage working model is:

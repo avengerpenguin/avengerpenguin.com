@@ -8,7 +8,7 @@ The clear consequence of this is that people only grate up against regulation wh
 
 The conclusion of this theory is therefore that we can explain why large proportions of the population can be convinced that regulation is intrinsically bad, that it has "gone too far", that is is holding back growth all while clearly benefitting from it daily. There is no contradiction in the mind if those benefits are simply not seen.
 
-Thus we seem examples of regulation being cut back and being being truly harmed. Companies routinely shift to "gig economy" workers over employees to bypass employment regulation and those workers suffer. 
+Thus we seem examples of regulation being cut back and being being truly harmed. Companies routinely shift to "gig economy" workers over employees to bypass employment regulation and those workers suffer.
 
 > When you do things right, people won't be sure you've done anything at all.
 > -- God, Futurama

@@ -1,8 +1,9 @@
 ---
 title: What is DevOps?
 ---
+
 - [ ] A common problem with any buzzword coined in the software industry is that we struggle to pin down a precise definition.
-This is almost certainly the case with _DevOps_ with multiple companies, blogs and experts using the term to mean different things.
+      This is almost certainly the case with _DevOps_ with multiple companies, blogs and experts using the term to mean different things.
 
 With a systems mindset, all the definitions out there are arguably all correct at some level, with the "true definition" actually dependent on what level of abstraction appropriate to the situation.
 
