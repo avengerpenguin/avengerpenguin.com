@@ -1,0 +1,1 @@
+TODO - similar to checklist productivity where AI usage encourages you to do more low value work because it's easy to automate but you're spending more time on it and ironically less time on the stuff you're good at.
