@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Fewer remits per team, fewer teams per remit | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/fewer-remits-per-team-fewer-teams-per-remit/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Fewer remits per team, fewer teams per remit" />
+    <meta property="og:description" content="I coined this for myself as a laudable goal for an engineering organisation after observing the converse for too long. With many years working at the BBC, but also looking at other companies,..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="I coined this for myself as a laudable goal for an engineering organisation after observing the converse for too long. With many years working at the BBC, but also looking at other companies, I saw a pervasive problem that -- with the wrong culture -- we can reach a point where it …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Fewer remits per team, fewer teams per remit</h1>
+    
+
+    <p>I coined this for myself as a laudable goal for an engineering organisation after observing the converse for too long.</p>
+<p>With many years working at the BBC, but also looking at other companies, I saw a pervasive problem that -- with the wrong culture -- we can reach a point where it feels nearly <em>impossible</em> for anything to get done. Anything that does get done takes months or even <em>years</em> and it's not always even clear why in restrospect.</p>
+<p>The hypothesis I formed here is that we have two factors that cause each other:</p>
+<ul>
+<li>People end up being "across" too many concerns or projects</li>
+<li>Projects or remits therefore end up with a lot of people covering them</li>
+</ul>
+<p>What this looks like in practice is meetings with 16 people to "align" or agree an approach before a project starts. It looks like people then not following up on actions from regular meetings like this because they're giving their attention to multiple things. It looks like people bike-shedding and giving superficial feedback on things because they don't know enough to discuss it in detail or understand the context.</p>
+<p>In short, it looks like an organisation where every initiative has a minimum amount of time to deliver due to having to get all the right people gathered to discuss.</p>
+<p>What's the alternative? Autonomy and clear remits for individual teams.</p>
+<p>When a team owns a problem space <em>fully</em> (within certain constraints clearly given) and other teams stop having a say in <em>how</em> they solve that space, they can move more quickly. They can experiment with things, try new approaches and feel better job satisfaction from being able to get stuff done.</p>
+<p>This is a key aspect of my <a href="/technical-vision/">Technical Vision</a> for any organisation. With appropriate autonomy, teams get quicker feedback on ideas and try more things.</p>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/fewer-remits-per-team-fewer-teams-per-remit/';
+      this.page.identifier = 'fewer-remits-per-team-fewer-teams-per-remit';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

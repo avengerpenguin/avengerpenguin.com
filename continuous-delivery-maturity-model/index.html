@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Continuous Delivery Maturity Model | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/continuous-delivery-maturity-model/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Continuous Delivery Maturity Model" />
+    <meta property="og:description" content="Over the years I've worked on teams at various stages of how quickly they can ship software changes safely at pace. Anyone who has worked in a variety of companies will have some various..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="Over the years I&#39;ve worked on teams at various stages of how quickly they can ship software changes safely at pace. Anyone who has worked in a variety of companies will have some various examples on the spectrum from teams that manually verify and deploy changes (and therefore has a …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Continuous Delivery Maturity Model</h1>
+    
+
+    <p>Over the years I've worked on teams at various stages of how quickly they can ship software changes safely at pace. Anyone who has worked in a variety of companies will have some various examples on the spectrum from teams that manually verify and deploy changes (and therefore has a bias to batching lots of change together) to teams that are raising small pull requests/merge requests and shipping multiple times a day.</p>
+<p>I have been for some years trying to assemble my own maturity model for Continuous Delivery in the year 2026 and beyond, particularly as I think it has implications for AI agents working on code.</p>
+<p>Most of this is from my own independent observations but I am aware of the <a href="https://info.thoughtworks.com/rs/thoughtworks2/images/continuous_delivery_a_maturity_assessment_modelfinal.pdf">Thoughtworks CD maturity model</a> from 2013. At the very least I hope to build on that over a decade later.s</p>
+<h2 id="the-model">The Model</h2>
+<p>I will first lay out the model I am proposing then seek to justify it, improving these thoughts over time. Following that I have attempted to compare to and argue how my model builds on the Thoughtworks one from 2013 despite not really basing mine on it initially.</p>
+<p>The following is a condensed version I plan to expand on in time. It also notes where each level enables AI automatic which is a topic I plan to cover in a future article.</p>
+<ul>
+<li>Level 0: <strong>Manual Chaos</strong>. <strong>AI creates inventory, not throughput.</strong></li>
+<li>Level 1: <strong>Stewarded Pipeline</strong>. <strong>AI can create change, but humans still steward in a repeatable process</strong></li>
+<li>Level 2: <strong>Merge Means Prod Automatically Unless it Fails</strong>. <strong>AI can work as fast as humans can review</strong>.</li>
+<li>Level 3: <strong>Selective Autonomy for Safe Changes</strong>.  <strong>AI starts to shine in the safe, boring fixes.</strong></li>
+<li>Level 4: <strong>Full Automated Change Cycle</strong>. <strong>Humans fully above the loop with observability as indicators along with an AI Andon cord.</strong></li>
+</ul>
+<h2 id="comparison-to-the-original-thoughtworks-model">Comparison to the original Thoughtworks model</h2>
+<p>In 2013, <a href="https://info.thoughtworks.com/rs/thoughtworks2/images/continuous_delivery_a_maturity_assessment_modelfinal.pdf">Thoughtworks published a Continuous Delivery Model</a>. It describes a progression from ad hoc and manual deployment patterns common at the time through to adopting CI and CD principles and eventually hypothesis-driven delivery.</p>
+<p>This was relevant to the time. I myself was copying files to a server over Windows shared drives up until 2009. In 2010, it was considered cutting edge in the team I joined that releases were done after every two week sprint and while we had to manually asking Ops via Jira tickets to release our Linux package files, we had automation right up to the test environment from which those files were taken. Increasingly I noticed Ops were automating converting the release Jira tickets into deployment scripts. Crucially, our sandbox and test environments were designed from the start to be production-like which is noted in level 2 of their maturity model.</p>
+<p>I believe my own model does in retrospect build on this older model, in two key ways:</p>
+<ul>
+<li>I start from a more advanced base, assuming certain things have moved on and that the original level 1 is no longer common -- or at least if someone is still copying files by hand to servers in 2026, then they are not the target audience</li>
+<li>My top level is a layer above the original. It's clear even at the time they were very forward-thinking in terms of a level 5 where A/B testing, feature toggles, etc. are enablers of being quicker from code to merge to deploy. My level 3 does require a lot of that to be able to automatically merge <em>without review</em> certain things e.g. you could merge all changes behind a flag automatically. I believe my level 4 is a stretch where you are happily allowing any change to do out so long as it passes checks and there's an AI Andon cord to halt anything.</li>
+</ul>
+<h3 id="mapping-the-levels">Mapping the levels</h3>
+<table>
+<thead>
+<tr>
+<th>Thoughtworks/Forrester 2013</th>
+<th>Rough modern mapping</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Level 1 — Initial / ad hoc deployments</td>
+<td>Below my model / out of scope</td>
+<td>Manual copying, heroics, painful integration. Important historically, but not the intended audience for an AI/CD autonomy model.</td>
+</tr>
+<tr>
+<td>Level 2 — Managed / time-boxed planned releases</td>
+<td>My Level 0 — Manual/Planned Release</td>
+<td>There is some automation and a known release process, but releases are still planned and stewarded as events. This remains a hard barrier to AI-generated change because agents cannot usefully navigate human release planning.</td>
+</tr>
+<tr>
+<td>Level 3 — Defined / regular releases, CI, scripted DB changes</td>
+<td>My Level 1 — Stewarded Pipeline</td>
+<td>An actual pipeline exists. Deployments are scripted and repeatable, but humans still press buttons, approve stages, remember context, and push work through.</td>
+</tr>
+<tr>
+<td>Level 4 — Quantitatively managed / release on demand</td>
+<td>My Level 2 — Merge Means Prod</td>
+<td>Trunk is kept deployable. We do not merge changes we would not put into production. Human judgement shifts pre-merge; after merge, the system carries the change to prod unless it fails.</td>
+</tr>
+<tr>
+<td>Level 5 — Optimizing / hypothesis-driven delivery</td>
+<td>Partly overlaps my Level 3 — Selective Autonomy</td>
+<td>Their Level 5 focuses on techniques like feature flags, dark launching, A/B testing, and metrics to make valuable product changes safer and faster to merge. My Level 3 generalises this into selective/eager merging for classes of change the system can judge, including boring changes such as patches, docs, tests, and dependency updates.</td>
+</tr>
+<tr>
+<td>New layer beyond the 2013 model</td>
+<td>My Level 4 — Full Automated Change Cycle</td>
+<td>AI makes plausible a new level where agents can raise, revise, merge, and ship certain bug fixes/features under encoded policy, observability, rollback, and an AI Andon cord. This was less socially/technically imaginable in 2013.</td>
+</tr>
+</tbody>
+</table>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/continuous-delivery-maturity-model/';
+      this.page.identifier = 'continuous-delivery-maturity-model';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

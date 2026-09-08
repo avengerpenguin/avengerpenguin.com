@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Keras | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/keras/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Keras" />
+    <meta property="og:description" content="Keras is an API frontend for machine learning written in Python capable of running on to of TensorFlow, JAX or PyTorch. Here is an example of training a Sequential model with TensorFlow:..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="Keras is an API frontend for machine learning written in Python capable of running on to of TensorFlow, JAX or PyTorch. Here is an example of training a Sequential model with TensorFlow: import tensorflow as tf from tensorflow.keras.models import Sequential from tensorflow.keras.layers import Dense from tensorflow …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Keras</h1>
+    
+
+    <p>Keras is an API frontend for machine learning written in Python capable of running on to of <a href="/tensorflow/">TensorFlow</a>, JAX or PyTorch.</p>
+<p>Here is an example of training a Sequential model with TensorFlow:</p>
+<pre><code class="language-python">import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.optimizers import Adam
+from sklearn.model_selection import train_test_split
+import numpy as np
+
+
+# Generate some synthetic data for demonstration
+np.random.seed(0)
+X = np.random.rand(1000, 5)  # 1000 samples, 5 features
+y = np.random.randint(2, size=(1000,))  # Binary labels (0 or 1)
+
+# Split data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Build a simple feedforward neural network model
+model = Sequential([
+    Dense(10, input_shape=(5,), activation='relu'),
+    Dense(1, activation='sigmoid')
+])
+
+# Compile the model
+model.compile(optimizer=Adam(lr=0.001), loss='binary_crossentropy', metrics=['accuracy'])
+
+# Train the model
+model.fit(X_train, y_train, batch_size=32, epochs=10, validation_split=0.1)
+
+# Evaluate the model on the test set
+test_loss, test_accuracy = model.evaluate(X_test, y_test)
+print(&quot;Test Loss:&quot;, test_loss)
+print(&quot;Test Accuracy:&quot;, test_accuracy)
+</code></pre>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/keras/';
+      this.page.identifier = 'keras';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
