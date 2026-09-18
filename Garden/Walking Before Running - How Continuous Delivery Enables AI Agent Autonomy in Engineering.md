@@ -6,4 +6,4 @@ AI agents can only contribute safely and meaningfully in teams that practise con
 
 ## Automated patching is a good starting point
 
-A good litmus test is if you're already running Dependabot or Renovate on your repositories to automate software patching. 
+A good litmus test is if you're already running Dependabot or Renovate on your repositories to automate software patching.
