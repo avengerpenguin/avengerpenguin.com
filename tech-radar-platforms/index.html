@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Tech Radar - Platforms | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/tech-radar-platforms/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Tech Radar - Platforms" />
+    <meta property="og:description" content="Platforms Solid Status: Assess See Solid Project Website Gemini Status: Hold An alterntive to the World Wide Web and HTTP for hypermedia pages. See Project Gemini for a full explanation...." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="Platforms Solid Status: Assess See Solid Project Website Gemini Status: Hold An alterntive to the World Wide Web and HTTP for hypermedia pages. See Project Gemini for a full explanation. Airflow Status: Assess A reasonably plug-and-play platform for constructing data flows as directed, acyclic graphs all in Python. This seems …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Tech Radar - Platforms</h1>
+    
+
+    <h1 id="platforms">Platforms</h1>
+<h2 id="solid">Solid</h2>
+<ul>
+<li>Status: Assess</li>
+</ul>
+<p>See <a href="https://solidproject.org/">Solid Project Website</a></p>
+<h2 id="gemini">Gemini</h2>
+<ul>
+<li>Status: Hold</li>
+</ul>
+<p>An alterntive to the World Wide Web and HTTP for hypermedia pages. See <a href="https://gemini.circumlunar.space/">Project Gemini</a> for a full explanation.</p>
+<h2 id="airflow">Airflow</h2>
+<ul>
+<li>Status: Assess</li>
+</ul>
+<p>A reasonably plug-and-play platform for constructing data flows as directed, acyclic graphs all in Python. This seems favourable to data scientists who are already experienced in Python due to Jupyer et al. See <a href="https://airflow.apache.org/">Apache Airflow</a>.</p>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/tech-radar-platforms/';
+      this.page.identifier = 'tech-radar-platforms';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

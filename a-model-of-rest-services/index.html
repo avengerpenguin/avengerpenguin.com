@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>A Model of REST Services | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/a-model-of-rest-services/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - A Model of REST Services" />
+    <meta property="og:description" content="In this paper we explore a theoretic model of REST services. ```python trusted=true from typing import cast, Tuple, Set, NewType, Callable, Dict from rdflib import Graph, URIRef from..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="In this paper we explore a theoretic model of REST services. ```python trusted=true from typing import cast, Tuple, Set, NewType, Callable, Dict from rdflib import Graph, URIRef from rdflib.term import Node ClientState = Tuple[URIRef, Graph] ServerState = Tuple[Graph] ```python trusted=true context = { &#34;dc11&#34;: &#34;http://purl.org/dc/elements …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>A Model of REST Services</h1>
+    
+
+    <p>In this paper we explore a theoretic model of REST services.</p>
+<p>```python trusted=true
+from typing import cast, Tuple, Set, NewType, Callable, Dict
+from rdflib import Graph, URIRef
+from rdflib.term import Node</p>
+<p>ClientState = Tuple[URIRef, Graph]
+ServerState = Tuple[Graph]</p>
+<pre><code>
+```python trusted=true
+context = {
+    &quot;dc11&quot;: &quot;http://purl.org/dc/elements/1.1/&quot;,
+    &quot;ex&quot;: &quot;http://example.org/vocab#&quot;,
+    &quot;xsd&quot;: &quot;http://www.w3.org/2001/XMLSchema#&quot;,
+    &quot;ex:contains&quot;: {
+      &quot;@type&quot;: &quot;@id&quot;
+    }
+  }
+
+g1 = Graph()
+g1.parse(data=&quot;&quot;&quot;
+{
+  &quot;@context&quot;: {
+    &quot;dc11&quot;: &quot;http://purl.org/dc/elements/1.1/&quot;,
+    &quot;ex&quot;: &quot;http://example.org/vocab#&quot;,
+    &quot;xsd&quot;: &quot;http://www.w3.org/2001/XMLSchema#&quot;,
+    &quot;ex:contains&quot;: {
+      &quot;@type&quot;: &quot;@id&quot;
+    }
+  },
+  &quot;@graph&quot;: [
+    {
+      &quot;@id&quot;: &quot;http://example.org/library&quot;,
+      &quot;@type&quot;: &quot;ex:Library&quot;,
+      &quot;ex:contains&quot;: &quot;http://example.org/library/the-republic&quot;
+    },
+    {
+      &quot;@id&quot;: &quot;http://example.org/library/the-republic&quot;,
+      &quot;@type&quot;: &quot;ex:Book&quot;,
+      &quot;ex:contains&quot;: &quot;http://example.org/library/the-republic#introduction&quot;,
+      &quot;dc11:creator&quot;: &quot;Plato&quot;,
+      &quot;dc11:title&quot;: &quot;The Republic&quot;
+    },
+    {
+      &quot;@id&quot;: &quot;http://example.org/library/the-republic#introduction&quot;,
+      &quot;@type&quot;: &quot;ex:Chapter&quot;,
+      &quot;dc11:description&quot;: &quot;An introductory chapter on The Republic.&quot;,
+      &quot;dc11:title&quot;: &quot;The Introduction&quot;
+    }
+  ]
+}
+&quot;&quot;&quot;, format='json-ld')
+
+server: ServerState = (g1, )
+
+def σ(g: Graph, uri: URIRef) -&gt; Graph:
+    g2 = Graph()
+    for t in g.query(f&quot;DESCRIBE &lt;{uri}&gt;&quot;):
+        g2.add(cast(Tuple[Node, Node, Node], t))
+    return g2
+
+def GET(ss: ServerState, url: URIRef) -&gt; ClientState:
+    g, = ss
+    return url, σ(g, url)
+
+def render(cs: ClientState) -&gt; None:
+    uri, g = cs
+    print(str(uri) + &quot;\n\n&quot; + g.serialize(format='json-ld', indent=2, context=context))
+
+client = GET(server, URIRef(&quot;http://example.org/library&quot;))
+render(client)
+</code></pre>
+<p>```python trusted=true
+def LO(g: Graph) -&gt; Dict[str, URIRef]:
+    return {
+        p.fragment: o for p, o in g.predicate_objects()
+        if type(o) == URIRef
+    }</p>
+<p>client = GET(server, LO(client[1])['contains'])
+render(client)</p>
+<pre><code>
+```python trusted=true
+from collections import defaultdict
+
+class Client:
+    def __init__(self, state: ClientState):
+        self.state = state
+
+    def __str__(self):
+        uri, g = self.state
+        return str(uri) + &quot;\n\n&quot; + g.serialize(format='json-ld', indent=2, context=context)
+
+    def __repr__(self):
+        return str(self)
+
+    def LO(self):
+        uri, g = self.state
+        links = defaultdict(set)
+        print(uri)
+        for s, p, o in g: #.predicate_objects(subject=uri):
+            print(s, type(s), uri, type(uri), s == uri)
+            print(p, o)
+            if type(o) == URIRef:
+                links[p].add(o)
+        return links
+
+Client(GET(server, URIRef(&quot;http://example.org/library&quot;)).LO()
+</code></pre>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/a-model-of-rest-services/';
+      this.page.identifier = 'a-model-of-rest-services';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

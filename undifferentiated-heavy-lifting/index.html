@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Undifferentiated Heavy Lifting | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/undifferentiated-heavy-lifting/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Undifferentiated Heavy Lifting" />
+    <meta property="og:description" content="In a microservices architecture, it is inevitable that there will be duplication of work between different product teams. It is a somewhat necessary overhead that each team will have to do..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="In a microservices architecture, it is inevitable that there will be duplication of work between different product teams. It is a somewhat necessary overhead that each team will have to do their own deployments, pipelines, automation and other fundamental work as a trade-off for having autonomy over their own product …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Undifferentiated Heavy Lifting</h1>
+    
+
+    <p>In a microservices architecture, it is inevitable that there will be duplication of work between different product teams. It is a somewhat necessary overhead that each team will have to do their own deployments, pipelines, automation and other fundamental work as a trade-off for having autonomy over their own product or service.</p>
+<p>Therefore we must keep in mind two key things when considering a microservice approach:</p>
+<ol>
+<li>Do we understand where and when to use microservices, what they are for and -- crucially -- when <em>not</em> to use them?</li>
+<li>How can we manage to minimise <em>wasted</em> effort on duplication in this "heavy lifting" work common to all microservice product teams?</li>
+</ol>
+<h2 id="naive-solutions">Naive Solutions</h2>
+<p>I use the term "naive" in a sense that fits well with Computer Science -- that is, a naive solution or approach is the "obvious" one you start with as a first pass and then try to improve. This is similar to the red hat in <a href="https://www.mindtools.com/pages/article/newTED_07.htm">Edward de Bono's Six Thinking Hats</a> -- it's a perfectly valid starting point, but then we can apply different thinking and do better.</p>
+<h3 id="return-of-the-monorepo-ilith">Return of the Monorepo/-ilith</h3>
+<p>One instinctive reaction I have seen was the usual "hype curve" behaviour. Teams adopt microservices without truly understanding what they were for, hit all the issues with undifferentiated heavy lifting ramping up rapidly and then the natural reaction is to swing back to monolithic approaches, but strangely not necessarily full monoliths.</p>
+<p>There are a fair few trends at the moment to attempt to retain the Modular Aesthetic in a Mono<em>repo</em> but either still deploy the parts independently or have some tooling to manage reassembling the parts into a single artefact.</p>
+<p>The former gives you the worst of both worlds in that code changes across deployable parts are possible, but then deployments will not be atomic which could be problematic unless we specifically code or test for the interim state where the change is only briefly applied in one place before the second deployment finishes.</p>
+<p>The latter -- deploying a single artefact -- avoids this but has a lot of complexity over simply organising code into directories. It is possible I have not fully understood the benefits.</p>
+<p>In either case, this is a shift away from microservices which is good in cases where you have identified that microservices were not the right solution (yet?) but the "naivety" comes in if that shift to monoliths (or monorepos) is happening as a reaction to the undifferentiated lifting -- especially if it's reacting to a <em>perception</em> that duplication is an issue without measuring that it is indeed an issue.</p>
+<h3 id="in-house-frameworks">In-house Frameworks</h3>
+<p>Another reaction to duplicated heavy lifting between teams is to try to create an in-house platform or framework on which everyone must build their services. The noble attempt is to create an abstraction that deals once with lower level concerns and then teams "just" write their business-level logic on top.</p>
+<p>There are so many issues that can arise from this, it services better as a quick last to expand upon later:</p>
+<ul>
+<li>The <a href="https://en.wikipedia.org/wiki/Inner-platform_effect">Inner-platform-effect</a> kicks in and we end up with poor replica of platform APIs provided directly by a Cloud provider.</li>
+<li>Something that arises from the previous point -- but also in other ways -- is that any in-house platform or APIs will require bespoke clients and command-line tools to create abstractions on par with open source tools like <code>awscli</code> or <code>terraform</code>.</li>
+<li>When your deployments are optimised for one approach, it may make it <em>more</em> expensive for teams that simply need to deploy and build things differently for valid reasons. For example, there's little they can likely share in terms of tooling hard-wired for the in-house platform.</li>
+<li>It is easy to create single points of failure such that a bad deployment of the platform itself takes out your whole website or application, losing a key benefit of microservices -- particularly micro front ends -- where we get failure "bulk heads" that isolate outages to that part of the system.</li>
+</ul>
+<h2 id="managing-duplicated-heavy-lifting">Managing Duplicated Heavy Lifting</h2>
+<p>So, if the previous approaches are "naive", how do we manage undifferentiated lifting within a microservice architecture?</p>
+<h3 id="start-with-monoliths">Start with Monoliths</h3>
+<p>A good way to avoid lots of duplication is not to adopt microservices right away. This has all the benefits of retaining a monolith but notably avoids some of the "naive" solutions above where there are monolithic approaches <em>that naively attempt to retain the modularity of microservices</em>. As stated earlier, this appears to be a habit to retain a <a href="/modular-aesthetic/">Modular Aesthetic</a> -- where people like the "feel" of things being broken up without necessarily figuring out the best way to carve up and how best to do it.</p>
+<p>Since <a href="/premature-scaling-can-stunt-system-iteration/">Premature scaling can stunt system iteration</a>, a strong way to figure how the "best" way is to defer it and get there iteratively.</p>
+<p>That is, start with a monolith service, avoid complex monorepo tooling and resist the urge to abstract out libraries, frameworks, etc. There is much to read on this such as the <a href="https://amzn.to/3n6Siou">Monolith to Microservices book</a> and this allows a long term strategy along the lines of:</p>
+<ul>
+<li>Build a monolith system</li>
+<li>Find clear "seams" to break out some functionality into distinct services</li>
+<li>Note where you have to copy-paste code/scripts for build automation and deployment</li>
+<li>Accept there is some duplication for a while</li>
+<li>Over time -- and one at a time -- see if there's a robust way to abstract out build and deployment logic</li>
+</ul>
+<p>What does that abstraction look like over time?</p>
+<h3 id="abstracting-automation">Abstracting Automation</h3>
+<p>From observation and hands-on experience, I can see a set of clear "rules" (maybe guidelines) worth considering when trying to create good abstractions that reduce duplication between microservice teams:</p>
+<ol>
+<li><strong>Iterate</strong> -- first and foremost, we must emphasise that we won't solve all of it at once and up front. Without real world experience of the services we plan to build, we can't possible sink in up-front time to building all our tooling. In the most ideal cases, I have been able to have essentially zero explicit time put aside for developing tooling and have let it emerge while delivering business features.</li>
+<li><strong>Open Source First</strong> -- before writing <em>any</em> code, it is worth thinking about how to be lazier about it or how to rely more on highly-maintained tools that already exist. Some might even get fun building their own tools to solve a problem and I think this drive falls out of that doing so in your own time is a great way to learn, but "Total Cost of Ownership" includes maintenance costs and not just the time it took to build. A custom script that took minutes to write could still be more expensive than a known CLI tool, a Jenkins plugin, a docker container, etc.</li>
+<li><strong>Inheritance over Composition</strong> -- perhaps a controversial way to phrase it (which I do to make people pause and think) but I argue that the Unix Philosophy tells us to make tools with sensible defaults, so a way to achieve this is to construct tooling such that each service "inherits" from a central place with local control to override. This is in opposition to having libraries of sharing functions but we still duplicate the coordination scripts that call those functions. That is, we should be making share tooling that encodes <em>flow</em> and cedes control to the abstraction as opposed to simply wrapping up subroutines in function calls.</li>
+</ol>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/undifferentiated-heavy-lifting/';
+      this.page.identifier = 'undifferentiated-heavy-lifting';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

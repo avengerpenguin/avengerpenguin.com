@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>It's either HATEOAS or it's RPC | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/its-either-hateoas-or-its-rpc/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - It's either HATEOAS or it's RPC" />
+    <meta property="og:description" content="Life is simple when you are working with only one computer. Distributed systems are hard. In fact, if you build software for a living or a hobby, can you think of a time you last wrote..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="Life is simple when you are working with only one computer. Distributed systems are hard. In fact, if you build software for a living or a hobby, can you think of a time you last wrote something that didn&#39;t involve some kind of inter-machine communication? Even with the shift back …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>It's either HATEOAS or it's RPC</h1>
+    
+
+    <p>Life is simple when you are working with only one
+computer. Distributed systems are hard.</p>
+<p>In fact, if you build software for a living or a hobby, can you think
+of a time you last wrote something that didn't involve some kind of
+inter-machine communication? Even with the shift back to bigger client
+apps on smartphones, many require communication back to a central
+service via an API.</p>
+<p>It's arguably safe to assert even without real evidence that the most
+common -- if not one of the most common -- approaches taken in
+client-server architectures is for the server-side to present a
+so-called <em>RESTful</em> API for the client application to consume.</p>
+<h4 id="the-rest-architecture">The REST Architecture</h4>
+<p>Many software developers, particularly those building web
+applications, will have a passing familiarity with the REST
+architectural style in simple terms:</p>
+<ul>
+<li>Different URLs are used for different "resources".</li>
+<li>You use all the HTTP verbs correctly: <code>GET</code> is read-only and
+  cacheable, <code>DELETE</code> is used to remove a resource, etc.</li>
+<li>All requests are kept stateless.</li>
+</ul>
+<p>And we're done. Oh, what's that? I forgot to talk about HATEOAS?</p>
+<p>For those not familiar,
+<a href="https://en.wikipedia.org/wiki/HATEOAS">HATEOAS</a> is one part of the
+"Uniform Interface" constraint. Let's look at those constraints
+in full for context:</p>
+<ul>
+<li><strong>Identification of resources</strong> -- This basically amounts to using URLs
+  for each resource as described above (assuming we're using HTTP as the
+  protocol, of course...)</li>
+<li><strong>Manipulation of resources through representations</strong> -- Send a
+  resource represented in e.g. an XML or JSON format of some kind and
+  that should be enough for a client to read or update the resource.</li>
+<li><strong>Self-descriptive messages</strong> -- Use headers like <code>Content-Type</code> to make
+  it clear how to parse responses.</li>
+<li><strong>Hypermedia as the engine of application state (HATEOAS)</strong> -- A
+  client should only be able to move between resources by following
+  hypermedia links and controls on a particular representation.</li>
+</ul>
+<p>The definition of HATEOAS above is an attempt to summarise it in a
+single sentence, but if you're not familiar with it at all, it's not
+likely to be any clearer that that actually <em>means</em> but also <em>why</em> you
+might use it.</p>
+<p>In fact, Roy Fielding -- who
+<a href="http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm">coined REST in his famous PhD thesis</a>
+-- has himself in the past
+<a href="http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven">attacked HTTP APIs</a>
+that claim to be "REST" APIs when they do not. There have also been
+examples of
+<a href="http://www.ben-morris.com/the-restafarian-flame-wars-common-points-of-disagreement-over-rest-api-design/">disagreements on whether HATEOAS is needed</a>
+for a REST API. That there is a significant level of confusion or even
+disagreements and arguments suggests a lack of clarity around what
+HATEOAS truly is and why you might use it.</p>
+<p>The argument usually boils down to people pointing
+that out failure to follow the REST constraint does not a REST API
+make. The common retort is that it is <em>zealous</em> or purist to ask for
+this constraint to be followed.</p>
+<p>A whole camp of API designers will furthermore claim the
+REST-minus-HATEOAS architectural style to be valid in its own
+right. Some even use terms such as
+[Pragmatic REST}(http://www.ben-morris.com/pragmatic-rest-apis-without-hypermedia-and-hateoas/) to describe/justify/differentiate their "non-purist" API design.</p>
+<p>I'd like to take a totally-non-zealot, rational position on this:</p>
+<ol>
+<li>Of course you can build a working API following all REST constraints minus HATEOAS (many people clearly do it every day!)</li>
+<li>If you do build a so-called "pragmatic REST" API, then calling it REST might invoke ire from purists, but more importantly it's not helpful to call it REST.</li>
+<li>Whether you should follow REST 100% or not is ultimately up to you, but you're missing out on some of the core benefits of the REST architectural style (and why it exists)</li>
+<li>Also, if you're not going to benefit from the advantages of the REST architecture, it's not clear why you need to follow some of the other constraints. You might be making a trade-off you don't need.</li>
+</ol>
+<p>I will attempt to justify these statements one-by-one, with the exception that I hope that 1) is obvious.</p>
+<h4 id="why-cant-i-call-my-api-restful">Why can't I call my API RESTful?</h4>
+<p>Semantic debates are fun, aren't they? I can build an API and call it
+a REST API, then someone can say it isn't truly REST and now we're
+back to arguing about what is and isn't REST.</p>
+<p>What's missing in that hypothetical argument? Something that's missing
+in a lot of discussion on the web about this: any concrete discussion
+of the properties of the thing originally built.</p>
+<p>There's two distinct fallacies that appear when a debate around a
+definition or semantics emerges:</p>
+<ul>
+<li>we talk too much about whether something truly fits a definition
+  <em>without actually discussing the merits of that thing</em>; or</li>
+<li>we dismiss opinions of those who disagree with us by incorrectly
+  regarding a debate as being "just semantics".</li>
+</ul>
+<p>If you already have an opinion on the REST vs. "pragmatic" debate, you
+might well recognise one of those fallacies in those with whom you
+disagree, but be careful of falling into the other fallacy in your
+own views.</p>
+<p>Both of these fallacies can be seen as extreme ends of a spectrum where
+at one end we get sucked into pointless debates over definitions and at
+the other end we see no value in discussing definitions <em>at all</em>,
+which is also irrational.</p>
+<p>It is indeed the case that an argument about whether my API is RESTful
+or not is not going to make much progress if we only discuss back and
+forth as to what REST is or whether it's useful to use the word only
+in a purist sense or whether we can allow for "pragmatic" takes on the
+term. What's lacking here is discussing it
+<em>in the context of the API I am building</em>.</p>
+<p>Conversely, we should not be so quick to shoot down those that point
+out where my API does not conform to REST. It is tempting to call such
+a person zealous or a purist and frame any of their arguments as
+irrational and therefore not worth hearing by definition.</p>
+<p>The more rational, balanced position is to discuss the definition in
+terms of <em>why</em> all the REST constraints exist and also in the <em>context</em>
+of a particular problem domain being solved by a "RESTful" API. Here
+we can rationally see if the constraints not being followed would
+help or hinder us; we can revisit the advantages brought by lesser-used
+constraints such as HATEOAS. In this context, the definition is
+certainly useful and we are not longer arguing "just semantics".</p>
+<p>So, surely it's still my business whether I call my API RESTful or not?
+Well, sort of.</p>
+<p>Semantics -- as in the meaning of words -- relies at least to some
+extent to people loosely agreeing what words mean. If you present
+a software system or a technology and use certain words to describe it,
+then expect confusion when you use a word differently to how others
+use it. I'm not saying we need to be overly pedantic about words, but
+if you build an API and call it RESTful, expect some confusion by
+some who will expect to call it in line with <em>all</em> of the REST constraints.</p>
+<p>In some ways, I would plead with people to avoid using the term REST
+if they are consciously choose not to follow the architectural style
+fully, but I fear we may have lost control of the term by now to the
+point where it's hard to trust any meaning has been followed. In
+practical terms, it means that if someone presents an API to me and tells
+me it's a REST API, I still don't quite know what to expect until I
+see it. It is less than ideal for any word to get to a point where
+it doesn't actually convey information any more. This is especially
+true in a technical industry like software engineering.</p>
+<h2 id="advantages-of-hateoas">Advantages of HATEOAS</h2>
+<h3 id="why-was-rest-even-created">Why was REST even created?</h3>
+<h3 id="what-is-hateoas">What is HATEOAS?</h3>
+<h3 id="why-is-hateoas-a-good-thing">Why is HATEOAS a good thing?</h3>
+<h2 id="other-rpc-approaches">Other RPC Approaches</h2>
+<h3 id="java-rmi">Java RMI</h3>
+<h3 id="corba">CORBA</h3>
+<h3 id="thrift-and-protocol-buffers">Thrift and Protocol Buffers</h3>
+<h3 id="soap">SOAP</h3>
+<h3 id="json-rpc">JSON-RPC</h3>
+<h3 id="where-these-are-better-than-rest">Where these are better than REST</h3>
+<h3 id="are-any-of-these-appropriate-for-me">Are any of these appropriate for me?</h3>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/its-either-hateoas-or-its-rpc/';
+      this.page.identifier = 'its-either-hateoas-or-its-rpc';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
