@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Platform Pitfalls and Myths | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/platform-pitfalls-and-myths/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Platform Pitfalls and Myths" />
+    <meta property="og:description" content="When building an internal platform for an organisation, there are a few traps people fall into. The breakdown of this is largely thanks to Scaling your business with platform thinking by..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="When building an internal platform for an organisation, there are a few traps people fall into. The breakdown of this is largely thanks to Scaling your business with platform thinking by Thoughtworks with details filled in with my own experience with successful and unsuccessful platform initiatives. For how to get …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Platform Pitfalls and Myths</h1>
+    
+
+    <p>When building an internal platform for an organisation, there are a few traps people fall into.</p>
+<p>The breakdown of this is largely thanks to <a href="https://www.thoughtworks.com/en-gb/what-we-do/enterprise-modernization-platforms-cloud/empc-hub/scaling-your-business-with-platform-thinking">Scaling your business with platform thinking by Thoughtworks</a> with details filled in with my own experience with successful and unsuccessful platform initiatives.</p>
+<p>For how to get it right, see <a href="/building-a-successful-platform/">Building a Successful Platform</a>.</p>
+<h2 id="1-build-it-and-they-will-come">1. Build it and they will come</h2>
+<p>This is arguably an extension of product iniatives in general without fully understanding customer need or establishing effective feedback loops.</p>
+<p>Sometimes we can be so sure we see a need for a platform or framework we presume people will simply <em>naturally</em> want to come use it. This can be a combination of <a href="https://en.wikipedia.org/wiki/Endowment_effect">Endowment effect</a> and <a href="https://en.wikipedia.org/wiki/Escalation_of_commitment">Escalation of commitment (aka Sunk costs fallacy)</a> leading us to value the platform more than its potential customers.</p>
+<p>There is a nonzero overhead and cost for customers to discover, understand and learn how to adopt your platform. That cost might even be higher than a team proceeding (at least initially) to build the capabilities themselves (especially when they already have the knowledge to do so).</p>
+<p>I prefer to consider it in terms of Ecomonics or a market -- what is the incentive to use your platform over other options? This is very clear in open source tools -- users will adopt a framework when it clearly makes their development experience better and avoid them when the cost of adoption is too high.</p>
+<h2 id="2-mandate-to-increase-adoption">2. Mandate to increase adoption</h2>
+<p>A natural follow-on from above is to use a high-level mandate within the business to force adoption of a platform. This is especially common in reaction to hitting the reality of the "build it and they will come" myth where in fact, they do not automatically come.</p>
+<p>Again, arguing from Economics or indeed human behaviour, we can clearly empathise with the idea that teams will not willingly adopt a platform that only adds coupling to other teams or friction to their workflows.</p>
+<h2 id="3-platforms-help-you-beat-conways-law">3. Platforms help you beat Conway's Law</h2>
+<p>Conway's Law states that "Organizations, who design systems, are constrained to produce designs which are copies of the communication structures of these organizations."</p>
+<p>Common outcomes of this include systems not being joined up if there is too much communication friction.</p>
+<p>A temptation here is to build a platform that encourages everyone to collaborate, but organisational friction should be fixed by team structures and topologies. A platform cannot magically fix organisational friction (and again, the temptation is to mandate adoption when existing friction prevents it happening naturally).</p>
+<h2 id="4-platforms-are-monoliths">4. Platforms are monoliths</h2>
+<p>Another temptation is to build platforms as a singular monolith with a highly-abstract API and a single use case.</p>
+<p>In reality, successful platforms are a set of loosely coupled capabilities where teams can perhaps adopt it partially where they have solutions for some functionality already. Or theyy may wish to orchestrate the capabilities in newer ways.</p>
+<p>The capabilities should be arrange to create a meaningful experience, built around use cases as they emerge.</p>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/platform-pitfalls-and-myths/';
+      this.page.identifier = 'platform-pitfalls-and-myths';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
