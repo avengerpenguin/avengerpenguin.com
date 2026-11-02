@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>The Simplest Way to "Keep Up" With the JavaScript Ecosystem | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/keeping-up-with-javascript/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - The Simplest Way to &quot;Keep Up&quot; With the JavaScript Ecosystem" />
+    <meta property="og:description" content="I often hear the frustration or jokes around how fast the JavaScript ecosystem moves. Observations usually include things like &quot;there's a new framework every week&quot; or that you need a..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="I often hear the frustration or jokes around how fast the JavaScript ecosystem moves. Observations usually include things like &#34;there&#39;s a new framework every week&#34; or that you need a huge number of tools just to get started on a basic modern application. The frustration can come from developers who …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>The Simplest Way to "Keep Up" With the JavaScript Ecosystem</h1>
+    
+
+    <p>I often hear the frustration or jokes around how fast the JavaScript ecosystem
+moves. Observations usually include things like "there's a new framework
+every week" or that
+<a href="https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f">you need a huge number of tools just to get started</a>
+on a basic modern application.</p>
+<p>The frustration can come from developers who either feel they need to learn
+several tools just to get going, whereas in the past you just needed a text
+editor and knowledge of HTML, CSS and JavaScript itself.</p>
+<p>It can be even more frustrating when you have large application UIs built,
+for example, in Angular but now everyone is using
+<a href="https://reactjs.org/">React</a>. Your build process is
+fully dependent on <a href="https://bower.io/">Bower</a>
+and <a href="http://browserify.org/">browserify</a> but now everyone is using
+<a href="https://yarnpkg.com/">Yarn</a> and <a href="https://webpack.js.org/">Webpack</a>.</p>
+<p>This is particularly difficult for enterprise application developers as you
+tend to end up with large code bases where you have little justification going
+in to "modernise" or refactor things if the application works just fine. This
+is where Java was traditionally favoured in the enterprise as the language (and
+platform) changes slowly, is (almost) always backwards compatible (so you can
+upgrade tools without changing code) and the toolchain hasn't moved that
+quickly either. Yes, we have <a href="http://ant.apache.org/">Ant</a>,
+<a href="https://maven.apache.org/">Maven</a> and <a href="https://gradle.org/">Gradle</a> now, but
+that's been a slow and steady progression.</p>
+<p>So, clearly we don't want to move at a break-neck speed and keep refactoring
+working code bases, but we also want to be able to held back by slow-moving
+platforms. People might like the fast innovation and choice in the JavaScript
+and Node.js ecosystems, but how do we keep up with all the frameworks and
+tools?</p>
+<p>Well, I have one suggestion to cope with "keeping up" with all the new tools
+and libraries and frameworks coming out each week:</p>
+<p>Don't.</p>
+<p>Seriously, don't keep adopting new technologies as they emerge. While a new
+build tool or framework might seem nicer than what you have, <em>wait until you
+have an actual problem the new tool solves</em> and be sceptical about migrating
+your applications to new frameworks.</p>
+<p>Even for newer projects, carefully consider the cost of adopting a new tool in
+terms of having to learn it. Maybe stick with what you know and play with new
+tools only on side projects or in "10% time" outside of your main work.</p>
+<p>For frameworks whose popularity is short-lived, you will be able to skip right
+over them and only move to things that stand the test of time. For frameworks
+that stick around, you will be able to adopt them when best practices are
+established and early bugs are fixed.</p>
+<p>Learn to live with applications in older frameworks and on older versions of
+Node.js and you will be able to focus more time on adding features and perhaps
+even working on new, exciting things.</p>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/keeping-up-with-javascript/';
+      this.page.identifier = 'keeping-up-with-javascript';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

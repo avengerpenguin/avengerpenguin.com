@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Technical Debt | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/technical-debt/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Technical Debt" />
+    <meta property="og:description" content="Technical Debt is a very broad term, mostly used by engineers to refer to anything they'd like to change at some point. Definition I prefer an interpretation closer to the original..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="Technical Debt is a very broad term, mostly used by engineers to refer to anything they&#39;d like to change at some point. Definition I prefer an interpretation closer to the original &#34;debt&#34; metaphor it leverages: Technical debt, like financial debt, is any liability in your project that costs you over …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Technical Debt</h1>
+    
+
+    <p>Technical Debt is a very broad term, mostly used by engineers to refer to anything they'd like to change at some point.</p>
+<h2 id="definition">Definition</h2>
+<p>I prefer an interpretation closer to the original "debt" metaphor it leverages:</p>
+<blockquote>
+<p>Technical debt, like financial debt, is any liability in your project that costs you over time and would incur costs in "paying it off"</p>
+</blockquote>
+<p>This includes bad design, bad builds, bad docs, bugs and a whole lot more, but crucially only things that actual have a cost. With this definition, we get to make the same trade-off decisions we would with financial debt:</p>
+<ul>
+<li>If the debt is low cost (low interest i.e. it doesn't cost you much to retain it), then you likely want to pay it off slowly over time as with a mortgage or indeed happily never pay it off</li>
+<li>If the debt is high interest/cost (it's costing you every day), then it likely needs you to stop paying into new features and pay the debt off instead. This follows nicely from the financial analogy where very high interest debts should probably be a priority over buying new, non-critical things.</li>
+</ul>
+<p>Then we also get to factor in just how much it will take to clear these different scales of debt. We also get to consider when we need to call "bankruptcy" and start again.</p>
+<p>Note that large companies happily take on huge amounts of financial debt as a matter of course if it's helping leverage more returns elsewhere. This is a key insight engineers may want to consider since it can be tempting to try to fix everything eventually, but we may wish to borrow this idea from finance that perpetually living with debt in business can be normal and not an aberration.</p>
+<h2 id="classification">Classification</h2>
+<p>There are two different categorisations I have found that I like for reasoning about technical debt (and therefore treating different categories differently):</p>
+<ul>
+<li>In <a href="http://www.michaelportwood.com/Quick-Tips/Understanding-Technical-Debt.htm">Understanding Technical Debt</a>, Michael Portwood lays out a classification based on the impact of the debt. I think this key as each category needs its own treatment and plan. It also follows that it might be worth classifying debt we find before fixing it right away.</li>
+<li>Back in 2009, Martin Fowler published a simpler <a href="https://martinfowler.com/bliki/TechnicalDebtQuadrant.html">TechnicalDebtQuadrant</a> to show a similar breakdown, highlighting that some debt is prudent, not always reckless.</li>
+<li>In <a href="https://www.semanticscholar.org/paper/Towards-an-Ontology-of-Terms-on-Technical-Debt-Alves-Ribeiro/3ab6bd6fd72110a18f2d9d442cab03369a6017c5">Towards an Ontology of Terms on Technical Debt</a>, the authors describe an ontology based on the technical aspects of the debt. Such a breakdown might be most useful when trying to <em>address</em> the debt.</li>
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/technical-debt/';
+      this.page.identifier = 'technical-debt';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
