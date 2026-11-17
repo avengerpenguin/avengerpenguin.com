@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Foundation of mathematics in Python | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/foundation-of-mathematics-in-python/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Foundation of mathematics in Python" />
+    <meta property="og:description" content="This is an exploration of building up Zermelo–Fraenkel set theory as a foundational basis of mathematics, but actually implemented in Python. There is no clear application for any of this..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="This is an exploration of building up Zermelo–Fraenkel set theory as a foundational basis of mathematics, but actually implemented in Python. There is no clear application for any of this other than the challenge of trying to reimplement arithmetic (inefficiently) without being able to use literal numbers. The challenge …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Foundation of mathematics in Python</h1>
+    
+
+    <!-- #region -->
+
+<p>This is an exploration of building up Zermelo–Fraenkel set theory as a foundational basis of mathematics, but actually implemented in Python.</p>
+<p>There is no clear application for any of this other than the challenge of trying to reimplement arithmetic (inefficiently) without being able to use literal numbers.</p>
+<p>The challenge here is to recreate arithemtic operations such as addition and multiplication and representations of sets of different kinds of numbers using only a "set" object in Python. No literal numbers are allowed and we may even try to avoid <code>lambda</code> so that we are forced to recreate functions.</p>
+<p>What we will need to do though is allow the use of <code>class</code> to wrap the native Python set and use operator overloading to allow us to define operations of that set as we can justify them from axioms. Part of the reason for this will be the need to represent infinite sets which requires some pairing up of sets and generators.</p>
+<p>Firstly, we start from a very basic assertion:</p>
+<h2 id="things-exist">Things Exist</h2>
+<p>The most philosophical foundation before we get into what we can be sure exists and is correct is to accept that at least something exists (as in "I think therefore I am").</p>
+<p>If we imagine that it is reasonable to group things together arbitrarily, then it follows we can create some empty grouping we can call the empty set:</p>
+<!-- #endregion -->
+
+<p>```python trusted=true
+Ø = frozenset()
+Ø, len(Ø), 2</p>
+<pre><code>
+&lt;!-- #region --&gt;
+
+Note for now we can just use Python's built-in concept of `frozenset` since it has all the properties we want for now (i.e. it's empty).
+
+## Axiom of Infinity
+
+&lt;!-- #endregion --&gt;
+
+```python trusted=true
+class Set(frozenset):
+    def __init__(self, definition=frozenset()):
+        if hasattr(definition, '__call__'):
+            self.gen_func = definition
+        else:
+            self.gen_func = None
+            #super(definition)
+
+Set()
+</code></pre>
+<p>```python trusted=true</p>
+<h1 id="empty-set"># Empty set</h1>
+<h1 id="frozenset">〇 = frozenset()</h1>
+<h1 id="pair"># pair</h1>
+<h1 id="p-lambda-a-b-frozenseta-b">𝕡 = lambda a, b: frozenset({a, b})</h1>
+<h1 id="s-lambda-domain-cond-x-for-x-in-domain-if-condx">𝑺 = lambda domain, cond: (x for x in domain if cond(x))</h1>
+<pre><code>
+```python trusted=true
+𝕡 = lambda a, b: frozenset({a, b})
+𝑃 = lambda a, b: 𝕡(𝕡(&quot;l&quot;, a), 𝕡(&quot;r&quot;, b))
+
+class Set:
+    def __init__(self, genf=set):
+        self.genf = genf
+        self.vals = set()
+    def __iter__(self):
+        gen = self.genf()
+        for n in gen:
+            if n not in self.vals:
+                self.vals.add(n)
+                yield n
+    def __or__(self, o):
+        def _gen():
+            A, B = iter(self), iter(o)
+            while A and B:
+                if A:
+                    try:
+                        a = next(A)
+                        yield a
+                    except StopIteration:
+                        A = None
+                if B:
+                    try:
+                        b = next(B)
+                        yield b
+                    except StopIteration:
+                        B = None
+        return Set(_gen)
+    def __mul__(self, o):
+        def _gen():
+            out = set()
+            A, B = iter(self), iter(o)
+            while A and B:
+                try:
+                    a, b = next(A), next(B)
+                except StopIteration:
+                    break
+                c = 𝑃(a, b)
+                if c not in out:
+                    out.add(c)
+                    yield c
+        return Set(_gen)
+
+
+〇 = Set()
+succ = lambda n: Set(lambda: {n}) | n
+
+class Naturals:
+    n = None
+    def __next__(self):
+        self.n = 〇 if self.n is None else succ(self.n)
+        return self.n
+    def __iter__(self):
+        return self
+
+
+ℕ = Set(Naturals)
+add = lambda 𝑚, 𝑛: Set(lambda: (𝑚 * {〇}) | (𝑛 * {succ(〇)}))
+set(add(〇, 〇))
+
+</code></pre>
+<p>```python trusted=true
+𝑃 = lambda a, b: 𝕡(𝕡("l", a), 𝕡("r", b))
+𝑃("a", "b")</p>
+<pre><code>
+```python trusted=true
+left = lambda p: {r for r in {q for q in p if &quot;l&quot; in q}.pop() if r != &quot;l&quot;}.pop()
+right = lambda p: {r for r in {q for q in p if &quot;r&quot; in q}.pop() if r != 'r'}.pop()
+left(𝑃(&quot;a&quot;, &quot;b&quot;)), right(𝑃(&quot;a&quot;, &quot;b&quot;))
+</code></pre>
+<p>```python trusted=true
+𝑓 = lambda P: lambda a: next(right(p) for p in P if left(p) == a)
+succ = 𝑓(𝑃(n, frozenset({n}) | n) for n in ℕ())
+len(succ(succ(〇)))</p>
+<pre><code>
+```python trusted=true
+class InfSet:
+    def __init__(self, genf):
+        self.genf = genf
+        self.vals = set()
+    def __iter__(self):
+        gen = self.genf()
+        for n in gen:
+            if n not in self.vals:
+                self.vals.add(n)
+                yield n
+    def __or__(self, o):
+        iterators = (iter(self), iter(o))
+        while iterators:
+            for v in map(next, iterators):
+                yield v
+
+
+ℕ2 = InfSet(ℕ)
+S = ℕ2 | ℕ2
+for n in S:
+    print(len(n))
+</code></pre>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/foundation-of-mathematics-in-python/';
+      this.page.identifier = 'foundation-of-mathematics-in-python';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>

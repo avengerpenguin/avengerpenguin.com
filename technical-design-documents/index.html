@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Technical Design Documents | Ross Fenning's Digital Garden</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://avengerpenguin.com/technical-design-documents/" />
+    <meta property="og:title" content="Ross Fenning's Digital Garden - Technical Design Documents" />
+    <meta property="og:description" content="A technical design document is a useful way to lay out details of a solution before it is implemented in code. A key feature for me is the ability to describe trade-offs made so it is clear..." />
+
+    <link href="https://avengerpenguin.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ross Fenning's Digital Garden Full Atom Feed" />
+
+
+  <meta name="description" content="A technical design document is a useful way to lay out details of a solution before it is implemented in code. A key feature for me is the ability to describe trade-offs made so it is clear that alternatives are acknowledged but -- while the problem space is the way it …" />
+
+
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCZXQLVK2B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QCZXQLVK2B');
+    </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7863038150136152"
+            crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/awsm.css" />
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/common.min.css?64950869">
+
+        <link rel="stylesheet" href="https://avengerpenguin.com/theme/css/style.min.css?5a44924b">
+
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://avengerpenguin.com/">Ross Fenning's Digital Garden</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/search/">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+    <h1>Technical Design Documents</h1>
+    
+
+    <p>A technical design document is a useful way to lay out details of a solution before it is implemented in code.</p>
+<p>A key feature for me is the ability to describe trade-offs made so it is clear that alternatives are acknowledged but -- while the problem space is the way it is -- the specific approach described is chosen for now. This implies that a good document will show enough working such that if the situation <em>does</em> change, we might reconsider some decisions.</p>
+<p>This borrows nicely from the scientific method in that we are writing things in a way that openly invites falsifiability.</p>
+<p>Further reading:</p>
+<ul>
+<li><a href="https://www.amazon.co.uk/Staff-Engineer-Leadership-beyond-management/dp/1736417916?crid=2AHUGDC49OTFS&amp;keywords=staff+engineer&amp;qid=1663684355&amp;sprefix=staff+enginee%2Caps%2C115&amp;sr=8-1&amp;linkCode=ll1&amp;tag=rossfenning-21&amp;linkId=7811848d648e67d3dddb55d2b196f87e&amp;language=en_GB&amp;ref_=as_li_ss_tl">Staff Engineer: Leadership beyond the management track: Amazon.co.uk: Larson, Will, Reilly, Tanya: 9781736417911: Books</a></li>
+<li><a href="https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/">Scaling Engineering Teams via RFCs: Writing Things Down - The Pragmatic Engineer</a></li>
+<li><a href="https://caitiem.com/2020/03/29/design-docs-markdown-and-git/">Design Docs, Markdown, and Git – Caitie McCaffrey</a></li>
+<li><a href="https://www.industrialempathy.com/posts/design-docs-at-google/">Design Docs at Google</a></li>
+<li><a href="https://multithreaded.stitchfix.com/blog/2020/12/07/remote-decision-making/">Technical Decision-Making and Alignment in a Remote Culture | Stitch Fix Technology – Multithreaded</a></li>
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'https://avengerpenguin.com/technical-design-documents/';
+      this.page.identifier = 'technical-design-documents';
+    };
+
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://avengerpenguin.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+	</main>
+
+<script type="text/javascript">
+const copyButtonLabel = "Copy";
+
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector("code");
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = "Copied";
+
+  setTimeout(() => {
+    button.innerText = copyButtonLabel;
+  }, 2000);
+}
+</script>
+</body>
+</html>
