@@ -7,5 +7,6 @@
     "logo",
     "snippet"
   ],
-  "accentColor": ""
+  "accentColor": "",
+  "showRibbon": true
 }
